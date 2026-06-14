@@ -110,25 +110,49 @@ def read_result_json(folder):
             sys.stderr.write(f"  ! bad _result.json in {folder}: {e}\n")
     return {}
 
+# sub-dir names that are never corpus items
+IGNORE_DIRS = {"references", "_tools", "_audit", "manual-download"}
+
+def nearest_meta(pdf_dir, base):
+    """Walk up from pdf_dir to `base` looking for the closest _result.json."""
+    cur = pdf_dir
+    base = os.path.normpath(base)
+    while True:
+        rp = os.path.join(cur, "_result.json")
+        if os.path.exists(rp):
+            return read_result_json(cur)
+        if os.path.normpath(cur) == base:
+            break
+        parent = os.path.dirname(cur)
+        if parent == cur:
+            break
+        cur = parent
+    return {}
+
 def discover_docs():
-    """Yield dicts: folder, folder_rel, subset, iso3, country, status, result, pdf."""
+    """Yield dicts: folder, folder_rel, subset, iso3, country, status, result, pdf.
+
+    Walks recursively so PDFs nested one level deeper (e.g. _model-standards/<X>/foo.pdf)
+    are picked up. Each PDF uses the nearest _result.json; the doc-folder label is the
+    PDF's immediate parent directory name.
+    """
     docs = []
     for sub in SUBSETS:
         base = os.path.join(RGS, sub)
         if not os.path.isdir(base):
             continue
-        for entry in sorted(os.listdir(base)):
-            folder = os.path.join(base, entry)
-            if not os.path.isdir(folder):
+        for dp, dirs, files in os.walk(base):
+            dirs[:] = [d for d in dirs if d.lower() not in IGNORE_DIRS]
+            pdfs = sorted(os.path.join(dp, f) for f in files if f.lower().endswith(".pdf"))
+            if not pdfs:
                 continue
-            meta = read_result_json(folder)
+            meta = nearest_meta(dp, base)
             iso3 = (meta.get("iso3") or "MODEL").upper()
-            pdfs = sorted(p for p in glob.glob(os.path.join(folder, "*"))
-                          if p.lower().endswith(".pdf"))
+            folder_rel = os.path.basename(os.path.normpath(dp))
             for pdf in pdfs:
                 docs.append({
-                    "folder": folder,
-                    "folder_rel": entry,
+                    "folder": dp,
+                    "folder_rel": folder_rel,
                     "subset": sub,
                     "iso3": iso3,
                     "country": meta.get("country") or "",
@@ -136,6 +160,7 @@ def discover_docs():
                     "result": meta.get("result") or "",
                     "pdf": pdf,
                 })
+    docs.sort(key=lambda d: (d["subset"], d["folder"], d["pdf"]))
     return docs
 
 # ---------------------------------------------------------------------------

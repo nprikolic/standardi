@@ -17,7 +17,7 @@ benchmark (Faza 5) i analiza SRB (Faza 6) — vidi `../TODO.md`.
 - [x] **Korpus (delom)**: dodati SRB (Pravilnik 50/11, ćirilica), HRV (NN 110/2001 render iz HTML), SVN
       (Pravilnik o projektiranju cest); pribavljeni DEU FGSV RAA/RAL/RASt i USA AASHTO (licencirano)
 - [x] **Korpus (audit + gap-fill)**: 19 zemalja auditovano (`AUDIT.md`); besplatne praznine + AUS/NZL/SVN/HRV rešeni (`GAP_FILL.md`). Ostaje samo MEX (needs_manual) + plaćene (CAN/IND/NLD, CHN D21, JPN JRA, ZAF SANRAL, MWI SATCC, DEU FGSV 242) + OCR (opciono)
-- [ ] **Faza 1**: ekstrakcija teksta po stranama u `corpus/text/`, OCR, normalizacija jedinica u SI, full-text indeks (FTS5)
+- [x] **Faza 1 ✅**: tekst po stranama `corpus/text/*.jsonl` + **FTS5 indeks** `corpus/index.sqlite` (83 docs / 12.036 str.) + `_tools/query.py`. (OCR za 4 skenirana pending — nema tesseract.)
 - [ ] **Faza 2**: dopuniti glosar/ontologiju kroz evaluaciju (sinonimi, inflekcija)
 - [ ] **Faza 3**: `kb/<id>.yaml` fact-sheets (normalizovane vrednosti + citat) i `kb/compare/<pojam>.md` matrice
 - [ ] **Faza 5**: `eval/questions.yaml` banka pitanja + merenje retrieval/tačnosti

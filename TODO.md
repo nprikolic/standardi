@@ -24,9 +24,8 @@
 - [x] **Ocena publikabilnosti** (`PUBLICATION_ASSESSMENT.md`): trenutno je *instrument*, ne *rezultat*; Građevinar realan tek uz Fazu 6; AI-venue tek uz Fazu 5 benchmark.
 - [x] Git: sve metapodatke push-ovano na `nprikolic/standardi`; PDF-ovi gitignored (provenijencija/SHA u MANIFEST).
 
-> **Faze 0, 2 (seed) i 4 (nacrt) su URAĐENE.** Ostaju: **Faza 5** (benchmark) i **Faza 6** (analiza SRB) —
-> plus opciono produbljivanje Faza 1/3 (normalizovana baza vrednosti). Korpus NE mora biti 100% pre nastavka
-> (arhitektura je aditivna — vidi „Proces/strategija" dole).
+> **Faze 0, 1, 2 (seed), 4 (nacrt) su URAĐENE.** Ostaju: **Faza 3** (baza vrednosti), **Faza 5** (benchmark),
+> **Faza 6** (analiza SRB = cilj). Korpus NE mora biti 100% pre nastavka (arhitektura je aditivna — vidi „Proces/strategija").
 
 ---
 
@@ -50,10 +49,13 @@
 
 ## PREOSTALE FAZE
 
-### FAZA 1 — Pretprocesiranje (🤖) — opciono pre Faze 3/5
-- [ ] Tekst po stranama u `corpus/text/<id>/pNNN.txt` (sad se radi on-the-fly u `search.py`)
-- [ ] OCR za skenirane (treba `tesseract` + `por`/`chi_sim`); inače ostaju NEEDS_OCR
-- [ ] Normalizacija jedinica u SI; full-text indeks (SQLite FTS5) umesto on-the-fly
+### FAZA 1 — Pretprocesiranje (🤖)  ✅ GOTOVO (2026-06-14)
+- [x] Tekst po stranama → `corpus/text/*.jsonl` (**83 docs, 12.036 strana, 36.7M znakova, 0 grešaka**)
+- [x] **SQLite FTS5 indeks** `corpus/index.sqlite` (12.036 page-redova) + query alat `_tools/query.py` (`--concept`/`--iso3`/`--lang`/`--grep`, bm25). Izveštaj: `PHASE1_REPORT.md`
+- [x] Jezik po dokumentu (iso3→lang); UTF-8 (ćirilica/CJK) provereno
+- [ ] OCR za 4 skenirana (BRA IPR-706, CHN JTG D20-full, CHN JTG B01, ZAF UTG7) — `tesseract` nije instaliran → pending (alternativni izvori pokrivaju)
+- [ ] Normalizacija jedinica u SI → prebačeno u Fazu 3 (traži strukturisanu ekstrakciju)
+- Napomena: `corpus/` je gitignored (pun tekst, uklj. copyrighted); regenerabilno preko `_tools/phase1_preprocess.py`.
 
 ### FAZA 3 — Strukturirana baza vrednosti (🤖)
 - [ ] `kb/<id>.yaml` fact-sheets: normalizovane vrednosti po pojmu + citat (vrednost, jedinica, V, član, strana)
