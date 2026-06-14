@@ -16,6 +16,31 @@ Autonomno i paralelno; **fan-out background agentima / Workflow-om, ~6–8 konku
 ne blokiraj korisnika; sve artefakte piši pod `eval/`. **Ne commit-uj pun copyrighted tekst** — citati ≤200 znakova.
 Datum stampaj iz prosleđene vrednosti (u Workflow skriptama `Date.now()` ne radi).
 
+## ⚠️ Integritet rezultata — ANTI-FABRIKACIJA (OBAVEZNO, ispred svega)
+**Sukob interesa:** isti model gradi sistem, pitanja, izvršava i sudi — postoji jaka sklonost da se rezultati
+ULEPŠAJU u korist „našeg" sistema (S3). Tvoj posao je da budeš **skeptičan prema sopstvenim rezultatima** i da
+aktivno tražiš razloge zašto bi mogli biti PRECENJENI. Bolje konzervativan, proverljiv broj nego lep neproverljiv.
+1. **Bez izmišljanja.** Nijedna vrednost/citat ne sme doći iz parametarskog znanja. Ground-truth i svaka „correct"
+   ocena moraju biti **doslovno prisutni na citiranoj strani** (proveri u `corpus/text/...jsonl`). Ne može se
+   potvrditi → „unverified"/odbaci; **nikad ne pretpostavljaj ni „zaokruži"**.
+2. **Ground-truth se gradi PRE i NEZAVISNO od sistema, pa se ZAMRZNE.** Ne izvodi „tačan odgovor" iz onoga što S3
+   vrati (to je cirkularno i napumpava S3). Ne menjaj pitanja ni ground-truth nakon gledanja rezultata.
+3. **Slepo suđenje.** Sudija NE sme znati koji sistem je dao odgovor — **anonimizuj i promešaj** oznake (S0–S3c).
+   Sudi isključivo {pitanje, ground-truth, kandidat}. Default ocena = „wrong/unverified" kad si nesiguran.
+4. **Metrike = kod, ne procena LLM-a.** Recall@k/MRR/Precision računa skripta poredeći `doc_id`/strane sa
+   ground-truth-om. **Zabranjeno samoocenjivanje skora** od strane agenta.
+5. **Bez naknadnog štelovanja (no overfitting).** NE menjaj glosar/termine da S3 prođe bolje pa ponovo meriš na
+   ISTIM pitanjima. Predlozi za glosar idu u `glossary_improvements.md` za BUDUĆI rad — ne primenjuju se i ne
+   re-meri na istom setu.
+6. **Bez survivorship bias-a.** Sva izgrađena pitanja se ocenjuju i prijavljuju; **ne bacaj „teška" pitanja** na
+   kojima S3 gubi. Broj odbačenih (i zašto) ide u izveštaj.
+7. **Kontrole/zamke.** Ubaci 3–5 pitanja čiji odgovor NE postoji u korpusu (ispravno = „nije nađeno") + „silent"
+   pitanja. Svaki sistem koji ipak „odgovori" → halucinacija, računa se PROTIV njega.
+8. **Crvena zastava = sumnja, ne slavlje.** Ako S3 pobeđuje ~100% ili deluje savršeno, to je verovatnije
+   GREŠKA/bias/curenje ground-truth-a u termine nego istina — istraži i prijavi pre nego što objaviš brojeve.
+9. **Auditabilnost.** Čuvaj sve sirove per-pitanje rezultate + verbatim citate; označi nasumičan uzorak (≥10%) za
+   ručnu reviziju (čovek mora moći da proveri tvoje brojeve).
+
 ## Sredstva (sve lokalno u repo-u)
 - Korpus: **83 docs / 12.036 strana**, višejezično. FTS5 indeks: `corpus/index.sqlite` (gitignored; ako fali,
   pokreni `python road-geometric-standards/_tools/phase1_preprocess.py`).
@@ -48,8 +73,9 @@ Cilj **≥50 pitanja**. Sastav:
 **Gradi pitanja IZ korpusa** da odgovor sigurno postoji: fan-out agenti za svaki kandidat lociraju autoritativni
 pasus preko `query.py` + čitanja citirane strane u `corpus/text/...jsonl`, i beleže ground-truth
 `{doc_id, page, value/clause, lang, quote≤200ch}`. **Zaseban verifikator-agent** potvrđuje svaki ground-truth sa
-citirane strane (adversarijalno: odbaci ako nije na toj strani). Zadrži samo pitanja sa **nezavisno potvrđenim**
-ground-truth-om.
+citirane strane (adversarijalno: odbaci ako vrednost nije **doslovno** na toj strani). Zadrži samo pitanja sa
+**nezavisno potvrđenim** ground-truth-om. Ground-truth se gradi **iz izvora, PRE pokretanja sistema, i ZAMRZNE** —
+NIKAD izveden iz onoga što S3 vrati (cirkularno bi napumpalo S3).
 Šema po pitanju: `{qid, topic, concept, question_en, question_local?, lang, expected:[{doc_id,page,value,quote}], difficulty, is_silent}`.
 
 ## Faza B — Sistemi pod testom (svaki sistem na svakom pitanju, paralelno)
@@ -69,7 +95,10 @@ Zabeleži povučene `doc_id`+`page` i odgovor sa citiranim `doc/page/value`.
 (DRAINAGE_MIN_GRADE)**.
 **Tačnost odgovora:** LLM-sudija (**panel od 3, većina**) poredi proizvedenu vrednost+citat sa ground-truth →
 `{correct, partially, wrong, hallucinated_citation, missing}`. Za „silent" pitanja: tačno = „kaže da X nije
-propisano". Sudije vide ground-truth + odgovor; adversarijalno (default „wrong" ako citat ne može da se potvrdi).
+propisano". **Suđenje je SLEPO:** sudija ne zna koji sistem je dao odgovor (anonimizuj i promešaj S0–S3c), vidi
+samo {pitanje, ground-truth, kandidat}. Sudija mora da **otvori citiranu stranu** (`corpus/text/...jsonl`) i
+potvrdi da vrednost zaista tamo stoji pre ocene „correct"; adversarijalno (default „wrong/unverified" ako se citat
+ne može potvrditi). Ako proizvedena vrednost nije na navedenoj strani → `hallucinated_citation` (PROTIV sistema).
 
 ## Faza D — Agregacija + izveštaj
 `eval/BENCHMARK_REPORT.md`:
@@ -81,6 +110,11 @@ propisano". Sudije vide ground-truth + odgovor; adversarijalno (default „wrong
   ograničenje).
 `eval/glossary_improvements.md`: konkretni termini/sinonimi za `glossary.json` (iz promašaja) + eventualne
 dopune taksonomije/pojmova.
+**Threats to validity (OBAVEZNA sekcija u izveštaju):** sukob interesa (isti model gradi+izvršava+sudi), mali N,
+subjektivnost sudije, gde je ground-truth slab/dvosmislen, FTS-CJK i NEEDS_OCR ograničenja. **Eksplicitno navedi
+gde S3 GUBI i zašto.** Ako S3 dominira gotovo svuda → tretiraj kao crvenu zastavu (bias/bug/curenje), istraži i
+napiši nalaz. Daj i **konzervativan** sud: da li je razlika S3 vs baseline stvarna i dovoljno velika, ili u okviru
+šuma malog N. Priloži sirove per-pitanje rezultate + ≥10% nasumično označeno za ručnu reviziju.
 
 ## Ograničenja / kvalitet
 - Samo zvanični korpus; ground-truth MORA biti potvrđen sa citirane strane (bez parametarskog nagađanja).
