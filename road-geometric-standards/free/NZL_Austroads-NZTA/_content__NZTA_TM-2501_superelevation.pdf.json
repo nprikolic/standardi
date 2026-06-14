@@ -1,13 +1,13 @@
 {
-  "file": "ITA_DM-67S-2004-amendment.pdf",
-  "iso3": "ITA",
-  "lang": "it+en",
-  "verdict": "NO_GEOMETRY",
+  "file": "NZTA_TM-2501_superelevation.pdf",
+  "iso3": "NZL",
+  "lang": "en",
+  "verdict": "PARTIAL",
   "categories": {
     "DESIGN_SPEED": {
-      "hit": false,
-      "page": null,
-      "count": 0
+      "hit": true,
+      "page": 1,
+      "count": 1
     },
     "SIGHT_DISTANCE": {
       "hit": false,
@@ -15,9 +15,9 @@
       "count": 0
     },
     "HORIZONTAL": {
-      "hit": false,
-      "page": null,
-      "count": 0
+      "hit": true,
+      "page": 1,
+      "count": 1
     },
     "VERTICAL": {
       "hit": false,
@@ -27,7 +27,7 @@
     "SUPERELEVATION": {
       "hit": true,
       "page": 1,
-      "count": 1
+      "count": 4
     },
     "CROSS_SECTION": {
       "hit": false,
@@ -35,8 +35,8 @@
       "count": 0
     }
   },
-  "categories_hit": 1,
-  "pages_total": 3,
+  "categories_hit": 3,
+  "pages_total": 4,
   "notes": "",
-  "refetch_hint": "DM 6792/2001 annex with geometric tables (all_1 held)"
+  "refetch_hint": ""
 }

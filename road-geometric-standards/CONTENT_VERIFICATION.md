@@ -5,6 +5,7 @@ Verdict rule: CONFIRMED = >=4 categories incl. design-speed or sight-distance ·
 | File | ISO3 | Lang | Verdict | N/6 | Key pages | Refetch hint |
 |---|---|---|---|---|---|---|
 | AFG_LVRR_Vol2_GeometricDesign.pdf | AFG | en | CONFIRMED | 6/6 | DS:p13 SD:p7 HOR:p13 VER:p7 SE:p8 CS:p9 | — |
+| AGRD03-16_Part3_Geometric_Design_Ed3.4.pdf | AUS | en | CONFIRMED | 6/6 | DS:p3 SD:p3 HOR:p3 VER:p3 SE:p3 CS:p3 | — |
 | IPR-718_Manual_de_Projeto_de_Intersecoes_2005.pdf | BRA | pt+en | CONFIRMED | 6/6 | DS:p8 SD:p11 HOR:p7 VER:p11 SE:p11 CS:p12 | — |
 | IPR-706_Manual_Projeto_Geometrico_Rodovias_Rurais.pdf | BRA | pt+en | NEEDS_OCR | 0/6 | — | OCR needed (no tesseract installed); seek a text-based official edition |
 | IPR-740_Manual_Projeto_Geometrico_Travessias_Urbanas.pdf | BRA | pt+en | CONFIRMED | 6/6 | DS:p40 SD:p11 HOR:p17 VER:p17 SE:p14 CS:p9 | — |
@@ -19,19 +20,23 @@ Verdict rule: CONFIRMED = >=4 categories incl. design-speed or sight-distance ·
 | CD123_Geometric-design-of-at-grade-junctions_v2.1.0.pdf | GBR | en | CONFIRMED | 6/6 | DS:p20 SD:p7 HOR:p34 VER:p9 SE:p19 CS:p2 | — |
 | HRV_NN-110-2001_zakon-hr.pdf | HRV | hr+en | CONFIRMED | 6/6 | DS:p5 SD:p7 HOR:p6 VER:p5 SE:p7 CS:p7 | — |
 | HRV_NN-154-2024_izmjene-dopune.pdf | HRV | hr+en | PARTIAL | 3/6 | HOR:p1 SE:p1 CS:p1 | NN 110/2001; ako NEEDS_OCR, traži text-izdanje |
+| HRV_NN-90-2022_izmjene_render.pdf | HRV | hr+en | NO_GEOMETRY | 1/6 | CS:p1 | NN 110/2001; ako NEEDS_OCR, traži text-izdanje |
 | HRV_Smjernice-kruzna-raskrizja_hrvatske-ceste.pdf | HRV | hr+en | CONFIRMED | 5/6 | SD:p4 HOR:p5 VER:p25 SE:p3 CS:p3 | — |
 | DMURS-version-11.pdf | IRL | en | CONFIRMED | 6/6 | DS:p62 SD:p119 HOR:p122 VER:p123 SE:p5 CS:p10 | — |
 | DN-GEO-03031-12.pdf | IRL | en | CONFIRMED | 6/6 | DS:p3 SD:p3 HOR:p3 VER:p3 SE:p5 CS:p3 | — |
 | DN-GEO-03036-09.pdf | IRL | en | CONFIRMED | 6/6 | DS:p4 SD:p33 HOR:p47 VER:p50 SE:p19 CS:p1 | — |
 | DN-GEO-03035-05.pdf | IRL | en | CONFIRMED | 6/6 | DS:p17 SD:p9 HOR:p40 VER:p15 SE:p5 CS:p4 | — |
 | DN-GEO-03060-03.pdf | IRL | en | CONFIRMED | 6/6 | DS:p5 SD:p13 HOR:p5 VER:p34 SE:p18 CS:p5 | — |
-| ITA_DM-6792-2001.pdf | MODEL | en | PARTIAL | 3/6 | HOR:p69 SE:p1 CS:p21 | — |
-| ITA_DM-67S-2004-amendment.pdf | MODEL | en | NO_GEOMETRY | 1/6 | SE:p1 | — |
-| ITA_GU-147-2004_full-issue_source.pdf | MODEL | en | PARTIAL | 2/6 | SE:p2 CS:p6 | — |
+| ITA_DM-6792-2001.pdf | ITA | it+en | CONFIRMED | 6/6 | DS:p8 SD:p5 HOR:p6 VER:p6 SE:p1 CS:p6 | — |
+| ITA_DM-67S-2004-amendment.pdf | ITA | it+en | NO_GEOMETRY | 1/6 | SE:p1 | DM 6792/2001 annex with geometric tables (all_1 held) |
+| ITA_GU-147-2004_full-issue_source.pdf | ITA | it+en | PARTIAL | 4/6 | HOR:p6 VER:p25 SE:p2 CS:p6 | DM 6792/2001 annex with geometric tables (all_1 held) |
 | ITA_DM-intersezioni-2006.pdf | ITA | it+en | PARTIAL | 4/6 | HOR:p14 VER:p20 SE:p1 CS:p8 | DM 6792/2001 annex with geometric tables (all_1 held) |
 | MOCT1092_1.PDF | KOR | ko+en | CONFIRMED | 5/6 | DS:p13 SD:p64 HOR:p14 VER:p14 CS:p13 | — |
 | KOR_Road-Structure-Rules-Commentary_2021.pdf | KOR | ko+en | CONFIRMED | 6/6 | DS:p8 SD:p11 HOR:p11 VER:p11 SE:p11 CS:p9 | — |
 | MWI_LVR-Manual-Vol2-Geometric-Design.pdf | MWI | en | CONFIRMED | 6/6 | DS:p13 SD:p7 HOR:p13 VER:p7 SE:p8 CS:p9 | — |
+| NZTA_TM-2501_superelevation.pdf | NZL | en | PARTIAL | 3/6 | DS:p1 HOR:p1 SE:p1 | — |
+| NZTA_TM-2502_runoff.pdf | NZL | en | PARTIAL | 2/6 | SE:p1 CS:p2 | — |
+| NZTA_TM-2503_edge-protection-medians.pdf | NZL | en | CONFIRMED | 4/6 | SD:p3 VER:p2 SE:p2 CS:p1 | — |
 | shgdm-appendix-a-b.pdf | NZL | en | CONFIRMED | 6/6 | DS:p1 SD:p1 HOR:p3 VER:p2 SE:p4 CS:p5 | — |
 | shgdm-glossary.pdf | NZL | en | CONFIRMED | 6/6 | DS:p2 SD:p5 HOR:p4 VER:p9 SE:p2 CS:p1 | — |
 | shgdm-part-1-intro.pdf | NZL | en | CONFIRMED | 6/6 | DS:p6 SD:p6 HOR:p6 VER:p7 SE:p6 CS:p7 | — |
@@ -57,6 +62,8 @@ Verdict rule: CONFIRMED = >=4 categories incl. design-speed or sight-distance ·
 | SRDM5-1-raskrsnice-i-prikljuci-u-nivou.pdf | SRB | sr+en | CONFIRMED | 6/6 | DS:p29 SD:p3 HOR:p5 VER:p25 SE:p25 CS:p3 | — |
 | SRDM5-2-denivelisane-raskrsnice.pdf | SRB | sr+en | CONFIRMED | 6/6 | DS:p3 SD:p3 HOR:p15 VER:p5 SE:p20 CS:p5 | — |
 | SRDM5-3-kruzne-raskrsnice.pdf | SRB | sr+en | CONFIRMED | 5/6 | SD:p3 HOR:p3 VER:p30 SE:p4 CS:p3 | — |
+| TSC_03_200_2003_temeljni-pogoji.pdf | SVN | sl+en | CONFIRMED | 6/6 | DS:p9 SD:p1 HOR:p8 VER:p3 SE:p3 CS:p1 | — |
+| TSC_03_300_2003_geometrijski-elementi.pdf | SVN | sl+en | CONFIRMED | 6/6 | DS:p3 SD:p1 HOR:p1 VER:p1 SE:p5 CS:p10 | — |
 | TSC_03_341_2011_Krozna_krizisca.pdf | SVN | sl+en | CONFIRMED | 5/6 | SD:p3 HOR:p2 VER:p28 SE:p3 CS:p4 | — |
 | TSPI-PCPV-PGV.03.244-Krozna-krizisca.pdf | SVN | sl+en | CONFIRMED | 5/6 | SD:p2 HOR:p2 VER:p40 SE:p2 CS:p4 | — |
 | TSPI-PCPV-PGV.03.245-Krozna-krizisca-s-spiralnim.pdf | SVN | sl+en | PARTIAL | 3/6 | SD:p9 HOR:p1 CS:p3 | Pravilnik o projektiranju cest (NPB) |

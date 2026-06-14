@@ -1,0 +1,42 @@
+{
+  "file": "NZTA_TM-2503_edge-protection-medians.pdf",
+  "iso3": "NZL",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 3,
+      "count": 15
+    },
+    "HORIZONTAL": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 2,
+      "count": 4
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 2,
+      "count": 8
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 1,
+      "count": 98
+    }
+  },
+  "categories_hit": 4,
+  "pages_total": 28,
+  "notes": "",
+  "refetch_hint": ""
+}

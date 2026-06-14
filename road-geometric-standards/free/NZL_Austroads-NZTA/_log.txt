@@ -87,3 +87,5 @@ MANUAL ACTION NEEDED: download the three URLs above in a real (JS-capable) brows
 Austroads AGRD core (Part 2/3/4 series) remains paid/login on austroads.gov.au
 (HTTP 403 to anonymous fetch) — see BUY_LIST; free to NZ local authorities via
 NZTA Austroads membership (austroadsguides@nzta.govt.nz). Not downloaded.
+
+[2026-06-14] MANUAL-DOWNLOAD distribution: three NZTA technical-memoranda supplements retrieved manually (JS-capable browser) and placed/validated ok=true: NZTA_TM-2501_superelevation.pdf (3pp, sha256 c85acbde974cf96558b895c7762fa53315162d9f8d2e827e07bce8008623772a); NZTA_TM-2502_runoff.pdf (3pp, sha256 776d747d5435037301a968df39b9a3a41305dfa4f101b4aa3ee92b149b261306); NZTA_TM-2503_edge-protection-medians.pdf (dual-carriageway-safe-system, 27pp, sha256 ecd7fd7b8203e17f68c4769cb1f505d788619a35ee82b996de92098271f67160). TM2501/2502/2503 now RETRIEVED (free NZTA supplements). Core Austroads AGRD Part 3 (Geometric Design Ed 3.4, 2021), NZ-adopted primary authority, now held in free/AUS_AGRD03.

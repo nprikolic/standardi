@@ -1,8 +1,8 @@
 {
-  "file": "ITA_DM-67S-2004-amendment.pdf",
-  "iso3": "ITA",
-  "lang": "it+en",
-  "verdict": "NO_GEOMETRY",
+  "file": "NZTA_TM-2502_runoff.pdf",
+  "iso3": "NZL",
+  "lang": "en",
+  "verdict": "PARTIAL",
   "categories": {
     "DESIGN_SPEED": {
       "hit": false,
@@ -27,16 +27,16 @@
     "SUPERELEVATION": {
       "hit": true,
       "page": 1,
-      "count": 1
+      "count": 2
     },
     "CROSS_SECTION": {
-      "hit": false,
-      "page": null,
-      "count": 0
+      "hit": true,
+      "page": 2,
+      "count": 1
     }
   },
-  "categories_hit": 1,
-  "pages_total": 3,
+  "categories_hit": 2,
+  "pages_total": 4,
   "notes": "",
-  "refetch_hint": "DM 6792/2001 annex with geometric tables (all_1 held)"
+  "refetch_hint": ""
 }

@@ -62,3 +62,5 @@ OUTCOME
   NOT officially downloadable from gov.si (404 across all probed filenames; only non-official mirrors exist).
   This confirms the audit's explicit warning. Manual acquisition required via DRSI (organ page / direct contact)
   or via the pisrs.si Odredba ODRE2143 confirmed-TSC list.
+
+[2026-06-14] MANUAL-DOWNLOAD distribution: TSC 03.300 + TSC 03.200 (ranije needs_manual) pribavljeni rucno i postavljeni, validate ok=true: TSC_03_300_2003_geometrijski-elementi.pdf (geometrijski elementi osi in vozisca, 67pp, sha256 aa10924e76884ddce22cc9c6c2e6d554423140a761d4267160b4d5e1528c956a) = sada PRIMARY; TSC_03_200_2003_temeljni-pogoji.pdf (temeljni pogoji: pregledne razdalje / precni nagibi, 55pp, sha256 803ac99ef2f94de2edf6eb00f6177770c984a9f5d9307b77fcd65ce321815694). Izdanje predlog/oktober 2003. Obe sada RETRIEVED uz ranije krozna (03.341, TSPI 03.244/03.245).

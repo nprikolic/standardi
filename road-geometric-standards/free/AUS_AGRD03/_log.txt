@@ -39,3 +39,5 @@ DECISION: result = needs_manual.
 - No payment / paid order involved (publication is free).
 - source_url / store_url: https://austroads.gov.au/publications/road-design/agrd03
 - No PDF written to folder (nothing valid obtained). No HTML/0-byte artifacts left behind.
+
+[2026-06-14] MANUAL-DOWNLOAD distribution: login-gated free PDF pribavljen rucno i postavljen kao AGRD03-16_Part3_Geometric_Design_Ed3.4.pdf. validate_pdf.py: ok=true, is_pdf=true, bytes=22806322, pages=390, sha256=76b0e4a908b50b5ed6ac1ef620b787693a63b089987aa1af685c8223d5d7e233. Page1 confirms "Austroads Ltd 2021". result needs_manual -> retrieved. Licencirano, ne redistribuira se (gitignored).

@@ -24,11 +24,15 @@ sve validirano). Korpus: **44 stavke / 79 PDF / 515 MB**; sadržajno **65 CONFIR
 | SVN | TSC 03.341 + TSPI 03.244 + 03.245 (krožna križišča) | 39/60/30 | kružne raskrsnice |
 | CHN | **JTG B01-2014** Technical Standard of Highway Engineering | 115 | klase/brzine/profil — našao BESPLATNO (skeniran, NEEDS_OCR) |
 
-## Još needs_manual (besplatno, ali ne automatski)
-- **NZL** — TM2501/2502/2503 (NZTA supplementi): Incapsula bot-zid blokira curl; URL-ovi poznati (vidi NZL `_log.txt`) → treba browser.
-- **SVN** — TSC 03.300:2002 i TSC 03.200:2003 (jezgro vrednosti/preglednost): zvanično nedostupni (samo neoficijelni mirrori) → ne skidamo.
-- **HRV** — NN 90/2022 (izmena): Narodne novine samo HTML; mogu renderovati Edge-om kao glavni HRV doc.
-- (od ranije) **MEX** Manual 2018, **AUS** AGRD03.
+## needs_manual — REŠENO ručno (2026-06-14, batch 2: korisnik skinuo → agent rasporedio + validirao)
+- **AUS** — AGRD03 Part 3 Geometric Design Ed 3.4 (390pp) ✓ — login-gated/licencirano (gitignored). Rešava raniji needs_manual.
+- **NZL** — NZTA TM-2501 (superelevacija), TM-2502 (run-off), TM-2503 (edge/medians) ✓. NZ usvaja AGRD Part 3 — sada u korpusu (free/AUS_AGRD03).
+- **SVN** — TSC 03.300 (geometrijski elementi osi/vozišča, 67pp) + TSC 03.200 (temeljni pogoji: pregledne razdalje, prečni nagibi, 55pp) ✓ — izdanje „predlog 2003". Jezgro SVN vrednosti sada pokriveno.
+- **HRV** — NN 90/2022 (izmena, renderovano iz HTML, 2pp) ✓ — uz NN 154/2024 → obe izmene sada u korpusu.
+
+## Još uvek needs_manual
+- **MEX** Manual de Proyecto Geométrico 2018 — gov server (sct/sict.gob.mx) bio nedostupan; URL verifikovan u `summary.json`, pokušati ponovo.
+- Plaćene praznine na BUY_LIST nepromenjene.
 
 ## Plaćeno → na BUY_LIST
 - **CHN** JTG/T D21-2014 (petlje); **JPN** JRA komentar; **ZAF** SANRAL GDM; **MWI** SATCC trunk-roads; **DEU** FGSV 242 (kružne, dopunski).

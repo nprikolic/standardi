@@ -1,14 +1,14 @@
 {
-  "total_pdfs": 76,
+  "total_pdfs": 83,
   "by_verdict": {
-    "CONFIRMED": 65,
+    "CONFIRMED": 70,
     "NEEDS_OCR": 4,
-    "PARTIAL": 5,
-    "NO_GEOMETRY": 2
+    "PARTIAL": 6,
+    "NO_GEOMETRY": 3
   },
-  "confirmed": 65,
-  "partial": 5,
-  "no_geometry": 2,
+  "confirmed": 70,
+  "partial": 6,
+  "no_geometry": 3,
   "needs_ocr": 4,
   "non_confirmed": [
     {
@@ -33,25 +33,25 @@
       "notes": ""
     },
     {
-      "file": "ITA_DM-6792-2001.pdf",
-      "iso3": "MODEL",
-      "verdict": "PARTIAL",
-      "refetch_hint": "",
+      "file": "HRV_NN-90-2022_izmjene_render.pdf",
+      "iso3": "HRV",
+      "verdict": "NO_GEOMETRY",
+      "refetch_hint": "NN 110/2001; ako NEEDS_OCR, traži text-izdanje",
       "notes": ""
     },
     {
       "file": "ITA_DM-67S-2004-amendment.pdf",
-      "iso3": "MODEL",
+      "iso3": "ITA",
       "verdict": "NO_GEOMETRY",
-      "refetch_hint": "",
+      "refetch_hint": "DM 6792/2001 annex with geometric tables (all_1 held)",
       "notes": ""
     },
     {
       "file": "ITA_GU-147-2004_full-issue_source.pdf",
-      "iso3": "MODEL",
+      "iso3": "ITA",
       "verdict": "PARTIAL",
-      "refetch_hint": "",
-      "notes": ""
+      "refetch_hint": "DM 6792/2001 annex with geometric tables (all_1 held)",
+      "notes": ">=4 categories but neither DESIGN_SPEED nor SIGHT_DISTANCE matched"
     },
     {
       "file": "ITA_DM-intersezioni-2006.pdf",
@@ -59,6 +59,20 @@
       "verdict": "PARTIAL",
       "refetch_hint": "DM 6792/2001 annex with geometric tables (all_1 held)",
       "notes": ">=4 categories but neither DESIGN_SPEED nor SIGHT_DISTANCE matched"
+    },
+    {
+      "file": "NZTA_TM-2501_superelevation.pdf",
+      "iso3": "NZL",
+      "verdict": "PARTIAL",
+      "refetch_hint": "",
+      "notes": ""
+    },
+    {
+      "file": "NZTA_TM-2502_runoff.pdf",
+      "iso3": "NZL",
+      "verdict": "PARTIAL",
+      "refetch_hint": "",
+      "notes": ""
     },
     {
       "file": "WR-D-22-4_katalog-typowych-przekrojow-poprzecznych.pdf",

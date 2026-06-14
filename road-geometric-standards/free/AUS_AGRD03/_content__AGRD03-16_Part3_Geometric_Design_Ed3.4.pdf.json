@@ -1,42 +1,42 @@
 {
-  "file": "ITA_DM-6792-2001.pdf",
-  "iso3": "ITA",
-  "lang": "it+en",
+  "file": "AGRD03-16_Part3_Geometric_Design_Ed3.4.pdf",
+  "iso3": "AUS",
+  "lang": "en",
   "verdict": "CONFIRMED",
   "categories": {
     "DESIGN_SPEED": {
       "hit": true,
-      "page": 8,
-      "count": 29
+      "page": 3,
+      "count": 108
     },
     "SIGHT_DISTANCE": {
       "hit": true,
-      "page": 5,
-      "count": 13
+      "page": 3,
+      "count": 587
     },
     "HORIZONTAL": {
       "hit": true,
-      "page": 6,
-      "count": 77
+      "page": 3,
+      "count": 191
     },
     "VERTICAL": {
       "hit": true,
-      "page": 6,
-      "count": 67
+      "page": 3,
+      "count": 375
     },
     "SUPERELEVATION": {
       "hit": true,
-      "page": 1,
-      "count": 26
+      "page": 3,
+      "count": 517
     },
     "CROSS_SECTION": {
       "hit": true,
-      "page": 6,
-      "count": 93
+      "page": 3,
+      "count": 832
     }
   },
   "categories_hit": 6,
-  "pages_total": 97,
+  "pages_total": 391,
   "notes": "",
   "refetch_hint": ""
 }

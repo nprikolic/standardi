@@ -1,7 +1,7 @@
 {
   "file": "ITA_GU-147-2004_full-issue_source.pdf",
-  "iso3": "MODEL",
-  "lang": "en",
+  "iso3": "ITA",
+  "lang": "it+en",
   "verdict": "PARTIAL",
   "categories": {
     "DESIGN_SPEED": {
@@ -15,14 +15,14 @@
       "count": 0
     },
     "HORIZONTAL": {
-      "hit": false,
-      "page": null,
-      "count": 0
+      "hit": true,
+      "page": 6,
+      "count": 4
     },
     "VERTICAL": {
-      "hit": false,
-      "page": null,
-      "count": 0
+      "hit": true,
+      "page": 25,
+      "count": 1
     },
     "SUPERELEVATION": {
       "hit": true,
@@ -35,8 +35,8 @@
       "count": 20
     }
   },
-  "categories_hit": 2,
+  "categories_hit": 4,
   "pages_total": 65,
-  "notes": "",
-  "refetch_hint": ""
+  "notes": ">=4 categories but neither DESIGN_SPEED nor SIGHT_DISTANCE matched",
+  "refetch_hint": "DM 6792/2001 annex with geometric tables (all_1 held)"
 }
