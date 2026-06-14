@@ -42,10 +42,12 @@ Jezik = jezik dokumenta (search hvata termine na tom jeziku + en). Fajlovi su u
 | CHN | JTG D20 (kineski) | JTG D20 EN (CONFIRMED) |
 
 ## Još nedostaje (reci da nedostaje — ne nagađaj)
+> Rešeno u Fazi 0d (vidi `../road-geometric-standards/GAP_FILL.md`): **AUS** AGRD03 Part 3 ✓, **NZL** TM-2501/2502/2503 ✓, **SVN** TSC 03.300/03.200 ✓, **HRV** NN 90/2022 ✓.
+
 | ISO3 | Standard | Status | Šta donosi |
 |---|---|---|---|
 | MEX | Manual de Proyecto Geométrico 2018 | needs_manual (gov server) | es korpus |
-| AUS | AGRD Part 3/4 | needs_manual (login) | x-sec/weaving (Austroads) |
 | CAN | TAC GDG | plaćeno — kupiti | severnoamerička praksa |
 | IND | IRC:73/86/66 | plaćeno — kupiti | indijska serija |
 | NLD | CROW (ASVV/HWO) | plaćeno — kupiti | holandska praksa |
+| CHN | JTG/T D21-2014 (petlje) | plaćeno | detalji petlji/rampi (JTG B01 imamo besplatno) |

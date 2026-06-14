@@ -19,8 +19,9 @@ description: >-
 
 # World Road Geometric Design Standards
 
-> **STATUS: NACRT (v0.1).** Skeleton + arhitektura su gotovi; puna baza znanja (normalizovane vrednosti)
-> i full-text indeks tek se grade (vidi [NACRT.md](NACRT.md)). Do tada radi preko `scripts/search.py`
+> **STATUS: NACRT (v0.3).** Korpus ~19–21 zemlja (86 PDF, uklj. raskrsnice/čvorove + vitoperenje), audit i
+> popunjavanje praznina gotovi. Normalizovana baza vrednosti (Faza 3), benchmark (Faza 5) i analiza SRB
+> (Faza 6) tek predstoje (vidi [NACRT.md](NACRT.md)). Do tada radi preko `scripts/search.py`
 > (pretraga uživo nad PDF korpusom) + reference fajlova.
 
 ## Čemu služi

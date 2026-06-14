@@ -1,12 +1,13 @@
 # NACRT skilla — status i šta dalje
 
-Ovo je **draft (v0.1)** skilla `world-road-design-standards`, napravljen po odluci „samo korpus + nacrt skilla".
-Pun build (normalizovana baza vrednosti, indeks, evaluacija, analiza SRB) dolazi kasnije — vidi `../TODO.md`.
+Ovo je **draft (v0.3)** skilla `world-road-design-standards`. Korpus (~19–21 zemlja, 86 PDF), audit (19 zemalja)
+i popunjavanje praznina (raskrsnice/čvorovi, vitoperenje) su GOTOVI. Ostaje normalizovana baza vrednosti (Faza 3),
+benchmark (Faza 5) i analiza SRB (Faza 6) — vidi `../TODO.md`.
 
 ## Šta je GOTOVO u nacrtu
 - [x] `SKILL.md` — opis/trigeri (SR+EN), workflow, format, ograničenja
 - [x] `reference/concept-taxonomy.md` — 9 pojmova (6 osnovnih + WEAVING, MERGE_DIVERGE, INTERCHANGE) + SR/HR/SL termini
-- [x] `reference/glossary.json` — višejezični termini (11 jezika + sr/hr/sl/de) za retrieval
+- [x] `reference/glossary.json` — višejezični termini (~14 jezika uklj. SR ćirilica + de/pl stemovi) za retrieval
 - [x] `reference/standards-index.md` — inventar korpusa mapiran na pojmove (+ šta nedostaje)
 - [x] `reference/answer-format.md` — format odgovora + 2 kanonska primera (weaving, vitoperenje)
 - [x] `scripts/search.py` — **funkcionalna v0 pretraga** uživo nad korpusom (pdftotext + višejezični termini, keš)
@@ -15,7 +16,7 @@ Pun build (normalizovana baza vrednosti, indeks, evaluacija, analiza SRB) dolazi
 ## Šta OSTAJE (kasnije, na poseban zahtev)
 - [x] **Korpus (delom)**: dodati SRB (Pravilnik 50/11, ćirilica), HRV (NN 110/2001 render iz HTML), SVN
       (Pravilnik o projektiranju cest); pribavljeni DEU FGSV RAA/RAL/RASt i USA AASHTO (licencirano)
-- [ ] **Korpus (ostatak)**: rešiti MEX/AUS (needs_manual); nabaviti CAN/IND/NLD; OCR za BRA IPR-706 i CHN (opciono)
+- [x] **Korpus (audit + gap-fill)**: 19 zemalja auditovano (`AUDIT.md`); besplatne praznine + AUS/NZL/SVN/HRV rešeni (`GAP_FILL.md`). Ostaje samo MEX (needs_manual) + plaćene (CAN/IND/NLD, CHN D21, JPN JRA, ZAF SANRAL, MWI SATCC, DEU FGSV 242) + OCR (opciono)
 - [ ] **Faza 1**: ekstrakcija teksta po stranama u `corpus/text/`, OCR, normalizacija jedinica u SI, full-text indeks (FTS5)
 - [ ] **Faza 2**: dopuniti glosar/ontologiju kroz evaluaciju (sinonimi, inflekcija)
 - [ ] **Faza 3**: `kb/<id>.yaml` fact-sheets (normalizovane vrednosti + citat) i `kb/compare/<pojam>.md` matrice
