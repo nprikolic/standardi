@@ -1,0 +1,42 @@
+{
+  "file": "VGU_Krav_Grundvarden_TRV2024-148.pdf",
+  "iso3": "SWE",
+  "lang": "sv+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 36,
+      "count": 1
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 8,
+      "count": 11
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 7,
+      "count": 41
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 7,
+      "count": 47
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 7,
+      "count": 11
+    },
+    "CROSS_SECTION": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    }
+  },
+  "categories_hit": 5,
+  "pages_total": 59,
+  "notes": "",
+  "refetch_hint": ""
+}

@@ -1,0 +1,29 @@
+IRL — TII DN-GEO-03031 Rural Road Link Design — download log
+Date: 2026-06-14
+
+[search] "TII DN-GEO-03031 Rural Road Link Design tiipublications.ie PDF"
+  -> Found revision history: -10 (Apr 2017), -11 (Jun 2017, Withdrawn), -12 (May 2023).
+
+[verify] https://www.tiipublications.ie/document/?id=3251 (official TII document page)
+  -> Confirms current revision = Version 12, May 2023. Download link points to DN-GEO-03031-12.pdf.
+  -> Full revision history v01 (Dec 2000) through v12 (May 2023). v12 is current/in-force.
+
+[verify] https://cdn.tii.ie/publications/DN-GEO-03031-12.pdf
+  -> WebFetch confirms %PDF-1.7, application/pdf, 5.7MB. Valid PDF binary.
+
+[download] https://www.tiipublications.ie/library/DN-GEO-03031-12.pdf  (official issuing-body URL)
+  -> 302 redirect to https://cdn.tii.ie/publications/DN-GEO-03031-12.pdf (TII CDN, official)
+  -> curl.exe -L --fail-with-body -> 5,934,087 bytes saved as DN-GEO-03031-12.pdf
+  -> OUTCOME: SUCCESS
+
+[validate] validate_pdf.py DN-GEO-03031-12.pdf
+  -> {"ok": true, "is_pdf": true, "bytes": 5934087, "pages": 121,
+      "sha256": "93546983130c582cada9deedafff6f9dd64485219fda2979c99ee5b5b5a2d533",
+      "reason": "valid pdf"}
+  -> OUTCOME: VALID
+
+RESULT: retrieved. Current in-force revision (v12, May 2023) obtained free from official TII source.
+
+Notes on rejected/superseded:
+- DN-GEO-03031-11.pdf (Jun 2017): superseded/Withdrawn per TII — not used.
+- dokumen.tips / thenbs.com hits: unofficial re-hosts / index — NOT used (official source available).

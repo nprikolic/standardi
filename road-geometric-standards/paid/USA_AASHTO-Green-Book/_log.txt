@@ -1,0 +1,10 @@
+USA — AASHTO Green Book — purchase verification log
+Date: 2026-06-14
+
+URLs checked:
+- WebSearch: "AASHTO Green Book ... store.transportation.org price" -> found 7th ed. (2018), PDF $342 / member $253, paperback $427/$316, combo $598/$443.
+- WebSearch: "AASHTO Green Book 8th edition 2024 2025" -> 8th edition still in development (NCHRP Project 07-29), NOT yet published as of 2026-06. Most recent = 7th (2018).
+- WebFetch: https://store.transportation.org/Item/PublicationDetail?ID=4127 -> title confirmed "A Policy on Geometric Design of Highways and Streets, 7th Edition" (page renders pricing via JS template; surveyed prices used).
+- curl HEAD: https://store.transportation.org/ -> HTTP 200 (store reachable).
+
+Outcome: PAYWALLED. Edition 7th (2018), item GDHS-7 / GDHS-7-UL (PDF). No free official edition. Did NOT add to cart / did NOT download.

@@ -1,0 +1,42 @@
+{
+  "file": "CD122_Geometric-design-of-grade-separated-junctions_v1.1.1.pdf",
+  "iso3": "GBR",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 2,
+      "count": 24
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 2,
+      "count": 44
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 10,
+      "count": 4
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 16,
+      "count": 28
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 2,
+      "count": 12
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 8,
+      "count": 84
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 97,
+  "notes": "",
+  "refetch_hint": ""
+}

@@ -1,0 +1,42 @@
+{
+  "file": "DN-GEO-03035-05.pdf",
+  "iso3": "IRL",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 17,
+      "count": 39
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 9,
+      "count": 45
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 73,
+      "count": 1
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 15,
+      "count": 35
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 5,
+      "count": 12
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 4,
+      "count": 116
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 115,
+  "notes": "",
+  "refetch_hint": ""
+}

@@ -1,0 +1,9 @@
+NLD — CROW road-design guidelines — purchase verification log
+Date: 2026-06-14
+
+URLs checked:
+- WebSearch: "CROW ASVV Handboek wegontwerp kennismodule prijs crow.nl" -> ASVV 2021; Handboek wegontwerp buiten bebouwde kom (HWO 2024); kennismodule from EUR 255 excl. VAT; bundle (book + online) EUR 360 (reg. EUR 394).
+- WebFetch: https://www.crow.nl/kennisproducten/asvv-2021/ -> confirmed title "ASVV 2021", ISBN 9789066286900, edition 2021, price EUR 360 (excl. VAT) book+online bundle.
+- curl HEAD: https://www.crow.nl/kennisproducten/asvv-2021/ -> HTTP 200 (store reachable).
+
+Outcome: PAYWALLED. ASVV 2021 / HWO 2024, sold as publication + online subscription. No free official edition. Did NOT add to cart / did NOT download.

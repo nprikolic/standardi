@@ -1,0 +1,42 @@
+{
+  "file": "CD109_Highway_link_design.pdf",
+  "iso3": "GBR",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 2,
+      "count": 78
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 2,
+      "count": 139
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 2,
+      "count": 22
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 2,
+      "count": 102
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 2,
+      "count": 40
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 3,
+      "count": 197
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 106,
+  "notes": "",
+  "refetch_hint": ""
+}

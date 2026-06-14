@@ -1,0 +1,42 @@
+{
+  "file": "DN-GEO-03031-12.pdf",
+  "iso3": "IRL",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 3,
+      "count": 140
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 3,
+      "count": 177
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 3,
+      "count": 33
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 3,
+      "count": 214
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 5,
+      "count": 135
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 3,
+      "count": 297
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 122,
+  "notes": "",
+  "refetch_hint": ""
+}

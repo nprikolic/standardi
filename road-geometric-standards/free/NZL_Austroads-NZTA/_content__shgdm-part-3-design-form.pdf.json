@@ -1,0 +1,42 @@
+{
+  "file": "shgdm-part-3-design-form.pdf",
+  "iso3": "NZL",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 2,
+      "count": 7
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 2,
+      "count": 7
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 1,
+      "count": 8
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 1,
+      "count": 39
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 1,
+      "count": 9
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 1,
+      "count": 2
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 9,
+  "notes": "",
+  "refetch_hint": ""
+}

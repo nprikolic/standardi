@@ -1,0 +1,42 @@
+NZL — New Zealand — Geometric design standard harvest log
+Date: 2026-06-14
+Issuer: Austroads / NZTA (Waka Kotahi)
+
+CONTEXT
+NZ adopts the Austroads Guide to Road Design (AGRD Part 3) as the primary design authority. The
+current Austroads guide is login/purchase-gated (austroads.gov.au — not free, not downloaded).
+NZTA (Waka Kotahi) publishes NZ-specific supplementary guidance AND hosts a free legacy manual:
+the State Highway Geometric Design Manual (SHGDM, published December 2000).
+
+SEARCHES
+- WebSearch: "NZTA Waka Kotahi geometric design guidance road design supplement Austroads PDF"
+  -> found nzta.govt.nz geometric design pages + "State highway geometric design manual (draft)".
+- WebFetch: https://www.nzta.govt.nz/resources/state-highway-geometric-design-manual
+  -> listed downloadable SHGDM PDF parts (glossary, appendix A&B, parts 1-8).
+- WebFetch: https://nzta.govt.nz/roads-and-rail/road-engineering/geometric-design/supplementary-guidance
+  -> listed supplementary technical memoranda TM2501/2502/2503 (NZ-specific supplements to Austroads).
+
+DOWNLOADS (all from official nzta.govt.nz/assets, HTTP 200)
+https://www.nzta.govt.nz/assets/resources/state-highway-geometric-design-manual/docs/shgdm-part-1.pdf
+  -> shgdm-part-1-intro.pdf — OK, 211898 bytes, 14 pages
+https://www.nzta.govt.nz/assets/resources/state-highway-geometric-design-manual/docs/shgdm-part-2.pdf
+  -> shgdm-part-2-basic-design-criteria.pdf — OK, 1006406 bytes, 32 pages  [PRIMARY FILE]
+https://www.nzta.govt.nz/assets/resources/state-highway-geometric-design-manual/docs/shgdm-part-3.pdf
+  -> shgdm-part-3-design-form.pdf — OK, 156473 bytes, 8 pages
+https://www.nzta.govt.nz/assets/resources/state-highway-geometric-design-manual/docs/shgdm-part-4.pdf
+  -> shgdm-part-4-horizontal-alignment.pdf — OK, 765794 bytes, 30 pages
+https://www.nzta.govt.nz/assets/resources/state-highway-geometric-design-manual/docs/shgdm-part-5.pdf
+  -> shgdm-part-5-vertical-alignment.pdf — OK, 197933 bytes, 16 pages
+https://www.nzta.govt.nz/assets/resources/state-highway-geometric-design-manual/docs/shgdm-part-6.pdf
+  -> shgdm-part-6-cross-section.pdf — OK, 665584 bytes, 22 pages
+https://www.nzta.govt.nz/assets/resources/state-highway-geometric-design-manual/docs/shgdm-part-7.pdf
+  -> shgdm-part-7-roadside-features.pdf — OK, 2269343 bytes, 36 pages
+https://www.nzta.govt.nz/assets/resources/state-highway-geometric-design-manual/docs/shgdm-glossary.pdf
+  -> shgdm-glossary.pdf — OK, 187024 bytes, 26 pages
+https://www.nzta.govt.nz/assets/resources/state-highway-geometric-design-manual/docs/shgdm-appendix-a-b.pdf
+  -> shgdm-appendix-a-b.pdf — OK, 71925 bytes, 20 pages
+https://www.nzta.govt.nz/assets/resources/state-highway-geometric-design-manual/docs/shgdm-part-8.pdf
+  -> shgdm-part-8-intersections.pdf — FAILED validation (27792 bytes <= 50 KB, stub) -> DELETED
+
+OUTCOME: retrieved. 9 valid official NZTA PDFs (SHGDM, free, no login). Primary = Part 2.
+Austroads AGRD Part 3 (current authority) remains login-gated and was NOT downloaded.

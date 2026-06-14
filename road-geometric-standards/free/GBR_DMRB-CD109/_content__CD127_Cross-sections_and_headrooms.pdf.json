@@ -1,0 +1,42 @@
+{
+  "file": "CD127_Cross-sections_and_headrooms.pdf",
+  "iso3": "GBR",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 37,
+      "count": 3
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 26,
+      "count": 8
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 52,
+      "count": 1
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 2,
+      "count": 10
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 26,
+      "count": 4
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 2,
+      "count": 109
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 106,
+  "notes": "",
+  "refetch_hint": ""
+}

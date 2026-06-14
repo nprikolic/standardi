@@ -1,0 +1,31 @@
+CHN JTG D20 公路路线设计规范 — harvest log (date 2026-06-14)
+
+[WebSearch] "JTG D20 公路路线设计规范 交通运输部 公告 发布"
+  -> found official MoT pages on xxgk.mot.gov.cn (Announcement No.38/2017; EN version announcement 2021). OK.
+
+[WebSearch] "JTG D20-2017 公路路线设计规范 人民交通出版社 价格"
+  -> publisher China Communications Press (人民交通出版社), ISBN 9787114143014, ~RMB 87 (retailer listings). OK (reference).
+
+[WebFetch] https://xxgk.mot.gov.cn/jigou/glj/202006/t20200623_3312660.html
+  -> OFFICIAL MoT Announcement No.38/2017 issuing JTG D20-2017; PDF attachment relative ./P020230330590791909604.pdf. OK.
+
+[WebFetch] https://xxgk.mot.gov.cn/jigou/glj/202107/t20210706_3611279.html
+  -> OFFICIAL MoT Announcement issuing English version JTG D20-2017(EN); PDF attachment ./P020210706517905491391.pdf. OK.
+
+[curl] https://xxgk.mot.gov.cn/jigou/glj/202006/P020230330590791909604.pdf
+  -> SAVED JTG_D20-2017_full.pdf, 6,770,083 bytes, EXIT=0. Chinese full text (image-based, no text layer). VALID PDF (197 pages, ok=true).
+
+[curl] https://xxgk.mot.gov.cn/jigou/glj/202107/P020210706517905491391.pdf
+  -> SAVED JTG_D20-2017_EN.pdf, 7,394,542 bytes, EXIT=0. Official English version. VALID PDF (271 pages, ok=true, extractable text confirmed: title page + chapters).
+
+[validate_pdf] JTG_D20-2017_full.pdf -> {"ok":true,"pages":197,"sha256":51828d66...2125dcd4}
+[validate_pdf] JTG_D20-2017_EN.pdf   -> {"ok":true,"pages":271,"sha256":6cd21340...971dcef0c}
+
+[content check] full.pdf p0/1/2/30/100 -> empty text (scanned/image PDF, genuine official doc).
+                EN.pdf p0 "JTG... Specifications for Highway Geometric Design 公路路线设计规范 JTG D20—2017（EN）"; p30 "4 OVERALL DESIGN"; p100 design clauses. Confirmed full spec.
+
+[WebFetch] https://www.ccpcl.com.cn/  -> ECONNREFUSED (publisher store unreachable from env).
+[WebFetch] https://www.ccpcl.com.cn/index.php?s=/search/index/keyword/JTG D20.html -> ECONNREFUSED.
+[curl probe] https://www.ccpcl.com.cn/ -> HTTP=000 EXIT=28 (timeout / geo-block). Price/store recorded in TO_BUY.md from corroborated listings.
+
+RESULT: retrieved (free official MoT text obtained: Chinese full PDF + official English version PDF). Paid authoritative print volume flagged in TO_BUY.md, not purchased.

@@ -1,0 +1,14 @@
+ITEM: TRL Overseas Road Note 6 (ORN 6) - A guide to geometric design
+DATE: 2026-06-14
+
+URLs tried:
+1. https://transport-links.com/wp-content/uploads/2023/10/orn6-a-guide-to-geometric-design.pdf
+   -> SUCCESS. curl -L, 200 OK, 1,695,137 bytes. Valid PDF, 35 pages.
+   transport-links.com is the official TRL/gTKP-affiliated UK aid transport knowledge
+   platform (research4cap/ReCAP ecosystem). Accepted as official/issuer source.
+
+Other official leads available (not needed):
+- https://www.trl.co.uk/uploads/trl/documents/ORN6.pdf (TRL direct)
+- assets.publishing.service.gov.uk (gov.uk / UK aid)
+
+OUTCOME: retrieved. File saved as ORN6.pdf, validated ok=true, 35 pages.

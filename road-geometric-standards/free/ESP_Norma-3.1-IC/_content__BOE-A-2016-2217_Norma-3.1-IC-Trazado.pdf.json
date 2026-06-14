@@ -1,0 +1,42 @@
+{
+  "file": "BOE-A-2016-2217_Norma-3.1-IC-Trazado.pdf",
+  "iso3": "ESP",
+  "lang": "es+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 7,
+      "count": 81
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 3,
+      "count": 12
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 3,
+      "count": 182
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 4,
+      "count": 71
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 3,
+      "count": 75
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 4,
+      "count": 49
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 238,
+  "notes": "",
+  "refetch_hint": ""
+}

@@ -1,0 +1,35 @@
+{
+  "total_pdfs": 39,
+  "by_verdict": {
+    "CONFIRMED": 36,
+    "NEEDS_OCR": 2,
+    "PARTIAL": 1
+  },
+  "confirmed": 36,
+  "partial": 1,
+  "no_geometry": 0,
+  "needs_ocr": 2,
+  "non_confirmed": [
+    {
+      "file": "IPR-706_Manual_Projeto_Geometrico_Rodovias_Rurais.pdf",
+      "iso3": "BRA",
+      "verdict": "NEEDS_OCR",
+      "refetch_hint": "OCR needed (no tesseract installed); seek a text-based official edition",
+      "notes": "image-only / no extractable text (0 chars); tesseract unavailable"
+    },
+    {
+      "file": "ICTAAL_2021-update_correctif_DT9033.pdf",
+      "iso3": "FRA",
+      "verdict": "PARTIAL",
+      "refetch_hint": "full ICTAAL 2015 / ARP 2022 are paywalled (only corrigendum free)",
+      "notes": ""
+    },
+    {
+      "file": "JTG_D20-2017_full.pdf",
+      "iso3": "CHN",
+      "verdict": "NEEDS_OCR",
+      "refetch_hint": "OCR needed (no tesseract installed); seek a text-based official edition",
+      "notes": "image-only / no extractable text (0 chars); tesseract unavailable"
+    }
+  ]
+}

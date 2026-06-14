@@ -1,0 +1,41 @@
+AUS_AGRD03 download log
+=========================
+
+1. WebSearch (austroads.gov.au) "Guide to Road Design Part 3 Geometric Design AGRD03"
+   -> Found publication page: https://austroads.gov.au/publications/road-design/agrd03
+   -> Current edition: AGRD03-16, Edition 3.4, published 26 Feb 2021, ISBN 978-1-922382-15-3.
+
+2. WebFetch https://austroads.gov.au/publications/road-design/agrd03
+   -> HTTP 403 Forbidden (Cloudflare "Just a moment..." JS challenge). FAIL.
+
+3. WebFetch https://www.onlinepublications.austroads.com.au/items/AGRD03-16
+   -> ECONNREFUSED. FAIL.
+
+4. curl.exe -A Mozilla https://austroads.gov.au/publications/road-design/agrd03
+   -> HTTP 403, 5585-byte Cloudflare challenge page ("Just a moment..."). FAIL (not real content).
+
+5. curl.exe with full browser headers + --compressed
+   -> curl error 61 / 0 bytes. FAIL. Site is behind Cloudflare JS challenge; curl cannot pass.
+
+6. Chrome MCP (connected browser "Browser 1") navigate https://austroads.gov.au/publications/road-design/agrd03
+   -> Loaded OK past Cloudflare. Page shows:
+      Publication no: AGRD03-16, ISBN 978-1-922382-15-3, Edition 3.4, Published 26 February 2021.
+      Section "PDF (free)" with a "Download" button.
+      Download href = https://austroads.gov.au/publications/road-design/agrd03/media/AGRD03-16_Guide_to_Road_Design_Part_3_Geometric_Design_Ed3.4.pdf
+
+7. In-page fetch() of the media PDF URL (with Cloudflare clearance cookies)
+   -> HTTP 403, 37592-byte body, NO %PDF magic (not a PDF; block/redirect page). FAIL.
+
+8. Chrome navigate directly to the media PDF URL
+   -> Tab URL becomes the .pdf path BUT the rendered page is the Austroads
+      "Login to your account" / "Create a new account" page.
+      Text: "An Austroads account gives you access to all our publications and guides."
+   -> CONCLUSION: PDF is free of charge ($0) but download requires a free Austroads
+      account login. No no-login path found.
+
+DECISION: result = needs_manual.
+- Reason: download is login-gated (free account required). Task rules prohibit creating
+  accounts and entering credentials; no PDF obtainable without login.
+- No payment / paid order involved (publication is free).
+- source_url / store_url: https://austroads.gov.au/publications/road-design/agrd03
+- No PDF written to folder (nothing valid obtained). No HTML/0-byte artifacts left behind.

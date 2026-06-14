@@ -1,0 +1,21 @@
+ITEM: SADC Guideline on Low-volume Sealed Roads (LVSR), July 2003
+DATE: 2026-06-14
+
+URLs tried:
+1. https://www.ssatp.org/sites/default/files/publication/LVSR-Guideline-FullText.pdf
+   -> 403 Forbidden. Cloudflare challenge (cf-mitigated: challenge). Returned 7990-byte
+      HTML. Tried with browser UA and Referer header -> still 403/HTML. DELETED bad file.
+2. http://www.ssatp.org/sites/default/files/publications/Toolkits/LVSR/LVSR-Guideline-FullText.pdf
+   -> HTML (8084 bytes), same Cloudflare block. DELETED.
+   => SSATP not usable for automated download.
+3. https://www.gtkp.com/document/sadc-guideline-low-volume-sealed-roads-part-2/
+   -> SUCCESS. Valid PDF, 4,338,669 bytes, 161 pages. Content = SADC LVSR Guideline
+      July 2003, chapters incl. 4 Geometric Design & Road Safety, 5 Pavement, etc.
+4. https://www.gtkp.com/document/sadc-guideline-low-volume-sealed-roads-part-1/
+   -> 200 OK. SUCCESS. Valid PDF, 3,475,474 bytes, 121 pages. Content = SADC LVSR
+      Guideline July 2003, front matter + intro/regional setting (ISBN 99912-0-456-3).
+
+gTKP (Global Transport Knowledge Partnership, IRF) hosts the full guideline as two parts.
+Both downloaded and validated.
+
+OUTCOME: retrieved. Files: gtkp_part1.pdf (121 p) + gtkp_part2.pdf (161 p) = full 282-page guideline.

@@ -1,0 +1,42 @@
+{
+  "file": "VGU_Begrepp_och_grundvarden_Publikation2022-002.pdf",
+  "iso3": "SWE",
+  "lang": "sv+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 24,
+      "count": 5
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 20,
+      "count": 23
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 14,
+      "count": 76
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 11,
+      "count": 103
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 22,
+      "count": 24
+    },
+    "CROSS_SECTION": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    }
+  },
+  "categories_hit": 5,
+  "pages_total": 140,
+  "notes": "",
+  "refetch_hint": ""
+}

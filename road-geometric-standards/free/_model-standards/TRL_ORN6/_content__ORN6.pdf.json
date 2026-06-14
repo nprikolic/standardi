@@ -1,0 +1,42 @@
+{
+  "file": "ORN6.pdf",
+  "iso3": "MODEL",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 4,
+      "count": 19
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 6,
+      "count": 39
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 4,
+      "count": 24
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 4,
+      "count": 105
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 4,
+      "count": 29
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 4,
+      "count": 49
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 36,
+  "notes": "",
+  "refetch_hint": ""
+}

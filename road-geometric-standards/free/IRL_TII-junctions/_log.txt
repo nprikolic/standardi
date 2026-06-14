@@ -1,0 +1,23 @@
+IRL_TII-junctions download log
+Date: 2026-06-14
+Issuer: Transport Infrastructure Ireland (TII)
+Source policy: tiipublications.ie only (official). Scribd/docslib/pdf4pro/nbs results IGNORED.
+
+=== DISCOVERY ===
+WebSearch "TII DN-GEO-03060 Design of Junctions on National Roads" -> identified DN-GEO-03060 as the consolidated junction geometric design standard (priority, direct access, roundabouts, grade-separated + compact grade-separated). Current rev 03 (May 2023), supersedes June 2017 (rev 02).
+WebSearch "DN-GEO grade separated junctions weaving merge diverge" -> DN-GEO-03035 "Layout of Grade Separated Junctions" (rev 05) covers merge/diverge/weaving; but WITHDRAWN 2017 and superseded by DN-GEO-03060. Grade-separated junction types now in Chapter 7 of DN-GEO-03060; weaving in Section 7.9.
+WebSearch for DN-GEO-03060-04 / 2024-2025 -> no newer revision exists. Rev 03 (May 2023) is highest/current.
+
+=== VERIFICATION OF CURRENT STATUS ===
+WebFetch https://www.tiipublications.ie/document/?id=3253 -> Document DN-GEO-03060, Current Revision Version 03 (May 2023), Status Active/Current (Published). Download URL https://cdn.tii.ie/publications/DN-GEO-03060-03.pdf. CONFIRMED in-force.
+
+=== URLS TRIED ===
+https://www.tiipublications.ie/library/DN-GEO-03060-03.pdf -> 302 redirect to https://cdn.tii.ie/publications/DN-GEO-03060-03.pdf (official TII CDN). DOWNLOADED OK. 10,789,854 bytes, 221 pages. validate_pdf -> ok=true. sha256=c2f98d305c96716b0f0ce809233695a558e5c6adbec04679fb9125c947c65e75. PRIMARY.
+https://www.tiipublications.ie/library/DN-GEO-03035-05.pdf -> 302 redirect to https://cdn.tii.ie/publications/DN-GEO-03035-05.pdf. DOWNLOADED OK. 7,325,718 bytes, 114 pages. validate_pdf -> ok=true. sha256=224be696ab7a344f8cce0cd8261b3787b80fee59790baf8b17f786bb3232d418. SECONDARY (withdrawn 2017, historical reference for merge/diverge/weaving tables).
+https://www.tiipublications.ie/library/?q=junction&type=design -> HTTP 404 (library listing not directly fetchable; used document/?id page instead).
+
+=== OUTCOME ===
+result = retrieved.
+PRIMARY (grade-separated/interchange + weaving): DN-GEO-03060-03.pdf (current, May 2023).
+SECONDARY (historical grade-separated layout/weaving detail): DN-GEO-03035-05.pdf (withdrawn).
+Both validated ok=true. No login/purchase required; both free official PDFs.

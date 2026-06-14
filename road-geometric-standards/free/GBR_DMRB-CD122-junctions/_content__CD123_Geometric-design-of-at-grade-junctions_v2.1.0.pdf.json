@@ -1,0 +1,42 @@
+{
+  "file": "CD123_Geometric-design-of-at-grade-junctions_v2.1.0.pdf",
+  "iso3": "GBR",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 20,
+      "count": 23
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 7,
+      "count": 7
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 34,
+      "count": 1
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 9,
+      "count": 22
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 19,
+      "count": 9
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 2,
+      "count": 175
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 75,
+  "notes": "",
+  "refetch_hint": ""
+}

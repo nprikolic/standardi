@@ -1,0 +1,42 @@
+{
+  "file": "WB_TP496_Design_Appraisal_Rural_Transport_Infrastructure.pdf",
+  "iso3": "MODEL",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 51,
+      "count": 1
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 25,
+      "count": 2
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 45,
+      "count": 36
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 37,
+      "count": 24
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 45,
+      "count": 14
+    }
+  },
+  "categories_hit": 5,
+  "pages_total": 111,
+  "notes": "",
+  "refetch_hint": ""
+}

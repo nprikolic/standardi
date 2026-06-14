@@ -1,0 +1,42 @@
+{
+  "file": "JTG_D20-2017_EN.pdf",
+  "iso3": "CHN",
+  "lang": "zh+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 13,
+      "count": 286
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 32,
+      "count": 159
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 58,
+      "count": 149
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 56,
+      "count": 194
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 13,
+      "count": 203
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 4,
+      "count": 33
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 272,
+  "notes": "",
+  "refetch_hint": ""
+}

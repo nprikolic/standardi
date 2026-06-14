@@ -1,0 +1,42 @@
+{
+  "file": "JPN_Road-Structure-Ordinance_egov.pdf",
+  "iso3": "JPN",
+  "lang": "ja+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 3,
+      "count": 28
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 3,
+      "count": 4
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 18,
+      "count": 9
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 20,
+      "count": 18
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 19,
+      "count": 8
+    },
+    "CROSS_SECTION": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    }
+  },
+  "categories_hit": 5,
+  "pages_total": 35,
+  "notes": "",
+  "refetch_hint": ""
+}

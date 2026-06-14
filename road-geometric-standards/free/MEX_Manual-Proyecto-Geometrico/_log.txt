@@ -1,0 +1,41 @@
+MEX — Manual de Proyecto Geométrico de Carreteras (2018) — SCT / SICT
+Worker run date: 2026-06-14
+Target output: D:\My Drive\Nauka\standardi\road-geometric-standards\free\MEX_Manual-Proyecto-Geometrico
+
+=== DISCOVERY ===
+WebSearch "Manual de Proyecto Geométrico de Carreteras 2018 SCT PDF gob.mx"
+  -> Found official direct PDF: https://www.sct.gob.mx/fileadmin/DireccionesGrales/DGST/Manuales/manual-pg/MPGC_2018_310718.pdf
+  -> Normateca landing: https://sct.gob.mx/normatecaNew/manual-de-proyecto-geometrico-de-carreteras/
+  -> Manuals index: https://www.sct.gob.mx/carreteras/direccion-general-de-servicios-tecnicos/normativa/manuales/
+WebSearch IMT N-PRY-CAR -> official norm PDFs under https://normas.imt.mx/storage/normativa/ (e.g. N-PRY-CAR-1-02-001-19.pdf)
+
+=== DOWNLOAD ATTEMPTS ===
+1) curl https://www.sct.gob.mx/.../MPGC_2018_310718.pdf
+   -> curl (6) Could not resolve host: www.sct.gob.mx   [FAIL: DNS]
+2) nslookup sct.gob.mx / www.sct.gob.mx -> DNS request timed out (local resolver)
+3) DoH check (dns.google) name=www.sct.gob.mx A -> Status 2, nameservers 35.214.19.139 / 35.209.160.235 return rcode=REFUSED. Zone-level delegation failure (server-side, not local). [FAIL]
+4) DoH name=sct.gob.mx NS -> REFUSED (same). [FAIL]
+5) DoH name=micrs.sct.gob.mx A -> REFUSED (subdomain of same broken zone). [FAIL]
+6) Sanity: curl https://www.gob.mx -> HTTP/1.1 404 (host reachable). Network OK; problem is sct.gob.mx zone specifically.
+7) DoH name=normas.imt.mx A -> resolves (Cloudflare 104.26.0.149 / 104.26.1.149 / 172.67.68.185).
+8) curl -I https://normas.imt.mx/storage/normativa/N-PRY-CAR-1-02-001-19.pdf (browser UA) -> HTTP/1.1 403 Forbidden (Cloudflare). [FAIL]
+9) curl -I same with full Chrome headers + Referer -> HTTP/1.1 403 Forbidden, Server: cloudflare. [FAIL]
+10) Browser (Claude-in-Chrome) navigate https://normas.imt.mx/normativa.html -> loaded OK (passed Cloudflare).
+11) Browser navigate direct PDF /storage/normativa/N-PRY-CAR-1-02-001-19.pdf -> network statusCode 403, title "Attention Required! | Cloudflare". [FAIL]
+12) Browser re-navigate normativa.html -> now "Sorry, you have been blocked" — Cloudflare HARD-BANNED this IP after the PDF request. Portal no longer usable from here. [FAIL]
+13) DoH name=comunicaciones.edomex.gob.mx A -> Status 3 NXDOMAIN. (Also a state re-host, not the SCT/SICT issuer.) [FAIL]
+14) curl https://www.rosarito.gob.mx/.../manual-...-2018.pdf -> curl (28) Failed to connect port 443, "Could not connect to server" (server down). (Municipal re-host, not issuer.) [FAIL]
+15) Browser navigate rosarito PDF -> network request stays "pending" (server unresponsive). [FAIL]
+16) DoH name=www.sict.gob.mx A -> resolves to 187.141.244.190 (Status 0). Renamed-agency host has a WORKING DNS zone (unlike sct.gob.mx).
+17) curl -I https://www.sict.gob.mx/.../MPGC_2018_310718.pdf -> verbose shows "Trying 187.141.244.190:443..." then hangs; no Connected. TLS connect never completes. [FAIL]
+18) Browser navigate same sict.gob.mx PDF -> tab shows browser error page ("Frame ... showing error page"); screenshot failed. [FAIL]
+19) curl http://www.sict.gob.mx/ (port 80) -> connect to 187.141.244.190:80 Timed out. Host firewalled/unreachable on both 80 and 443. [FAIL]
+20) Final retry curl https://www.sct.gob.mx/.../MPGC_2018_310718.pdf -> still "Could not resolve host". [FAIL]
+
+=== VALIDATION ===
+No PDF obtained -> validate_pdf.py not run. No file written (folder kept clean; partial files removed).
+
+=== OUTCOME ===
+result = needs_manual.
+Cause: server-side outage on Mexican government infrastructure (sct.gob.mx DNS zone REFUSED at authoritative NS; www.sict.gob.mx host TCP-unreachable; normas.imt.mx Cloudflare-blocked then IP-banned). All other gob.mx re-hosts also down and are non-issuer copies. Official free PDF is confirmed to exist; it simply cannot be fetched from this environment right now.
+Recommended retry leads (all official) recorded in _result.json.

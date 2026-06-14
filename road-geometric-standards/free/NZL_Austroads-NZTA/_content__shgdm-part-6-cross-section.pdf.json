@@ -1,0 +1,42 @@
+{
+  "file": "shgdm-part-6-cross-section.pdf",
+  "iso3": "NZL",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 6,
+      "count": 5
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 1,
+      "count": 4
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 1,
+      "count": 1
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 13,
+      "count": 5
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 1,
+      "count": 11
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 1,
+      "count": 142
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 23,
+  "notes": "",
+  "refetch_hint": ""
+}

@@ -1,0 +1,22 @@
+AFG_LVR-manual download log
+============================
+Date: 2026-06-14
+Target: Afghanistan Low-Volume Roads design manual (geometric design content), ReCAP/AsCAP, seed research4cap.org
+
+URLs tried:
+1. WebSearch "Afghanistan Rural Access Programme Low Volume Roads design manual geometric design research4cap"
+   -> Found official research4cap.org-hosted Afghanistan MRRD LVRR Guideline and Standards (AsCAP project AFG2155A), including Vol 1 Pavement Design and Vol 2 Geometric Design and Road Safety.
+
+2. WebFetch https://www.research4cap.org/wp-content/uploads/ral/MRRD-2020-LVRRGuidelineandStandards-Vol2GeometricDesign-AsCAP-AFG2155A-200831-compressed.pdf
+   -> OUTCOME: confirmed valid PDF binary (4.8MB, PDF header, embedded Times fonts). Text not extractable via fetch but file genuine.
+
+3. curl.exe -L -A "Mozilla/5.0" --fail-with-body -o AFG_LVRR_Vol2_GeometricDesign.pdf <url above>
+   -> OUTCOME: SUCCESS. Downloaded 4,991,596 bytes (4.75M), HTTP 200.
+
+4. validate_pdf.py AFG_LVRR_Vol2_GeometricDesign.pdf
+   -> OUTCOME: {"ok": true, "is_pdf": true, "bytes": 4991596, "pages": 206, "sha256": "888510fc8c1c0c36870b2837a589d20600b83328988c7b09bad8d9c2247f3094", "reason": "valid pdf"}
+
+5. Text extraction (first 6 pages)
+   -> OUTCOME: Confirmed content: "Islamic Republic of Afghanistan / Ministry of Rural Rehabilitation and Development / Low Volume Rural Roads Guideline and Standards / Volume 2 / Geometric Design and Road Safety / July 2020 / ISBN: 978-9936-8080-1-0". Foreword confirms geometric design scope for Tertiary and minor Secondary roads.
+
+RESULT: retrieved. Official Afghanistan-specific LVRR geometric-design manual obtained from official donor host (research4cap.org).

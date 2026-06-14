@@ -1,0 +1,32 @@
+ESP — Norma 3.1-IC "Trazado" (Orden FOM/273/2016), BOE-A-2016-2217
+Worker run: 2026-06-14
+
+URLs tried + outcomes:
+
+1) https://www.boe.es/buscar/pdf/2016/BOE-A-2016-2217-consolidado.pdf
+   -> HTTP 404. 12243-byte HTML error body. Deleted. (No consolidado PDF exists at this path.)
+
+2) https://www.boe.es/boe/dias/2016/02/04/pdfs/BOE-A-2016-2217.pdf  (seed-suggested date)
+   -> HTTP 404. 12243-byte HTML error body. Deleted. Wrong date in path (Feb 4 vs actual Mar 4).
+
+3) Discovery: WebFetch https://www.boe.es/buscar/act.php?id=BOE-A-2016-2217
+   -> Document = Orden FOM/273/2016, BOE num. 55, dated 4 March 2016, 237 pages.
+      Original PDF link: https://www.boe.es/boe/dias/2016/03/04/pdfs/BOE-A-2016-2217.pdf
+   WebSearch confirmed same original PDF URL and document identity.
+
+4) https://www.boe.es/boe/dias/2016/03/04/pdfs/BOE-A-2016-2217.pdf  (correct date)
+   -> HTTP 200. Downloaded 9,165,388 bytes. SAVED as original.pdf then renamed
+      BOE-A-2016-2217_Norma-3.1-IC-Trazado.pdf
+
+5) https://www.boe.es/buscar/pdf/2016/BOE-A-2016-2217-consolidado.pdf  (retry, correct year)
+   -> HTTP 404 again. No consolidado PDF. Deleted error body.
+
+Validation (validate_pdf.py):
+   {"ok": true, "is_pdf": true, "bytes": 9165388, "pages": 237,
+    "sha256": "099ea0df4ffe41736d2853038c0568c88349ee51e43b4685e0dbfde1c8e8aa1d",
+    "reason": "valid pdf"}
+
+Note: the `file` utility misreported page count (5) due to BOE PDF object-stream
+structure; the PDF parser in validate_pdf.py correctly reports 237 pages.
+
+RESULT: retrieved. Authoritative official BOE publication, full text + geometric annex tables.

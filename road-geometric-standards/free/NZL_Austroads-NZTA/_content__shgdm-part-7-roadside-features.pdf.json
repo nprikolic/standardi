@@ -1,0 +1,42 @@
+{
+  "file": "shgdm-part-7-roadside-features.pdf",
+  "iso3": "NZL",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 4,
+      "count": 11
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 6,
+      "count": 2
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 15,
+      "count": 2
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 5,
+      "count": 5
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 4,
+      "count": 9
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 1,
+      "count": 31
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 37,
+  "notes": "",
+  "refetch_hint": ""
+}

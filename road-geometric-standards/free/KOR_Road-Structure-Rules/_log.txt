@@ -1,0 +1,33 @@
+KOR — South Korea — Road Structure & Facility Standards Rule + Commentary (해설)
+Worker run date: 2026-06-14
+================================================================
+
+SEARCHES
+- WebSearch "도로의 구조·시설 기준에 관한 규칙 law.go.kr 현행"
+    -> law.go.kr lsInfoP.do?lsiSeq=138166 (current rule text, viewable)
+- WebSearch "도로의 구조·시설 기준에 관한 규칙 해설 PDF 국토교통부"
+    -> molit.go.kr/USR/I0204/m_45/dtl.jsp?idx=17894 (MOLIT commentary '21.12)
+    -> codil.or.kr/policy/read.do?...nttId=12758 (CODIL commentary '21.12) [USED]
+
+URLS TRIED
+1. https://www.molit.go.kr/USR/I0204/m_45/dtl.jsp?psize=10&lcmspage=1&idx=17894
+   - WebFetch: socket closed. curl: EXIT 35/59 (legacy TLS cipher rejected by client). UNREACHABLE.
+2. https://www.codil.or.kr/filebank/moctroadguide/LS/CIKCLS125011/CIKCLS125011.pdf
+   - curl -I: 200, 238KB, Content-Disposition filename "...199908.pdf" -> old 1999 rule scan, NOT the commentary. SKIPPED (superseded/wrong doc).
+3. https://www.codil.or.kr/policy/read.do?bbsId=BBSMSTR_900000000006&nttId=12758
+   - WebFetch: TLS cert error. curl -k: 200, HTML 37KB. Parsed attachments:
+     a) BBS_202308161003209410.pdf (466 KB) = 신구대비표 정지시거 개정 comparison table (minor).
+     b) BBS_202308161003209501.pdf (10.1 MB) = 211213(최종)_도로의_구조_시설_기준에_관한_규칙_해설.pdf  [FULL COMMENTARY]
+   - Page confirms 저자/issuer = 국토교통부 (MOLIT); CODIL operated under MOLIT 건설사업정보화사업.
+4. https://www.codil.or.kr/filebank/files/202308/helpdesk/BBS_202308161003209501.pdf?atchFileId=FILE_000000000009986&fileSn=1
+   - curl -k --fail-with-body: 200, 10,624,079 bytes, %PDF-1.4. DOWNLOADED -> KOR_Road-Structure-Rules-Commentary_2021.pdf
+   - validate_pdf.py: {"ok":true,"is_pdf":true,"bytes":10624079,"pages":735,"sha256":181dbfc9...} VALID.
+5. https://www.law.go.kr/LSW/lsLinkCommonInfo.do?...lsiSeq=138166&print=print
+   - curl: returned HTML (<!DOCTYPE), not PDF. DELETED. (law.go.kr PDF export needs interactive session.)
+6. https://www.law.go.kr/LSW/lsLawCmpWordDown.do?lsiSeq=138166
+   - curl: EXIT 35 (no response). FAILED. (HWP export needs interactive session.)
+
+OUTCOME
+- COMMENTARY (해설) RETRIEVED and validated (735 pp, MOLIT via CODIL). This is the priority geometry document.
+- Bare rule text freely viewable on law.go.kr but PDF/HWP auto-download blocked by session requirement; rule articles are embedded inline within the commentary, so geometry + rule text are both captured.
+- result = retrieved

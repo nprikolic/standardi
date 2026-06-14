@@ -1,0 +1,39 @@
+SWE_VGU harvest log — 2026-06-14
+Issuer: Trafikverket (Swedish Transport Administration)
+Standard: VGU "Vägars och gators utformning" (geometric design)
+
+=== DISCOVERY ===
+WebSearch "VGU Vägars och gators utformning Trafikverket linjeföring sektion krav PDF" -> OK
+WebSearch "Trafikverket VGU Begrepp och grundvärden publikation PDF" -> OK
+WebFetch https://bransch.trafikverket.se/.../vagar-och-gators-utformning-vgu/ -> OK
+  Findings: Current edition effective 2025-01-01 restructured VGU into PUBEN:
+    - TRVINFRA-00396 "Krav och Råd Vägars och gators utformning" (PUBEN, JS web app, no standalone PDF)
+      https://puben.trafikverket.se/dpub/visa-dokument/6f24d1e8-81bf-4e7a-948a-200e71c92f66
+    - TRV 2024:148 "Krav Grundvärden" (DiVA PDF available)
+    - Legacy Publikation 2022:001-003 still applicable for pre-2025 projects (full self-contained PDFs)
+WebFetch https://puben.trafikverket.se/dpub/visa-dokument/6f24d1e8-81bf-4e7a-948a-200e71c92f66
+  -> "Laddar applikation..." JS app only; no direct PDF link. Not downloadable as PDF.
+WebFetch http://trafikverket.diva-portal.org/smash/record.jsf?pid=diva2:1909331 -> OK
+  -> KRAV Grundvärden VGU, TRV 2024:148, ISBN 978-91-8045-364-6, 2024, 58 pp.
+     FULLTEXT: https://trafikverket.diva-portal.org/smash/get/diva2:1909331/FULLTEXT01.pdf
+
+=== DOWNLOADS (curl.exe -L -A "Mozilla/5.0" --fail-with-body) ===
+[OK] https://trafikverket.diva-portal.org/smash/get/diva2:1909331/FULLTEXT01.pdf
+     -> VGU_Krav_Grundvarden_TRV2024-148.pdf | 2681124 bytes | validate ok=true | 58 pages
+        sha256 91a75dddfb58c4623fc22a5f46fa9bc2f3b8697da3b7cf2cd4d4e2de59059470
+[OK] https://trafikverket.diva-portal.org/smash/get/diva2:1621114/FULLTEXT02.pdf
+     -> VGU_Krav_Publikation2022-001.pdf | 7658027 bytes | validate ok=true | 365 pages
+        sha256 c6cd55bec2290bc9e6d4b0c1b94ab5d2f5328492917e06189572ee3dd3dfd726
+        CONTENT CHECK: text contains 'linjeföring' and 'sektion' -> PRIMARY geometry volume
+[OK] https://trafikverket.diva-portal.org/smash/get/diva2:1621296/FULLTEXT02.pdf
+     -> VGU_Begrepp_och_grundvarden_Publikation2022-002.pdf | 2248650 bytes | validate ok=true | 139 pages
+        sha256 99583150c15a51eb0e01d97a41e6514d7c65c9ee0b2ec76a0b28ef1a7300ae08
+[OK] https://trafikverket.diva-portal.org/smash/get/diva2:1621302/FULLTEXT03.pdf
+     -> VGU_Rad_Publikation2022-003.pdf | 15533521 bytes | validate ok=true | 500 pages
+        sha256 257055cce0889828bf791afff00eb6d3eb73c8c60f51c1dd07d1694a77705d45
+
+=== RESULT ===
+result=retrieved
+PRIMARY = VGU_Krav_Publikation2022-001.pdf (Krav VGU 2022:001, 365 pp, geometric requirement chapters incl. linjeföring + sektion)
+Extras (validated, in folder): TRV 2024:148 Krav Grundvärden (current-edition values), 2022:002 Begrepp och grundvärden, 2022:003 Råd (guidance).
+All sources official Trafikverket DiVA repository. No paywall, no checkout.

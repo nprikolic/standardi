@@ -1,0 +1,37 @@
+ITA - DM 5/11/2001 n.6792 "Norme funzionali e geometriche per la costruzione delle strade"
+Issuer: Ministero delle Infrastrutture e dei Trasporti
+Worker run date: 2026-06-14
+
+=== DISCOVERY ===
+WebSearch: "DM 5/11/2001 n. 6792 ... allegato pdf mit.gov.it"
+  -> identified two official MIT landing pages:
+     https://www.mit.gov.it/normativa/decreto-ministeriale-numero-6792-del-05112001
+     https://www.mit.gov.it/normativa/decreto-ministeriale-protocollo-6792-del-05112001
+  -> also noted gazzettaufficiale.it/eli/id/2002/01/04/01A13858/sg (official GU publication, alt lead)
+
+WebFetch landing page 1 (numero-6792):
+  attachment -> https://www.mit.gov.it/nfsmitgov/files/media/normativa/2016-02/Decreto_Ministeriale_numero_6792_05-11-2001_all_1.pdf
+WebFetch landing page 2 (protocollo-6792):
+  attachment -> https://www.mit.gov.it/nfsmitgov/files/media/normativa/2017-09/decreto_ministeriale_protocollo_6792_del_5-11-2001.pdf
+
+=== DOWNLOADS (official mit.gov.it ONLY) ===
+[1] https://www.mit.gov.it/nfsmitgov/files/media/normativa/2016-02/Decreto_Ministeriale_numero_6792_05-11-2001_all_1.pdf
+    -> cand_all1.pdf  | HTTP 200, 1,988,208 bytes
+    -> validate_pdf.py: ok=true, is_pdf=true, pages=96, sha256=cbf572b9c729e3192c63c5454f08b5ed37e32125081358946f2ac30ff5e0431d
+    OUTCOME: VALID. Kept (renamed ITA_DM-6792-2001.pdf).
+
+[2] https://www.mit.gov.it/nfsmitgov/files/media/normativa/2017-09/decreto_ministeriale_protocollo_6792_del_5-11-2001.pdf
+    -> cand_proto.pdf | HTTP 200, 1,988,208 bytes
+    -> validate_pdf.py: ok=true, is_pdf=true, pages=96, sha256=cbf572b9c729e3192c63c5454f08b5ed37e32125081358946f2ac30ff5e0431d
+    OUTCOME: VALID but byte-for-byte IDENTICAL to [1] (same sha256). Deleted as duplicate.
+
+=== CONTENT VERIFICATION (annex / geometric tables) ===
+Text extraction of ITA_DM-6792-2001.pdf:
+  - Page 1: official decree (Prot. n.6792, Ministero Infrastrutture e Trasporti, VISTO art.13 D.Lgs 285/92).
+  - 'velocita' on 27 pages; 'raggio' on 22 pages; 'pendenza' on 23 pages; 'clotoide' pp.69-77; 'carreggiata' on 24 pages.
+  - Page 63 confirmed real table content: rettifilo min-length table (Velocita 40..140 km/h -> Lr 30..360 m), circular-curve rules.
+  CONCLUSION: full decree + technical-norms ANNEX with geometric design tables is included.
+
+=== RESULT ===
+retrieved. File: ITA_DM-6792-2001.pdf (96 pp, 1,988,208 bytes).
+Source: mit.gov.it (official). Free, in-force text.

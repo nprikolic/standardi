@@ -1,0 +1,42 @@
+{
+  "file": "MWI_LVR-Manual-Vol2-Geometric-Design.pdf",
+  "iso3": "MWI",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 13,
+      "count": 165
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 7,
+      "count": 395
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 13,
+      "count": 47
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 7,
+      "count": 298
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 8,
+      "count": 110
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 9,
+      "count": 214
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 313,
+  "notes": "",
+  "refetch_hint": ""
+}

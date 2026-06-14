@@ -1,0 +1,10 @@
+DEU — FGSV road-design guidelines — purchase verification log
+Date: 2026-06-14
+
+URLs checked:
+- WebSearch: "FGSV Verlag RAL FGSV 201 Richtlinien fuer die Anlage von Landstrassen Preis" -> RAL = FGSV 201, Ausgabe 2012; M ERL (FGSV 201/1) EUR 42.00; catalogue Strassenentwurf at fgsv-verlag.de.
+- WebFetch: https://www.fgsv-verlag.de/ral -> confirmed title "Richtlinien fuer die Anlage von Landstrassen", order no. 201, Ausgabe 2012, price EUR 84.00 (incl. 7% VAT).
+- curl HEAD: https://www.fgsv-verlag.de/ral -> HTTP 200 (store reachable).
+- Sibling titles: RAA = FGSV 202 (motorways), RASt = FGSV 200 (urban streets) — sold per title in same catalogue.
+
+Outcome: PAYWALLED. RAL FGSV 201 (2012), EUR 84.00 live. No free official edition. Did NOT add to cart / did NOT download.

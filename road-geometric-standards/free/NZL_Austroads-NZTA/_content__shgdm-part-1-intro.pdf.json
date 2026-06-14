@@ -1,0 +1,42 @@
+{
+  "file": "shgdm-part-1-intro.pdf",
+  "iso3": "NZL",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 6,
+      "count": 4
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 6,
+      "count": 14
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 6,
+      "count": 7
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 7,
+      "count": 6
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 6,
+      "count": 5
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 7,
+      "count": 5
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 15,
+  "notes": "",
+  "refetch_hint": ""
+}

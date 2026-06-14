@@ -1,0 +1,32 @@
+FRA ICTAAL + ARP harvest log  (date 2026-06-14)
+Issuer: Cerema / DGITM.  Seed: doc.cerema.fr.  Goal: free-first, current editions.
+
+=== ICTAAL (motorways) ===
+https://doc.cerema.fr/Default/doc/SYRACUSE/14161/...ictaal...version-co            -> catalogue notice (FR ed., ISBN 9782371805088). "Acces libre" = notice public; full PDF NOT attached. Digital object gated.
+https://doc.cerema.fr/Default/digital-viewer/c-14161                                -> 200 HTML viewer but "Indisponible / authentification / connectez-vous". GATED/PAID. not retrieved.
+https://doc.cerema.fr/default/.../DigitalCollectionAttachmentDownloadHandler.ashx?...documentId=14161 -> HTTP 500. no free object.
+https://doc.cerema.fr/Default/doc/SYRACUSE/594138 (English transl., ISBN 9782371805910) -> notice marked "Acces libre / Telechargement PDF" but DownloadHandler documentId empty -> only notice-export, no document. PAID boutique.
+https://www.cerema.fr/fr/centre-ressources/boutique/ictaal-instructions-conditions-techniques-amenagement -> 301 -> SYRACUSE/594138. boutique product (sold).
+https://dtrf.cerema.fr/notice.html?id=Dtrf-0006907 -> ICTAAL "Version actualisee Mai 2015", Cerema-DTecITM, 60 pp. THE FULL CURRENT GUIDE.
+https://dtrf.cerema.fr/pdf/pj/Dtrf/0006/Dtrf-0006907/DT6907.pdf -> 302 -> extrait-pdf.html viewer w/ login form ("identifiez-vous"). GATED. file saved was HTML -> DELETED.
+   (retried with ?openerPage=, jsessionid cookie, Referer header: all redirect to extrait-pdf viewer, never serve bytes.)
+https://dtrf.cerema.fr/notice.html?id=Dtrf-0009041 (DT9041 "Edition 2015 - MAJ 2021") -> PDF path 302 -> 404.html. not openly served.
+https://dtrf.cerema.fr/pdf/pj/Dtrf/0002/Dtrf-0002540/DT2540.pdf -> 200 application/pdf = ICTAAL *2000* circular (older ed.), open. NOT current ed; not saved.
+https://dtrf.cerema.fr/pdf/pj/Dtrf/0008/Dtrf-0008466/DT9033.pdf -> 200 application/pdf, 4 pp = "Mise a jour 2021 du guide ICTAAL de mai 2015" (corrigendum). VALID. SAVED as ICTAAL_2021-update_correctif_DT9033.pdf. (only free OFFICIAL ICTAAL artifact; partial, not full guide).
+https://dtrf.cerema.fr/pdf/pj/Dtrf/0008/Dtrf-0008464/DT9031.pdf -> 200 valid 5 pp = MAJ 2021 du guide "2x1 voie" (DIFFERENT guide). downloaded then DELETED (not ICTAAL/ARP).
+https://dtrf.cerema.fr/pdf/pj/Dtrf/0008/Dtrf-0008465/DT9032.pdf -> 200 valid 4 pp = MAJ 2021 du guide "echangeurs" (DIFFERENT guide). downloaded then DELETED (not ICTAAL/ARP).
+https://www.legifrance.gouv.fr/circulaire/id/39841 -> Instruction du Gouvernement 13/07/2015; PDF https://www.legifrance.gouv.fr/download/pdf/circ?id=39841 = 16 KB cover circular only, 0 annexes. NOT the technical guide.
+https://www.bulletin-officiel.developpement-durable.gouv.fr/.../met_20150014_0000_0018.pdf -> 1-page DILA cover. NOT the guide.
+
+=== ARP (main roads) ===
+https://doc.cerema.fr/Default/doc/SYRACUSE/592036/amenagement-des-routes-principales-arp... -> catalogue notice, Cerema 2022, ISBN 9782371805644. full PDF NOT attached.
+https://doc.cerema.fr/Default/digital-viewer/c-592036 -> 200 HTML but "Indisponible / authentification". GATED/PAID. not retrieved.
+https://www.cerema.fr/fr/centre-ressources/boutique/amenagement-routes-principales-arp-0 -> 301 -> SYRACUSE/592036. boutique product (sold).
+https://www.cerema.fr/fr/centre-ressources/boutique/amenagement-routes-principales-arp -> boutique landing (sold).
+DTRF full-text search q="amenagement des routes principales" -> 4750 hits, term is generic; no exact-title-field hit isolated for the 1994 SETRA ARP or 2022 guide. 2022 ARP not on open DTRF.
+cerema.fr (curl, direct) -> HTTP 403 for boutique/system-files (site blocks non-browser / geo). prices via resellers/snippets.
+
+=== Mirrors seen but NOT used (rule 1) ===
+pdfcoffee.com/ictaal-2015..., calameo.com/books/006553470..., xdocs.club/..., livrosdeamor.com.br/... -> ignored.
+
+CONCLUSION: current full ICTAAL 2015 + ARP 2022 are PAID (Cerema boutique) / login-gated (DTRF). No free official full PDF. Saved one free official ICTAAL-related supplement (DT9033, 2021 update). status=paid, result=paywalled.

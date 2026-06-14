@@ -1,0 +1,23 @@
+MWI — Malawi LVR design manual (geometric) — download log
+Date: 2026-06-14
+
+1. WebSearch: "Malawi Low Volume Roads design manual ReCAP research4cap geometric design"
+   -> Found official research4cap.org PDFs. Vol 2 = Geometric Design and Road Safety.
+   -> URL: https://www.research4cap.org/wp-content/uploads/ral/RoadsAuthorityMalawi-2020-LowVolumeRoadsManual-Volume2-200820-compressed.pdf
+   (Vol 1 = Pavement Design — not geometric; skipped. Scribd link ignored per rules.)
+
+2. curl GET https://www.research4cap.org/wp-content/uploads/ral/RoadsAuthorityMalawi-2020-LowVolumeRoadsManual-Volume2-200820-compressed.pdf
+   -> HTTP 200 | 7589722 bytes | application/pdf
+   -> Saved as MWI_LVR-Manual-Vol2-Geometric-Design.pdf
+   -> OUTCOME: SUCCESS
+
+3. validate_pdf.py MWI_LVR-Manual-Vol2-Geometric-Design.pdf
+   -> {"ok": true, "is_pdf": true, "bytes": 7589722, "pages": 312,
+       "sha256": "06336b0602a45b0a34bf2b0dfa919867d49f5c96efeefe4598cc97da1725ef8c", "reason": "valid pdf"}
+   -> OUTCOME: VALID
+
+4. WebFetch gov.uk R4D output page — confirmed full title "Low Volume Roads Manual, Volume 2:
+   Geometric Design and Road Safety", issuer Roads Authority Malawi, year 2020, covers geometric design.
+   -> OUTCOME: VERIFIED
+
+RESULT: retrieved

@@ -1,0 +1,30 @@
+GBR DMRB CD 122 (+ CD 123) harvest log
+Date: 2026-06-14
+Issuer: National Highways. Source domain: standardsforhighways.co.uk (official, free DMRB).
+
+URLs TRIED:
+1. https://www.standardsforhighways.co.uk/search/3ab9ef31-9880-4e8e-a7eb-f3d218e74ffd
+   -> CD 122 landing/search page (JS-driven). No direct PDF link extractable via fetch. Used to confirm document identity.
+2. https://www.standardsforhighways.co.uk/api/search/3ab9ef31-9880-4e8e-a7eb-f3d218e74ffd
+   -> HTTP 404. Not a valid API endpoint.
+3. https://www.standardsforhighways.co.uk/prod/attachments/3ab9ef31-9880-4e8e-a7eb-f3d218e74ffd
+   -> Returned site homepage (wrong path prefix).
+4. https://www.standardsforhighways.co.uk/tses/attachments/962a81c1-abda-4424-96c9-fe4c2287308c
+   -> Served a real PDF; identified as CD 123 Version 2.1.0 (confirmed the /tses/attachments/<uuid> pattern serves PDFs).
+5. https://www.standardsforhighways.co.uk/tses/attachments/3ab9ef31-9880-4e8e-a7eb-f3d218e74ffd?inline=true
+   -> SUCCESS. Direct PDF for CD 122. Downloaded 4,560,374 bytes.
+      Validate: ok=true, is_pdf=true, pages=96, sha256=63ea0df810fdaff916d84e72d61e1f2075e1f6904914a9b0b583ebf3d3ed786a
+      Page 1 confirms: "CD 122 Geometric design of grade separated junctions", Version 1.1.1, published 31-Jan-2022, National Highways.
+      Saved as CD122_Geometric-design-of-grade-separated-junctions_v1.1.1.pdf
+6. https://www.standardsforhighways.co.uk/tses/attachments/962a81c1-abda-4424-96c9-fe4c2287308c?inline=true
+   -> SUCCESS (EXTRA, junction-related). CD 123. Downloaded 6,980,786 bytes.
+      Validate: ok=true, is_pdf=true, pages=74, sha256=c523f89ea4229f2d647d90addbb96246d06cf73584f9b133c3082a284cc93feb
+      Page 1 confirms: "CD 123 Geometric design of at-grade priority and signal-controlled junctions", Version 2.1.0, published 29-Nov-2021, National Highways.
+      Saved as CD123_Geometric-design-of-at-grade-junctions_v2.1.0.pdf
+
+SKIPPED / REJECTED (non-official mirrors per hard rules):
+- scribd.com/document/* (multiple) -> rejected, prohibited mirror.
+- cliffsnotes.com, milton-keynes.gov.uk, northwarks.gov.uk, lincolnshire.gov.uk, eastsussexhighways.com -> council/3rd-party mirrors, rejected.
+- thenbs.com / cis.ihs.com -> publication index / paywalled, not used for download (metadata only).
+
+RESULT: retrieved. Primary = CD 122 v1.1.1 (96 pp). Extra = CD 123 v2.1.0 (74 pp). Both official, current in-force, free.

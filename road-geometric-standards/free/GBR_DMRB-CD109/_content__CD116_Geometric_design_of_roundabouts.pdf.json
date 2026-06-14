@@ -1,0 +1,42 @@
+{
+  "file": "CD116_Geometric_design_of_roundabouts.pdf",
+  "iso3": "GBR",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 10,
+      "count": 16
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 3,
+      "count": 21
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 10,
+      "count": 27
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 2,
+      "count": 17
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 17,
+      "count": 21
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 2,
+      "count": 207
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 227,
+  "notes": "",
+  "refetch_hint": ""
+}

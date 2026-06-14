@@ -1,0 +1,42 @@
+{
+  "file": "VGU_Rad_Publikation2022-003.pdf",
+  "iso3": "SWE",
+  "lang": "sv+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 405,
+      "count": 1
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 132,
+      "count": 19
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 52,
+      "count": 250
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 6,
+      "count": 286
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 46,
+      "count": 36
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 44,
+      "count": 12
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 501,
+  "notes": "",
+  "refetch_hint": ""
+}

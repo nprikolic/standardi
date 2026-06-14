@@ -1,0 +1,21 @@
+POL_WR-D harvest log
+date: 2026-06-14
+
+DISCOVERY
+- WebSearch "WR-D ... czesc 3 ksztaltowanie geometryczne" -> identified geometric part is WR-D-22-2 "Czesc 2: Ksztaltowanie geometryczne" (NOT czesc 3, which is "Wyposazenie techniczne"). Official index: https://www.gov.pl/web/infrastruktura/wr-d
+- WebSearch "Dz.U. 2022 poz. 1518" -> ISAP DocDetails id=WDU20220001518; official PDF via api.sejm.gov.pl/eli/acts/DU/2022/1518/text.pdf
+- WebFetch https://www.gov.pl/web/infrastruktura/wr-d -> enumerated all WR-D attachment URLs. Geometric: WR-D-22-2 = https://www.gov.pl/attachment/489a909f-ca76-4841-b485-bcdfc88f9bd2 (wersja 01, effective 2023.01.23)
+- WebFetch https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20220001518 -> returned CAPTCHA human-verification page (no document). Fell back to official Sejm/ELI API PDF endpoint.
+
+DOWNLOADS (curl.exe -L -A "Mozilla/5.0" --fail-with-body)
+- https://www.gov.pl/attachment/489a909f-ca76-4841-b485-bcdfc88f9bd2 -> WR-D-22-2_ksztaltowanie-geometryczne.pdf : OK (exit 0, 10,490,980 bytes)
+- https://api.sejm.gov.pl/eli/acts/DU/2022/1518/text.pdf -> Dz.U.2022.poz.1518.pdf : OK (exit 0, 1,065,627 bytes)
+
+VALIDATION (validate_pdf.py)
+- WR-D-22-2_ksztaltowanie-geometryczne.pdf : ok=true is_pdf=true bytes=10490980 pages=59 sha256=ff64c0f35fb5d4bcc7f707db40a5b3f4b76dd068baa02aff33deb65455bee3d3
+- Dz.U.2022.poz.1518.pdf : ok=true is_pdf=true bytes=1065627 pages=44 sha256=fe1380ff495c2f293e6d2ab19a5b164105cc776845702f16e0cf54dbaf2da9c5
+
+CONTENT VERIFY
+- WR-D-22-2 page 1 title: "Wytyczne projektowania odcinkow drog zamiejskich. Czesc 2: Ksztaltowanie geometryczne. 01-2023.01.23. WR-D-22-2". Keywords present: promien=yes, klotoida=yes, przekroj=yes, pochylenie=yes, ksztaltowanie geometryczne=yes. Correct geometric-design guideline, in force.
+
+RESULT: retrieved. Primary file = WR-D-22-2 (geometric). Dz.U. 2022 poz. 1518 also retrieved & validated (listed in notes).

@@ -1,0 +1,51 @@
+ZAF — South Africa — COTO/SANRAL Geometric Design Manual
+Download worker log. Date: 2026-06-14.
+
+GOAL: One official, freely downloadable national geometric-design standard from COTO/SANRAL/Dept of Transport.
+
+URLS / ACTIONS TRIED:
+
+1. WebSearch: SANRAL "South African Geometric Design Manual" COTO PDF download
+   -> Mostly Scribd/PDFCoffee (DISALLOWED mirrors). Identified official transport.gov.za hosts COTO/TRH docs.
+
+2. WebSearch: COTO Geometric Design Manual South Africa TRH 17 PDF official
+   -> Found official transport.gov.za COTO chapters + TRH17 references. tshwane.gov.za TRH26 link also seen.
+
+3. WebSearch: site:transport.gov.za "Geometric Design Manual"
+   -> No standalone 'Geometric Design Manual'. Found TRH/COTO/UTG docs on transport.gov.za.
+
+4. WebFetch: https://www.transport.gov.za/?page_id=1042 (official Roads page)
+   -> OFFICIAL REPOSITORY. Lists geometric-design standards:
+      - TRH17-1988 Geometric Design of Rural Roads: https://www.transport.gov.za/wp-content/uploads/2023/02/TRH17-1988-Geometric-Design-of-Rural-Roads.pdf
+      - UTG1-1986 Urban geometric design guidelines: https://www.transport.gov.za/wp-content/uploads/2023/02/UTG1-1986-Guidelines-for-the-Geometric-Design-of-Urban-Art.pdf
+      - COTO 2020 Standard Specs (construction, not geometry) chapters 1-20.
+
+5. WebFetch: https://www.transport.gov.za/?page_id=1155 (COTO Standard Specification page)
+   -> COTO Std Specs for Road & Bridge Works (2020) chapters only — construction specs, NOT geometric design. No Geometric Design Manual present.
+
+6. WebSearch: COTO "Geometric Design Manual" draft 2024 SANRAL replace TRH17
+   -> No evidence of a freely posted standalone COTO Geometric Design Manual. TRH17 confirmed as the SA geometric design standard.
+
+7. WebFetch: https://www.nra.co.za/live/content.php?Item_ID=1 (SANRAL)
+   -> ECONNREFUSED. SANRAL site has no public technical-document/standards library (confirmed via search #8).
+
+8. WebSearch: site:nra.co.za SANRAL geometric design manual/guideline
+   -> No geometric design documents hosted on nra.co.za. Only corporate/news/tender pages.
+
+DOWNLOAD:
+   curl.exe -L -A "Mozilla/5.0" --fail-with-body -o "TRH17-1988-Geometric-Design-of-Rural-Roads.pdf" \
+     "https://www.transport.gov.za/wp-content/uploads/2023/02/TRH17-1988-Geometric-Design-of-Rural-Roads.pdf"
+   -> OK, 12,796,104 bytes (12.2 MB).
+   file check -> "PDF document, version 1.5"; magic bytes %PDF-1.5 confirmed.
+
+VALIDATE:
+   python validate_pdf.py TRH17-1988-Geometric-Design-of-Rural-Roads.pdf
+   -> {"ok": true, "is_pdf": true, "bytes": 12796104, "pages": 120,
+       "sha256": "f588201e73d1003fa6eeeed7f9f116163f10980588bfbd25a788f92d6b447856",
+       "reason": "valid pdf"}
+
+OUTCOME: RETRIEVED.
+   Captured the official COTO/SANRAL/Dept of Transport geometric-design standard TRH17
+   (Geometric Design of Rural Roads, Pretoria 1988) from the official Dept of Transport repository.
+   No standalone "COTO Geometric Design Manual" is freely posted on any official source; TRH17 is the
+   recognised free official SA geometric-design guideline. Mirrors (Scribd/PDFCoffee) were NOT used.

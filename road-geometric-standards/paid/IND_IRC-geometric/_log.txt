@@ -1,0 +1,10 @@
+IND — IRC geometric-design series — purchase verification log
+Date: 2026-06-14
+
+URLs checked:
+- WebSearch: "IRC:73 IRC:86 IRC:66 ... irc.org.in geometric design" -> IRC:86-2018 (Geometric Design Standards for Urban Roads and Streets) INR 600; IRC:73-1980 (Geometric Design Standards for Rural/Non-Urban Highways) INR 120 + INR 20 p&p; IRC:66-1976 = Recommended Practice for Sight Distance on Rural Highways. Sale via Section Officer (Sale), sale.irc-morth@gov.in / ircsale1934@gmail.com.
+- Sale catalogue PDFs found at irc.nic.in/WriteReadData/LINKS/ (IRC publications available for sale).
+- curl HEAD: https://www.irc.nic.in/ -> HTTP 000 (DNS/connection failed from env; site unreachable from environment).
+- Note: law.resource.org/pub/in/bis/irc/irc.gov.in.086.2018.pdf hosts an UNOFFICIAL free mirror of IRC:86-2018 (not an official free edition; NOT downloaded).
+
+Outcome: PAYWALLED. Sold per code. Store unreachable from env -> prices recorded as surveyed. Did NOT add to cart / did NOT download.

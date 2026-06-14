@@ -1,0 +1,42 @@
+{
+  "file": "gtkp_part2.pdf",
+  "iso3": "MODEL",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 154,
+      "count": 1
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 126,
+      "count": 2
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 27,
+      "count": 2
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 16,
+      "count": 11
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 9,
+      "count": 45
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 6,
+      "count": 19
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 162,
+  "notes": "",
+  "refetch_hint": ""
+}

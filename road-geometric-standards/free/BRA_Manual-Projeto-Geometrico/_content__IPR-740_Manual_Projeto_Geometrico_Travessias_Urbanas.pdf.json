@@ -1,0 +1,42 @@
+{
+  "file": "IPR-740_Manual_Projeto_Geometrico_Travessias_Urbanas.pdf",
+  "iso3": "BRA",
+  "lang": "pt+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 40,
+      "count": 132
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 11,
+      "count": 103
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 17,
+      "count": 153
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 17,
+      "count": 266
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 14,
+      "count": 420
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 13,
+      "count": 67
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 393,
+  "notes": "",
+  "refetch_hint": ""
+}

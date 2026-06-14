@@ -1,0 +1,42 @@
+{
+  "file": "VGU_Krav_Publikation2022-001.pdf",
+  "iso3": "SWE",
+  "lang": "sv+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 154,
+      "count": 7
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 26,
+      "count": 62
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 26,
+      "count": 174
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 6,
+      "count": 333
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 26,
+      "count": 50
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 72,
+      "count": 11
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 366,
+  "notes": "",
+  "refetch_hint": ""
+}

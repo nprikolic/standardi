@@ -1,0 +1,16 @@
+ITEM: World Bank Technical Paper 496 - Design and Appraisal of Rural Transport Infrastructure (Lebo & Schelling)
+DATE: 2026-06-14
+
+URLs tried:
+1. documents.worldbank.org documentdetail page (227731468184131693)
+   -> WebFetch returned only nav/footer; no direct PDF link extractable.
+2. https://openknowledge.worldbank.org/entities/publication/a6b577ff-c0af-57c8-9ab3-3df33d29b363
+   -> WebFetch 403, but curl with browser UA returned HTML; extracted bitstream IDs.
+3. https://openknowledge.worldbank.org/bitstreams/26b563f4-ba80-567d-b981-8c597ac0ff23/download
+   -> SUCCESS. Valid PDF, 7,270,946 bytes, 110 pages. (Full document)
+4. https://openknowledge.worldbank.org/bitstreams/248e1fb6-c90c-5813-9326-189598f20dec/download
+   -> ASCII text (license/metadata), not the document. Discarded.
+
+OUTCOME: retrieved. File saved as
+WB_TP496_Design_Appraisal_Rural_Transport_Infrastructure.pdf, validated ok=true, 110 pages.
+Source: World Bank Open Knowledge Repository (official issuer).

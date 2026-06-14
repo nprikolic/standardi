@@ -1,0 +1,42 @@
+{
+  "file": "KOR_Road-Structure-Rules-Commentary_2021.pdf",
+  "iso3": "KOR",
+  "lang": "ko+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 8,
+      "count": 727
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 11,
+      "count": 414
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 11,
+      "count": 405
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 11,
+      "count": 628
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 11,
+      "count": 443
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 9,
+      "count": 128
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 736,
+  "notes": "",
+  "refetch_hint": ""
+}

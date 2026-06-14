@@ -1,0 +1,42 @@
+{
+  "file": "TRH17-1988-Geometric-Design-of-Rural-Roads.pdf",
+  "iso3": "ZAF",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 108,
+      "count": 2
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 17,
+      "count": 2
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 36,
+      "count": 1
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 46,
+      "count": 1
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 17,
+      "count": 1
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 115,
+      "count": 1
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 121,
+  "notes": "",
+  "refetch_hint": ""
+}

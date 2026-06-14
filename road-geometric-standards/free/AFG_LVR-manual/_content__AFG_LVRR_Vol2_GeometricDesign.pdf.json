@@ -1,0 +1,42 @@
+{
+  "file": "AFG_LVRR_Vol2_GeometricDesign.pdf",
+  "iso3": "AFG",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 13,
+      "count": 109
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 7,
+      "count": 254
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 13,
+      "count": 36
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 7,
+      "count": 231
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 8,
+      "count": 80
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 9,
+      "count": 144
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 207,
+  "notes": "",
+  "refetch_hint": ""
+}

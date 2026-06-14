@@ -1,0 +1,32 @@
+GBR DMRB CD 109 Highway link design - download log
+Worker run date: 2026-06-14
+Issuer: National Highways (DMRB published free)
+Seed: standardsforhighways.co.uk
+
+=== PRIMARY: CD 109 Highway link design ===
+1. WebSearch "DMRB CD 109 Highway link design standardsforhighways.co.uk PDF"
+   -> Found official search page https://www.standardsforhighways.co.uk/search/c27c55b7-2dfc-4597-923a-4d1b4bd6c9fa
+   -> Many unofficial mirrors found (Scribd, Leicestershire/Wealden/North Warwickshire councils, divio-media, NBS) -- IGNORED per rules (official source only).
+2. WebFetch of search page -> JS-rendered, no direct PDF in HTML.
+3. WebSearch surfaced official attachment URL pattern: /tses/attachments/<GUID>.
+4. DOWNLOAD: curl https://www.standardsforhighways.co.uk/tses/attachments/c27c55b7-2dfc-4597-923a-4d1b4bd6c9fa
+   -> CD109_Highway_link_design.pdf, exit 0, 2185829 bytes.
+   VALIDATE -> {"ok": true, "is_pdf": true, "bytes": 2185829, "pages": 105, "sha256": "a40d5e7e65894aaed5e16e17a01e931aacd9c5876e04c2453ab9aa4d29bd3e59"}
+   Content check: cover = "CD 109 Highway link design (formerly TD 9/93, TD 70/08) Revision 1 ... published: Mar-2020", footer "Downloaded from https://www.standardsforhighways.co.uk".
+   RESULT: RETRIEVED (current in-force edition).
+
+=== RELATED CD 127 Cross-sections and headrooms ===
+5. WebSearch -> official attachment https://www.standardsforhighways.co.uk/tses/attachments/10442706-b592-42c8-85f8-2a0c779a8e37
+   DOWNLOAD curl -> CD127_Cross-sections_and_headrooms.pdf, exit 0, 3131713 bytes.
+   VALIDATE -> {"ok": true, "is_pdf": true, "bytes": 3131713, "pages": 105, "sha256": "058514e745335237028dfd509245da07ba6281c62fe703aac81a9f3fbc026a37"}
+   Content check: cover = "CD 127 Cross-sections and headrooms (formerly TD 27/05, TD 70/08) Version 1.0.1". RETRIEVED.
+
+=== RELATED CD 116 Geometric design of roundabouts ===
+   (Brief mentioned "CD 122 roundabouts" but CD 122 = Geometric design of grade separated junctions.
+    Correct roundabouts standard is CD 116; retrieved CD 116 instead.)
+6. WebSearch -> official attachment https://www.standardsforhighways.co.uk/tses/attachments/7b5ea157-9b3e-4774-9781-7d1656e83338
+   DOWNLOAD curl -> CD116_Geometric_design_of_roundabouts.pdf, exit 0, 18614304 bytes.
+   VALIDATE -> {"ok": true, "is_pdf": true, "bytes": 18614304, "pages": 226, "sha256": "5bac60a467dc85ca35abdc614a2c5473fc837b13ba7fa2f618586061a3100030"}
+   Content check: cover = "CD 116 Geometric design of roundabouts (formerly TD 16/07, ...) Version 2.1.0". RETRIEVED.
+
+All files from official National Highways portal standardsforhighways.co.uk. No purchases/checkouts. No unofficial re-hosts kept.

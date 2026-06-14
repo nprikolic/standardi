@@ -1,0 +1,9 @@
+CAN — TAC Geometric Design Guide for Canadian Roads — purchase verification log
+Date: 2026-06-14
+
+URLs checked:
+- WebSearch: "TAC Geometric Design Guide ... PKG-GEODES" -> package PKG-GEODES17B-E, Regular CAD $749 / Member CAD $575, student e-book $225.
+- WebFetch: https://www.tac-atc.ca/en/knowledge-centre/technical-resources-search/publications/pkg-geodes17b-e/ -> confirmed title "PACKAGE: Geometric Design Guide for Canadian Roads (GDG), Chapters 1 to 11 (2017, 2020)", code PKG-GEODES17B-E, prices CAD, individual chapters $59-$69 member / $75-$89 regular.
+- curl HEAD: TAC publication URL -> HTTP 403 (Cloudflare/bot-block from env). Page nonetheless reachable/parseable via WebFetch.
+
+Outcome: PAYWALLED. Edition 2017 (Ch.11 2020). No free official edition. Did NOT add to cart / did NOT download.

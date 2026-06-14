@@ -1,0 +1,42 @@
+{
+  "file": "shgdm-appendix-a-b.pdf",
+  "iso3": "NZL",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 1,
+      "count": 20
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 1,
+      "count": 26
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 3,
+      "count": 4
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 2,
+      "count": 19
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 4,
+      "count": 16
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 5,
+      "count": 9
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 21,
+  "notes": "",
+  "refetch_hint": ""
+}

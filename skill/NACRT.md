@@ -1,0 +1,37 @@
+# NACRT skilla — status i šta dalje
+
+Ovo je **draft (v0.1)** skilla `world-road-design-standards`, napravljen po odluci „samo korpus + nacrt skilla".
+Pun build (normalizovana baza vrednosti, indeks, evaluacija, analiza SRB) dolazi kasnije — vidi `../TODO.md`.
+
+## Šta je GOTOVO u nacrtu
+- [x] `SKILL.md` — opis/trigeri (SR+EN), workflow, format, ograničenja
+- [x] `reference/concept-taxonomy.md` — 9 pojmova (6 osnovnih + WEAVING, MERGE_DIVERGE, INTERCHANGE) + SR/HR/SL termini
+- [x] `reference/glossary.json` — višejezični termini (11 jezika + sr/hr/sl/de) za retrieval
+- [x] `reference/standards-index.md` — inventar korpusa mapiran na pojmove (+ šta nedostaje)
+- [x] `reference/answer-format.md` — format odgovora + 2 kanonska primera (weaving, vitoperenje)
+- [x] `scripts/search.py` — **funkcionalna v0 pretraga** uživo nad korpusom (pdftotext + višejezični termini, keš)
+- [x] Demo provereno: `--concept WEAVING` nalazi GBR CD122 (170), IRL DN-GEO-03035/60, ESP trenzado, KOR 엇갈림, CHN
+
+## Šta OSTAJE (kasnije, na poseban zahtev)
+- [ ] **Korpus**: ubaciti 👤 SRB/HRV/SLO; rešiti MEX/AUS (needs_manual); OCR za BRA IPR-706 i CHN; nabaviti plaćene
+- [ ] **Faza 1**: ekstrakcija teksta po stranama u `corpus/text/`, OCR, normalizacija jedinica u SI, full-text indeks (FTS5)
+- [ ] **Faza 2**: dopuniti glosar/ontologiju kroz evaluaciju (sinonimi, inflekcija)
+- [ ] **Faza 3**: `kb/<id>.yaml` fact-sheets (normalizovane vrednosti + citat) i `kb/compare/<pojam>.md` matrice
+- [ ] **Faza 5**: `eval/questions.yaml` banka pitanja + merenje retrieval/tačnosti
+- [ ] **Faza 6**: `ANALIZA_SRB.md` — najproblematičnije tačke srpskog standarda + predlozi prema svetu (cilj projekta)
+- [ ] Zameniti `search.py` v0 indeksiranom pretragom; dodati pretragu nad `kb/` vrednostima
+
+## Kako se koristi sada (v0)
+```
+cd skill/scripts
+python search.py --list-concepts
+python search.py --concept WEAVING
+python search.py --concept SUPERELEVATION --iso3 ESP
+python search.py --grep "vitoperenje"
+```
+Skill čita reference fajlove i koristi `search.py` da nađe tačne strane, pa sastavlja uporedni odgovor sa citatima.
+
+## Poznata ograničenja v0
+- Nema normalizovanih vrednosti — broj uvek potvrditi na citiranoj strani.
+- Skenirani dokumenti se ne pretražuju (NEEDS_OCR).
+- Plaćeni/nedostajući standardi nisu pokriveni — za njih reci da nedostaju.

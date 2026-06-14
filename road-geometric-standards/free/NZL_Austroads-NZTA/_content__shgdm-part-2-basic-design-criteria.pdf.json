@@ -1,0 +1,42 @@
+{
+  "file": "shgdm-part-2-basic-design-criteria.pdf",
+  "iso3": "NZL",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 4,
+      "count": 88
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 11,
+      "count": 104
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 8,
+      "count": 39
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 7,
+      "count": 25
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 1,
+      "count": 59
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 1,
+      "count": 27
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 33,
+  "notes": "",
+  "refetch_hint": ""
+}
