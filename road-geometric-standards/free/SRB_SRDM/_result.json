@@ -1,0 +1,16 @@
+{
+  "iso3": "SRB",
+  "country": "Serbia",
+  "standard": "SRDM Serbian Road Design Manual (SRDM4-0 + 5-1/5-2/5-3, JP Putevi Srbije 2012)",
+  "issuer": "JP Putevi Srbije",
+  "status": "free",
+  "result": "retrieved",
+  "source_url": "https://www.putevi-srbije.rs/images/pdf/harmonizacija/prirucnik_za_projektovanje_puteva/SRDM4-0-projektni-elementi-puta(120506-srb-konacni).pdf",
+  "file": "SRDM4-0-projektni-elementi-puta.pdf",
+  "sha256": "987cbab28dce8fb3ad4995ddc3dd77494d935de12e8f1303b542871f4271ba95",
+  "bytes": 3320048,
+  "pages": 116,
+  "price": "",
+  "store_url": "",
+  "notes": "All 4 free SRDM parts retrieved from official putevi-srbije.rs and validated ok=true. (1) SRDM4-0 Projektni elementi puta [PRIMARY] - SRDM4-0-projektni-elementi-puta.pdf, 116pp, 3320048 bytes, sha256=987cbab28dce8fb3ad4995ddc3dd77494d935de12e8f1303b542871f4271ba95, src=https://www.putevi-srbije.rs/images/pdf/harmonizacija/prirucnik_za_projektovanje_puteva/SRDM4-0-projektni-elementi-puta(120506-srb-konacni).pdf . (2) SRDM5-1 Raskrsnice i prikljuci u nivou - SRDM5-1-raskrsnice-i-prikljuci-u-nivou.pdf, 41pp, 986865 bytes, sha256=7db086a820668b224df7bd6d146c81c3089e83afd26aa9439a50c327378e6fa2, src=https://www.putevi-srbije.rs/images/pdf/harmonizacija/prirucnik_za_projektovanje_puteva/SRDM5-1-raskrsnice-i-prikljuci-u-nivou(120427-srb-konacni).pdf . (3) SRDM5-2 Denivelisane raskrsnice - SRDM5-2-denivelisane-raskrsnice.pdf, 42pp, 1171495 bytes, sha256=49dc4820202ed0ff0dfdbd426b3039f7309296f5bb9a0f6520dfc5bce6b7492d, src=https://www.putevi-srbije.rs/images/pdf/harmonizacija/prirucnik_za_projektovanje_puteva/SRDM5-2-denivelisane-raskrsnice(120505-srb-konacna).pdf . (4) SRDM5-3 Kruzne raskrsnice (roundabouts) - SRDM5-3-kruzne-raskrsnice.pdf, 66pp, 1823136 bytes, sha256=00bc6ace2ee4845f2f28454c8967213f5d3d83af08156f31c1513c5f2c4a9eae, src=https://www.putevi-srbije.rs/images/pdf/harmonizacija/prirucnik_za_projektovanje_puteva/SRDM5-3-kruzne-raskrnice(120427-srb-konacni).pdf . Note: SRDM5-3 source filename uses spelling 'kruzne-raskrnice' on the server; saved locally as SRDM5-3-kruzne-raskrsnice.pdf. Official source only (putevi-srbije.rs), no mirrors. Companion design manual to binding Pravilnik 50/11 (already held under free/SRB_Pravilnik-50-11)."
+}

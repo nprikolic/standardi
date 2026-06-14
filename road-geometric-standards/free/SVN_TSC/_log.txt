@@ -1,0 +1,64 @@
+SVN download worker log
+date: 2026-06-14
+country: SVN (Slovenia)
+task: fill FREE gaps - TSC geometric specs (03.300, 03.200, 03.341). Official gov.si/DRSI only. No purchases.
+
+STEP 1 - audit _audit/SVN.json
+  missing[] free entries:
+    - TSC 03.300:2002 Geometrijski elementi osi ceste in vozisca  (free)
+    - TSC 03.200:2003 Temeljni pogoji za dolocanje cestnih elementov (free)
+    - TSC 03.341:2011 Krozna krizisca (+ TSPI-PCPV-PGV.03.245:2023 spiral roundabouts) (free)
+  audit WARNING: 03.200/03.300 full text mainly on non-official mirrors; fetch only from gov.si/DRSI.
+
+STEP 2 - resolve official PDFs on gov.si (DRSI)
+  - gov.si human-readable catalog https://www.gov.si/zbirke/storitve/tehnicne-specifikacije-za-javne-ceste/
+      -> first HTTP 503, then redirects to wrong org (uprava-za-jedrsko-varnost) and 404. Slug appears broken/moved.
+  - DRSI organ landing page https://www.gov.si/drzavni-organi/organi-v-sestavi/direkcija-za-infrastrukturo/ -> HTTP 200 (live). No direct catalog link surfaced.
+  - Canonical asset directory: https://www.gov.si/assets/organi-v-sestavi/DRSI/Dokumenti-DRSI/Tehnicne-specifikacije/ (directory listing disabled; individual assets resolve).
+
+  TSC 03.341:2011
+    curl -L -A "Mozilla/5.0" --fail-with-body -> HTTP 200, application/pdf, 1711009 bytes
+    URL: https://www.gov.si/assets/organi-v-sestavi/DRSI/Dokumenti-DRSI/Tehnicne-specifikacije/TSC_03_341_2011_Krozna_krizisca.pdf
+
+  TSPI-PCPV-PGV.03.245 (spiral roundabouts, audit authoritative_set)
+    HTTP 200, application/pdf, 2145539 bytes
+    URL: .../Tehnicne-specifikacije/TSPI-PCPV-PGV.03.245-Krozna-krizisca-s-spiralnim.pdf
+
+  TSPI-PCPV-PGV.03.244 (roundabouts, newer DRSI guideline - companion to 03.245)
+    HTTP 200, application/pdf, 3523814 bytes
+    URL: .../Tehnicne-specifikacije/TSPI-PCPV-PGV.03.244-Krozna-krizisca.pdf
+
+  TSC 03.300:2002 - NOT FOUND on gov.si
+    Probed >9 filename variants in main + Ukinjene-TSC subfolder, ALL HTTP 404. Examples:
+      TSC_03_300_2002_Geometrijski_elementi_osi_ceste_in_vozisca.pdf -> 404
+      TSC_03_300_Geometrijski_elementi_cestne_osi_in_vozisca.pdf -> 404
+      TSC_03_300_2002.pdf / TSC_03_300.pdf -> 404 (both subfolders)
+    Web full text only on non-official mirrors (wordpress / fpp.uni-lj.si / scribd) -> NOT downloaded (forbidden).
+    DECISION: needs_manual.
+
+  TSC 03.200:2003 - NOT FOUND on gov.si
+    Probed variants in main + Ukinjene-TSC, ALL HTTP 404. Examples:
+      TSC_03_200_2003_Temeljni_pogoji_za_dolocanje_cestnih_elementov.pdf -> 404
+      TSC_03_200_Temeljni_pogoji.pdf / TSC_03_200.pdf -> 404 (both subfolders)
+    Only mirror found: gradbenik.wordpress.com/wp-content/uploads/2008/07/tsc_03_200.pdf (non-official) -> NOT downloaded.
+    DECISION: needs_manual.
+
+STEP 3 - validate (validate_pdf.py, ok=true required)
+  TSC_03_341_2011_Krozna_krizisca.pdf            -> ok=true is_pdf=true bytes=1711009 pages=39  sha256=c3cf3357189e166a90d6ef91989318c8619810c677a5e1c6383a3e76d72699b5
+  TSPI-PCPV-PGV.03.244-Krozna-krizisca.pdf       -> ok=true is_pdf=true bytes=3523814 pages=60  sha256=7c90635f9d1b52ca9cee752cef27006005e41f08496f29ad49872966609bfce9
+  TSPI-PCPV-PGV.03.245-Krozna-krizisca-s-spiralnim.pdf -> ok=true is_pdf=true bytes=2145539 pages=30  sha256=fe37d67ee9d22fe694f113b1c9c792b2fcf2e58fadc21163633d231973daf867
+  No HTML/login/0-byte files; nothing deleted.
+
+STEP 4 - placed in free/SVN_TSC/
+  TSC_03_341_2011_Krozna_krizisca.pdf
+  TSPI-PCPV-PGV.03.244-Krozna-krizisca.pdf
+  TSPI-PCPV-PGV.03.245-Krozna-krizisca-s-spiralnim.pdf
+
+STEP 5 - _result.json written (primary = TSC 03.341:2011). result=retrieved (3 of 5 obtained).
+
+OUTCOME
+  RETRIEVED (official, validated): TSC 03.341:2011, TSPI 03.244, TSPI 03.245 - covers roundabout geometry gap.
+  NEEDS_MANUAL: TSC 03.300:2002 and TSC 03.200:2003 - the core geometric-VALUE tables / sight-distance basis are
+  NOT officially downloadable from gov.si (404 across all probed filenames; only non-official mirrors exist).
+  This confirms the audit's explicit warning. Manual acquisition required via DRSI (organ page / direct contact)
+  or via the pisrs.si Odredba ODRE2143 confirmed-TSC list.

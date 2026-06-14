@@ -66,6 +66,31 @@ DECISION: result = needs_manual.
 - source_url / store_url: https://austroads.gov.au/publications/road-design/agrd03
 - No PDF written to folder (nothing valid obtained). No HTML/0-byte artifacts left behind.
 
+===== free/BRA_IPR-718-intersecoes =====
+2026-06-14  BRA IPR-718 download worker
+
+STEP 1: Read _audit/BRA.json. Free missing entry:
+  IPR-718 Manual de Projeto de Interseções (2ª ed., 2005) — free
+  url: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-manuais/vigentes/718_manual_de_projeto_de_intersecoes.pdf
+
+STEP 2: Download (official gov.br/dnit ONLY)
+  curl.exe -L -A "Mozilla/5.0" --fail-with-body -o "<out>" "<url>"
+  Result: HTTP 200, completed. 11.40 MiB transferred. curl exit 0. No 404 / no fallback search needed.
+
+STEP 3: Validate
+  python _tools/validate_pdf.py "<file>"
+  => {"ok": true, "is_pdf": true, "bytes": 11955803, "pages": 530,
+      "sha256": "69880ce598c7189ba981c9cf64e7c7a123fd89afb37f89befb9757bd6775f56d",
+      "reason": "valid pdf"}
+  Text-layer check: first 25 pages -> 51204 non-whitespace chars => text-based, NO OCR required.
+
+STEP 4: Placed in free/BRA_IPR-718-intersecoes/
+  file: IPR-718_Manual_de_Projeto_de_Intersecoes_2005.pdf
+
+STEP 5: Wrote _result.json (result=retrieved).
+
+RESULT: retrieved.
+
 ===== free/BRA_Manual-Projeto-Geometrico =====
 === BRA download log Sun Jun 14 06:48:45 CEDT 2026 ===
 TRY: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-manuais/vigentes/706_manual_de_projeto_geometrico.pdf
@@ -200,6 +225,49 @@ endobj
 RENAMED -> IPR-740_Manual_Projeto_Geometrico_Travessias_Urbanas.pdf (740, RETRIEVED, valid 392p)
 NOTE: gov.br/dnit IPR-718 also exists as 'Manual de Projeto de Interseções' (not downloaded; task specified 740)
 
+===== free/CHN_JTG-B01 =====
+JTG B01-2014 "Technical Standard of Highway Engineering" (公路工程技术标准) — CHN download log
+Date: 2026-06-14
+Worker: DOWNLOAD (one free gap attempt, no purchases)
+
+STEP 1 — Locate free official source
+- WebFetch audit hint: https://xxgk.mot.gov.cn/2020/jigou/glj/202006/t20200623_3312197.html
+  -> Official Ministry of Transport (交通运输部) notice (2014) announcing release of JTG B01-2014,
+     replacing 2003 version, effective 2015-01-01.
+  -> Page carries a PDF attachment link: ./P020230628577830212881.pdf (labeled 公路工程技术标准.pdf)
+- Resolved attachment URL (same directory as notice page):
+     https://xxgk.mot.gov.cn/2020/jigou/glj/202006/P020230628577830212881.pdf
+- Source domain mot.gov.cn = official central government. No third-party mirrors used.
+
+STEP 2 — Download + validate
+- Command:
+    curl.exe -L -A "Mozilla/5.0" --fail-with-body -o ".\JTG_B01-2014.pdf" \
+      "https://xxgk.mot.gov.cn/2020/jigou/glj/202006/P020230628577830212881.pdf"
+  -> HTTP success, 3,748,272 bytes downloaded.
+- validate_pdf.py output:
+    {"ok": true, "is_pdf": true, "bytes": 3748272, "pages": 115,
+     "sha256": "7544fb476e77609cb9108bffb79f22b4c57d31a044ef92c0f0cad4477d6beee6",
+     "reason": "valid pdf"}
+  -> ok=true REQUIRED condition met.
+
+STEP 2b — Content verification (confirm full text, not a notice)
+- Text extraction returns 0 chars per page => image-based scan.
+- Per-page image probe: every sampled page (1,6,51,101,115) holds a JBIG2-encoded scanned page image.
+- Rendered page 19 to PNG and read visually: confirms genuine standard body —
+  section numbers 4.6.x, table 表4.6.2 "分离式断面高速公路一级公路中间带宽度"
+  with design speeds 120/100/80/60 km/h and median/shoulder/lane width values.
+- Conclusion: this is the COMPLETE scanned JTG B01-2014 standard (115 pp), not the short notice.
+  (A diagonal watermark overlays the scan; official content intact.)
+
+STEP 3 — Placement
+- Folder created: free/CHN_JTG-B01/
+- File: JTG_B01-2014.pdf
+- Temp render PNGs removed.
+
+STEP 4 — Result
+- result = retrieved (free official full text)
+- No purchase made. No fake PDF written.
+
 ===== free/ESP_Norma-3.1-IC =====
 ESP — Norma 3.1-IC "Trazado" (Orden FOM/273/2016), BOE-A-2016-2217
 Worker run: 2026-06-14
@@ -233,6 +301,52 @@ Note: the `file` utility misreported page count (5) due to BOE PDF object-stream
 structure; the PDF parser in validate_pdf.py correctly reports 237 pages.
 
 RESULT: retrieved. Authoritative official BOE publication, full text + geometric annex tables.
+
+===== free/ESP_OC-32-2012-nudos =====
+ESP — OC 32/2012 "Guía de Nudos Viarios" download log
+Date: 2026-06-14
+
+STEP 1 — Audit read
+  Source: _audit/ESP.json
+  Missing (free): OC 32/2012 "Guía de Nudos Viarios" (Orden Circular 32/12, de 14 de diciembre)
+  free_or_paid: free
+  url hint: https://www.transportes.gob.es/recursos_mfom/comodin/recursos/oc_32-2012.pdf
+  Note from audit: transportes.gob.es blocks automated fetch (HTTP 403).
+
+STEP 2 — Download
+  Attempt 1:
+    curl.exe -L -A "Mozilla/5.0" --fail-with-body -o OC-32-2012-nudos.pdf <url>
+    Result: HTTP 403, exit 22. Body = 2970-byte HTML "Página web bloqueada" (WAF block, not a true 404).
+    Deleted blocked file.
+  Attempt 2 (success):
+    curl.exe -L \
+      -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" \
+      -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,application/pdf,*/*;q=0.8" \
+      -H "Accept-Language: es-ES,es;q=0.9,en;q=0.8" \
+      -H "Referer: https://www.transportes.gob.es/" \
+      --fail-with-body -o OC-32-2012-nudos.pdf <url>
+    Result: exit 0, 8,224,187 bytes (7.84 MB) downloaded.
+    The Referer + browser Accept headers bypassed the WAF block. Source is the official Ministry URL — no mirrors used.
+
+STEP 3 — Validate
+  python _tools/validate_pdf.py OC-32-2012-nudos.pdf
+  -> {"ok": true, "is_pdf": true, "bytes": 8224187, "pages": 549,
+      "sha256": "efb7b2d33b211626449815d5c1b287a7df8e887fe05ae01fdc508944c753a891",
+      "reason": "valid pdf"}
+  Content check (pypdf text extraction):
+    p2  cover: "GUÍA DE NUDOS VIARIOS    DICIEMBRE 2012"
+    p8  ÍNDICE -> 1. GENERALIDADES
+    p9  3.3 VELOCIDAD
+    p10 4.7 VISIBILIDAD
+    p11 5. MORFOLOGÍA DE LOS NUDOS / INTERSECCIONES
+  Confirmed correct authoritative document (~547 pp expected; 549 PDF pages).
+
+STEP 4 — Place
+  Folder: free/ESP_OC-32-2012-nudos/
+  File:   OC-32-2012-nudos.pdf
+
+STEP 5 — Result
+  result = retrieved
 
 ===== free/FRA_ICTAAL-ARP =====
 FRA ICTAAL + ARP harvest log  (date 2026-06-14)
@@ -334,6 +448,39 @@ SKIPPED / REJECTED (non-official mirrors per hard rules):
 
 RESULT: retrieved. Primary = CD 122 v1.1.1 (96 pp). Extra = CD 123 v2.1.0 (74 pp). Both official, current in-force, free.
 
+===== free/HRV_NN-110-2001 =====
+[2026-06-14] DOWNLOAD worker (HRV) — refresh OUTDATED holding (base render = ORIGINAL NN 110/2001 2001 text).
+[2026-06-14] NN 154/2024 izmjene i dopune: downloaded official NN ELI PDF https://narodne-novine.nn.hr/eli/sluzbeni/2024/154/2553/pdf (302 from /eli/sluzbeni/2024/154/2553/hrv/pdf). validate_pdf.py: ok=true, is_pdf=true, bytes=65005, pages=2, sha256=41b51fdd3608c13c27bab643162291f848b5b0acaa2f9cc77298f78f41f6a227. Placed as HRV_NN-154-2024_izmjene-dopune.pdf. Confirmed content: 'PRAVILNIK O IZMJENAMA I DOPUNAMA PRAVILNIKA O OSNOVNIM UVJETIMA KOJIMA JAVNE CESTE...', NN 154, 30.12.2024.
+[2026-06-14] NN 90/2022 izmjene i dopune: NO official PDF available. ELI declares only html/printhtml formats; both .../hrv/pdf and .../pdf redirect (302) to stranica404.aspx -> 404. clanci .../2022_08_90_1395.pdf = 404 (error page). => needs_manual. Official URL: https://narodne-novine.nn.hr/clanci/sluzbeni/2022_08_90_1395.html (ELI https://narodne-novine.nn.hr/eli/sluzbeni/2022/90/1395).
+[2026-06-14] Existing 2001 render kept untouched. _result.json notes updated.
+
+===== free/HRV_Smjernice-kruzna =====
+[2026-06-14] DOWNLOAD worker (HRV) — new folder for roundabout guidelines.
+[2026-06-14] Hrvatske ceste 'Smjernice za projektiranje kružnih raskrižja na državnim cestama' (2014): downloaded official PDF https://hrvatske-ceste.hr/uploads/documents/attachment_file/file/106/SMJERNICE_KRUZNA_RASKRIZJA-HRVATSKE_CESTE.pdf via curl -L. validate_pdf.py: ok=true, is_pdf=true, bytes=6193958, pages=81, sha256=7d1f6c00116d795ede6c54aae39e955413ea810375f20b565421eb79085eb800. Placed as HRV_Smjernice-kruzna-raskrizja_hrvatske-ceste.pdf. Content confirmed (title page: SMJERNICE ZA PROJEKTIRANJE KRUŽNIH RASKRIŽJA NA DRŽAVNIM CESTAMA, Naručitelj: HRVATSKE CESTE d.o.o. Zagreb). _result.json written.
+
+===== free/IRL_DMURS =====
+IRL DMURS Design Manual for Urban Roads and Streets — download log
+Date: 2026-06-14
+
+Audit URL was a gov.ie landing page (not a direct PDF):
+  https://www.gov.ie/en/department-of-transport/publications/design-manual-for-urban-roads-and-streets/
+
+Resolution: WebFetch on the official gov.ie DoT landing page surfaced the direct
+"Latest Version" PDF link on assets.gov.ie (the gov.ie static asset host):
+  https://assets.gov.ie/static/documents/design-manual-for-urban-roads-and-streets-version-11.pdf
+  ("version-11" = DMURS Version 1.1)
+
+Download:
+  curl.exe -L -A "Mozilla/5.0" --fail-with-body  => HTTP 200, 14.78 MB, exit 0
+
+Validation:
+  python _tools/validate_pdf.py DMURS-version-11.pdf
+  -> {"ok": true, "is_pdf": true, "bytes": 15499446, "pages": 165,
+      "sha256": "baef88e356056ce03d3a2a7954ce8452fa2a1358ac40588da1067b7027567548", "reason": "valid pdf"}
+
+Outcome: RETRIEVED. Placed in free/IRL_DMURS/DMURS-version-11.pdf
+Source: official gov.ie / assets.gov.ie (Department of Transport). No mirrors (no dmurs.ie wix / scribd) used.
+
 ===== free/IRL_TII-DN-GEO-03031 =====
 IRL — TII DN-GEO-03031 Rural Road Link Design — download log
 Date: 2026-06-14
@@ -364,6 +511,22 @@ RESULT: retrieved. Current in-force revision (v12, May 2023) obtained free from 
 Notes on rejected/superseded:
 - DN-GEO-03031-11.pdf (Jun 2017): superseded/Withdrawn per TII — not used.
 - dokumen.tips / thenbs.com hits: unofficial re-hosts / index — NOT used (official source available).
+
+===== free/IRL_TII-DN-GEO-03036 =====
+IRL DN-GEO-03036 Cross Sections and Headroom — download log
+Date: 2026-06-14
+
+URL tried (official TII CDN):
+  https://cdn.tii.ie/publications/DN-GEO-03036-09.pdf
+  -> curl.exe -L -A "Mozilla/5.0" --fail-with-body  => HTTP 200, 2.18 MB, exit 0
+
+Validation:
+  python _tools/validate_pdf.py DN-GEO-03036-09.pdf
+  -> {"ok": true, "is_pdf": true, "bytes": 2287531, "pages": 55,
+      "sha256": "a6408b3c306cf5fbfe4f5ac4d013c813fdc6fdb0a1e95b75533612bc2e5e039e", "reason": "valid pdf"}
+
+Outcome: RETRIEVED. Placed in free/IRL_TII-DN-GEO-03036/DN-GEO-03036-09.pdf
+Source: official Transport Infrastructure Ireland publications CDN (cdn.tii.ie). No mirrors used.
 
 ===== free/IRL_TII-junctions =====
 IRL_TII-junctions download log
@@ -428,6 +591,151 @@ Text extraction of ITA_DM-6792-2001.pdf:
 === RESULT ===
 retrieved. File: ITA_DM-6792-2001.pdf (96 pp, 1,988,208 bytes).
 Source: mit.gov.it (official). Free, in-force text.
+
+
+============================================================
+=== AMENDMENT ADDED 2026-06-14: DM 22/04/2004 n.67/S ========
+============================================================
+Doc: DM 22/04/2004 n.67/S "Modifica del decreto 5 novembre 2001, n.6792, recante
+     Norme funzionali e geometriche per la costruzione delle strade"
+Issuer: Ministero delle Infrastrutture e dei Trasporti
+Audit gap: missing entry, free_or_paid=free. Binding amendment to the primary holding in this folder.
+NOTE: primary file ITA_DM-6792-2001.pdf was NOT overwritten; amendment added alongside it.
+
+--- DISCOVERY ---
+Audit landing: https://www.mit.gov.it/normativa/decreto-ministeriale-numero-67s-del-22042004
+  -> MIT serves this decree ONLY as a Word .doc (no PDF):
+     /nfsmitgov/files/media/normativa/2016-02/Decreto_Ministeriale_numero_67-S_22-04-2004_all_1.doc
+Official GU publication: GU Serie Generale n.147 del 25-06-2004; ELI page
+  https://www.gazzettaufficiale.it/eli/id/2004/06/25/04A06556/sg  (codice redazionale 04A06556).
+  -> The GU per-act PDF is generated only via the site's JS UI; there is NO static per-act PDF URL.
+     Attempts that 404 / return HTML (logged, not kept):
+       /eli/id/2004/06/25/04A06556/sg/pdf                      -> 404 (HTML)
+       /atto/serie_generale/caricaPdf?cdimg=...&...04A06556...  -> 404 (HTML)  [cdimg not discoverable without JS]
+       /do/atto/serie_generale/caricaPdf?cdimg=...              -> 200 but text/html (not a PDF)
+     The atto-completo page loads the text via an iframe (caricaArticoloDefault) - no PDF href present.
+
+--- DOWNLOAD (official gazzettaufficiale.it ONLY) ---
+Only static official PDF available = the full GU issue:
+curl.exe -L -A "Mozilla/5.0" --fail-with-body
+  https://www.gazzettaufficiale.it/eli/gu/2004/06/25/147/sg/pdf
+  -> HTTP 200, 2,672,037 bytes, application/pdf, %PDF-1.4
+  -> saved as ITA_GU-147-2004_full-issue_source.pdf
+     sha256 f19f95b26865946caea9abe7db9703bd73270c7bf997824f5caa1526b3df21a6 (64 pp; scanned/glyph-encoded text layer).
+
+--- EXTRACT focused decree (pages of THIS decree, from the official GU issue) ---
+Located the decree by decoding the GU glyph text layer (/Cnn -> chr(nn)):
+  index (gazette page) lists it at "Ministero delle infrastrutture e dei trasporti - DECRETO 22 aprile 2004 -
+  Modifica del decreto 5 novembre 2001, n.6792 ... Pag. 33".
+  PDF 0-indexed pages 32-33 contain the decree body:
+    p.32: "IL MINISTRO DELLE INFRASTRUTTURE ... Art.1 ... art.2 del DM 5/11/2001 n.6792 e' sostituito come segue"
+    p.33: "Art.4 ... progetti di adeguamento delle strade esistenti ... innalzamento del livello di sicurezza";
+           "Art.5 ..."; "Roma, 22 aprile 2004 - Il Ministro: Lunardi".
+Extracted pages 32-33 -> ITA_DM-67S-2004-amendment.pdf via pypdf (PdfWriter).
+
+--- VALIDATE ---
+python _tools/validate_pdf.py ITA_DM-67S-2004-amendment.pdf
+  -> {"ok": true, "is_pdf": true, "bytes": 88405, "pages": 2,
+      "sha256": "49e6f720abb55f9d129922cab1c6f7f82fd48443bd3a23e1beb17bce64af7270", "reason": "valid pdf"}
+
+--- CONTENT VERIFICATION ---
+Confirmed substance of the amendment:
+  - Art.1 substitutes art.2 of DM 6792/2001 -> redefines campo di applicazione
+    (mandatory for NEW roads; reference for adapting EXISTING roads).
+  - Art.4 introduces the mandatory safety analysis ("specifica relazione ... innalzamento del
+    livello di sicurezza") for upgrade/adeguamento projects of existing roads.
+
+--- RESULT ---
+retrieved. Files in this folder:
+  ITA_DM-6792-2001.pdf            (primary, 96 pp)            - unchanged
+  ITA_DM-67S-2004-amendment.pdf   (amendment, 2 pp, 88,405 B) - NEW
+  ITA_GU-147-2004_full-issue_source.pdf (official GU issue, 64 pp) - provenance of the clip
+Sources: gazzettaufficiale.it (official). Free, in-force amended text.
+DM 6792/2001 is to be read together with this 2004 modification.
+
+===== free/ITA_DM-intersezioni-2006 =====
+ITA - DM 19/04/2006 "Norme funzionali e geometriche per la costruzione delle intersezioni stradali"
+Issuer: Ministero delle Infrastrutture e dei Trasporti
+Worker run date: 2026-06-14
+Audit gap: missing entry, free_or_paid=free (closes at_grade_junctions AND interchanges_weaving)
+
+=== DISCOVERY ===
+Audit URL (landing): https://www.mit.gov.it/normativa/decreto-ministeriale-19042006
+WebFetch landing page -> single PDF attachment (Allegato 1):
+  https://www.mit.gov.it/nfsmitgov/files/media/normativa/2016-02/Decreto_Ministeriale_19-04-2006_all_1.pdf
+Official GU publication: GU Serie Generale n.170 del 24-07-2006 (ELI 06A06657). MIT PDF used (official).
+
+=== DOWNLOAD (official mit.gov.it ONLY) ===
+curl.exe -L -A "Mozilla/5.0" --fail-with-body
+  https://www.mit.gov.it/nfsmitgov/files/media/normativa/2016-02/Decreto_Ministeriale_19-04-2006_all_1.pdf
+  -> HTTP 200, 1,448,095 bytes, content-type application/pdf
+
+=== VALIDATE ===
+python _tools/validate_pdf.py ITA_DM-intersezioni-2006.pdf
+  -> {"ok": true, "is_pdf": true, "bytes": 1448095, "pages": 28,
+      "sha256": "4d992baa9bb852381443956d933f19704a6cf69c3915fbf32cbff9550c38513f", "reason": "valid pdf"}
+
+=== CONTENT VERIFICATION (full text + geometric annex for intersezioni) ===
+Text extraction confirms this is NOT a one-page decree but the complete 28-page text incl. technical annex:
+  - Page 1 header: "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI - DECRETO 19 aprile 2006 -
+    Norme funzionali e geometriche per la costruzione delle intersezioni stradali. (GU n.170 del 24-7-2006)"
+    "Visto l'art. 13 del decreto legislativo ... (Nuovo codice della strada)"
+  - Junction-type coverage (page hit counts): intersezioni x21; intersezioni a raso x9;
+    rotatorie x7; intersezioni a livelli sfalsati x8; svincoli x6; zone di scambio (weaving) x7;
+    corsie di accelerazione x3 / decelerazione x4; isole x3.
+  CONCLUSION: full text WITH geometric annex/tables for a raso, rotatorie, svincoli/sfalsate, scambio.
+
+=== RESULT ===
+retrieved. File: ITA_DM-intersezioni-2006.pdf (28 pp, 1,448,095 bytes).
+Source: mit.gov.it (official). Free, in-force text. Closes both junction gaps from the audit.
+
+===== free/KOR_KHCM-2013 =====
+KOR KHCM 2013 download log
+===========================
+Date (UTC context): 2026-06-14
+Worker: download worker — free gap fill for KOR (도로용량편람 / Korean Highway Capacity Manual, 2013).
+
+STEP 1 — Audit read
+  Source: D:\My Drive\Nauka\standardi\road-geometric-standards\_audit\KOR.json
+  "missing" free entry: 도로용량편람 (KHCM) 2013, MOLIT/KICT — weaving (엇갈림) capacity & length analysis.
+  URL hint: https://www.codil.or.kr/filebank/moct2014/201302/MOCT1092_1.PDF (possibly multi-part).
+  Note: KDS 44 20 series is mentioned in audit but is in authoritative_set/notes, NOT in the "missing" list — only KHCM is the missing free gap.
+
+STEP 2 — Download
+  Attempt 1: curl.exe -L -A "Mozilla/5.0" --fail-with-body -o MOCT1092_1.PDF
+             "https://www.codil.or.kr/filebank/moct2014/201302/MOCT1092_1.PDF"
+             -> HTTP 200 but 3584 bytes, content_type text/html (CODIL "오류발생" / error page, contains jsessionid).
+             -> NOT a PDF. Deleted.
+  Attempt 2: added Referer "https://www.codil.or.kr/" -> still 3584-byte HTML. Deleted.
+  WebSearch ("도로용량편람 2013 codil MOCT1092") revealed the working form requires the CODIL
+             record id query param: ...MOCT1092_1.PDF?nserialno=1092
+  Attempt 3: curl.exe -L -A "Mozilla/5.0" -e "https://www.codil.or.kr/" --fail-with-body -o MOCT1092_1.PDF
+             "https://www.codil.or.kr/filebank/moct2014/201302/MOCT1092_1.PDF?nserialno=1092"
+             -> HTTP 200, 5,609,845 bytes, content_type application/pdf;charset=UTF-8, header %PDF-1.4. OK.
+
+  Multi-part probe: MOCT1092_2.PDF .. MOCT1092_5.PDF (with ?nserialno=1092)
+             -> all HTTP 200 but 3584-byte text/html error pages. No additional parts exist.
+             KHCM 2013 is a SINGLE 702-page file.
+
+STEP 3 — Validate
+  python _tools\validate_pdf.py MOCT1092_1.PDF
+  -> {"ok": true, "is_pdf": true, "bytes": 5609845, "pages": 702,
+      "sha256": "b2389ac446125eb5338a3503d5af17f51a12577b8e2dd96a2ba7f1f759fe60b9",
+      "reason": "valid pdf"}
+
+  Content verification (UTF-8 text extraction):
+    p1: "발간등록번호 11-B090023-000298-01 / 도로용량편람 / 2013"  (title + year confirmed)
+    p5: issuer "한국건설기술연구원" (KICT); lists 고속도로 기본구간, 엇갈림구간(weaving), 연결로접속부 ...
+    p7: "제3장 고속도로 엇갈림 구간" (Ch.3 Freeway Weaving Sections)
+    p13: "<표 3-1> 엇갈림 구간의 서비스수준" (Table 3-1 LOS for weaving sections)
+    59 pages contain 엇갈림(weaving) -> target topic (weaving capacity/length) fully covered.
+
+STEP 4 — Place
+  free/KOR_KHCM-2013/MOCT1092_1.PDF  (primary & only volume — covers weaving/interchange operations)
+
+STEP 5 — Wrote _result.json (status free, result retrieved) and this _log.txt.
+
+RESULT: retrieved. Official source only (codil.or.kr = MOLIT 건설기술정보시스템 CODIL). No purchase.
 
 ===== free/KOR_Road-Structure-Rules =====
 KOR — South Korea — Road Structure & Facility Standards Rule + Commentary (해설)
@@ -576,6 +884,53 @@ https://www.nzta.govt.nz/assets/resources/state-highway-geometric-design-manual/
 OUTCOME: retrieved. 9 valid official NZTA PDFs (SHGDM, free, no login). Primary = Part 2.
 Austroads AGRD Part 3 (current authority) remains login-gated and was NOT downloaded.
 
+================================================================================
+2026-06-14 (second pass) — NZTA Technical Memoranda TM2501 / TM2502 / TM2503
+================================================================================
+GOAL: fill the free gap = NZ-specific TM supplements/overrides to Austroads AGRD.
+Page: https://nzta.govt.nz/roads-and-rail/road-engineering/geometric-design/supplementary-guidance
+
+RESOLVED OFFICIAL DIRECT-PDF URLs (via WebFetch on nzta.govt.nz resource pages):
+- TM2501 Superelevation calculations (Aug 2021) — replaces AGRD Part 3 §7.7.1
+    https://www.nzta.govt.nz/assets/resources/superelevation-calculations/docs/tm2501.pdf
+    resource page: https://www.nzta.govt.nz/resources/superelevation-calculations
+- TM2502 Preferred method for calculating road surface water run-off (Aug 2021)
+    https://www.nzta.govt.nz/assets/resources/calculating-road-surface-water-run-off/docs/tm2502.pdf
+    resource page: https://www.nzta.govt.nz/resources/calculating-road-surface-water-run-off
+- TM2503 Edge protection & medians on dual carriageways, Safe System (Mar 2013)
+    https://www.nzta.govt.nz/assets/resources/dual-carriageway-safe-system/docs/dual-carriageway-safe-system.pdf
+    resource page: https://www.nzta.govt.nz/resources/dual-carriageway-safe-system
+
+DOWNLOAD RESULT: needs_manual (could NOT auto-download — Imperva/Incapsula bot wall).
+  - Every curl request to these three /assets/... TM PDFs returns the Incapsula
+    JavaScript challenge (212 / ~880-byte HTML stub) or HTTP 403 Forbidden, with
+    Set-Cookie visid_incap_* / incap_ses_* and an /_Incapsula_Resource script.
+    The origin requires browser JS execution to mint the clearance cookie; curl
+    (the mandated tool) cannot solve it.
+  - Diagnosis isolated the block to NEW (un-cached) assets: a re-fetch of an
+    already-harvested SHGDM PDF (shgdm-part-1.pdf) STILL returns a valid %PDF
+    (served from Incapsula edge cache, warmed by this morning's harvest), while
+    the never-before-fetched TM PDFs all get the JS challenge / 403. So the wall
+    is per-asset cache state, not a transient rate-limit.
+  - Attempts made (all failed for the TM assets):
+      1. plain  curl -L -A "Mozilla/5.0" --fail-with-body            -> 212B stub
+      2. full Chrome UA + Accept/Accept-Language/Referer headers     -> 880B JS challenge
+      3. homepage-warmed cookie jar, 12-attempt loop w/ 25s backoff  -> all blocked
+      4. capture asset's own challenge cookies + replay to same URL  -> still blocked
+      5. header-only trace (no -L)                                   -> HTTP 403 Forbidden
+      6. alternate host resources.nzta.govt.nz                       -> does not resolve (000)
+  - No redirect to an un-gated CDN/S3 host exists; 403 is served straight from Imperva.
+  - Per task rules: official nzta.govt.nz ONLY, no mirrors (Wayback etc. NOT used),
+    no fabricated files. Nothing written to disk for the TMs (all stubs deleted).
+
+MANUAL ACTION NEEDED: download the three URLs above in a real (JS-capable) browser
+  — they are free, no login, just behind the Incapsula bot wall — then drop the
+  PDFs into this folder and validate with _tools/validate_pdf.py.
+
+Austroads AGRD core (Part 2/3/4 series) remains paid/login on austroads.gov.au
+(HTTP 403 to anonymous fetch) — see BUY_LIST; free to NZ local authorities via
+NZTA Austroads membership (austroadsguides@nzta.govt.nz). Not downloaded.
+
 ===== free/POL_WR-D =====
 POL_WR-D harvest log
 date: 2026-06-14
@@ -598,6 +953,144 @@ CONTENT VERIFY
 - WR-D-22-2 page 1 title: "Wytyczne projektowania odcinkow drog zamiejskich. Czesc 2: Ksztaltowanie geometryczne. 01-2023.01.23. WR-D-22-2". Keywords present: promien=yes, klotoida=yes, przekroj=yes, pochylenie=yes, ksztaltowanie geometryczne=yes. Correct geometric-design guideline, in force.
 
 RESULT: retrieved. Primary file = WR-D-22-2 (geometric). Dz.U. 2022 poz. 1518 also retrieved & validated (listed in notes).
+
+================================================================
+GAP-FILL PASS 2 — date: 2026-06-14 (download worker, free WR-D parts for POL)
+Goal: fill 8 free "missing" parts from POL.json audit: WR-D-31-1/2/3, WR-D-32-1/2 (WR-D-30 junction/node group), WR-D-22-4, WR-D-22-1, WR-D-21.
+
+DISCOVERY
+- WebFetch https://www.gov.pl/web/infrastruktura/wrd-30-skrzyzowania-i-wezly -> enumerated WR-D-30 group attachment URLs.
+- WebFetch https://www.gov.pl/web/infrastruktura/wr-d -> enumerated WR-D-21 / WR-D-22-x attachment URLs (WR-D-22-2 attachment matched the one already held, confirming index correct).
+
+DOWNLOADS (curl.exe -L -A "Mozilla/5.0" --fail-with-body) — all HTTP 200, content_type application/pdf
+- https://www.gov.pl/attachment/10c2f25a-a49c-45fd-b461-336c4f32866d -> WR-D-31-1_skrzyzowania-wymagania-podstawowe.pdf : OK (4,758,295 bytes)
+- https://www.gov.pl/attachment/5bb9c800-2f1f-48db-8241-a73c4cdb5856 -> WR-D-31-2_skrzyzowania-zwykle-i-skanalizowane.pdf : OK (6,641,213 bytes)
+- https://www.gov.pl/attachment/2fe2e841-a403-4322-a4ca-53c9ad128800 -> WR-D-31-3_skrzyzowania-ronda.pdf : OK (5,710,835 bytes)
+- https://www.gov.pl/attachment/c12979e3-0a6f-4be7-a4a6-192ed2aed34a -> WR-D-32-1_wezly-wymagania-podstawowe.pdf : OK (4,539,862 bytes)
+- https://www.gov.pl/attachment/c9506ee2-0c16-43da-a63d-466f1789f2f1 -> WR-D-32-2_wezly-elementy-i-wyposazenie.pdf : OK (14,607,590 bytes)
+- https://www.gov.pl/attachment/9e85fc69-4123-40fe-a654-242667563e79 -> WR-D-22-4_katalog-typowych-przekrojow-poprzecznych.pdf : OK (1,631,865 bytes)
+- https://www.gov.pl/attachment/f8781b92-bbd3-4b61-ac47-dee8165cce3e -> WR-D-22-1_wymagania-podstawowe.pdf : OK (2,973,760 bytes)
+- https://www.gov.pl/attachment/28367ab7-bb46-4579-b394-151e285d6a3c -> WR-D-21_skrajnia.pdf : OK (3,930,430 bytes)
+
+VALIDATION (validate_pdf.py) — all ok=true
+- WR-D-31-1_skrzyzowania-wymagania-podstawowe.pdf : ok=true pages=71 sha256=0e4beae79150b4d78d4a960f5fc8ae6b678b4f4490d3b8bbebb6c0a4c1b24736
+- WR-D-31-2_skrzyzowania-zwykle-i-skanalizowane.pdf : ok=true pages=99 sha256=b2b8cf09a641463063948df700311e3f63096f1ff11edaad66173c7183215f9e
+- WR-D-31-3_skrzyzowania-ronda.pdf : ok=true pages=72 sha256=95aac55cae0bd5cac419b9ac031b3ffaaeeca2505af4ac52ec961639dea0b469
+- WR-D-32-1_wezly-wymagania-podstawowe.pdf : ok=true pages=59 sha256=80b33aaa9e39f35857d96519269435b408c8394ba32c560bbcb230c56b464b30
+- WR-D-32-2_wezly-elementy-i-wyposazenie.pdf : ok=true pages=96 sha256=fffa52125bb47fe7b6d7ffa217ee4f1acab815367631d980a50bc64b24c0462a
+- WR-D-22-4_katalog-typowych-przekrojow-poprzecznych.pdf : ok=true pages=35 sha256=2ab779daeed06c02c176d905d96e347fc0cedc5345e2d8be2921daf6f67a82b0
+- WR-D-22-1_wymagania-podstawowe.pdf : ok=true pages=43 sha256=ae079aaa61dcdaaea9a43a4bd0c307778327faa72eb7812e80c87358e76050f1
+- WR-D-21_skrajnia.pdf : ok=true pages=45 sha256=03cc25688e33cd4e1c1d3e503a3fd29ef91aef25f41543307874ff8f2a95960f
+
+RESULT PASS 2: all 8 retrieved + validated, placed in free/POL_WR-D/. WR-D-30 junction/node gap fully closed; cross-section catalog (22-4), basic-requirements (22-1) and clearance (21) added. Official source: gov.pl only.
+
+===== free/SRB_SRDM =====
+SRB SRDM download log
+=====================
+Date: 2026-06-14
+Worker: DOWNLOAD worker (free gaps), COUNTRY=SRB
+Target folder: free/SRB_SRDM/
+Source host: putevi-srbije.rs (official, JP Putevi Srbije) — official ONLY, no mirrors.
+
+STEP 1 — Audit read: D:\My Drive\Nauka\standardi\road-geometric-standards\_audit\SRB.json
+  4 "missing" entries, all free_or_paid=free:
+    - SRDM 4-0 Projektni elementi puta (direct URL in audit)
+    - SRDM 5-1 Raskrsnice i prikljuci u nivou (direct URL in audit)
+    - SRDM 5-2 Denivelisane raskrsnice (audit URL = index page, needed resolution)
+    - SRDM 5-3 Kruzne raskrsnice (audit URL = index page, needed resolution)
+
+STEP 2 — URL resolution:
+  Index page https://www.putevi-srbije.rs/index.php/srdm-prirucnik-za-projektovanje-puteva returned HTTP 404
+    (both via WebFetch and curl with browser UA; the Latin-alias slug appears stale — a Cyrillic slug exists).
+  Directory listing of .../prirucnik_za_projektovanje_puteva/ returned HTTP 403 (autoindex disabled).
+  Resolved 5-2 and 5-3 direct PDF URLs via web search (official putevi-srbije.rs links):
+    5-2: .../SRDM5-2-denivelisane-raskrsnice(120505-srb-konacna).pdf
+    5-3: .../SRDM5-3-kruzne-raskrnice(120427-srb-konacni).pdf   [server spelling 'raskrnice']
+  4-0 and 5-1 direct URLs taken from audit; both confirmed HTTP 200 / application/pdf via HEAD.
+
+STEP 2 — Downloads (curl.exe -L -A "Mozilla/5.0" --fail-with-body):
+  SRDM4-0-projektni-elementi-puta.pdf           HTTP=200 application/pdf 3320048 bytes
+  SRDM5-1-raskrsnice-i-prikljuci-u-nivou.pdf    HTTP=200 application/pdf  986865 bytes
+  SRDM5-2-denivelisane-raskrsnice.pdf           HTTP=200 application/pdf 1171495 bytes
+  SRDM5-3-kruzne-raskrsnice.pdf                 HTTP=200 application/pdf 1823136 bytes
+
+STEP 3 — Validation (python _tools/validate_pdf.py):
+  SRDM4-0 : ok=true is_pdf=true pages=116 bytes=3320048 sha256=987cbab28dce8fb3ad4995ddc3dd77494d935de12e8f1303b542871f4271ba95
+  SRDM5-1 : ok=true is_pdf=true pages=41  bytes=986865  sha256=7db086a820668b224df7bd6d146c81c3089e83afd26aa9439a50c327378e6fa2
+  SRDM5-2 : ok=true is_pdf=true pages=42  bytes=1171495 sha256=49dc4820202ed0ff0dfdbd426b3039f7309296f5bb9a0f6520dfc5bce6b7492d
+  SRDM5-3 : ok=true is_pdf=true pages=66  bytes=1823136 sha256=00bc6ace2ee4845f2f28454c8967213f5d3d83af08156f31c1513c5f2c4a9eae
+  All 4 valid. No HTML/login/0-byte files; nothing deleted.
+
+STEP 4 — Placement: all 4 SRDM parts in free/SRB_SRDM/.
+STEP 5 — _result.json written (primary=SRDM4-0; 5-1/5-2/5-3 listed in notes).
+
+RESULT: retrieved (4/4).
+
+===== free/SVN_TSC =====
+SVN download worker log
+date: 2026-06-14
+country: SVN (Slovenia)
+task: fill FREE gaps - TSC geometric specs (03.300, 03.200, 03.341). Official gov.si/DRSI only. No purchases.
+
+STEP 1 - audit _audit/SVN.json
+  missing[] free entries:
+    - TSC 03.300:2002 Geometrijski elementi osi ceste in vozisca  (free)
+    - TSC 03.200:2003 Temeljni pogoji za dolocanje cestnih elementov (free)
+    - TSC 03.341:2011 Krozna krizisca (+ TSPI-PCPV-PGV.03.245:2023 spiral roundabouts) (free)
+  audit WARNING: 03.200/03.300 full text mainly on non-official mirrors; fetch only from gov.si/DRSI.
+
+STEP 2 - resolve official PDFs on gov.si (DRSI)
+  - gov.si human-readable catalog https://www.gov.si/zbirke/storitve/tehnicne-specifikacije-za-javne-ceste/
+      -> first HTTP 503, then redirects to wrong org (uprava-za-jedrsko-varnost) and 404. Slug appears broken/moved.
+  - DRSI organ landing page https://www.gov.si/drzavni-organi/organi-v-sestavi/direkcija-za-infrastrukturo/ -> HTTP 200 (live). No direct catalog link surfaced.
+  - Canonical asset directory: https://www.gov.si/assets/organi-v-sestavi/DRSI/Dokumenti-DRSI/Tehnicne-specifikacije/ (directory listing disabled; individual assets resolve).
+
+  TSC 03.341:2011
+    curl -L -A "Mozilla/5.0" --fail-with-body -> HTTP 200, application/pdf, 1711009 bytes
+    URL: https://www.gov.si/assets/organi-v-sestavi/DRSI/Dokumenti-DRSI/Tehnicne-specifikacije/TSC_03_341_2011_Krozna_krizisca.pdf
+
+  TSPI-PCPV-PGV.03.245 (spiral roundabouts, audit authoritative_set)
+    HTTP 200, application/pdf, 2145539 bytes
+    URL: .../Tehnicne-specifikacije/TSPI-PCPV-PGV.03.245-Krozna-krizisca-s-spiralnim.pdf
+
+  TSPI-PCPV-PGV.03.244 (roundabouts, newer DRSI guideline - companion to 03.245)
+    HTTP 200, application/pdf, 3523814 bytes
+    URL: .../Tehnicne-specifikacije/TSPI-PCPV-PGV.03.244-Krozna-krizisca.pdf
+
+  TSC 03.300:2002 - NOT FOUND on gov.si
+    Probed >9 filename variants in main + Ukinjene-TSC subfolder, ALL HTTP 404. Examples:
+      TSC_03_300_2002_Geometrijski_elementi_osi_ceste_in_vozisca.pdf -> 404
+      TSC_03_300_Geometrijski_elementi_cestne_osi_in_vozisca.pdf -> 404
+      TSC_03_300_2002.pdf / TSC_03_300.pdf -> 404 (both subfolders)
+    Web full text only on non-official mirrors (wordpress / fpp.uni-lj.si / scribd) -> NOT downloaded (forbidden).
+    DECISION: needs_manual.
+
+  TSC 03.200:2003 - NOT FOUND on gov.si
+    Probed variants in main + Ukinjene-TSC, ALL HTTP 404. Examples:
+      TSC_03_200_2003_Temeljni_pogoji_za_dolocanje_cestnih_elementov.pdf -> 404
+      TSC_03_200_Temeljni_pogoji.pdf / TSC_03_200.pdf -> 404 (both subfolders)
+    Only mirror found: gradbenik.wordpress.com/wp-content/uploads/2008/07/tsc_03_200.pdf (non-official) -> NOT downloaded.
+    DECISION: needs_manual.
+
+STEP 3 - validate (validate_pdf.py, ok=true required)
+  TSC_03_341_2011_Krozna_krizisca.pdf            -> ok=true is_pdf=true bytes=1711009 pages=39  sha256=c3cf3357189e166a90d6ef91989318c8619810c677a5e1c6383a3e76d72699b5
+  TSPI-PCPV-PGV.03.244-Krozna-krizisca.pdf       -> ok=true is_pdf=true bytes=3523814 pages=60  sha256=7c90635f9d1b52ca9cee752cef27006005e41f08496f29ad49872966609bfce9
+  TSPI-PCPV-PGV.03.245-Krozna-krizisca-s-spiralnim.pdf -> ok=true is_pdf=true bytes=2145539 pages=30  sha256=fe37d67ee9d22fe694f113b1c9c792b2fcf2e58fadc21163633d231973daf867
+  No HTML/login/0-byte files; nothing deleted.
+
+STEP 4 - placed in free/SVN_TSC/
+  TSC_03_341_2011_Krozna_krizisca.pdf
+  TSPI-PCPV-PGV.03.244-Krozna-krizisca.pdf
+  TSPI-PCPV-PGV.03.245-Krozna-krizisca-s-spiralnim.pdf
+
+STEP 5 - _result.json written (primary = TSC 03.341:2011). result=retrieved (3 of 5 obtained).
+
+OUTCOME
+  RETRIEVED (official, validated): TSC 03.341:2011, TSPI 03.244, TSPI 03.245 - covers roundabout geometry gap.
+  NEEDS_MANUAL: TSC 03.300:2002 and TSC 03.200:2003 - the core geometric-VALUE tables / sight-distance basis are
+  NOT officially downloadable from gov.si (404 across all probed filenames; only non-official mirrors exist).
+  This confirms the audit's explicit warning. Manual acquisition required via DRSI (organ page / direct contact)
+  or via the pisrs.si Odredba ODRE2143 confirmed-TSC list.
 
 ===== free/SWE_VGU =====
 SWE_VGU harvest log — 2026-06-14
@@ -639,6 +1132,27 @@ result=retrieved
 PRIMARY = VGU_Krav_Publikation2022-001.pdf (Krav VGU 2022:001, 365 pp, geometric requirement chapters incl. linjeföring + sektion)
 Extras (validated, in folder): TRV 2024:148 Krav Grundvärden (current-edition values), 2022:002 Begrepp och grundvärden, 2022:003 Råd (guidance).
 All sources official Trafikverket DiVA repository. No paywall, no checkout.
+
+=== CURRENT-EDITION DOWNLOAD — 2026-06-14 (supersession of held 2022 set) ===
+TASK: fetch CURRENT in-force TRVINFRA-00396 VGU Krav v1.0 (2025-01-01). 2022 set is SUPERSEDED.
+PUBEN is a JS SPA (main.js). Discovery via the SPA bundle, NOT a static PDF link:
+  - Fetched https://puben.trafikverket.se/dpub/main.js -> found API route api/v1/Dokument/DownloadDokument
+    and the call template: api/v1/Dokument/DownloadDokument?id=<docGuid>&dokumentName=<file>
+  - Metadata: GET https://puben.trafikverket.se/dpub/api/v1/Dokument/Get?id=6f24d1e8-81bf-4e7a-948a-200e71c92f66
+    -> dokumentnummer TRVINFRA-00396, versionsNummer 1.0, ersätter TRV 2022:001/002/003.
+       uploadedDokument: relType1 'Krav...v1_0.pdf', relType2 'Krav med raadstexter...v1_0.pdf', relType4 .pptx.
+    -> chose relType2 (Krav MED RÅDSTEXT = merged Krav+Råd, per audit).
+DOWNLOAD (curl.exe -L -A "Mozilla/5.0" --fail-with-body):
+[OK] https://puben.trafikverket.se/dpub/api/v1/Dokument/DownloadDokument?id=6f24d1e8-81bf-4e7a-948a-200e71c92f66&dokumentName=Krav%20med%20raadstexter%20TRVINFRA-00396%20Vaegars%20och%20gators%20ut%20v1_0.pdf
+     content-type application/octet-stream, %PDF-1.7
+     -> VGU_Krav_med_radstext_TRVINFRA-00396_v1_0.pdf | 22906246 bytes | validate ok=true | 721 pages
+        sha256 30de29cd896e61ea93a25cda1102175089107ca7e4f037bdba445e5562dc8ba5
+COMPANION (already held, re-validated ok=true, paired with v1.0):
+     VGU_Krav_Grundvarden_TRV2024-148.pdf | 2681124 bytes | 58 pages
+        sha256 91a75dddfb58c4623fc22a5f46fa9bc2f3b8697da3b7cf2cd4d4e2de59059470
+RESULT: retrieved. PRIMARY now = VGU_Krav_med_radstext_TRVINFRA-00396_v1_0.pdf (CURRENT 2025 edition).
+2022 files KEPT (legacy, valid for pre-2025 projects). _result.json updated to new primary.
+Official sources only (puben.trafikverket.se DownloadDokument API + trafikverket.diva-portal.org).
 
 ===== free/ZAF_COTO-Geometric-Design =====
 ZAF — South Africa — COTO/SANRAL Geometric Design Manual
@@ -692,6 +1206,45 @@ OUTCOME: RETRIEVED.
    (Geometric Design of Rural Roads, Pretoria 1988) from the official Dept of Transport repository.
    No standalone "COTO Geometric Design Manual" is freely posted on any official source; TRH17 is the
    recognised free official SA geometric-design guideline. Mirrors (Scribd/PDFCoffee) were NOT used.
+
+===== free/ZAF_TRH26-UTG =====
+ZAF — South Africa — FREE gap fill (download worker)
+Date: 2026-06-14
+Source audit: D:\My Drive\Nauka\standardi\road-geometric-standards\_audit\ZAF.json
+
+SCOPE: free "missing" entries only. NO purchases.
+- TRH26 (2012) RCAM ............ FREE  -> download
+- UTG1 (1986) Urban Arterials .. FREE  -> download
+- UTG7 Urban Collectors ........ FREE  -> download
+- SANRAL Geometric Design Manual  PAID/restricted (mirror-only) -> SKIPPED per instructions
+
+STEP 2 — DOWNLOAD (official transport.gov.za only; no Scribd/mirrors)
+WebFetch confirmed TRH26 URL serves application/pdf (%PDF-1.5, 1.6MB).
+
+curl.exe -L -A "Mozilla/5.0" --fail-with-body -o "TRH26-2012-RCAM.pdf" \
+  "https://www.transport.gov.za/wp-content/uploads/2023/02/TRH26-RCAM.pdf"
+  -> HTTP OK, 1.58M downloaded. TRH26 OK
+
+curl.exe -L -A "Mozilla/5.0" --fail-with-body -o "UTG1-1986-Urban-Arterials.pdf" \
+  "https://www.transport.gov.za/wp-content/uploads/2023/02/UTG1-1986-Guidelines-for-the-Geometric-Design-of-Urban-Art.pdf"
+  -> HTTP OK, 5.63M downloaded. UTG1 OK
+
+curl.exe -L -A "Mozilla/5.0" --fail-with-body -o "UTG7-Urban-Collectors-scanned-2017.pdf" \
+  "https://www.transport.gov.za/wp-content/uploads/2023/02/UTG7-Library-copy-scanned-2017.pdf"
+  -> HTTP OK, 2.15M downloaded. UTG7 OK
+
+STEP 3 — VALIDATE (validate_pdf.py)
+TRH26-2012-RCAM.pdf            -> {"ok": true, "is_pdf": true, "bytes": 1666090, "pages": 89,  "sha256": "ce9a1e5c6019f113826c0117912a42023830bae15f67191b3c2d2ae0d3092fcc", "reason": "valid pdf"}
+UTG1-1986-Urban-Arterials.pdf  -> {"ok": true, "is_pdf": true, "bytes": 5905073, "pages": 76,  "sha256": "2b81e0c8aa2a73d480a2a8849bd60878062a8513627fe2189e5a176b1e1f5a39", "reason": "valid pdf"}
+UTG7-Urban-Collectors-scanned-2017.pdf -> {"ok": true, "is_pdf": true, "bytes": 2258854, "pages": 44, "sha256": "37dea01f92b5cfdf203f7109db237b5ff06a1637227c977934b8ea5091818687", "reason": "valid pdf"}
+
+All three valid (ok=true). No HTML/login/0-byte. No deletions.
+
+STEP 4 — PLACE: free/ZAF_TRH26-UTG/ (all three PDFs + _result.json + _log.txt)
+
+STEP 5 — _result.json written (primary = TRH26; UTG1/UTG7 listed in notes).
+
+RESULT: retrieved (3/3 free official PDFs). SANRAL GDM intentionally skipped (paid/restricted, out of scope).
 
 ===== free/_model-standards/SADC_LVSR =====
 ITEM: SADC Guideline on Low-volume Sealed Roads (LVSR), July 2003

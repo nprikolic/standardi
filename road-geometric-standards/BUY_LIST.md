@@ -9,8 +9,11 @@ Prices are in mixed currencies (USD/CAD/EUR/INR/JPY/RMB) — see per-currency no
 | JPN | Japan | 道路構造令 Road Structure Ordinance (law text) + JRA commentary | (see TO_BUY.md) | (see TO_BUY.md) | https://laws.e-gov.go.jp/document?lawid=345CO0000000320_20201125_502CO0000000329 | mixed: free core retrieved, paid part flagged |
 | CAN | Canada | Geometric Design Guide for Canadian Roads (GDG), Chapters 1-11 | (see TO_BUY.md) | Full package Regular CAD $749 / Member CAD $575 (student e-book $225) | https://www.tac-atc.ca/ | paid title — kupiti |
 | DEU | Germany | FGSV road-design guidelines (RAL / RAA / RASt) | (see TO_BUY.md) | RAL (FGSV 201) EUR 84.00 incl. 7% VAT; M ERL (FGSV 201/1) EUR 42.00 (as listed) | https://www.fgsv-verlag.de/ | ACQUIRED (manual) — ne kupovati |
+| DEU | Germany | M Anlage von Kreisverkehren (FGSV 242, 2006; rev. EKr ~2025) | (see TO_BUY.md) | po FGSV-Verlag ceni | https://www.fgsv-verlag.de/anlage-von-kreisverkehren | paid title — kupiti |
 | IND | India | IRC geometric-design series (IRC:73, IRC:86, IRC:66) | (see TO_BUY.md) | IRC:86-2018 INR 600; IRC:73-1980 INR 120 (+INR 20 p&p); IRC:66-1976 per IRC catalogue (as surveyed) | https://www.irc.org.in/ | paid title — kupiti |
+| MWI | Malawi | SATCC Code of Practice for the Geometric Design of Trunk Roads (1998, repr. 2001) | (see TO_BUY.md) | regionalna SATCC/SADC distribucija |  | paid title — kupiti |
 | NLD | Netherlands | CROW road-design guidelines (ASVV 2021 / Handboek wegontwerp) | (see TO_BUY.md) | ASVV 2021 EUR 360 (book+online bundle, reg. EUR 394); Kennismodule Wegontwerp subscription from EUR 255 excl. VAT (as listed) | https://www.crow.nl/ | paid title — kupiti |
 | USA | United States | A Policy on Geometric Design of Highways and Streets (Green Book) | (see TO_BUY.md) | PDF List USD $342 / Member USD $253 (7th ed.) | https://store.transportation.org/ | ACQUIRED (manual) — ne kupovati |
+| ZAF | South Africa | SANRAL Geometric Design Manual/Guide (c.2002) | (see TO_BUY.md) | restriktivno / nije javno cenovano | https://www.nra.co.za | paid title — kupiti |
 
 > Each item's TO_BUY.md in its folder carries the exact item/order code(s) and why it is paid.

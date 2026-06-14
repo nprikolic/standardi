@@ -35,3 +35,64 @@ Text extraction of ITA_DM-6792-2001.pdf:
 === RESULT ===
 retrieved. File: ITA_DM-6792-2001.pdf (96 pp, 1,988,208 bytes).
 Source: mit.gov.it (official). Free, in-force text.
+
+
+============================================================
+=== AMENDMENT ADDED 2026-06-14: DM 22/04/2004 n.67/S ========
+============================================================
+Doc: DM 22/04/2004 n.67/S "Modifica del decreto 5 novembre 2001, n.6792, recante
+     Norme funzionali e geometriche per la costruzione delle strade"
+Issuer: Ministero delle Infrastrutture e dei Trasporti
+Audit gap: missing entry, free_or_paid=free. Binding amendment to the primary holding in this folder.
+NOTE: primary file ITA_DM-6792-2001.pdf was NOT overwritten; amendment added alongside it.
+
+--- DISCOVERY ---
+Audit landing: https://www.mit.gov.it/normativa/decreto-ministeriale-numero-67s-del-22042004
+  -> MIT serves this decree ONLY as a Word .doc (no PDF):
+     /nfsmitgov/files/media/normativa/2016-02/Decreto_Ministeriale_numero_67-S_22-04-2004_all_1.doc
+Official GU publication: GU Serie Generale n.147 del 25-06-2004; ELI page
+  https://www.gazzettaufficiale.it/eli/id/2004/06/25/04A06556/sg  (codice redazionale 04A06556).
+  -> The GU per-act PDF is generated only via the site's JS UI; there is NO static per-act PDF URL.
+     Attempts that 404 / return HTML (logged, not kept):
+       /eli/id/2004/06/25/04A06556/sg/pdf                      -> 404 (HTML)
+       /atto/serie_generale/caricaPdf?cdimg=...&...04A06556...  -> 404 (HTML)  [cdimg not discoverable without JS]
+       /do/atto/serie_generale/caricaPdf?cdimg=...              -> 200 but text/html (not a PDF)
+     The atto-completo page loads the text via an iframe (caricaArticoloDefault) - no PDF href present.
+
+--- DOWNLOAD (official gazzettaufficiale.it ONLY) ---
+Only static official PDF available = the full GU issue:
+curl.exe -L -A "Mozilla/5.0" --fail-with-body
+  https://www.gazzettaufficiale.it/eli/gu/2004/06/25/147/sg/pdf
+  -> HTTP 200, 2,672,037 bytes, application/pdf, %PDF-1.4
+  -> saved as ITA_GU-147-2004_full-issue_source.pdf
+     sha256 f19f95b26865946caea9abe7db9703bd73270c7bf997824f5caa1526b3df21a6 (64 pp; scanned/glyph-encoded text layer).
+
+--- EXTRACT focused decree (pages of THIS decree, from the official GU issue) ---
+Located the decree by decoding the GU glyph text layer (/Cnn -> chr(nn)):
+  index (gazette page) lists it at "Ministero delle infrastrutture e dei trasporti - DECRETO 22 aprile 2004 -
+  Modifica del decreto 5 novembre 2001, n.6792 ... Pag. 33".
+  PDF 0-indexed pages 32-33 contain the decree body:
+    p.32: "IL MINISTRO DELLE INFRASTRUTTURE ... Art.1 ... art.2 del DM 5/11/2001 n.6792 e' sostituito come segue"
+    p.33: "Art.4 ... progetti di adeguamento delle strade esistenti ... innalzamento del livello di sicurezza";
+           "Art.5 ..."; "Roma, 22 aprile 2004 - Il Ministro: Lunardi".
+Extracted pages 32-33 -> ITA_DM-67S-2004-amendment.pdf via pypdf (PdfWriter).
+
+--- VALIDATE ---
+python _tools/validate_pdf.py ITA_DM-67S-2004-amendment.pdf
+  -> {"ok": true, "is_pdf": true, "bytes": 88405, "pages": 2,
+      "sha256": "49e6f720abb55f9d129922cab1c6f7f82fd48443bd3a23e1beb17bce64af7270", "reason": "valid pdf"}
+
+--- CONTENT VERIFICATION ---
+Confirmed substance of the amendment:
+  - Art.1 substitutes art.2 of DM 6792/2001 -> redefines campo di applicazione
+    (mandatory for NEW roads; reference for adapting EXISTING roads).
+  - Art.4 introduces the mandatory safety analysis ("specifica relazione ... innalzamento del
+    livello di sicurezza") for upgrade/adeguamento projects of existing roads.
+
+--- RESULT ---
+retrieved. Files in this folder:
+  ITA_DM-6792-2001.pdf            (primary, 96 pp)            - unchanged
+  ITA_DM-67S-2004-amendment.pdf   (amendment, 2 pp, 88,405 B) - NEW
+  ITA_GU-147-2004_full-issue_source.pdf (official GU issue, 64 pp) - provenance of the clip
+Sources: gazzettaufficiale.it (official). Free, in-force amended text.
+DM 6792/2001 is to be read together with this 2004 modification.

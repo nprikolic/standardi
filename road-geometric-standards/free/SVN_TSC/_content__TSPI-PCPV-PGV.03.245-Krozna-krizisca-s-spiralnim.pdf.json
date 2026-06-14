@@ -1,0 +1,42 @@
+{
+  "file": "TSPI-PCPV-PGV.03.245-Krozna-krizisca-s-spiralnim.pdf",
+  "iso3": "SVN",
+  "lang": "sl+en",
+  "verdict": "PARTIAL",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 9,
+      "count": 16
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 1,
+      "count": 42
+    },
+    "VERTICAL": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SUPERELEVATION": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 3,
+      "count": 7
+    }
+  },
+  "categories_hit": 3,
+  "pages_total": 31,
+  "notes": "",
+  "refetch_hint": "Pravilnik o projektiranju cest (NPB)"
+}

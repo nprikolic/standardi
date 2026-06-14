@@ -1,0 +1,42 @@
+{
+  "file": "WR-D-31-2_skrzyzowania-zwykle-i-skanalizowane.pdf",
+  "iso3": "POL",
+  "lang": "pl+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 3,
+      "count": 136
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 3,
+      "count": 81
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 11,
+      "count": 27
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 15,
+      "count": 7
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 51,
+      "count": 4
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 3,
+      "count": 44
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 100,
+  "notes": "",
+  "refetch_hint": ""
+}

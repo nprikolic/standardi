@@ -1,0 +1,42 @@
+{
+  "file": "UTG1-1986-Urban-Arterials.pdf",
+  "iso3": "ZAF",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 15,
+      "count": 35
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 5,
+      "count": 76
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 4,
+      "count": 10
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 4,
+      "count": 34
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 15,
+      "count": 16
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 6,
+      "count": 44
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 77,
+  "notes": "",
+  "refetch_hint": ""
+}

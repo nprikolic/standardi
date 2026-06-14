@@ -1,0 +1,16 @@
+{
+  "iso3": "CHN",
+  "country": "China",
+  "standard": "JTG B01-2014 Technical Standard of Highway Engineering",
+  "issuer": "Ministry of Transport / China Communications Press",
+  "status": "free",
+  "result": "retrieved",
+  "source_url": "https://xxgk.mot.gov.cn/2020/jigou/glj/202006/P020230628577830212881.pdf",
+  "file": "free/CHN_JTG-B01/JTG_B01-2014.pdf",
+  "sha256": "7544fb476e77609cb9108bffb79f22b4c57d31a044ef92c0f0cad4477d6beee6",
+  "bytes": 3748272,
+  "pages": 115,
+  "price": "",
+  "store_url": "",
+  "notes": "Free official full text obtained from the Ministry of Transport (mot.gov.cn) information-disclosure site. The official notice page https://xxgk.mot.gov.cn/2020/jigou/glj/202006/t20200623_3312197.html links a PDF attachment (公路工程技术标准.pdf) which is the complete scanned standard (115 pages, JBIG2 scanned images, image-based so no extractable text). Visual inspection confirms full standard body: road classes, design speeds (120/100/80/60 km/h), cross-section/median/lane width tables (e.g. 表4.6.2). A diagonal watermark overlays the official content. The commercial China Communications Press edition is the paid version; this MoT-hosted scan is free and official."
+}

@@ -1,0 +1,42 @@
+{
+  "file": "TRH26-2012-RCAM.pdf",
+  "iso3": "ZAF",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 6,
+      "count": 11
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 62,
+      "count": 3
+    },
+    "HORIZONTAL": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "VERTICAL": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 13,
+      "count": 18
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 6,
+      "count": 49
+    }
+  },
+  "categories_hit": 4,
+  "pages_total": 90,
+  "notes": "",
+  "refetch_hint": ""
+}

@@ -1,0 +1,42 @@
+{
+  "file": "ITA_DM-intersezioni-2006.pdf",
+  "iso3": "ITA",
+  "lang": "it+en",
+  "verdict": "PARTIAL",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SIGHT_DISTANCE": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 14,
+      "count": 8
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 20,
+      "count": 5
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 1,
+      "count": 3
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 8,
+      "count": 30
+    }
+  },
+  "categories_hit": 4,
+  "pages_total": 29,
+  "notes": ">=4 categories but neither DESIGN_SPEED nor SIGHT_DISTANCE matched",
+  "refetch_hint": "DM 6792/2001 annex with geometric tables (all_1 held)"
+}

@@ -1,0 +1,42 @@
+{
+  "file": "TSC_03_341_2011_Krozna_krizisca.pdf",
+  "iso3": "SVN",
+  "lang": "sl+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 3,
+      "count": 90
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 2,
+      "count": 65
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 28,
+      "count": 5
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 3,
+      "count": 17
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 4,
+      "count": 19
+    }
+  },
+  "categories_hit": 5,
+  "pages_total": 40,
+  "notes": "",
+  "refetch_hint": ""
+}

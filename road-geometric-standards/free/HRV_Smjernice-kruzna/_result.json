@@ -1,0 +1,16 @@
+{
+"iso3": "HRV",
+"country": "Croatia",
+"standard": "Smjernice za projektiranje kružnih raskrižja na državnim cestama (Hrvatske ceste d.o.o., 2014)",
+"issuer": "Hrvatske ceste d.o.o. Zagreb",
+"status": "free",
+"result": "retrieved",
+"source_url": "https://hrvatske-ceste.hr/uploads/documents/attachment_file/file/106/SMJERNICE_KRUZNA_RASKRIZJA-HRVATSKE_CESTE.pdf",
+"price": "",
+"store_url": "",
+"notes": "Zvanični PDF preuzet sa hrvatske-ceste.hr (tehnička dokumentacija, file/106). Nativni tekstualni PDF (pretraživ), 81 str. Pokriva geometriju kružnih raskrižja na državnim cestama: geometrijski elementi, propusna moć, preglednost, provjera najbrže putanje / brzine vožnje, signalizacija. Komplementarne turbo/spiralne smjernice (file/107) nisu u opsegu ovog zadatka. Jezik hr.",
+"file": "HRV_Smjernice-kruzna-raskrizja_hrvatske-ceste.pdf",
+"sha256": "7d1f6c00116d795ede6c54aae39e955413ea810375f20b565421eb79085eb800",
+"bytes": 6193958,
+"pages": 81
+}

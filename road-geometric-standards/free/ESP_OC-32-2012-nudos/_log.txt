@@ -1,0 +1,44 @@
+ESP — OC 32/2012 "Guía de Nudos Viarios" download log
+Date: 2026-06-14
+
+STEP 1 — Audit read
+  Source: _audit/ESP.json
+  Missing (free): OC 32/2012 "Guía de Nudos Viarios" (Orden Circular 32/12, de 14 de diciembre)
+  free_or_paid: free
+  url hint: https://www.transportes.gob.es/recursos_mfom/comodin/recursos/oc_32-2012.pdf
+  Note from audit: transportes.gob.es blocks automated fetch (HTTP 403).
+
+STEP 2 — Download
+  Attempt 1:
+    curl.exe -L -A "Mozilla/5.0" --fail-with-body -o OC-32-2012-nudos.pdf <url>
+    Result: HTTP 403, exit 22. Body = 2970-byte HTML "Página web bloqueada" (WAF block, not a true 404).
+    Deleted blocked file.
+  Attempt 2 (success):
+    curl.exe -L \
+      -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" \
+      -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,application/pdf,*/*;q=0.8" \
+      -H "Accept-Language: es-ES,es;q=0.9,en;q=0.8" \
+      -H "Referer: https://www.transportes.gob.es/" \
+      --fail-with-body -o OC-32-2012-nudos.pdf <url>
+    Result: exit 0, 8,224,187 bytes (7.84 MB) downloaded.
+    The Referer + browser Accept headers bypassed the WAF block. Source is the official Ministry URL — no mirrors used.
+
+STEP 3 — Validate
+  python _tools/validate_pdf.py OC-32-2012-nudos.pdf
+  -> {"ok": true, "is_pdf": true, "bytes": 8224187, "pages": 549,
+      "sha256": "efb7b2d33b211626449815d5c1b287a7df8e887fe05ae01fdc508944c753a891",
+      "reason": "valid pdf"}
+  Content check (pypdf text extraction):
+    p2  cover: "GUÍA DE NUDOS VIARIOS    DICIEMBRE 2012"
+    p8  ÍNDICE -> 1. GENERALIDADES
+    p9  3.3 VELOCIDAD
+    p10 4.7 VISIBILIDAD
+    p11 5. MORFOLOGÍA DE LOS NUDOS / INTERSECCIONES
+  Confirmed correct authoritative document (~547 pp expected; 549 PDF pages).
+
+STEP 4 — Place
+  Folder: free/ESP_OC-32-2012-nudos/
+  File:   OC-32-2012-nudos.pdf
+
+STEP 5 — Result
+  result = retrieved

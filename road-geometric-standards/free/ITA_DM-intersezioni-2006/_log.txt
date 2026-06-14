@@ -1,0 +1,34 @@
+ITA - DM 19/04/2006 "Norme funzionali e geometriche per la costruzione delle intersezioni stradali"
+Issuer: Ministero delle Infrastrutture e dei Trasporti
+Worker run date: 2026-06-14
+Audit gap: missing entry, free_or_paid=free (closes at_grade_junctions AND interchanges_weaving)
+
+=== DISCOVERY ===
+Audit URL (landing): https://www.mit.gov.it/normativa/decreto-ministeriale-19042006
+WebFetch landing page -> single PDF attachment (Allegato 1):
+  https://www.mit.gov.it/nfsmitgov/files/media/normativa/2016-02/Decreto_Ministeriale_19-04-2006_all_1.pdf
+Official GU publication: GU Serie Generale n.170 del 24-07-2006 (ELI 06A06657). MIT PDF used (official).
+
+=== DOWNLOAD (official mit.gov.it ONLY) ===
+curl.exe -L -A "Mozilla/5.0" --fail-with-body
+  https://www.mit.gov.it/nfsmitgov/files/media/normativa/2016-02/Decreto_Ministeriale_19-04-2006_all_1.pdf
+  -> HTTP 200, 1,448,095 bytes, content-type application/pdf
+
+=== VALIDATE ===
+python _tools/validate_pdf.py ITA_DM-intersezioni-2006.pdf
+  -> {"ok": true, "is_pdf": true, "bytes": 1448095, "pages": 28,
+      "sha256": "4d992baa9bb852381443956d933f19704a6cf69c3915fbf32cbff9550c38513f", "reason": "valid pdf"}
+
+=== CONTENT VERIFICATION (full text + geometric annex for intersezioni) ===
+Text extraction confirms this is NOT a one-page decree but the complete 28-page text incl. technical annex:
+  - Page 1 header: "MINISTERO DELLE INFRASTRUTTURE E DEI TRASPORTI - DECRETO 19 aprile 2006 -
+    Norme funzionali e geometriche per la costruzione delle intersezioni stradali. (GU n.170 del 24-7-2006)"
+    "Visto l'art. 13 del decreto legislativo ... (Nuovo codice della strada)"
+  - Junction-type coverage (page hit counts): intersezioni x21; intersezioni a raso x9;
+    rotatorie x7; intersezioni a livelli sfalsati x8; svincoli x6; zone di scambio (weaving) x7;
+    corsie di accelerazione x3 / decelerazione x4; isole x3.
+  CONCLUSION: full text WITH geometric annex/tables for a raso, rotatorie, svincoli/sfalsate, scambio.
+
+=== RESULT ===
+retrieved. File: ITA_DM-intersezioni-2006.pdf (28 pp, 1,448,095 bytes).
+Source: mit.gov.it (official). Free, in-force text. Closes both junction gaps from the audit.

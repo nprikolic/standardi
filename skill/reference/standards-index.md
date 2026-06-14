@@ -1,6 +1,6 @@
 # Indeks standarda → pokriveni pojmovi
 
-Status v0.2. „Pojmovi" su orijentir za retrieval; tačnu stranu uvek potvrdi sa `scripts/search.py`.
+Status v0.3 (Faza 0d, 2026-06-14: dodate raskrsnice/čvorovi + detaljne vrednosti za više zemalja — vidi `../road-geometric-standards/GAP_FILL.md` i `MANIFEST.md`). „Pojmovi" su orijentir za retrieval; tačnu stranu uvek potvrdi sa `scripts/search.py`.
 Jezik = jezik dokumenta (search hvata termine na tom jeziku + en). Fajlovi su u
 `../road-geometric-standards/free|mixed|paid/<folder>/`. Sadržajni status: vidi `CONTENT_VERIFICATION.md`.
 

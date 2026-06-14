@@ -1,0 +1,42 @@
+{
+  "file": "DMURS-version-11.pdf",
+  "iso3": "IRL",
+  "lang": "en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 62,
+      "count": 31
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 119,
+      "count": 11
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 122,
+      "count": 15
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 123,
+      "count": 49
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 5,
+      "count": 53
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 10,
+      "count": 144
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 166,
+  "notes": "",
+  "refetch_hint": ""
+}

@@ -1,0 +1,37 @@
+ZAF — South Africa — FREE gap fill (download worker)
+Date: 2026-06-14
+Source audit: D:\My Drive\Nauka\standardi\road-geometric-standards\_audit\ZAF.json
+
+SCOPE: free "missing" entries only. NO purchases.
+- TRH26 (2012) RCAM ............ FREE  -> download
+- UTG1 (1986) Urban Arterials .. FREE  -> download
+- UTG7 Urban Collectors ........ FREE  -> download
+- SANRAL Geometric Design Manual  PAID/restricted (mirror-only) -> SKIPPED per instructions
+
+STEP 2 — DOWNLOAD (official transport.gov.za only; no Scribd/mirrors)
+WebFetch confirmed TRH26 URL serves application/pdf (%PDF-1.5, 1.6MB).
+
+curl.exe -L -A "Mozilla/5.0" --fail-with-body -o "TRH26-2012-RCAM.pdf" \
+  "https://www.transport.gov.za/wp-content/uploads/2023/02/TRH26-RCAM.pdf"
+  -> HTTP OK, 1.58M downloaded. TRH26 OK
+
+curl.exe -L -A "Mozilla/5.0" --fail-with-body -o "UTG1-1986-Urban-Arterials.pdf" \
+  "https://www.transport.gov.za/wp-content/uploads/2023/02/UTG1-1986-Guidelines-for-the-Geometric-Design-of-Urban-Art.pdf"
+  -> HTTP OK, 5.63M downloaded. UTG1 OK
+
+curl.exe -L -A "Mozilla/5.0" --fail-with-body -o "UTG7-Urban-Collectors-scanned-2017.pdf" \
+  "https://www.transport.gov.za/wp-content/uploads/2023/02/UTG7-Library-copy-scanned-2017.pdf"
+  -> HTTP OK, 2.15M downloaded. UTG7 OK
+
+STEP 3 — VALIDATE (validate_pdf.py)
+TRH26-2012-RCAM.pdf            -> {"ok": true, "is_pdf": true, "bytes": 1666090, "pages": 89,  "sha256": "ce9a1e5c6019f113826c0117912a42023830bae15f67191b3c2d2ae0d3092fcc", "reason": "valid pdf"}
+UTG1-1986-Urban-Arterials.pdf  -> {"ok": true, "is_pdf": true, "bytes": 5905073, "pages": 76,  "sha256": "2b81e0c8aa2a73d480a2a8849bd60878062a8513627fe2189e5a176b1e1f5a39", "reason": "valid pdf"}
+UTG7-Urban-Collectors-scanned-2017.pdf -> {"ok": true, "is_pdf": true, "bytes": 2258854, "pages": 44, "sha256": "37dea01f92b5cfdf203f7109db237b5ff06a1637227c977934b8ea5091818687", "reason": "valid pdf"}
+
+All three valid (ok=true). No HTML/login/0-byte. No deletions.
+
+STEP 4 — PLACE: free/ZAF_TRH26-UTG/ (all three PDFs + _result.json + _log.txt)
+
+STEP 5 — _result.json written (primary = TRH26; UTG1/UTG7 listed in notes).
+
+RESULT: retrieved (3/3 free official PDFs). SANRAL GDM intentionally skipped (paid/restricted, out of scope).

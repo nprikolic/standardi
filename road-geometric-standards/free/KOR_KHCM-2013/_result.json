@@ -1,0 +1,16 @@
+{
+  "iso3": "KOR",
+  "country": "South Korea",
+  "standard": "도로용량편람 (Korean Highway Capacity Manual) 2013",
+  "issuer": "MOLIT / KICT",
+  "status": "free",
+  "result": "retrieved",
+  "source_url": "https://www.codil.or.kr/filebank/moct2014/201302/MOCT1092_1.PDF?nserialno=1092",
+  "file": "MOCT1092_1.PDF",
+  "sha256": "b2389ac446125eb5338a3503d5af17f51a12577b8e2dd96a2ba7f1f759fe60b9",
+  "bytes": 5609845,
+  "pages": 702,
+  "price": "free",
+  "store_url": "",
+  "notes": "Single-file edition; this 702-page PDF (MOCT1092_1.PDF, 발간등록번호 11-B090023-000298-01, 도로용량편람 2013) IS the complete manual and the primary volume covering weaving — it contains 제3장 고속도로 엇갈림 구간 (Ch.3 Freeway Weaving Sections) with weaving-section LOS (표 3-1) and capacity/length analysis. Issuer: 국토교통부(MOLIT) / 한국건설기술연구원(KICT). The bare filebank URL (without query) returns a 3584-byte CODIL error/login HTML page; appending ?nserialno=1092 (the CODIL record id) serves the actual application/pdf. Probed MOCT1092_2/_3/_4/_5.PDF — all return the same 3584-byte HTML error page, so the manual is NOT split into multiple parts; MOCT1092_1.PDF is the whole document. No other free KHCM parts to fetch. (Audit also lists free KDS 44 20 series on law.go.kr, but those were not in the 'missing' list for this gap and are a separate item.)"
+}

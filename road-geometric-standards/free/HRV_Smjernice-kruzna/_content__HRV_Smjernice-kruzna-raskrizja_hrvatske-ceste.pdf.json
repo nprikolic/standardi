@@ -1,0 +1,42 @@
+{
+  "file": "HRV_Smjernice-kruzna-raskrizja_hrvatske-ceste.pdf",
+  "iso3": "HRV",
+  "lang": "hr+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 4,
+      "count": 75
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 5,
+      "count": 79
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 25,
+      "count": 13
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 3,
+      "count": 31
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 3,
+      "count": 201
+    }
+  },
+  "categories_hit": 5,
+  "pages_total": 82,
+  "notes": "",
+  "refetch_hint": ""
+}

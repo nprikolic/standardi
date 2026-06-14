@@ -1,0 +1,16 @@
+{
+  "iso3": "ZAF",
+  "country": "South Africa",
+  "standard": "TRH26 (RCAM) + UTG1/UTG7 urban geometric guidelines",
+  "issuer": "COTO / Dept of Transport",
+  "status": "free",
+  "result": "retrieved",
+  "source_url": "https://www.transport.gov.za/wp-content/uploads/2023/02/TRH26-RCAM.pdf",
+  "file": "TRH26-2012-RCAM.pdf",
+  "sha256": "ce9a1e5c6019f113826c0117912a42023830bae15f67191b3c2d2ae0d3092fcc",
+  "bytes": 1666090,
+  "pages": 89,
+  "price": "",
+  "store_url": "",
+  "notes": "Primary = TRH26 (2012) South African Road Classification and Access Management Manual (RCAM), 89pp, validated ok. Two additional FREE official UTG urban geometric guidelines retrieved into the same folder: (1) UTG1 (1986) Guidelines for the Geometric Design of Urban Arterial Roads -> file UTG1-1986-Urban-Arterials.pdf, 76pp, 5905073 bytes, sha256 2b81e0c8aa2a73d480a2a8849bd60878062a8513627fe2189e5a176b1e1f5a39, source https://www.transport.gov.za/wp-content/uploads/2023/02/UTG1-1986-Guidelines-for-the-Geometric-Design-of-Urban-Art.pdf ; (2) UTG7 Geometric Design of Urban Collector Roads (library scan 2017 of 1980s draft) -> file UTG7-Urban-Collectors-scanned-2017.pdf, 44pp, 2258854 bytes, sha256 37dea01f92b5cfdf203f7109db237b5ff06a1637227c977934b8ea5091818687, source https://www.transport.gov.za/wp-content/uploads/2023/02/UTG7-Library-copy-scanned-2017.pdf . All three downloaded from official transport.gov.za (COTO/DoT) and validated ok=true. The SANRAL Geometric Design Manual (paid/restricted, only unofficial mirrors) was deliberately SKIPPED per scope. UTG1/UTG7 are legacy 1980s-vintage documents."
+}

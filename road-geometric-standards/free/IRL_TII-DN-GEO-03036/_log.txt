@@ -1,0 +1,14 @@
+IRL DN-GEO-03036 Cross Sections and Headroom — download log
+Date: 2026-06-14
+
+URL tried (official TII CDN):
+  https://cdn.tii.ie/publications/DN-GEO-03036-09.pdf
+  -> curl.exe -L -A "Mozilla/5.0" --fail-with-body  => HTTP 200, 2.18 MB, exit 0
+
+Validation:
+  python _tools/validate_pdf.py DN-GEO-03036-09.pdf
+  -> {"ok": true, "is_pdf": true, "bytes": 2287531, "pages": 55,
+      "sha256": "a6408b3c306cf5fbfe4f5ac4d013c813fdc6fdb0a1e95b75533612bc2e5e039e", "reason": "valid pdf"}
+
+Outcome: RETRIEVED. Placed in free/IRL_TII-DN-GEO-03036/DN-GEO-03036-09.pdf
+Source: official Transport Infrastructure Ireland publications CDN (cdn.tii.ie). No mirrors used.

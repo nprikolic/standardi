@@ -1,0 +1,46 @@
+KOR KHCM 2013 download log
+===========================
+Date (UTC context): 2026-06-14
+Worker: download worker — free gap fill for KOR (도로용량편람 / Korean Highway Capacity Manual, 2013).
+
+STEP 1 — Audit read
+  Source: D:\My Drive\Nauka\standardi\road-geometric-standards\_audit\KOR.json
+  "missing" free entry: 도로용량편람 (KHCM) 2013, MOLIT/KICT — weaving (엇갈림) capacity & length analysis.
+  URL hint: https://www.codil.or.kr/filebank/moct2014/201302/MOCT1092_1.PDF (possibly multi-part).
+  Note: KDS 44 20 series is mentioned in audit but is in authoritative_set/notes, NOT in the "missing" list — only KHCM is the missing free gap.
+
+STEP 2 — Download
+  Attempt 1: curl.exe -L -A "Mozilla/5.0" --fail-with-body -o MOCT1092_1.PDF
+             "https://www.codil.or.kr/filebank/moct2014/201302/MOCT1092_1.PDF"
+             -> HTTP 200 but 3584 bytes, content_type text/html (CODIL "오류발생" / error page, contains jsessionid).
+             -> NOT a PDF. Deleted.
+  Attempt 2: added Referer "https://www.codil.or.kr/" -> still 3584-byte HTML. Deleted.
+  WebSearch ("도로용량편람 2013 codil MOCT1092") revealed the working form requires the CODIL
+             record id query param: ...MOCT1092_1.PDF?nserialno=1092
+  Attempt 3: curl.exe -L -A "Mozilla/5.0" -e "https://www.codil.or.kr/" --fail-with-body -o MOCT1092_1.PDF
+             "https://www.codil.or.kr/filebank/moct2014/201302/MOCT1092_1.PDF?nserialno=1092"
+             -> HTTP 200, 5,609,845 bytes, content_type application/pdf;charset=UTF-8, header %PDF-1.4. OK.
+
+  Multi-part probe: MOCT1092_2.PDF .. MOCT1092_5.PDF (with ?nserialno=1092)
+             -> all HTTP 200 but 3584-byte text/html error pages. No additional parts exist.
+             KHCM 2013 is a SINGLE 702-page file.
+
+STEP 3 — Validate
+  python _tools\validate_pdf.py MOCT1092_1.PDF
+  -> {"ok": true, "is_pdf": true, "bytes": 5609845, "pages": 702,
+      "sha256": "b2389ac446125eb5338a3503d5af17f51a12577b8e2dd96a2ba7f1f759fe60b9",
+      "reason": "valid pdf"}
+
+  Content verification (UTF-8 text extraction):
+    p1: "발간등록번호 11-B090023-000298-01 / 도로용량편람 / 2013"  (title + year confirmed)
+    p5: issuer "한국건설기술연구원" (KICT); lists 고속도로 기본구간, 엇갈림구간(weaving), 연결로접속부 ...
+    p7: "제3장 고속도로 엇갈림 구간" (Ch.3 Freeway Weaving Sections)
+    p13: "<표 3-1> 엇갈림 구간의 서비스수준" (Table 3-1 LOS for weaving sections)
+    59 pages contain 엇갈림(weaving) -> target topic (weaving capacity/length) fully covered.
+
+STEP 4 — Place
+  free/KOR_KHCM-2013/MOCT1092_1.PDF  (primary & only volume — covers weaving/interchange operations)
+
+STEP 5 — Wrote _result.json (status free, result retrieved) and this _log.txt.
+
+RESULT: retrieved. Official source only (codil.or.kr = MOLIT 건설기술정보시스템 CODIL). No purchase.

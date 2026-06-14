@@ -1,0 +1,42 @@
+{
+  "file": "WR-D-32-2_wezly-elementy-i-wyposazenie.pdf",
+  "iso3": "POL",
+  "lang": "pl+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 3,
+      "count": 180
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 3,
+      "count": 39
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 10,
+      "count": 50
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 10,
+      "count": 9
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 10,
+      "count": 5
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 3,
+      "count": 76
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 97,
+  "notes": "",
+  "refetch_hint": ""
+}

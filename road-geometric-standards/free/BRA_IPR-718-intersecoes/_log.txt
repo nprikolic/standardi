@@ -1,0 +1,23 @@
+2026-06-14  BRA IPR-718 download worker
+
+STEP 1: Read _audit/BRA.json. Free missing entry:
+  IPR-718 Manual de Projeto de Interseções (2ª ed., 2005) — free
+  url: https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-manuais/vigentes/718_manual_de_projeto_de_intersecoes.pdf
+
+STEP 2: Download (official gov.br/dnit ONLY)
+  curl.exe -L -A "Mozilla/5.0" --fail-with-body -o "<out>" "<url>"
+  Result: HTTP 200, completed. 11.40 MiB transferred. curl exit 0. No 404 / no fallback search needed.
+
+STEP 3: Validate
+  python _tools/validate_pdf.py "<file>"
+  => {"ok": true, "is_pdf": true, "bytes": 11955803, "pages": 530,
+      "sha256": "69880ce598c7189ba981c9cf64e7c7a123fd89afb37f89befb9757bd6775f56d",
+      "reason": "valid pdf"}
+  Text-layer check: first 25 pages -> 51204 non-whitespace chars => text-based, NO OCR required.
+
+STEP 4: Placed in free/BRA_IPR-718-intersecoes/
+  file: IPR-718_Manual_de_Projeto_de_Intersecoes_2005.pdf
+
+STEP 5: Wrote _result.json (result=retrieved).
+
+RESULT: retrieved.

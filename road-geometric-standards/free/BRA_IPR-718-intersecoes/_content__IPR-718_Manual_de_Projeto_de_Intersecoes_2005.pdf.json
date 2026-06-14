@@ -1,0 +1,42 @@
+{
+  "file": "IPR-718_Manual_de_Projeto_de_Intersecoes_2005.pdf",
+  "iso3": "BRA",
+  "lang": "pt+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 8,
+      "count": 104
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 11,
+      "count": 118
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 7,
+      "count": 253
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 11,
+      "count": 233
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 11,
+      "count": 334
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 12,
+      "count": 223
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 531,
+  "notes": "",
+  "refetch_hint": ""
+}

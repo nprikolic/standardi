@@ -1,0 +1,42 @@
+{
+  "file": "ITA_GU-147-2004_full-issue_source.pdf",
+  "iso3": "MODEL",
+  "lang": "en",
+  "verdict": "PARTIAL",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SIGHT_DISTANCE": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "HORIZONTAL": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "VERTICAL": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 2,
+      "count": 44
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 6,
+      "count": 20
+    }
+  },
+  "categories_hit": 2,
+  "pages_total": 65,
+  "notes": "",
+  "refetch_hint": ""
+}

@@ -1,0 +1,42 @@
+{
+  "file": "SRDM4-0-projektni-elementi-puta.pdf",
+  "iso3": "SRB",
+  "lang": "sr+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 27,
+      "count": 28
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 3,
+      "count": 128
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 3,
+      "count": 215
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 3,
+      "count": 55
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 4,
+      "count": 67
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 3,
+      "count": 616
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 117,
+  "notes": "",
+  "refetch_hint": ""
+}

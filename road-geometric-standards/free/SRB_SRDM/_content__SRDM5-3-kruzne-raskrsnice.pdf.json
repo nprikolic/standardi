@@ -1,0 +1,42 @@
+{
+  "file": "SRDM5-3-kruzne-raskrsnice.pdf",
+  "iso3": "SRB",
+  "lang": "sr+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 3,
+      "count": 93
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 3,
+      "count": 134
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 30,
+      "count": 14
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 4,
+      "count": 13
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 3,
+      "count": 112
+    }
+  },
+  "categories_hit": 5,
+  "pages_total": 67,
+  "notes": "",
+  "refetch_hint": ""
+}

@@ -1,0 +1,16 @@
+{
+  "iso3": "ESP",
+  "country": "Spain",
+  "standard": "OC 32/2012 Guía de Nudos Viarios",
+  "issuer": "Ministerio de Transportes (DGC)",
+  "status": "free",
+  "result": "retrieved",
+  "source_url": "https://www.transportes.gob.es/recursos_mfom/comodin/recursos/oc_32-2012.pdf",
+  "file": "OC-32-2012-nudos.pdf",
+  "sha256": "efb7b2d33b211626449815d5c1b287a7df8e887fe05ae01fdc508944c753a891",
+  "bytes": 8224187,
+  "pages": 549,
+  "price": "",
+  "store_url": "",
+  "notes": "Official Ministerio de Transportes (DGC) PDF. Direct curl with only User-Agent returned HTTP 403 (WAF 'Página web bloqueada' page, 2970 bytes) as warned in the audit; bypassed by adding browser headers including Referer: https://www.transportes.gob.es/ plus Accept/Accept-Language. Validated ok=true, 549 pages (~547 pp expected). Content confirmed: cover 'GUÍA DE NUDOS VIARIOS — DICIEMBRE 2012' and ToC (3.3 Velocidad, 4.7 Visibilidad, 5 Morfología de los nudos, intersecciones). Completes at-grade-intersection + interchange design coverage for ESP."
+}

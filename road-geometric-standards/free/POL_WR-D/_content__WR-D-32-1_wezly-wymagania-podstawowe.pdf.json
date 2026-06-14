@@ -1,0 +1,42 @@
+{
+  "file": "WR-D-32-1_wezly-wymagania-podstawowe.pdf",
+  "iso3": "POL",
+  "lang": "pl+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 9,
+      "count": 32
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 9,
+      "count": 9
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 27,
+      "count": 2
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 37,
+      "count": 1
+    },
+    "SUPERELEVATION": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 9,
+      "count": 19
+    }
+  },
+  "categories_hit": 5,
+  "pages_total": 60,
+  "notes": "",
+  "refetch_hint": ""
+}

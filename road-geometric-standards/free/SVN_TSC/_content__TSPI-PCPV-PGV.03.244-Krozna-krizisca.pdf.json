@@ -1,0 +1,42 @@
+{
+  "file": "TSPI-PCPV-PGV.03.244-Krozna-krizisca.pdf",
+  "iso3": "SVN",
+  "lang": "sl+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 2,
+      "count": 82
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 2,
+      "count": 45
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 40,
+      "count": 4
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 2,
+      "count": 21
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 4,
+      "count": 18
+    }
+  },
+  "categories_hit": 5,
+  "pages_total": 61,
+  "notes": "",
+  "refetch_hint": ""
+}

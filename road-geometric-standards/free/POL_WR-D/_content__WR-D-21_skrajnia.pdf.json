@@ -1,0 +1,42 @@
+{
+  "file": "WR-D-21_skrajnia.pdf",
+  "iso3": "POL",
+  "lang": "pl+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 24,
+      "count": 1
+    },
+    "SIGHT_DISTANCE": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 24,
+      "count": 1
+    },
+    "VERTICAL": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 9,
+      "count": 2
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 9,
+      "count": 20
+    }
+  },
+  "categories_hit": 4,
+  "pages_total": 46,
+  "notes": "",
+  "refetch_hint": ""
+}

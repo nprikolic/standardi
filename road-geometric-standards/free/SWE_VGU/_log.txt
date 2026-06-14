@@ -37,3 +37,24 @@ result=retrieved
 PRIMARY = VGU_Krav_Publikation2022-001.pdf (Krav VGU 2022:001, 365 pp, geometric requirement chapters incl. linjeföring + sektion)
 Extras (validated, in folder): TRV 2024:148 Krav Grundvärden (current-edition values), 2022:002 Begrepp och grundvärden, 2022:003 Råd (guidance).
 All sources official Trafikverket DiVA repository. No paywall, no checkout.
+
+=== CURRENT-EDITION DOWNLOAD — 2026-06-14 (supersession of held 2022 set) ===
+TASK: fetch CURRENT in-force TRVINFRA-00396 VGU Krav v1.0 (2025-01-01). 2022 set is SUPERSEDED.
+PUBEN is a JS SPA (main.js). Discovery via the SPA bundle, NOT a static PDF link:
+  - Fetched https://puben.trafikverket.se/dpub/main.js -> found API route api/v1/Dokument/DownloadDokument
+    and the call template: api/v1/Dokument/DownloadDokument?id=<docGuid>&dokumentName=<file>
+  - Metadata: GET https://puben.trafikverket.se/dpub/api/v1/Dokument/Get?id=6f24d1e8-81bf-4e7a-948a-200e71c92f66
+    -> dokumentnummer TRVINFRA-00396, versionsNummer 1.0, ersätter TRV 2022:001/002/003.
+       uploadedDokument: relType1 'Krav...v1_0.pdf', relType2 'Krav med raadstexter...v1_0.pdf', relType4 .pptx.
+    -> chose relType2 (Krav MED RÅDSTEXT = merged Krav+Råd, per audit).
+DOWNLOAD (curl.exe -L -A "Mozilla/5.0" --fail-with-body):
+[OK] https://puben.trafikverket.se/dpub/api/v1/Dokument/DownloadDokument?id=6f24d1e8-81bf-4e7a-948a-200e71c92f66&dokumentName=Krav%20med%20raadstexter%20TRVINFRA-00396%20Vaegars%20och%20gators%20ut%20v1_0.pdf
+     content-type application/octet-stream, %PDF-1.7
+     -> VGU_Krav_med_radstext_TRVINFRA-00396_v1_0.pdf | 22906246 bytes | validate ok=true | 721 pages
+        sha256 30de29cd896e61ea93a25cda1102175089107ca7e4f037bdba445e5562dc8ba5
+COMPANION (already held, re-validated ok=true, paired with v1.0):
+     VGU_Krav_Grundvarden_TRV2024-148.pdf | 2681124 bytes | 58 pages
+        sha256 91a75dddfb58c4623fc22a5f46fa9bc2f3b8697da3b7cf2cd4d4e2de59059470
+RESULT: retrieved. PRIMARY now = VGU_Krav_med_radstext_TRVINFRA-00396_v1_0.pdf (CURRENT 2025 edition).
+2022 files KEPT (legacy, valid for pre-2025 projects). _result.json updated to new primary.
+Official sources only (puben.trafikverket.se DownloadDokument API + trafikverket.diva-portal.org).

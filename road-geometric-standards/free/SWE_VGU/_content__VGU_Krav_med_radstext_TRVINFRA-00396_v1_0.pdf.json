@@ -1,0 +1,42 @@
+{
+  "file": "VGU_Krav_med_radstext_TRVINFRA-00396_v1_0.pdf",
+  "iso3": "SWE",
+  "lang": "sv+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 82,
+      "count": 4
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 19,
+      "count": 76
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 13,
+      "count": 386
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 4,
+      "count": 543
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 22,
+      "count": 118
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 14,
+      "count": 158
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 722,
+  "notes": "",
+  "refetch_hint": ""
+}

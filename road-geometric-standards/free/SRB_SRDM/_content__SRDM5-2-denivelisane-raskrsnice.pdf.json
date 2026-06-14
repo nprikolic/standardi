@@ -1,0 +1,42 @@
+{
+  "file": "SRDM5-2-denivelisane-raskrsnice.pdf",
+  "iso3": "SRB",
+  "lang": "sr+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 3,
+      "count": 3
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 3,
+      "count": 59
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 15,
+      "count": 23
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 5,
+      "count": 9
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 20,
+      "count": 14
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 5,
+      "count": 21
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 43,
+  "notes": "",
+  "refetch_hint": ""
+}

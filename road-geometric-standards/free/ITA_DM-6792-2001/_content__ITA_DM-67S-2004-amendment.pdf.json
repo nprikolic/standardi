@@ -1,0 +1,42 @@
+{
+  "file": "ITA_DM-67S-2004-amendment.pdf",
+  "iso3": "MODEL",
+  "lang": "en",
+  "verdict": "NO_GEOMETRY",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SIGHT_DISTANCE": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "HORIZONTAL": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "VERTICAL": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 1,
+      "count": 1
+    },
+    "CROSS_SECTION": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    }
+  },
+  "categories_hit": 1,
+  "pages_total": 3,
+  "notes": "",
+  "refetch_hint": ""
+}

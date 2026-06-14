@@ -1,0 +1,42 @@
+{
+  "file": "MOCT1092_1.PDF",
+  "iso3": "KOR",
+  "lang": "ko+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 13,
+      "count": 112
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 64,
+      "count": 11
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 14,
+      "count": 87
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 14,
+      "count": 34
+    },
+    "SUPERELEVATION": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 13,
+      "count": 170
+    }
+  },
+  "categories_hit": 5,
+  "pages_total": 703,
+  "notes": "",
+  "refetch_hint": ""
+}

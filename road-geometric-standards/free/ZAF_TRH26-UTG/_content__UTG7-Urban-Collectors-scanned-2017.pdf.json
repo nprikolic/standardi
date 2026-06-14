@@ -1,0 +1,42 @@
+{
+  "file": "UTG7-Urban-Collectors-scanned-2017.pdf",
+  "iso3": "ZAF",
+  "lang": "en",
+  "verdict": "NEEDS_OCR",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SIGHT_DISTANCE": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "HORIZONTAL": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "VERTICAL": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SUPERELEVATION": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "CROSS_SECTION": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    }
+  },
+  "categories_hit": 0,
+  "pages_total": 45,
+  "notes": "image-only / no extractable text (0 chars); tesseract unavailable",
+  "refetch_hint": "OCR needed (no tesseract installed); seek a text-based official edition"
+}

@@ -1,0 +1,40 @@
+SRB SRDM download log
+=====================
+Date: 2026-06-14
+Worker: DOWNLOAD worker (free gaps), COUNTRY=SRB
+Target folder: free/SRB_SRDM/
+Source host: putevi-srbije.rs (official, JP Putevi Srbije) — official ONLY, no mirrors.
+
+STEP 1 — Audit read: D:\My Drive\Nauka\standardi\road-geometric-standards\_audit\SRB.json
+  4 "missing" entries, all free_or_paid=free:
+    - SRDM 4-0 Projektni elementi puta (direct URL in audit)
+    - SRDM 5-1 Raskrsnice i prikljuci u nivou (direct URL in audit)
+    - SRDM 5-2 Denivelisane raskrsnice (audit URL = index page, needed resolution)
+    - SRDM 5-3 Kruzne raskrsnice (audit URL = index page, needed resolution)
+
+STEP 2 — URL resolution:
+  Index page https://www.putevi-srbije.rs/index.php/srdm-prirucnik-za-projektovanje-puteva returned HTTP 404
+    (both via WebFetch and curl with browser UA; the Latin-alias slug appears stale — a Cyrillic slug exists).
+  Directory listing of .../prirucnik_za_projektovanje_puteva/ returned HTTP 403 (autoindex disabled).
+  Resolved 5-2 and 5-3 direct PDF URLs via web search (official putevi-srbije.rs links):
+    5-2: .../SRDM5-2-denivelisane-raskrsnice(120505-srb-konacna).pdf
+    5-3: .../SRDM5-3-kruzne-raskrnice(120427-srb-konacni).pdf   [server spelling 'raskrnice']
+  4-0 and 5-1 direct URLs taken from audit; both confirmed HTTP 200 / application/pdf via HEAD.
+
+STEP 2 — Downloads (curl.exe -L -A "Mozilla/5.0" --fail-with-body):
+  SRDM4-0-projektni-elementi-puta.pdf           HTTP=200 application/pdf 3320048 bytes
+  SRDM5-1-raskrsnice-i-prikljuci-u-nivou.pdf    HTTP=200 application/pdf  986865 bytes
+  SRDM5-2-denivelisane-raskrsnice.pdf           HTTP=200 application/pdf 1171495 bytes
+  SRDM5-3-kruzne-raskrsnice.pdf                 HTTP=200 application/pdf 1823136 bytes
+
+STEP 3 — Validation (python _tools/validate_pdf.py):
+  SRDM4-0 : ok=true is_pdf=true pages=116 bytes=3320048 sha256=987cbab28dce8fb3ad4995ddc3dd77494d935de12e8f1303b542871f4271ba95
+  SRDM5-1 : ok=true is_pdf=true pages=41  bytes=986865  sha256=7db086a820668b224df7bd6d146c81c3089e83afd26aa9439a50c327378e6fa2
+  SRDM5-2 : ok=true is_pdf=true pages=42  bytes=1171495 sha256=49dc4820202ed0ff0dfdbd426b3039f7309296f5bb9a0f6520dfc5bce6b7492d
+  SRDM5-3 : ok=true is_pdf=true pages=66  bytes=1823136 sha256=00bc6ace2ee4845f2f28454c8967213f5d3d83af08156f31c1513c5f2c4a9eae
+  All 4 valid. No HTML/login/0-byte files; nothing deleted.
+
+STEP 4 — Placement: all 4 SRDM parts in free/SRB_SRDM/.
+STEP 5 — _result.json written (primary=SRDM4-0; 5-1/5-2/5-3 listed in notes).
+
+RESULT: retrieved (4/4).

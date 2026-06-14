@@ -1,0 +1,41 @@
+JTG B01-2014 "Technical Standard of Highway Engineering" (公路工程技术标准) — CHN download log
+Date: 2026-06-14
+Worker: DOWNLOAD (one free gap attempt, no purchases)
+
+STEP 1 — Locate free official source
+- WebFetch audit hint: https://xxgk.mot.gov.cn/2020/jigou/glj/202006/t20200623_3312197.html
+  -> Official Ministry of Transport (交通运输部) notice (2014) announcing release of JTG B01-2014,
+     replacing 2003 version, effective 2015-01-01.
+  -> Page carries a PDF attachment link: ./P020230628577830212881.pdf (labeled 公路工程技术标准.pdf)
+- Resolved attachment URL (same directory as notice page):
+     https://xxgk.mot.gov.cn/2020/jigou/glj/202006/P020230628577830212881.pdf
+- Source domain mot.gov.cn = official central government. No third-party mirrors used.
+
+STEP 2 — Download + validate
+- Command:
+    curl.exe -L -A "Mozilla/5.0" --fail-with-body -o ".\JTG_B01-2014.pdf" \
+      "https://xxgk.mot.gov.cn/2020/jigou/glj/202006/P020230628577830212881.pdf"
+  -> HTTP success, 3,748,272 bytes downloaded.
+- validate_pdf.py output:
+    {"ok": true, "is_pdf": true, "bytes": 3748272, "pages": 115,
+     "sha256": "7544fb476e77609cb9108bffb79f22b4c57d31a044ef92c0f0cad4477d6beee6",
+     "reason": "valid pdf"}
+  -> ok=true REQUIRED condition met.
+
+STEP 2b — Content verification (confirm full text, not a notice)
+- Text extraction returns 0 chars per page => image-based scan.
+- Per-page image probe: every sampled page (1,6,51,101,115) holds a JBIG2-encoded scanned page image.
+- Rendered page 19 to PNG and read visually: confirms genuine standard body —
+  section numbers 4.6.x, table 表4.6.2 "分离式断面高速公路一级公路中间带宽度"
+  with design speeds 120/100/80/60 km/h and median/shoulder/lane width values.
+- Conclusion: this is the COMPLETE scanned JTG B01-2014 standard (115 pp), not the short notice.
+  (A diagonal watermark overlays the scan; official content intact.)
+
+STEP 3 — Placement
+- Folder created: free/CHN_JTG-B01/
+- File: JTG_B01-2014.pdf
+- Temp render PNGs removed.
+
+STEP 4 — Result
+- result = retrieved (free official full text)
+- No purchase made. No fake PDF written.

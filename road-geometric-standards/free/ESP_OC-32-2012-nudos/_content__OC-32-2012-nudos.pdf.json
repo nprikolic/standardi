@@ -1,0 +1,42 @@
+{
+  "file": "OC-32-2012-nudos.pdf",
+  "iso3": "ESP",
+  "lang": "es+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 71,
+      "count": 37
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 63,
+      "count": 3
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 10,
+      "count": 169
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 31,
+      "count": 66
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 46,
+      "count": 36
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 10,
+      "count": 871
+    }
+  },
+  "categories_hit": 6,
+  "pages_total": 550,
+  "notes": "",
+  "refetch_hint": ""
+}

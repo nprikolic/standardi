@@ -1,0 +1,21 @@
+IRL DMURS Design Manual for Urban Roads and Streets — download log
+Date: 2026-06-14
+
+Audit URL was a gov.ie landing page (not a direct PDF):
+  https://www.gov.ie/en/department-of-transport/publications/design-manual-for-urban-roads-and-streets/
+
+Resolution: WebFetch on the official gov.ie DoT landing page surfaced the direct
+"Latest Version" PDF link on assets.gov.ie (the gov.ie static asset host):
+  https://assets.gov.ie/static/documents/design-manual-for-urban-roads-and-streets-version-11.pdf
+  ("version-11" = DMURS Version 1.1)
+
+Download:
+  curl.exe -L -A "Mozilla/5.0" --fail-with-body  => HTTP 200, 14.78 MB, exit 0
+
+Validation:
+  python _tools/validate_pdf.py DMURS-version-11.pdf
+  -> {"ok": true, "is_pdf": true, "bytes": 15499446, "pages": 165,
+      "sha256": "baef88e356056ce03d3a2a7954ce8452fa2a1358ac40588da1067b7027567548", "reason": "valid pdf"}
+
+Outcome: RETRIEVED. Placed in free/IRL_DMURS/DMURS-version-11.pdf
+Source: official gov.ie / assets.gov.ie (Department of Transport). No mirrors (no dmurs.ie wix / scribd) used.

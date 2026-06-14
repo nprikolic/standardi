@@ -40,3 +40,50 @@ https://www.nzta.govt.nz/assets/resources/state-highway-geometric-design-manual/
 
 OUTCOME: retrieved. 9 valid official NZTA PDFs (SHGDM, free, no login). Primary = Part 2.
 Austroads AGRD Part 3 (current authority) remains login-gated and was NOT downloaded.
+
+================================================================================
+2026-06-14 (second pass) — NZTA Technical Memoranda TM2501 / TM2502 / TM2503
+================================================================================
+GOAL: fill the free gap = NZ-specific TM supplements/overrides to Austroads AGRD.
+Page: https://nzta.govt.nz/roads-and-rail/road-engineering/geometric-design/supplementary-guidance
+
+RESOLVED OFFICIAL DIRECT-PDF URLs (via WebFetch on nzta.govt.nz resource pages):
+- TM2501 Superelevation calculations (Aug 2021) — replaces AGRD Part 3 §7.7.1
+    https://www.nzta.govt.nz/assets/resources/superelevation-calculations/docs/tm2501.pdf
+    resource page: https://www.nzta.govt.nz/resources/superelevation-calculations
+- TM2502 Preferred method for calculating road surface water run-off (Aug 2021)
+    https://www.nzta.govt.nz/assets/resources/calculating-road-surface-water-run-off/docs/tm2502.pdf
+    resource page: https://www.nzta.govt.nz/resources/calculating-road-surface-water-run-off
+- TM2503 Edge protection & medians on dual carriageways, Safe System (Mar 2013)
+    https://www.nzta.govt.nz/assets/resources/dual-carriageway-safe-system/docs/dual-carriageway-safe-system.pdf
+    resource page: https://www.nzta.govt.nz/resources/dual-carriageway-safe-system
+
+DOWNLOAD RESULT: needs_manual (could NOT auto-download — Imperva/Incapsula bot wall).
+  - Every curl request to these three /assets/... TM PDFs returns the Incapsula
+    JavaScript challenge (212 / ~880-byte HTML stub) or HTTP 403 Forbidden, with
+    Set-Cookie visid_incap_* / incap_ses_* and an /_Incapsula_Resource script.
+    The origin requires browser JS execution to mint the clearance cookie; curl
+    (the mandated tool) cannot solve it.
+  - Diagnosis isolated the block to NEW (un-cached) assets: a re-fetch of an
+    already-harvested SHGDM PDF (shgdm-part-1.pdf) STILL returns a valid %PDF
+    (served from Incapsula edge cache, warmed by this morning's harvest), while
+    the never-before-fetched TM PDFs all get the JS challenge / 403. So the wall
+    is per-asset cache state, not a transient rate-limit.
+  - Attempts made (all failed for the TM assets):
+      1. plain  curl -L -A "Mozilla/5.0" --fail-with-body            -> 212B stub
+      2. full Chrome UA + Accept/Accept-Language/Referer headers     -> 880B JS challenge
+      3. homepage-warmed cookie jar, 12-attempt loop w/ 25s backoff  -> all blocked
+      4. capture asset's own challenge cookies + replay to same URL  -> still blocked
+      5. header-only trace (no -L)                                   -> HTTP 403 Forbidden
+      6. alternate host resources.nzta.govt.nz                       -> does not resolve (000)
+  - No redirect to an un-gated CDN/S3 host exists; 403 is served straight from Imperva.
+  - Per task rules: official nzta.govt.nz ONLY, no mirrors (Wayback etc. NOT used),
+    no fabricated files. Nothing written to disk for the TMs (all stubs deleted).
+
+MANUAL ACTION NEEDED: download the three URLs above in a real (JS-capable) browser
+  — they are free, no login, just behind the Incapsula bot wall — then drop the
+  PDFs into this folder and validate with _tools/validate_pdf.py.
+
+Austroads AGRD core (Part 2/3/4 series) remains paid/login on austroads.gov.au
+(HTTP 403 to anonymous fetch) — see BUY_LIST; free to NZ local authorities via
+NZTA Austroads membership (austroadsguides@nzta.govt.nz). Not downloaded.

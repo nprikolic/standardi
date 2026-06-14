@@ -55,9 +55,9 @@
 
 ### 0d. Popunjavanje praznina iz audita (vidi `road-geometric-standards/AUDIT.md`)
 > Audit 19 zemalja (2026-06-14): **3 COMPLETE, 10 ADEQUATE_CORE, 6 PARTIAL** · 34 besplatne praznine, 6 plaćenih, 4 zastarela izdanja.
-- [ ] 🤖 Skinuti **34 besplatne praznine** (prioritet: raskrsnice/čvorovi koji fale kod POL, ITA, ESP, BRA, IRL, SVN, SRB, KOR). URL-ovi u AUDIT.md.
-- [ ] 👤/🤖 Zameniti **zastarela izdanja**: SWE → TRVINFRA-00396; HRV → pročišćeni NN (izmene 90/2022 + 154/2024 — naš render je original); NZL → Austroads AGRD; ZAF (po potrebi).
-- [ ] 🤖 Plaćene/restriktivne praznine (CHN JTG B01/D21, JPN JRA komentar, ZAF SANRAL, MWI SATCC, DEU FGSV 242) — na BUY_LIST/odluku.
+- [x] 🤖 Besplatne praznine skinute (vidi `road-geometric-standards/GAP_FILL.md`): raskrsnice/čvorovi za POL/ITA/ESP/BRA/IRL/SRB/KOR/SVN + CHN JTG B01 (besplatno). Ostaje **needs_manual**: NZL TM2501-2503, SVN TSC 03.200/03.300, HRV NN 90/2022.
+- [x] 🤖 Osvežena zastarela: SWE → TRVINFRA-00396 (2025); HRV → +NN 154/2024 + Smjernice. NZL → AGRD plaćeno (login); ZAF → +TRH26/UTG.
+- [x] 🤖 Plaćene praznine na BUY_LIST: CHN JTG/T D21, JPN JRA, ZAF SANRAL, MWI SATCC, DEU FGSV 242.
 
 ---
 

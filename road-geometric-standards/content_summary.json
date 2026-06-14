@@ -1,17 +1,82 @@
 {
-  "total_pdfs": 46,
+  "total_pdfs": 76,
   "by_verdict": {
-    "CONFIRMED": 44,
-    "NEEDS_OCR": 2
+    "CONFIRMED": 65,
+    "NEEDS_OCR": 4,
+    "PARTIAL": 5,
+    "NO_GEOMETRY": 2
   },
-  "confirmed": 44,
-  "partial": 0,
-  "no_geometry": 0,
-  "needs_ocr": 2,
+  "confirmed": 65,
+  "partial": 5,
+  "no_geometry": 2,
+  "needs_ocr": 4,
   "non_confirmed": [
     {
       "file": "IPR-706_Manual_Projeto_Geometrico_Rodovias_Rurais.pdf",
       "iso3": "BRA",
+      "verdict": "NEEDS_OCR",
+      "refetch_hint": "OCR needed (no tesseract installed); seek a text-based official edition",
+      "notes": "image-only / no extractable text (0 chars); tesseract unavailable"
+    },
+    {
+      "file": "JTG_B01-2014.pdf",
+      "iso3": "CHN",
+      "verdict": "NEEDS_OCR",
+      "refetch_hint": "OCR needed (no tesseract installed); seek a text-based official edition",
+      "notes": "image-only / no extractable text (0 chars); tesseract unavailable"
+    },
+    {
+      "file": "HRV_NN-154-2024_izmjene-dopune.pdf",
+      "iso3": "HRV",
+      "verdict": "PARTIAL",
+      "refetch_hint": "NN 110/2001; ako NEEDS_OCR, traži text-izdanje",
+      "notes": ""
+    },
+    {
+      "file": "ITA_DM-6792-2001.pdf",
+      "iso3": "MODEL",
+      "verdict": "PARTIAL",
+      "refetch_hint": "",
+      "notes": ""
+    },
+    {
+      "file": "ITA_DM-67S-2004-amendment.pdf",
+      "iso3": "MODEL",
+      "verdict": "NO_GEOMETRY",
+      "refetch_hint": "",
+      "notes": ""
+    },
+    {
+      "file": "ITA_GU-147-2004_full-issue_source.pdf",
+      "iso3": "MODEL",
+      "verdict": "PARTIAL",
+      "refetch_hint": "",
+      "notes": ""
+    },
+    {
+      "file": "ITA_DM-intersezioni-2006.pdf",
+      "iso3": "ITA",
+      "verdict": "PARTIAL",
+      "refetch_hint": "DM 6792/2001 annex with geometric tables (all_1 held)",
+      "notes": ">=4 categories but neither DESIGN_SPEED nor SIGHT_DISTANCE matched"
+    },
+    {
+      "file": "WR-D-22-4_katalog-typowych-przekrojow-poprzecznych.pdf",
+      "iso3": "POL",
+      "verdict": "NO_GEOMETRY",
+      "refetch_hint": "WR-D-22-2 geometric part (held)",
+      "notes": ""
+    },
+    {
+      "file": "TSPI-PCPV-PGV.03.245-Krozna-krizisca-s-spiralnim.pdf",
+      "iso3": "SVN",
+      "verdict": "PARTIAL",
+      "refetch_hint": "Pravilnik o projektiranju cest (NPB)",
+      "notes": ""
+    },
+    {
+      "file": "UTG7-Urban-Collectors-scanned-2017.pdf",
+      "iso3": "ZAF",
       "verdict": "NEEDS_OCR",
       "refetch_hint": "OCR needed (no tesseract installed); seek a text-based official edition",
       "notes": "image-only / no extractable text (0 chars); tesseract unavailable"

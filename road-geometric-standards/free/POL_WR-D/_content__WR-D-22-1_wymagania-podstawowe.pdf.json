@@ -1,0 +1,42 @@
+{
+  "file": "WR-D-22-1_wymagania-podstawowe.pdf",
+  "iso3": "POL",
+  "lang": "pl+en",
+  "verdict": "CONFIRMED",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": true,
+      "page": 3,
+      "count": 76
+    },
+    "SIGHT_DISTANCE": {
+      "hit": true,
+      "page": 3,
+      "count": 157
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 10,
+      "count": 15
+    },
+    "VERTICAL": {
+      "hit": true,
+      "page": 9,
+      "count": 7
+    },
+    "SUPERELEVATION": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 18,
+      "count": 8
+    }
+  },
+  "categories_hit": 5,
+  "pages_total": 44,
+  "notes": "",
+  "refetch_hint": ""
+}

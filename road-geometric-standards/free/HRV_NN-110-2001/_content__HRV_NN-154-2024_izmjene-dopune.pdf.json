@@ -1,0 +1,42 @@
+{
+  "file": "HRV_NN-154-2024_izmjene-dopune.pdf",
+  "iso3": "HRV",
+  "lang": "hr+en",
+  "verdict": "PARTIAL",
+  "categories": {
+    "DESIGN_SPEED": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SIGHT_DISTANCE": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "HORIZONTAL": {
+      "hit": true,
+      "page": 1,
+      "count": 1
+    },
+    "VERTICAL": {
+      "hit": false,
+      "page": null,
+      "count": 0
+    },
+    "SUPERELEVATION": {
+      "hit": true,
+      "page": 1,
+      "count": 1
+    },
+    "CROSS_SECTION": {
+      "hit": true,
+      "page": 1,
+      "count": 12
+    }
+  },
+  "categories_hit": 3,
+  "pages_total": 3,
+  "notes": "",
+  "refetch_hint": "NN 110/2001; ako NEEDS_OCR, traži text-izdanje"
+}

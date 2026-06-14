@@ -1,0 +1,16 @@
+{
+"iso3": "DEU",
+"country": "Germany",
+"standard": "M Anlage von Kreisverkehren (FGSV 242, 2006; rev. EKr ~2025)",
+"issuer": "FGSV",
+"status": "paid",
+"result": "paywalled",
+"source_url": "https://www.fgsv-verlag.de/anlage-von-kreisverkehren",
+"file": "",
+"sha256": "",
+"bytes": 0,
+"pages": 0,
+"price": "po FGSV-Verlag ceni",
+"store_url": "https://www.fgsv-verlag.de/anlage-von-kreisverkehren",
+"notes": "Iz audita: dopunski Merkblatt za kružne raskrsnice; jezgro (RAA/RAL/RASt) već imamo. Samo opciono."
+}

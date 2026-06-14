@@ -19,3 +19,33 @@ CONTENT VERIFY
 - WR-D-22-2 page 1 title: "Wytyczne projektowania odcinkow drog zamiejskich. Czesc 2: Ksztaltowanie geometryczne. 01-2023.01.23. WR-D-22-2". Keywords present: promien=yes, klotoida=yes, przekroj=yes, pochylenie=yes, ksztaltowanie geometryczne=yes. Correct geometric-design guideline, in force.
 
 RESULT: retrieved. Primary file = WR-D-22-2 (geometric). Dz.U. 2022 poz. 1518 also retrieved & validated (listed in notes).
+
+================================================================
+GAP-FILL PASS 2 — date: 2026-06-14 (download worker, free WR-D parts for POL)
+Goal: fill 8 free "missing" parts from POL.json audit: WR-D-31-1/2/3, WR-D-32-1/2 (WR-D-30 junction/node group), WR-D-22-4, WR-D-22-1, WR-D-21.
+
+DISCOVERY
+- WebFetch https://www.gov.pl/web/infrastruktura/wrd-30-skrzyzowania-i-wezly -> enumerated WR-D-30 group attachment URLs.
+- WebFetch https://www.gov.pl/web/infrastruktura/wr-d -> enumerated WR-D-21 / WR-D-22-x attachment URLs (WR-D-22-2 attachment matched the one already held, confirming index correct).
+
+DOWNLOADS (curl.exe -L -A "Mozilla/5.0" --fail-with-body) — all HTTP 200, content_type application/pdf
+- https://www.gov.pl/attachment/10c2f25a-a49c-45fd-b461-336c4f32866d -> WR-D-31-1_skrzyzowania-wymagania-podstawowe.pdf : OK (4,758,295 bytes)
+- https://www.gov.pl/attachment/5bb9c800-2f1f-48db-8241-a73c4cdb5856 -> WR-D-31-2_skrzyzowania-zwykle-i-skanalizowane.pdf : OK (6,641,213 bytes)
+- https://www.gov.pl/attachment/2fe2e841-a403-4322-a4ca-53c9ad128800 -> WR-D-31-3_skrzyzowania-ronda.pdf : OK (5,710,835 bytes)
+- https://www.gov.pl/attachment/c12979e3-0a6f-4be7-a4a6-192ed2aed34a -> WR-D-32-1_wezly-wymagania-podstawowe.pdf : OK (4,539,862 bytes)
+- https://www.gov.pl/attachment/c9506ee2-0c16-43da-a63d-466f1789f2f1 -> WR-D-32-2_wezly-elementy-i-wyposazenie.pdf : OK (14,607,590 bytes)
+- https://www.gov.pl/attachment/9e85fc69-4123-40fe-a654-242667563e79 -> WR-D-22-4_katalog-typowych-przekrojow-poprzecznych.pdf : OK (1,631,865 bytes)
+- https://www.gov.pl/attachment/f8781b92-bbd3-4b61-ac47-dee8165cce3e -> WR-D-22-1_wymagania-podstawowe.pdf : OK (2,973,760 bytes)
+- https://www.gov.pl/attachment/28367ab7-bb46-4579-b394-151e285d6a3c -> WR-D-21_skrajnia.pdf : OK (3,930,430 bytes)
+
+VALIDATION (validate_pdf.py) — all ok=true
+- WR-D-31-1_skrzyzowania-wymagania-podstawowe.pdf : ok=true pages=71 sha256=0e4beae79150b4d78d4a960f5fc8ae6b678b4f4490d3b8bbebb6c0a4c1b24736
+- WR-D-31-2_skrzyzowania-zwykle-i-skanalizowane.pdf : ok=true pages=99 sha256=b2b8cf09a641463063948df700311e3f63096f1ff11edaad66173c7183215f9e
+- WR-D-31-3_skrzyzowania-ronda.pdf : ok=true pages=72 sha256=95aac55cae0bd5cac419b9ac031b3ffaaeeca2505af4ac52ec961639dea0b469
+- WR-D-32-1_wezly-wymagania-podstawowe.pdf : ok=true pages=59 sha256=80b33aaa9e39f35857d96519269435b408c8394ba32c560bbcb230c56b464b30
+- WR-D-32-2_wezly-elementy-i-wyposazenie.pdf : ok=true pages=96 sha256=fffa52125bb47fe7b6d7ffa217ee4f1acab815367631d980a50bc64b24c0462a
+- WR-D-22-4_katalog-typowych-przekrojow-poprzecznych.pdf : ok=true pages=35 sha256=2ab779daeed06c02c176d905d96e347fc0cedc5345e2d8be2921daf6f67a82b0
+- WR-D-22-1_wymagania-podstawowe.pdf : ok=true pages=43 sha256=ae079aaa61dcdaaea9a43a4bd0c307778327faa72eb7812e80c87358e76050f1
+- WR-D-21_skrajnia.pdf : ok=true pages=45 sha256=03cc25688e33cd4e1c1d3e503a3fd29ef91aef25f41543307874ff8f2a95960f
+
+RESULT PASS 2: all 8 retrieved + validated, placed in free/POL_WR-D/. WR-D-30 junction/node gap fully closed; cross-section catalog (22-4), basic-requirements (22-1) and clearance (21) added. Official source: gov.pl only.

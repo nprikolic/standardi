@@ -37,7 +37,6 @@
   },
   "categories_hit": 6,
   "pages_total": 60,
-  "notes": "mechanical match=3/6; manual verification confirms all 6 concepts under PL terminology variants. Lexical false-negative.",
-  "refetch_hint": "",
-  "categories_hit_verified": 6
+  "notes": "",
+  "refetch_hint": ""
 }
