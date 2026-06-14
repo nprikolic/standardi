@@ -38,7 +38,7 @@ def iso3_of(folder):
 
 def find_pdfs(iso3_filter=None):
     out = []
-    for sub in ("free", "mixed"):
+    for sub in ("free", "mixed", "paid"):
         base = os.path.join(CORPUS, sub)
         if not os.path.isdir(base):
             continue

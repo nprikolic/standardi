@@ -1,42 +1,42 @@
 {
-  "file": "shgdm-part-5-vertical-alignment.pdf",
-  "iso3": "NZL",
-  "lang": "en",
+  "file": "HRV_NN-110-2001_zakon-hr.pdf",
+  "iso3": "HRV",
+  "lang": "hr+en",
   "verdict": "CONFIRMED",
   "categories": {
     "DESIGN_SPEED": {
       "hit": true,
-      "page": 1,
-      "count": 13
+      "page": 5,
+      "count": 26
     },
     "SIGHT_DISTANCE": {
       "hit": true,
-      "page": 1,
-      "count": 71
+      "page": 7,
+      "count": 63
     },
     "HORIZONTAL": {
       "hit": true,
-      "page": 1,
-      "count": 9
+      "page": 6,
+      "count": 73
     },
     "VERTICAL": {
       "hit": true,
-      "page": 1,
-      "count": 126
+      "page": 5,
+      "count": 29
     },
     "SUPERELEVATION": {
       "hit": true,
-      "page": 1,
-      "count": 12
+      "page": 7,
+      "count": 24
     },
     "CROSS_SECTION": {
       "hit": true,
-      "page": 1,
-      "count": 17
+      "page": 7,
+      "count": 96
     }
   },
   "categories_hit": 6,
-  "pages_total": 17,
+  "pages_total": 39,
   "notes": "",
   "refetch_hint": ""
 }

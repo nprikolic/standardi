@@ -1,1 +1,16 @@
-{"iso3":"DEU","country":"Germany","standard":"FGSV road-design guidelines (RAL / RAA / RASt)","issuer":"FGSV (Forschungsgesellschaft fuer Strassen- und Verkehrswesen) / FGSV Verlag","status":"paid","result":"paywalled","source_url":"https://www.fgsv-verlag.de/ral","file":"","sha256":"","bytes":0,"pages":0,"price":"RAL (FGSV 201) EUR 84.00 incl. 7% VAT; M ERL (FGSV 201/1) EUR 42.00 (as listed)","store_url":"https://www.fgsv-verlag.de/","notes":"Sold per title. RAL = FGSV 201, Ausgabe 2012 (current). RAA = FGSV 202, RASt = FGSV 200. No free official edition. Store reachable (HTTP 200); RAL price EUR 84.00 confirmed live on fgsv-verlag.de/ral."}
+{
+"iso3": "DEU",
+"country": "Germany",
+"standard": "FGSV road-design guidelines (RAL / RAA / RASt)",
+"issuer": "FGSV (Forschungsgesellschaft fuer Strassen- und Verkehrswesen) / FGSV Verlag",
+"status": "paid",
+"result": "retrieved",
+"source_url": "https://www.fgsv-verlag.de/ral",
+"file": "RAA_FGSV202_Motorways_EN_2008-tr2011.pdf",
+"sha256": "be7186da7328ada46a2ca9b6114dd2e94991407aff8120dd69c03b27198e68bc",
+"bytes": 4536143,
+"pages": 124,
+"price": "RAL (FGSV 201) EUR 84.00 incl. 7% VAT; M ERL (FGSV 201/1) EUR 42.00 (as listed)",
+"store_url": "https://www.fgsv-verlag.de/",
+"notes": "ACQUIRED (manuelno, licencirana EN izdanja): RAA=FGSV202 (motorways, PRIMARY), RAL=FGSV201 (rural, 2012/tr2024), RASt=FGSV200 (urban, 2006/tr2012) u folderu. RStO=FGSV499 (pavement) premešten u references/ (van geometrijskog opsega). Plaćeno/zaštićeno autorskim pravom — ne redistribuira se (PDF-ovi su gitignored). Sold per title. RAL = FGSV 201, Ausgabe 2012 (current). RAA = FGSV 202, RASt = FGSV 200. No free official edition. Store reachable (HTTP 200); RAL price EUR 84.00 confirmed live on fgsv-verlag.de/ral."
+}

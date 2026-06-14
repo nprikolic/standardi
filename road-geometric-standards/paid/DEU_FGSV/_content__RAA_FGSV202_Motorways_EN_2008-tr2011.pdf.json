@@ -1,42 +1,42 @@
 {
-  "file": "shgdm-part-5-vertical-alignment.pdf",
-  "iso3": "NZL",
-  "lang": "en",
+  "file": "RAA_FGSV202_Motorways_EN_2008-tr2011.pdf",
+  "iso3": "DEU",
+  "lang": "de+en",
   "verdict": "CONFIRMED",
   "categories": {
     "DESIGN_SPEED": {
       "hit": true,
-      "page": 1,
-      "count": 13
+      "page": 74,
+      "count": 1
     },
     "SIGHT_DISTANCE": {
       "hit": true,
-      "page": 1,
-      "count": 71
+      "page": 6,
+      "count": 118
     },
     "HORIZONTAL": {
       "hit": true,
-      "page": 1,
-      "count": 9
+      "page": 6,
+      "count": 150
     },
     "VERTICAL": {
       "hit": true,
-      "page": 1,
-      "count": 126
+      "page": 6,
+      "count": 161
     },
     "SUPERELEVATION": {
       "hit": true,
-      "page": 1,
-      "count": 12
+      "page": 6,
+      "count": 82
     },
     "CROSS_SECTION": {
       "hit": true,
-      "page": 1,
-      "count": 17
+      "page": 5,
+      "count": 396
     }
   },
   "categories_hit": 6,
-  "pages_total": 17,
+  "pages_total": 125,
   "notes": "",
   "refetch_hint": ""
 }

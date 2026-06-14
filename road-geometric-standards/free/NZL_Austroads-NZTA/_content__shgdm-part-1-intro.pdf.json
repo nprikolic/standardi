@@ -12,7 +12,7 @@
     "SIGHT_DISTANCE": {
       "hit": true,
       "page": 6,
-      "count": 14
+      "count": 15
     },
     "HORIZONTAL": {
       "hit": true,
@@ -32,7 +32,7 @@
     "CROSS_SECTION": {
       "hit": true,
       "page": 7,
-      "count": 5
+      "count": 9
     }
   },
   "categories_hit": 6,

@@ -2,7 +2,7 @@
   "file": "ICTAAL_2021-update_correctif_DT9033.pdf",
   "iso3": "FRA",
   "lang": "fr+en",
-  "verdict": "PARTIAL",
+  "verdict": "CONFIRMED",
   "categories": {
     "DESIGN_SPEED": {
       "hit": false,
@@ -30,13 +30,13 @@
       "count": 0
     },
     "CROSS_SECTION": {
-      "hit": false,
-      "page": null,
-      "count": 0
+      "hit": true,
+      "page": 1,
+      "count": 12
     }
   },
-  "categories_hit": 3,
+  "categories_hit": 4,
   "pages_total": 5,
   "notes": "",
-  "refetch_hint": "full ICTAAL 2015 / ARP 2022 are paywalled (only corrigendum free)"
+  "refetch_hint": ""
 }

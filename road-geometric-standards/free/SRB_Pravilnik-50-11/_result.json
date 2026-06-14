@@ -1,0 +1,16 @@
+{
+"iso3": "SRB",
+"country": "Serbia",
+"standard": "Pravilnik o uslovima koje sa aspekta bezbednosti saobraćaja moraju da ispunjavaju putni objekti i drugi elementi javnog puta (Sl. glasnik RS 50/11)",
+"issuer": "Ministarstvo za infrastrukturu RS",
+"status": "free",
+"result": "retrieved",
+"source_url": "manual download (SSRN id4258153 — kopija Sl. glasnik RS 50/11)",
+"price": "",
+"store_url": "",
+"notes": "Manuelno preuzeto. Pun tekst sa graničnim elementima/tabelama (~143 str.), ćirilica. Kopija sa SSRN; sadržaj = zvanični Pravilnik 50/11 — verifikovati protiv Sl. glasnika RS 50/11. REFERENTNI standard za Fazu 6 (analiza SRB).",
+"file": "SRB_Pravilnik-50-11_full.pdf",
+"sha256": "802564f3dbb8f074d8ef9ebfdaf778dc6ffb50f42fd735ab7e0a1a910d91f2e9",
+"bytes": 18051036,
+"pages": 143
+}

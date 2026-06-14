@@ -11,8 +11,9 @@ description: >-
   računska brzina (design speed), preglednost (zaustavna/preticajna, sight distance), R_min / poluprečnik /
   klotoida / prelazna krivina (horizontal alignment), niveleta / podužni nagib / vertikalne krivine /
   K-vrednosti (vertical alignment), poprečni profil / širina trake / kolovoz (cross-section). Korpus pokriva
-  GBR, IRL, ESP, ITA, SWE, POL, KOR, BRA, ZAF, NZL, CHN, JPN + model standardi, a uskoro SRB/HRV/SLO i plaćene
-  (AASHTO, TAC, FGSV/RAA, IRC, CROW). NE koristi za: čisto srpski upit bez poređenja (→ pravilnik-reference);
+  SRB, HRV, SVN, GBR, IRL, ESP, ITA, SWE, POL, KOR, BRA, ZAF, NZL, CHN, JPN, DEU (RAA/RAL/RASt),
+  USA (AASHTO Green Book) + model standardi; preostaje pribaviti CAN/IND/NLD (plaćeno) i MEX/AUS (needs_manual).
+  NE koristi za: čisto srpski upit bez poređenja (→ pravilnik-reference);
   komande u GCM-u (→ gcm-d-reference).
 ---
 
@@ -63,5 +64,6 @@ Sirovi PDF-ovi i manifesti su u `../road-geometric-standards/` (`MANIFEST.md`, `
 - v0 nema normalizovanu bazu vrednosti — neke odgovore moraš da potvrdiš čitanjem citirane strane.
 - Skenirani dokumenti (BRA IPR-706, CHN kineski JTG D20) su `NEEDS_OCR` → ne pretražuju se dok se ne OCR-uju;
   za njih koristi alternativu (BRA→IPR-740, CHN→EN izdanje).
-- Plaćeni standardi (AASHTO, TAC, FGSV/RAA, IRC, CROW) i JRA komentar nisu u korpusu dok se ne nabave
-  (vidi `../road-geometric-standards/BUY_LIST.md`) — za njih reci da nedostaju, ne nagađaj vrednosti.
+- Pribavljeni plaćeni standardi: **DEU FGSV RAA/RAL/RASt** i **USA AASHTO Green Book** SU u korpusu (paid/, licencirano —
+  PDF-ovi su gitignored). Još nisu pribavljeni: **CAN TAC, IND IRC, NLD CROW** + JRA komentar (vidi
+  `../road-geometric-standards/BUY_LIST.md`) — za njih reci da nedostaju, ne nagađaj vrednosti.

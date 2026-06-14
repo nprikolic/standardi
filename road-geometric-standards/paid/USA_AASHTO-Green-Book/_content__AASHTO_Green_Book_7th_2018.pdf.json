@@ -1,42 +1,42 @@
 {
-  "file": "shgdm-part-5-vertical-alignment.pdf",
-  "iso3": "NZL",
+  "file": "AASHTO_Green_Book_7th_2018.pdf",
+  "iso3": "USA",
   "lang": "en",
   "verdict": "CONFIRMED",
   "categories": {
     "DESIGN_SPEED": {
       "hit": true,
-      "page": 1,
-      "count": 13
+      "page": 10,
+      "count": 517
     },
     "SIGHT_DISTANCE": {
       "hit": true,
-      "page": 1,
-      "count": 71
+      "page": 12,
+      "count": 1092
     },
     "HORIZONTAL": {
       "hit": true,
-      "page": 1,
-      "count": 9
+      "page": 13,
+      "count": 290
     },
     "VERTICAL": {
       "hit": true,
-      "page": 1,
-      "count": 126
+      "page": 15,
+      "count": 369
     },
     "SUPERELEVATION": {
       "hit": true,
-      "page": 1,
-      "count": 12
+      "page": 7,
+      "count": 671
     },
     "CROSS_SECTION": {
       "hit": true,
-      "page": 1,
-      "count": 17
+      "page": 14,
+      "count": 2023
     }
   },
   "categories_hit": 6,
-  "pages_total": 17,
+  "pages_total": 1049,
   "notes": "",
   "refetch_hint": ""
 }

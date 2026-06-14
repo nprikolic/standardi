@@ -1,1 +1,16 @@
-{"iso3":"USA","country":"United States","standard":"A Policy on Geometric Design of Highways and Streets (Green Book)","issuer":"AASHTO","status":"paid","result":"paywalled","source_url":"https://store.transportation.org/Item/PublicationDetail?ID=4127","file":"","sha256":"","bytes":0,"pages":0,"price":"PDF List USD $342 / Member USD $253 (7th ed.)","store_url":"https://store.transportation.org/","notes":"Current edition 7th (2018), item GDHS-7 / PDF GDHS-7-UL. 8th edition in development (NCHRP 07-29), not yet published as of 2026-06. No free official edition; older editions also paid. Store reachable (HTTP 200); price confirmed live via store page surveyed figures match."}
+{
+"iso3": "USA",
+"country": "United States",
+"standard": "A Policy on Geometric Design of Highways and Streets (Green Book)",
+"issuer": "AASHTO",
+"status": "paid",
+"result": "retrieved",
+"source_url": "https://store.transportation.org/Item/PublicationDetail?ID=4127",
+"file": "AASHTO_Green_Book_7th_2018.pdf",
+"sha256": "e1af5295379ee511bae305fe71f407be6cb91e846918c3b5c45ae733b7574ce6",
+"bytes": 31812709,
+"pages": 1048,
+"price": "PDF List USD $342 / Member USD $253 (7th ed.)",
+"store_url": "https://store.transportation.org/",
+"notes": "ACQUIRED (manuelno, licencirani PDF, 7th ed. 2018). Plaćeno/zaštićeno — ne redistribuira se (gitignored). Current edition 7th (2018), item GDHS-7 / PDF GDHS-7-UL. 8th edition in development (NCHRP 07-29), not yet published as of 2026-06. No free official edition; older editions also paid. Store reachable (HTTP 200); price confirmed live via store page surveyed figures match."
+}

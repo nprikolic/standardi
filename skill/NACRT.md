@@ -13,7 +13,9 @@ Pun build (normalizovana baza vrednosti, indeks, evaluacija, analiza SRB) dolazi
 - [x] Demo provereno: `--concept WEAVING` nalazi GBR CD122 (170), IRL DN-GEO-03035/60, ESP trenzado, KOR 엇갈림, CHN
 
 ## Šta OSTAJE (kasnije, na poseban zahtev)
-- [ ] **Korpus**: ubaciti 👤 SRB/HRV/SLO; rešiti MEX/AUS (needs_manual); OCR za BRA IPR-706 i CHN; nabaviti plaćene
+- [x] **Korpus (delom)**: dodati SRB (Pravilnik 50/11, ćirilica), HRV (NN 110/2001 render iz HTML), SVN
+      (Pravilnik o projektiranju cest); pribavljeni DEU FGSV RAA/RAL/RASt i USA AASHTO (licencirano)
+- [ ] **Korpus (ostatak)**: rešiti MEX/AUS (needs_manual); nabaviti CAN/IND/NLD; OCR za BRA IPR-706 i CHN (opciono)
 - [ ] **Faza 1**: ekstrakcija teksta po stranama u `corpus/text/`, OCR, normalizacija jedinica u SI, full-text indeks (FTS5)
 - [ ] **Faza 2**: dopuniti glosar/ontologiju kroz evaluaciju (sinonimi, inflekcija)
 - [ ] **Faza 3**: `kb/<id>.yaml` fact-sheets (normalizovane vrednosti + citat) i `kb/compare/<pojam>.md` matrice

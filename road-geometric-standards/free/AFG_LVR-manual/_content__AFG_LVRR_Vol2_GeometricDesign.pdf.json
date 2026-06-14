@@ -12,27 +12,27 @@
     "SIGHT_DISTANCE": {
       "hit": true,
       "page": 7,
-      "count": 254
+      "count": 289
     },
     "HORIZONTAL": {
       "hit": true,
       "page": 13,
-      "count": 36
+      "count": 50
     },
     "VERTICAL": {
       "hit": true,
       "page": 7,
-      "count": 231
+      "count": 237
     },
     "SUPERELEVATION": {
       "hit": true,
       "page": 8,
-      "count": 80
+      "count": 86
     },
     "CROSS_SECTION": {
       "hit": true,
       "page": 9,
-      "count": 144
+      "count": 237
     }
   },
   "categories_hit": 6,

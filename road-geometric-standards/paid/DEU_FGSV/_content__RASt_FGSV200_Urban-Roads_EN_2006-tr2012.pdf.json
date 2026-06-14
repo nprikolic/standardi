@@ -1,42 +1,42 @@
 {
-  "file": "shgdm-part-5-vertical-alignment.pdf",
-  "iso3": "NZL",
-  "lang": "en",
+  "file": "RASt_FGSV200_Urban-Roads_EN_2006-tr2012.pdf",
+  "iso3": "DEU",
+  "lang": "de+en",
   "verdict": "CONFIRMED",
   "categories": {
     "DESIGN_SPEED": {
-      "hit": true,
-      "page": 1,
-      "count": 13
+      "hit": false,
+      "page": null,
+      "count": 0
     },
     "SIGHT_DISTANCE": {
       "hit": true,
-      "page": 1,
-      "count": 71
+      "page": 14,
+      "count": 10
     },
     "HORIZONTAL": {
       "hit": true,
-      "page": 1,
-      "count": 9
+      "page": 73,
+      "count": 38
     },
     "VERTICAL": {
       "hit": true,
-      "page": 1,
-      "count": 126
+      "page": 6,
+      "count": 17
     },
     "SUPERELEVATION": {
       "hit": true,
-      "page": 1,
+      "page": 22,
       "count": 12
     },
     "CROSS_SECTION": {
       "hit": true,
-      "page": 1,
-      "count": 17
+      "page": 6,
+      "count": 371
     }
   },
-  "categories_hit": 6,
-  "pages_total": 17,
+  "categories_hit": 5,
+  "pages_total": 134,
   "notes": "",
   "refetch_hint": ""
 }

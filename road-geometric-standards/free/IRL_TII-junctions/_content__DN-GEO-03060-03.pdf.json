@@ -16,8 +16,8 @@
     },
     "HORIZONTAL": {
       "hit": true,
-      "page": 47,
-      "count": 16
+      "page": 5,
+      "count": 26
     },
     "VERTICAL": {
       "hit": true,
@@ -32,7 +32,7 @@
     "CROSS_SECTION": {
       "hit": true,
       "page": 5,
-      "count": 335
+      "count": 403
     }
   },
   "categories_hit": 6,

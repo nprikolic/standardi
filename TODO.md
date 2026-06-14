@@ -24,25 +24,23 @@
 > Bez pravog korpusa skill ne može da odgovori na primer-pitanja. Ovo je preduslov za sve ostalo.
 
 ### 0a. Manuelni download (👤 ti) — OBAVEZNO
-- [ ] 👤 **Srpski** standard — *Pravilnik o uslovima koje sa aspekta bezbednosti saobraćaja moraju
-      da ispunjavaju putni objekti i drugi elementi javnog puta* (Sl. glasnik RS **50/11**), pun PDF.
-      (Napomena: `pravilnik-reference` skill već ima izvode; ovde nam treba ceo dokument za korpus.)
-- [ ] 👤 **Hrvatski** standard — *Pravilnik o osnovnim uvjetima kojima javne ceste izvan naselja i
-      njihovi elementi moraju udovoljavati sa stajališta sigurnosti prometa* (NN 110/2001) + eventualne
-      *Smjernice za projektiranje* (Hrvatske ceste / IGH), ako postoje.
-- [ ] 👤 **Slovenački** standard — *Pravilnik o projektiranju cest* (Uradni list RS) + relevantni
-      **TSC** (Tehnične specifikacije za ceste, npr. serija 03.2xx – elementi trase/profila), DRSI/DARS.
-- [ ] 🤖 Za svaki: ubaciti u `free/<ISO3>_.../` + `_result.json` + validacija + sadržajna provera (isti pipeline)
+- [x] 👤 **Srpski** standard — Pravilnik (Sl. glasnik RS **50/11**), pun tekst (ćirilica, 143 str.) →
+      `free/SRB_Pravilnik-50-11/`. CONFIRMED 6/6. (Kopija sa SSRN; verifikovati protiv Sl. glasnika.)
+- [x] 👤 **Hrvatski** standard — Pravilnik (NN 110/2001) → `free/HRV_NN-110-2001/`. HTML sa zakon.hr
+      renderovan u PDF (24 tabele kao tekst). CONFIRMED 6/6. (Skenirani original u `references/`.)
+      Opciono kasnije: *Smjernice za projektiranje* (Hrvatske ceste / IGH).
+- [x] 👤 **Slovenački** standard — *Pravilnik o projektiranju cest* (NPB) → `free/SLO_Pravilnik-projektiranje-cest/`.
+      CONFIRMED 6/6. Opciono kasnije: **TSC** serija 03.2xx (DRSI/DARS).
+- [x] 🤖 Ubačeni u korpus + `_result.json` + validacija + sadržajna provera (isti pipeline)
 
 ### 0b. Ciljano proširenje korpusa (👤+🤖) — da bi primer-pitanja imala izvor
 > Trenutni korpus pokriva *trasu*. Treba dodati **raskrsnice/petlje** i **poprečni profil/vitoperenje**.
-- [ ] Denivelisane raskrsnice / preplitanje:
-      DMRB **CD 122** (grade separated junctions), AASHTO Green Book **pogl. 10** (plaćeno),
-      nemački **RAA** (Autobahnen — preplitanje, ramps; plaćeno), TII junction series, Austroads AGRD **Part 4/4C**.
-- [ ] Poprečni profil + razvoj vitoperenja:
-      nemački **RAS-Q / RAA**, AASHTO pogl. 3 (superelevation runoff), Austroads **Part 3** (login-gated),
-      španska 3.1-IC (već imamo — sadrži peralte/vitoperenje).
-- [ ] 🤖 Ponoviti download-workflow za sve gore koji su besplatni; plaćene dodati u `BUY_LIST`.
+- [x] Denivelisane raskrsnice / preplitanje:
+      DMRB **CD 122** (besplatno, ubačeno) + TII **DN-GEO-03060/03035** (besplatno, ubačeno);
+      **RAA** (Autobahnen) i **AASHTO pogl. 10** — PRIBAVLJENO (paid/, licencirano). Austroads Part 4 = login-gated (needs_manual).
+- [x] Poprečni profil + razvoj vitoperenja:
+      **RAA / RAS-Q** i **AASHTO pogl. 3** PRIBAVLJENO; španska 3.1-IC (imamo). Austroads Part 3 = login-gated.
+- [x] 🤖 Besplatni ubačeni; plaćeni DEU/USA pribavljeni i sadržajno potvrđeni (CONFIRMED).
 
 ### 0c. Rešiti zaostatke iz Faze 1/2
 - [ ] 👤 **MEX** (needs_manual) — preuzeti Manual 2018 kad srpski/MX server proradi (URL u `summary.json`)
@@ -50,8 +48,8 @@
 - [ ] 🤖/👤 **OCR** za skenirane: BRA **IPR-706**, CHN **JTG D20 (kineski)**.
       Potreban `tesseract` + jezički paketi (`por`, `chi_sim`) — trenutno NISU instalirani.
       (Pokrivenost za BRA/CHN već postoji preko IPR-740 / EN izdanja — OCR je „nice to have".)
-- [ ] 🤖 **Odluka o kupovini** plaćenih (vidi „Otvorene odluke"). Najvažniji za primer-pitanja:
-      **RAA/RAS-Q (DE)** i **AASHTO Green Book** — bez njih su weaving/vitoperenje pitanja slabije pokrivena.
+- [x] 🤖 **Plaćeni — pribavljeno:** DEU FGSV (RAA/RAL/RASt) i USA AASHTO Green Book (licencirano, paid/).
+      **Preostaje:** CAN TAC, IND IRC, NLD CROW (vidi `BUY_LIST.md`).
 
 ---
 

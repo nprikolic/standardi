@@ -10,7 +10,7 @@ ROOT = r"D:\My Drive\Nauka\standardi\road-geometric-standards"
 def rel(p): return os.path.relpath(p, ROOT).replace("\\", "/")
 
 recs = []
-for sub in ("free", "mixed"):
+for sub in ("free", "mixed", "paid"):
     for dp, _, fs in os.walk(os.path.join(ROOT, sub)):
         for f in fs:
             if f.startswith("_content__") and f.endswith(".json"):

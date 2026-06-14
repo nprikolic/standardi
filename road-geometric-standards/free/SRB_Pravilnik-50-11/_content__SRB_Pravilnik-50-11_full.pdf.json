@@ -1,42 +1,42 @@
 {
-  "file": "shgdm-part-5-vertical-alignment.pdf",
-  "iso3": "NZL",
-  "lang": "en",
+  "file": "SRB_Pravilnik-50-11_full.pdf",
+  "iso3": "SRB",
+  "lang": "sr+en",
   "verdict": "CONFIRMED",
   "categories": {
     "DESIGN_SPEED": {
       "hit": true,
-      "page": 1,
-      "count": 13
+      "page": 10,
+      "count": 125
     },
     "SIGHT_DISTANCE": {
       "hit": true,
-      "page": 1,
-      "count": 71
+      "page": 18,
+      "count": 123
     },
     "HORIZONTAL": {
       "hit": true,
-      "page": 1,
-      "count": 9
+      "page": 2,
+      "count": 104
     },
     "VERTICAL": {
       "hit": true,
-      "page": 1,
-      "count": 126
+      "page": 33,
+      "count": 18
     },
     "SUPERELEVATION": {
       "hit": true,
-      "page": 1,
-      "count": 12
+      "page": 43,
+      "count": 47
     },
     "CROSS_SECTION": {
       "hit": true,
-      "page": 1,
-      "count": 17
+      "page": 8,
+      "count": 267
     }
   },
   "categories_hit": 6,
-  "pages_total": 17,
+  "pages_total": 144,
   "notes": "",
   "refetch_hint": ""
 }

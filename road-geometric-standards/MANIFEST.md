@@ -1,6 +1,6 @@
 # MANIFEST — national road geometric-design standards (Phase 1)
 
-Total items: 27
+Total items: 30
 
 | ISO3 | Country | Standard | Status | Result | File | Pages | Size (KB) | SHA-256 (short) | Source |
 |---|---|---|---|---|---|---|---|---|---|
@@ -11,6 +11,7 @@ Total items: 27
 | FRA | France | ICTAAL (motorways) + ARP (main roads) | paid | paywalled | ICTAAL_2021-update_correctif_DT9033.pdf | 4 | 461 | f43aa58f3a43 | https://doc.cerema.fr/Default/doc/SYRACUSE/14161/ictaal-instructions-sur-les-conditions-techniques-d-amenagement-des-autoroutes-de-liaison-version-co?_lg=fr-FR |
 | GBR | United Kingdom | DMRB CD 109 Highway link design | free | retrieved | CD109_Highway_link_design.pdf | 105 | 2,135 | a40d5e7e6589 | https://www.standardsforhighways.co.uk/tses/attachments/c27c55b7-2dfc-4597-923a-4d1b4bd6c9fa |
 | GBR | United Kingdom | DMRB CD 122 Geometric design of grade separated junctions | free | retrieved | CD122_Geometric-design-of-grade-separated-junctions_v1.1.1.pdf | 96 | 4,453 | 63ea0df810fd | https://www.standardsforhighways.co.uk/tses/attachments/3ab9ef31-9880-4e8e-a7eb-f3d218e74ffd?inline=true |
+| HRV | Croatia | Pravilnik o osnovnim uvjetima kojima javne ceste izvan naselja i njihovi elementi moraju udovoljavati sa stajališta sigurnosti prometa (NN 110/2001) | free | retrieved | HRV_NN-110-2001_zakon-hr.pdf | 38 | 2,016 | 130c2aac9c31 | https://www.zakon.hr (NN 110/2001) |
 | IRL | Ireland | TII DN-GEO-03031 Rural Road Link Design | free | retrieved | DN-GEO-03031-12.pdf | 121 | 5,795 | 93546983130c | https://www.tiipublications.ie/library/DN-GEO-03031-12.pdf |
 | IRL | Ireland | TII junction design standards (grade-separated / weaving) | free | retrieved | DN-GEO-03060-03.pdf | 221 | 10,537 | c2f98d305c96 | https://www.tiipublications.ie/library/DN-GEO-03060-03.pdf |
 | ITA | Italy | DM 5/11/2001 n.6792 Norme funzionali e geometriche | free | retrieved | ITA_DM-6792-2001.pdf | 96 | 1,942 | cbf572b9c729 | https://www.mit.gov.it/nfsmitgov/files/media/normativa/2016-02/Decreto_Ministeriale_numero_6792_05-11-2001_all_1.pdf |
@@ -19,6 +20,8 @@ Total items: 27
 | MWI | Malawi | Low-volume roads design manual (geometric) | free | retrieved | MWI_LVR-Manual-Vol2-Geometric-Design.pdf | 312 | 7,412 | 06336b0602a4 | https://www.research4cap.org/wp-content/uploads/ral/RoadsAuthorityMalawi-2020-LowVolumeRoadsManual-Volume2-200820-compressed.pdf |
 | NZL | New Zealand | Guide to Road Design (Austroads, NZ-adopted) / NZTA supplement | free | retrieved | shgdm-part-2-basic-design-criteria.pdf | 32 | 983 | 4fb83c72d63d | https://www.nzta.govt.nz/resources/state-highway-geometric-design-manual |
 | POL | Poland | WR-D road-design guidelines (geometric) + Dz.U. 2022 poz.1518 | free | retrieved | WR-D-22-2_ksztaltowanie-geometryczne.pdf | 59 | 10,245 | ff64c0f35fb5 | https://www.gov.pl/web/infrastruktura/wr-d |
+| SVN | Slovenia | Pravilnik o projektiranju cest (neuradno prečiščeno besedilo) | free | retrieved | SLO_Pravilnik-o-projektiranju-cest_NPB.pdf | 42 | 220 | a33f6cf5e158 | manual download (NPB; pisrs.si) |
+| SRB | Serbia | Pravilnik o uslovima koje sa aspekta bezbednosti saobraćaja moraju da ispunjavaju putni objekti i drugi elementi javnog puta (Sl. glasnik RS 50/11) | free | retrieved | SRB_Pravilnik-50-11_full.pdf | 143 | 17,628 | 802564f3dbb8 | manual download (SSRN id4258153 — kopija Sl. glasnik RS 50/11) |
 | SWE | Sweden | VGU Vägars och gators utformning | free | retrieved | VGU_Krav_Publikation2022-001.pdf | 365 | 7,479 | c6cd55bec229 | https://trafikverket.diva-portal.org/smash/get/diva2:1621114/FULLTEXT02.pdf |
 | ZAF | South Africa | COTO/SANRAL Geometric Design Manual | free | retrieved | TRH17-1988-Geometric-Design-of-Rural-Roads.pdf | 120 | 12,496 | f588201e73d1 | https://www.transport.gov.za/wp-content/uploads/2023/02/TRH17-1988-Geometric-Design-of-Rural-Roads.pdf |
 | MODEL | model standard | SADC Guideline on Low-volume Sealed Roads (LVSR), July 2003 (ISBN 99912-0-456-3) | free | retrieved | gtkp_part1.pdf ; gtkp_part2.pdf | 282 | 7,631 | part1=704f41 | https://www.gtkp.com/document/sadc-guideline-low-volume-sealed-roads-part-1/ ; https://www.gtkp.com/document/sadc-guideline-low-volume-sealed-roads-part-2/ |
@@ -27,7 +30,7 @@ Total items: 27
 | CHN | China | JTG D20 公路路线设计规范 Design Specification for Highway Alignment | mixed | retrieved | JTG_D20-2017_EN.pdf | 271 | 7,221 | 6cd213408352 | https://xxgk.mot.gov.cn/jigou/glj/202107/t20210706_3611279.html |
 | JPN | Japan | 道路構造令 Road Structure Ordinance (law text) + JRA commentary | mixed | retrieved | JPN_Road-Structure-Ordinance_egov.pdf | 34 | 351 | 6e93ed0c5e50 | https://laws.e-gov.go.jp/document?lawid=345CO0000000320_20201125_502CO0000000329 |
 | CAN | Canada | Geometric Design Guide for Canadian Roads (GDG), Chapters 1-11 | paid | paywalled |  | 0 |  |  | https://www.tac-atc.ca/en/knowledge-centre/technical-resources-search/publications/pkg-geodes17b-e/ |
-| DEU | Germany | FGSV road-design guidelines (RAL / RAA / RASt) | paid | paywalled |  | 0 |  |  | https://www.fgsv-verlag.de/ral |
+| DEU | Germany | FGSV road-design guidelines (RAL / RAA / RASt) | paid | retrieved | RAA_FGSV202_Motorways_EN_2008-tr2011.pdf | 124 | 4,430 | be7186da7328 | https://www.fgsv-verlag.de/ral |
 | IND | India | IRC geometric-design series (IRC:73, IRC:86, IRC:66) | paid | paywalled |  | 0 |  |  | https://www.irc.org.in/ |
 | NLD | Netherlands | CROW road-design guidelines (ASVV 2021 / Handboek wegontwerp) | paid | paywalled |  | 0 |  |  | https://www.crow.nl/kennisproducten/asvv-2021/ |
-| USA | United States | A Policy on Geometric Design of Highways and Streets (Green Book) | paid | paywalled |  | 0 |  |  | https://store.transportation.org/Item/PublicationDetail?ID=4127 |
+| USA | United States | A Policy on Geometric Design of Highways and Streets (Green Book) | paid | retrieved | AASHTO_Green_Book_7th_2018.pdf | 1048 | 31,067 | e1af5295379e | https://store.transportation.org/Item/PublicationDetail?ID=4127 |

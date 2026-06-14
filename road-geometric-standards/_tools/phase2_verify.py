@@ -25,6 +25,7 @@ LANGS = {
     "ITA": ["it", "en"], "SWE": ["sv", "en"], "POL": ["pl", "en"],
     "KOR": ["ko", "en"], "BRA": ["pt", "en"], "FRA": ["fr", "en"],
     "JPN": ["ja", "en"], "CHN": ["zh", "en"],
+    "SRB": ["sr", "en"], "HRV": ["hr", "en"], "SVN": ["sl", "en"], "DEU": ["de", "en"],
 }
 
 # ---- six categories x multilingual terms (lowercased for Latin; CJK literal) ----
@@ -86,6 +87,14 @@ CATS = {
  },
 }
 
+# Prefer the single-source glossary (adds de/sr/hr/sl terms); fall back to the literal CATS above.
+try:
+    _gp = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "skill", "reference", "glossary.json")
+    _g = json.load(open(_gp, encoding="utf-8"))["concepts"]
+    CATS = {c: _g[c] for c in ("DESIGN_SPEED", "SIGHT_DISTANCE", "HORIZONTAL", "VERTICAL", "SUPERELEVATION", "CROSS_SECTION")}
+except Exception:
+    pass
+
 REFETCH = {
  "GBR": "have CD109; if weak, add related CDs (CD127 cross-sections, CD116 roundabouts)",
  "AUS": "fetch Austroads Guide to Road Design Part 3 (AGRD03, login-gated)",
@@ -98,6 +107,10 @@ REFETCH = {
  "MEX": "Manual de Proyecto Geometrico 2018 (needs_manual, gov server down)",
  "JPN": "law text only; geometric values live in the paid JRA commentary",
  "CHN": "use the EN JTG D20-2017 (text); Chinese scan is image-only",
+ "SRB": "Pravilnik 50/11 — referentni za Fazu 6 (analiza)",
+ "HRV": "NN 110/2001; ako NEEDS_OCR, traži text-izdanje",
+ "SVN": "Pravilnik o projektiranju cest (NPB)",
+ "DEU": "FGSV RAA/RAL/RASt (acquired EN izdanja)",
 }
 
 def pdftotext_pages(path):
@@ -186,7 +199,7 @@ def iso3_for_folder(folder):
 
 def main():
     targets = []
-    for sub in ("free", "mixed"):
+    for sub in ("free", "mixed", "paid"):
         base = os.path.join(ROOT, sub)
         for dp, _, fs in os.walk(base):
             iso3 = iso3_for_folder(dp)

@@ -5,14 +5,14 @@
   "verdict": "CONFIRMED",
   "categories": {
     "DESIGN_SPEED": {
-      "hit": false,
-      "page": null,
-      "count": 0
+      "hit": true,
+      "page": 1,
+      "count": 63
     },
     "SIGHT_DISTANCE": {
       "hit": true,
-      "page": 20,
-      "count": 6
+      "page": 5,
+      "count": 36
     },
     "HORIZONTAL": {
       "hit": true,
@@ -25,17 +25,17 @@
       "count": 7
     },
     "SUPERELEVATION": {
-      "hit": false,
-      "page": null,
-      "count": 0
+      "hit": true,
+      "page": 6,
+      "count": 9
     },
     "CROSS_SECTION": {
       "hit": true,
-      "page": 6,
-      "count": 8
+      "page": 2,
+      "count": 31
     }
   },
-  "categories_hit": 4,
+  "categories_hit": 6,
   "pages_total": 45,
   "notes": "",
   "refetch_hint": ""

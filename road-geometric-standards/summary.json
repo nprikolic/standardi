@@ -1,17 +1,17 @@
 {
-  "total_items": 27,
+  "total_items": 30,
   "by_result": {
-    "retrieved": 19,
+    "retrieved": 24,
     "needs_manual": 2,
-    "paywalled": 6
+    "paywalled": 4
   },
   "by_status": {
-    "free": 19,
+    "free": 22,
     "paid": 6,
     "mixed": 2
   },
-  "retrieved": 19,
-  "paywalled": 6,
+  "retrieved": 24,
+  "paywalled": 4,
   "needs_manual": 2,
   "failed": 0,
   "buy_list_items": 8

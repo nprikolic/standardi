@@ -1,0 +1,16 @@
+{
+"iso3": "HRV",
+"country": "Croatia",
+"standard": "Pravilnik o osnovnim uvjetima kojima javne ceste izvan naselja i njihovi elementi moraju udovoljavati sa stajališta sigurnosti prometa (NN 110/2001)",
+"issuer": "Ministarstvo (RH) / Narodne novine",
+"status": "free",
+"result": "retrieved",
+"source_url": "https://www.zakon.hr (NN 110/2001)",
+"price": "",
+"store_url": "",
+"notes": "HTML sa zakon.hr renderovan u PDF (headless Edge): 24 tabele kao TEKST + 44 figure kao slike; pretraživo (~57k znakova). Originalni skenirani NN PDF (NEEDS_OCR) premešten u references/HRV_NN-110-2001_scanned-NN-gazette.pdf. Jezik hr.",
+"file": "HRV_NN-110-2001_zakon-hr.pdf",
+"sha256": "130c2aac9c3163f13ce1074461ff395e1dc2bd7f5820c6e57985cc632f4c8f10",
+"bytes": 2064101,
+"pages": 38
+}

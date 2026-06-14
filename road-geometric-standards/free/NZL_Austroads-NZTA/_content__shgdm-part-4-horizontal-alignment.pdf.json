@@ -17,7 +17,7 @@
     "HORIZONTAL": {
       "hit": true,
       "page": 1,
-      "count": 132
+      "count": 136
     },
     "VERTICAL": {
       "hit": true,
@@ -27,12 +27,12 @@
     "SUPERELEVATION": {
       "hit": true,
       "page": 1,
-      "count": 113
+      "count": 137
     },
     "CROSS_SECTION": {
       "hit": true,
       "page": 1,
-      "count": 31
+      "count": 54
     }
   },
   "categories_hit": 6,

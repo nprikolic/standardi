@@ -27,15 +27,15 @@
     "SUPERELEVATION": {
       "hit": true,
       "page": 7,
-      "count": 11
+      "count": 12
     },
     "CROSS_SECTION": {
-      "hit": false,
-      "page": null,
-      "count": 0
+      "hit": true,
+      "page": 36,
+      "count": 1
     }
   },
-  "categories_hit": 5,
+  "categories_hit": 6,
   "pages_total": 59,
   "notes": "",
   "refetch_hint": ""

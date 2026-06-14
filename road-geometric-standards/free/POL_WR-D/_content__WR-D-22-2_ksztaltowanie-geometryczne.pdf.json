@@ -5,14 +5,14 @@
   "verdict": "CONFIRMED",
   "categories": {
     "DESIGN_SPEED": {
-      "hit": false,
-      "page": null,
-      "count": 0
+      "hit": true,
+      "page": 9,
+      "count": 33
     },
     "SIGHT_DISTANCE": {
-      "hit": false,
-      "page": null,
-      "count": 0
+      "hit": true,
+      "page": 26,
+      "count": 27
     },
     "HORIZONTAL": {
       "hit": true,
@@ -25,19 +25,19 @@
       "count": 8
     },
     "SUPERELEVATION": {
-      "hit": false,
-      "page": null,
-      "count": 0
+      "hit": true,
+      "page": 9,
+      "count": 13
     },
     "CROSS_SECTION": {
       "hit": true,
-      "page": 12,
-      "count": 15
+      "page": 11,
+      "count": 69
     }
   },
-  "categories_hit": 3,
+  "categories_hit": 6,
   "pages_total": 60,
-  "notes": "mechanical match=3/6; manual verification confirms all 6 concepts present under PL terminology variants (prędkość miarodajna; pochylenie poprzeczne; odległości widoczności). Lexical false-negative.",
+  "notes": "mechanical match=3/6; manual verification confirms all 6 concepts under PL terminology variants. Lexical false-negative.",
   "refetch_hint": "",
   "categories_hit_verified": 6
 }

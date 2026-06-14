@@ -66,7 +66,12 @@ b.write("|---|---|---|---|---|---|---|\n")
 for r in buy:
     price = g(r, "price") or "(see TO_BUY.md)"
     store = g(r, "store_url") or g(r, "source_url")
-    note = "paid title" if g(r, "status") == "paid" else "mixed: free core retrieved, paid part flagged"
+    if g(r, "result") == "retrieved" and g(r, "status") == "paid":
+        note = "ACQUIRED (manual) — ne kupovati"
+    elif g(r, "status") == "paid":
+        note = "paid title — kupiti"
+    else:
+        note = "mixed: free core retrieved, paid part flagged"
     b.write("| {iso} | {ctry} | {std} | {code} | {price} | {store} | {note} |\n".format(
         iso=g(r, "iso3"), ctry=g(r, "country"), std=g(r, "standard").replace("|", "/"),
         code="(see TO_BUY.md)", price=price, store=store, note=note))

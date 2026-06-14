@@ -1,42 +1,42 @@
 {
-  "file": "shgdm-part-5-vertical-alignment.pdf",
-  "iso3": "NZL",
-  "lang": "en",
+  "file": "SLO_Pravilnik-o-projektiranju-cest_NPB.pdf",
+  "iso3": "SVN",
+  "lang": "sl+en",
   "verdict": "CONFIRMED",
   "categories": {
     "DESIGN_SPEED": {
       "hit": true,
-      "page": 1,
-      "count": 13
+      "page": 12,
+      "count": 14
     },
     "SIGHT_DISTANCE": {
       "hit": true,
-      "page": 1,
-      "count": 71
+      "page": 2,
+      "count": 50
     },
     "HORIZONTAL": {
       "hit": true,
-      "page": 1,
-      "count": 9
+      "page": 3,
+      "count": 11
     },
     "VERTICAL": {
       "hit": true,
-      "page": 1,
-      "count": 126
+      "page": 18,
+      "count": 10
     },
     "SUPERELEVATION": {
       "hit": true,
-      "page": 1,
-      "count": 12
+      "page": 4,
+      "count": 25
     },
     "CROSS_SECTION": {
       "hit": true,
-      "page": 1,
-      "count": 17
+      "page": 4,
+      "count": 54
     }
   },
   "categories_hit": 6,
-  "pages_total": 17,
+  "pages_total": 43,
   "notes": "",
   "refetch_hint": ""
 }
