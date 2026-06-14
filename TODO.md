@@ -26,6 +26,8 @@
 
 > **Faze 0, 1, 2 (seed), 4 (nacrt) su URAĐENE.** Ostaju: **Faza 3** (baza vrednosti), **Faza 5** (benchmark),
 > **Faza 6** (analiza SRB = cilj). Korpus NE mora biti 100% pre nastavka (arhitektura je aditivna — vidi „Proces/strategija").
+>
+> **▶ SLEDEĆI ZADATAK (overnight, autonomno):** Faza 5 benchmark — pusti prompt **`eval/BENCHMARK_PROMPT.md`** u svežoj sesiji (paralelni fan-out).
 
 ---
 
@@ -62,10 +64,11 @@
 - [ ] `kb/compare/<pojam>.md` komparativne matrice (npr. e_max po klasi; min dužina prepleta vs brzina/protok)
 - [ ] Eksplicitno beležiti „nem" (standard ne propisuje X) — ključno za Fazu 6
 
-### FAZA 5 — Evaluacija / benchmark (🤖)  ← diže rad ka AI/computing venue
-- [ ] Banka ≥50 pitanja (uklj. 2 kanonska), svako sa tačnim citiranim odgovorom
-- [ ] Izmeri retrieval vs baseline (keyword / generički-RAG / goli-LLM) + ablacija glosara/taksonomije
-- [ ] Iteriraj glosar gde promaši (inflekcija, sinonimi peralte/dévers/vitoperenje)
+### FAZA 5 — Evaluacija / benchmark (🤖)  ← diže rad ka AI/computing venue · **▶ SLEDEĆI ZADATAK**
+> **Pokreni:** prosledi `eval/BENCHMARK_PROMPT.md` svežoj sesiji (autonomno, paralelno, overnight). Pun spec je tamo.
+- [ ] Banka ≥50 pitanja (PRIMARNO: min. podužni nagib + rampa vitoperenja iz odvodnjavanja), svako sa **potvrđenim citiranim** ground-truth-om iz korpusa
+- [ ] Izmeri retrieval (Recall@10/MRR) + tačnost odgovora: **S3 (naš)** vs keyword / generic-RAG / raw-LLM + ablacije (višejezično, concept-mapiranje, FTS↔LIKE)
+- [ ] Izlaz: `eval/BENCHMARK_REPORT.md` + `eval/glossary_improvements.md` (dopune glosara iz promašaja → ulaz u Fazu 6)
 
 ### FAZA 6 — Analiza srpskog standarda (👤 cilj)  ← diže rad ka Građevinaru — OBAVEZNO
 - [ ] Po pojmu uporediti **SRB (Pravilnik 50/11 + SRDM)** sa korpusom: najproblematičnije tačke + šta NEDOSTAJE
