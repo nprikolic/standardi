@@ -1,0 +1,43 @@
+{
+  "iso3": "DEU",
+  "country": "Germany",
+  "have": [
+    "RAA Guidelines for the Design of Motorways (FGSV 202, ed. 2008 / EN translation 2011)",
+    "RAL Guidelines for the Design of Rural Roads (FGSV 201, ed. 2012 / EN translation 2024)",
+    "RASt Guidelines for the Design of Urban Roads (FGSV 200, ed. 2006 / EN translation 2012)"
+  ],
+  "authoritative_set": [
+    "RAA Richtlinien fuer die Anlage von Autobahnen (FGSV 202, 2008; EN 'Guidelines for the Design of Motorways' 2011) — paid — https://www.fgsv-verlag.de/raa-richtlinien-fur-die-anlage-von-autobahnen",
+    "RAL Richtlinien fuer die Anlage von Landstrassen (FGSV 201, 2012; EN 'Guidelines for the Design of Rural Roads' 2024) — paid — https://www.fgsv-verlag.de/ral",
+    "RASt Richtlinien fuer die Anlage von Stadtstrassen (FGSV 200, 2006; EN 'Directives for the Design of Urban Roads' 2012) — paid — https://www.fgsv-verlag.de/rast",
+    "M Anlage von Kreisverkehren — roundabouts (FGSV 242, 2006; revision 'EKr' expected 2025) — paid — https://www.fgsv-verlag.de/anlage-von-kreisverkehren"
+  ],
+  "current_edition_ok": true,
+  "verdict": "COMPLETE",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": true,
+    "superelevation": true,
+    "at_grade_junctions": true,
+    "interchanges_weaving": true
+  },
+  "missing": [
+    {
+      "doc": "M Anlage von Kreisverkehren (FGSV 242, 2006; revision EKr expected 2025)",
+      "why_essential": "Roundabout geometric design (mini, single-lane, two-lane, large signalised) is NOT a core part of RAA/RAL/RASt and lives in this standalone Merkblatt. It is the only major geometric-design topic not already covered by the three guidelines on hand. Optional/supplementary, not blocking core completeness.",
+      "free_or_paid": "paid",
+      "url": "https://www.fgsv-verlag.de/anlage-von-kreisverkehren"
+    }
+  ],
+  "notes": "RAA (FGSV 202, 2008/tr2011) + RAL (FGSV 201, 2012/tr2024) + RASt (FGSV 200, 2006/tr2012) ARE the complete, current German geometric-design set for motorways / rural roads / urban roads, and they are the authoritative source confirmed by FGSV's own 'Zurueckgezogene und ersetzte FGSV-Regelwerke' list for AG 2 Strassenentwurf (Stand: Januar 2026). JUNCTION/INTERCHANGE geometric design is INSIDE these three, NOT in a separate current guideline: the old separate junction parts were withdrawn and folded in — RAS-K-1 (plangleiche/at-grade, FGSV 297/1, 1988/repr.2001) -> RAL 2012; RAL-K-2 / AH-RAL-K-2 / RAS-K-2-B (planfreie/grade-separated rural interchanges) -> RAA 2008 (motorway part) + RAL 2012 (rural part); RASt-K -> superseded via RAS-K then RAL/RASt. RAA therefore carries motorway interchange + weaving geometry; RAL carries rural at-grade + grade-separated junctions; RASt carries urban at-grade junctions (with RiLSA, FGSV 321, for signal control — traffic-control, not geometry). The cross-section/alignment predecessors are likewise superseded: RAS-Q (FGSV 295, 1996, cross-sections) and RAS-L (FGSV 296, 1995, alignment) were BOTH replaced by RAA 2008 (motorways) and RAL 2012 (rural); they are NOT still needed. RASt 06 covers all urban-road alignment + cross-section + at-grade junctions. EN editions confirmed current for all three (RAA tr2011, RAL tr2024, RASt tr2012). RAA is still the 2008 edition (no newer edition published as of mid-2026); RAL still 2012; RASt still 2006 — all current/valid, none superseded. All FGSV titles are PAID (e.g. RAA approx EUR 84). Only genuine geometric-design gap vs the on-hand set is the standalone roundabout Merkblatt (FGSV 242), which is supplementary.",
+  "recommended_actions": [
+    "Treat RAA 2008 + RAL 2012 + RASt 2006 (with their EN translations) as the complete current German geometric set — junctions/interchanges are already included inside them; do NOT seek a separate junction guideline.",
+    "Do NOT acquire RAS-Q (1996) or RAS-L (1995); both are withdrawn and fully superseded by RAA/RAL.",
+    "Optionally add the standalone roundabout guideline M Anlage von Kreisverkehren (FGSV 242, 2006) for roundabout geometry; watch for its 2025 revision (EKr / 'Empfehlungen fuer die Anlage von Kreisverkehren').",
+    "Optionally pair RASt with RiLSA (FGSV 321, traffic signals, EN free download) for signalised urban junction operation — control rather than geometry.",
+    "Re-check fgsv-verlag.de periodically for a possible next-generation RAA and the EKr roundabout edition; current editions remain valid per FGSV AG 2 list, Stand Januar 2026."
+  ]
+}

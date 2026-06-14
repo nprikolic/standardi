@@ -1,0 +1,44 @@
+{
+  "iso3": "ITA",
+  "country": "Italy",
+  "have": [
+    "DM 5/11/2001 n. 6792 'Norme funzionali e geometriche per la costruzione delle strade' (96pp incl. annex tables) — road sections: typological classification, design speed, horizontal alignment (radii, clothoid/transition), vertical alignment, superelevation, cross-section, sight distance"
+  ],
+  "authoritative_set": [
+    "DM 5/11/2001 n. 6792 'Norme funzionali e geometriche per la costruzione delle strade' — free — https://www.mit.gov.it/normativa/decreto-ministeriale-numero-6792-del-05112001",
+    "DM 22/04/2004 n. 67/S 'Modifica del decreto 5 novembre 2001, n. 6792' (defines scope of application: new roads + reference for upgrading existing roads; introduces safety analysis for upgrades) — free — https://www.mit.gov.it/normativa/decreto-ministeriale-numero-67s-del-22042004",
+    "DM 19/04/2006 'Norme funzionali e geometriche per la costruzione delle intersezioni stradali' — free — https://www.mit.gov.it/normativa/decreto-ministeriale-19042006"
+  ],
+  "current_edition_ok": true,
+  "verdict": "ADEQUATE_CORE",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": true,
+    "superelevation": true,
+    "at_grade_junctions": false,
+    "interchanges_weaving": false
+  },
+  "missing": [
+    {
+      "doc": "DM 19/04/2006 'Norme funzionali e geometriche per la costruzione delle intersezioni stradali'",
+      "why_essential": "DM 6792/2001 (our only holding) governs road SECTIONS only and explicitly does not regulate intersections. DM 19/04/2006 is the mandatory companion decree (issued under art.13 of the Codice della Strada, D.Lgs 285/1992) that covers ALL junction types: at-grade intersections (intersezioni a raso), roundabouts (rotatorie), AND grade-separated interchanges (intersezioni a livelli sfalsati/svincoli) including specialized acceleration/deceleration lanes and weaving zones (zone di scambio). Confirmed from official MIT PDF text: raso x18, sfalsate x10, svincoli x6, scambio x13, accelerazione/decelerazione x9/12, rotatorie x27. Without it both at_grade_junctions and interchanges_weaving are uncovered.",
+      "free_or_paid": "free",
+      "url": "https://www.mit.gov.it/normativa/decreto-ministeriale-19042006"
+    },
+    {
+      "doc": "DM 22/04/2004 n. 67/S 'Modifica del decreto 5 novembre 2001, n. 6792'",
+      "why_essential": "Binding amendment to our existing holding (DM 6792/2001). It redefines the decree's field of application (campo di applicazione: mandatory for NEW roads, reference for adapting EXISTING roads) and adds the requirement of a safety analysis for upgrade projects. The 2001 decree must be read together with this 2004 modification to reflect the text currently in force.",
+      "free_or_paid": "free",
+      "url": "https://www.mit.gov.it/normativa/decreto-ministeriale-numero-67s-del-22042004"
+    }
+  ],
+  "notes": "Current authoritative Italian geometric-design set = DM 6792/2001 (sections, as amended by DM 22/04/2004) + DM 19/04/2006 (intersections). All three are State decrees under art.13 of the Codice della Strada (D.Lgs 285/1992) and remain in force in 2026 (no replacement decree found). All are FREE: full official texts/PDFs on mit.gov.it and Gazzetta Ufficiale (DM 6792/2001 GU n.5 of 08/01/2002 s.o.5; DM 22/04/2004 GU n.147 of 25/06/2004; DM 19/04/2006 GU n.170 of 24/07/2006, ELI https://www.gazzettaufficiale.it/eli/id/2006/07/24/06A06657/sg). Our holding (DM 6792/2001 alone) fully covers the road-section topics (design speed, horizontal, vertical, sight, cross-section, superelevation) but contains NO intersection content. The single decree DM 19/04/2006 closes both junction gaps (at-grade AND interchanges/weaving) — there is no separate Italian state standard dedicated to motorway interchanges; svincoli and weaving are treated within DM 19/04/2006. Sources are official: mit.gov.it and gazzettaufficiale.it only.",
+  "recommended_actions": [
+    "Acquire DM 19/04/2006 'Norme funzionali e geometriche per la costruzione delle intersezioni stradali' (free, mit.gov.it / Gazzetta Ufficiale) — this is the single essential gap and resolves both at-grade junctions and interchanges/weaving.",
+    "Add DM 22/04/2004 n. 67/S amendment to sit alongside DM 6792/2001 so the road-section standard reflects the in-force, amended text (field of application + safety-analysis requirement).",
+    "Record all three as a consolidated Italian geometric-design set; sources mit.gov.it + gazzettaufficiale.it (official, free). No newer replacement decree exists as of 2026."
+  ]
+}

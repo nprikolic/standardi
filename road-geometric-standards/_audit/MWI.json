@@ -1,0 +1,38 @@
+{
+  "iso3": "MWI",
+  "country": "Malawi",
+  "have": [
+    "Low Volume Roads Manual, Volume 2: Geometric Design and Road Safety (Roads Authority Malawi, Ministry of Transport and Public Works, 2020, 312pp). Covers LOW-VOLUME roads only (design classes LVR1-LVR5; AADT up to ~400+ at mid-design life)."
+  ],
+  "authoritative_set": [
+    "Low Volume Roads Manual, Volume 2: Geometric Design and Road Safety (Roads Authority Malawi, 2020) — free — https://www.research4cap.org/wp-content/uploads/ral/RoadsAuthorityMalawi-2020-LowVolumeRoadsManual-Volume2-200820-compressed.pdf",
+    "SATCC Draft Code of Practice for the Geometric Design of Trunk Roads (Southern African Transport and Communications Commission, Maputo, September 1998; reprinted July 2001) — paid/restricted (regional distribution; not freely posted on official sites) — https://www.scribd.com/doc/233053056/Code-of-Practice-for-the-Geometric-Design-of-Trunk-Roads"
+  ],
+  "current_edition_ok": true,
+  "verdict": "ADEQUATE_CORE",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": true,
+    "superelevation": true,
+    "at_grade_junctions": true,
+    "interchanges_weaving": false
+  },
+  "missing": [
+    {
+      "doc": "SATCC Draft Code of Practice for the Geometric Design of Trunk Roads (Sept 1998, reprinted July 2001)",
+      "why_essential": "This is the de-facto geometric authority for Malawi's MAIN, SECONDARY and other higher-class / higher-volume roads (the major road network). The LVR Manual Vol 2 explicitly defers to it: it states that more traditional design standards 'may be found in the SATCC Draft Code of Practice for the Geometric Design of Trunk Roads' and that 'users should consult the SATCC Code of Practice for Geometric Design of Trunk Roads (1998) for use on the major road network.' Malawi has no separate national trunk-road geometric manual, so without the SATCC code the higher-class network has no geometric design basis and topics absent from the LVR manual (interchanges, grade-separation, weaving, high-speed alignment) are uncovered.",
+      "free_or_paid": "paid",
+      "url": "https://www.scribd.com/doc/233053056/Code-of-Practice-for-the-Geometric-Design-of-Trunk-Roads"
+    }
+  ],
+  "notes": "Scope of what we hold = LOW-VOLUME roads ONLY. The LVR Manual Vol 2 (2020) is the geometric authority solely for District/Community/Private rural roads and lower-order urban streets, design classes LVR1-LVR5 (AADT up to ~400+ at mid-design life). It is NOT the geometric authority for the whole network. Investigation found NO separate Malawi-specific 'Road Design Manual' or national trunk-roads geometric manual published by the Roads Authority. For higher-class roads Malawi relies on the REGIONAL SATCC (now SADC) Draft Code of Practice for the Geometric Design of Trunk Roads (1998/2001), which the LVR manual repeatedly cites as the standard for the major road network and as the source for turning templates / design-vehicle data. (Note: Malawi's older 1978 Ministry Highway Design Manual is obsolete and superseded.) Therefore our LVR Vol 2 is only PART of Malawi's geometric design framework; the higher-class half rests on the SATCC regional code, which is not freely available on official/donor sites and is generally obtained through SATCC/SADC channels or by purchase. Topic coverage in the table reflects the LVR manual we hold: it fully covers design speed, horizontal/vertical alignment, sight distance, cross-section, superelevation and at-grade junctions for low-volume roads; it does NOT cover interchanges / grade-separated junctions / weaving (only glossary definitions of grade separation appear) — those reside in the SATCC trunk-roads code. Verdict ADEQUATE_CORE rather than COMPLETE because the freely-held set covers only the low-volume half of the network and the essential higher-class companion (SATCC) is missing/not freely available.",
+  "recommended_actions": [
+    "Acquire the SATCC Draft Code of Practice for the Geometric Design of Trunk Roads (Sept 1998 / reprinted July 2001) — the de-facto higher-class geometric standard for Malawi's main road network — via SATCC/SADC Technical Unit (Maputo) or purchase; this is the single most important gap.",
+    "Confirm with Roads Authority Malawi (roadsauthority.mw) whether any updated national or current SADC geometric design standard for trunk/main roads has superseded the 1998 SATCC code (e.g. a newer SADC guideline), as the held copy of the regional code is ~25 years old.",
+    "Retain LVR Manual Vol 2 (2020) as the authoritative geometric standard for the low-volume network; pair it with Vol 1 (Pavement Design, 2020) for completeness on the LVR side.",
+    "Treat the held set as covering ONLY low-volume roads; do not use it for geometric design of main/secondary roads, interchanges or high-speed alignment — use the SATCC trunk-roads code for those."
+  ]
+}

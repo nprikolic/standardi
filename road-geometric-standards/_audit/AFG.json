@@ -1,0 +1,47 @@
+{
+  "iso3": "AFG",
+  "country": "Afghanistan",
+  "have": [
+    "Low Volume Rural Roads (LVRR) Guideline and Standards, Volume 2: Geometric Design and Road Safety (MRRD, July 2020, ISBN 978-9936-8080-1-0). Foreword states it applies to Tertiary Roads and minor Secondary Roads only. Covers: Approach to Design, Route Selection, Traffic, Cross-section (Ch5), Alignment incl. design speed/horizontal/vertical/coordination/road junctions (Ch6), Design Standards tables (Ch7), plus a Part B on Road Safety."
+  ],
+  "authoritative_set": [
+    "MRRD LVRR Guideline and Standards Vol 2 — Geometric Design and Road Safety (2020) — free — https://www.research4cap.org/wp-content/uploads/ral/MRRD-2020-LVRRGuidelineandStandards-Vol2GeometricDesign-AsCAP-AFG2155A-200831-compressed.pdf",
+    "MRRD LVRR Guideline and Standards Vol 1 — Pavement Design (2020, companion volume, same series) — free — https://www.research4cap.org/wp-content/uploads/ral/MRRD-2020-LVRRGuidelineandStandards-Vol1PavementDesign-AsCAP-AFG2155A-200831-compressed.pdf",
+    "AASHTO A Policy on Geometric Design of Highways and Streets (Green Book) — practical/de-facto reference for AFG national & regional highways (used by ADB/World Bank donor projects); no national equivalent is freely available — paid — https://store.transportation.org",
+    "TRL Overseas Road Note 6 (ORN 6) Geometric Design Guide for Rural Roads — donor-standard model reference underpinning the LVRR series — free — https://www.gov.uk/research-for-development-outputs"
+  ],
+  "current_edition_ok": true,
+  "verdict": "PARTIAL",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": true,
+    "superelevation": true,
+    "at_grade_junctions": true,
+    "interchanges_weaving": false
+  },
+  "missing": [
+    {
+      "doc": "National HIGHWAY geometric design standard / manual (MPW) covering regional & national highways and primary/major secondary roads (incl. design speed bands above LVRR, multilane cross-sections, climbing lanes, grade-separated interchanges and weaving)",
+      "why_essential": "The MRRD LVRR Vol 2 explicitly applies only to Tertiary and minor Secondary roads, so it is NOT the geometric authority for Afghanistan's regional/national highway network (~8,100 km per MPW). MPW has only an unpublished 2005 'Interim Road and Highway Standards' (a nomenclature/planning framework, per GAO-08-689); no published, freely available MPW geometric design manual could be located on any official source. There is therefore a national gap for high-volume/highway geometric design.",
+      "free_or_paid": "not publicly available (no official free or paid copy located; MPW would need to be contacted directly at mopw.gov.af)",
+      "url": "https://mopw.gov.af"
+    },
+    {
+      "doc": "AASHTO 'A Policy on Geometric Design of Highways and Streets' (latest edition) — for the highway/interchange tier the LVRR omits",
+      "why_essential": "Provides the interchange, weaving, grade-separation, multilane and high-speed (>80 km/h) geometry that the LVRR rural guideline does not address and that no Afghan national highway manual covers; it is the de-facto standard already applied on AFG donor-funded highway projects.",
+      "free_or_paid": "paid",
+      "url": "https://store.transportation.org"
+    }
+  ],
+  "notes": "LVRR Vol 2 (MRRD, 2020, 206pp) confirmed authentic from official donor source research4cap.org; ISBN 978-9936-8080-1-0; team led by Infra Africa (Pty) Ltd under DFID/ReCAP-AsCAP (project AFG2155A). Its Foreword: 'This Geometric Design and Road Safety Guideline for Low Volume Rural Roads (LVRR) applies to Tertiary Roads and minor Secondary Roads.' Confirmed chapters: Ch5 Cross-section; Ch6 Alignment (6.2 Design Speed and Geometry, 6.3 Horizontal Alignment, 6.4 Consistency/Compound and Multiple Curves, 6.5 Road Junctions [at-grade only], 6.6 Vertical Alignment, 6.7 Coordination of Horizontal & Vertical Alignment); Ch7 Design Standards tables incl. cross-sections. Sight distance (SSD/PSD/DSD) and superelevation (SE) are treated within design-speed/alignment/cross-section sections (per acronym list and Ch6/7), not as standalone chapters. NO interchange/weaving content — expected for a low-volume rural document. Acronym list distinguishes HVR (High Volume Roads) as outside scope. (1) Afghanistan does NOT have an officially published, freely available national HIGHWAY geometric design standard beyond the MRRD rural one; MPW's road authority is the 2005 'Interim Road and Highway Standards', which per GAO-08-689 standardizes road nomenclature/classification (regional, national, provincial, rural) rather than publishing geometric criteria, and is not publicly obtainable. (2) For its rural/low-volume tier, the LVRR Vol 2 IS the practical and official geometric authority; for highways it is only part of the picture and the de-facto reference is AASHTO (used on ADB/World Bank projects), underpinned by the model TRL ORN 6. (3) Essential lacking doc = a national highway geometric standard; in its absence the practical set is LVRR Vol 1+2 plus AASHTO/ORN 6.",
+  "recommended_actions": [
+    "Treat MRRD LVRR Vol 2 (2020) as the authoritative geometric standard ONLY for tertiary and minor secondary (low-volume rural) roads; do not apply it to regional/national highways.",
+    "For the highway tier (regional/national highways, primary roads, interchanges, weaving, multilane and high-speed geometry), adopt AASHTO 'A Policy on Geometric Design of Highways and Streets' as the practical reference, since no freely available Afghan national highway manual exists.",
+    "Attempt to obtain MPW's 'Interim Road and Highway Standards' (2005) and any successor 'Afghanistan Road Design Standards/Manual' directly from the Ministry of Public Works (mopw.gov.af) to confirm whether a published geometric highway standard now exists; flag that current de-facto governance falls back on donor/AASHTO standards.",
+    "Also hold the companion MRRD LVRR Vol 1 (Pavement Design) and the model TRL ORN 6 alongside Vol 2 for a complete low-volume design package.",
+    "Verify the LVRR Vol 2 is the current edition (July 2020 is the only known edition; MRRD states it supersedes prior MRRD guidelines and is updated periodically)."
+  ]
+}

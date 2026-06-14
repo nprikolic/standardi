@@ -1,0 +1,38 @@
+{
+  "iso3": "GBR",
+  "country": "United Kingdom",
+  "have": [
+    "CD 109 Highway link design (Rev 1, 2020) — horizontal/vertical alignment, sight distance, superelevation, climbing/crawler lanes",
+    "CD 127 Cross-sections and headrooms",
+    "CD 116 Geometric design of roundabouts",
+    "CD 122 Geometric design of grade separated junctions",
+    "CD 123 Geometric design of at-grade priority and signal-controlled junctions"
+  ],
+  "authoritative_set": [
+    "CD 109 Highway link design (Rev 1, Mar 2020) — free — https://www.standardsforhighways.co.uk/dmrb (DMRB, National Highways)",
+    "CD 127 Cross-sections and headrooms (current published version, 2020-21) — free — https://www.standardsforhighways.co.uk/search/10442706-b592-42c8-85f8-2a0c779a8e37",
+    "CD 116 Geometric design of roundabouts (Ver 2.1.0, May 2023) — free — https://www.standardsforhighways.co.uk/dmrb",
+    "CD 122 Geometric design of grade separated junctions (Ver 1.1.1, Jan 2022) — free — https://www.standardsforhighways.co.uk/search/3ab9ef31-9880-4e8e-a7eb-f3d218e74ffd",
+    "CD 123 Geometric design of at-grade priority and signal-controlled junctions (Ver 2.1.0, Nov 2021) — free — https://www.standardsforhighways.co.uk/dmrb"
+  ],
+  "current_edition_ok": true,
+  "verdict": "COMPLETE",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": true,
+    "superelevation": true,
+    "at_grade_junctions": true,
+    "interchanges_weaving": true
+  },
+  "missing": [],
+  "notes": "The five held documents constitute the complete current DMRB 'Road layout - Design' geometric-design set published by National Highways (standardsforhighways.co.uk); all are FREE. Topic mapping: CD 109 (Rev 1, 2020) covers design speed, horizontal alignment (R, transition/clothoid), vertical (gradient, K-values), full-stop/overtaking sight distance, superelevation + transition/runoff, AND climbing/crawler & auxiliary lanes (no separate climbing-lane or sight-distance CD exists — these are inside CD 109). CD 127 covers cross-section (lane/carriageway/hard-strip/verge widths, headroom). CD 116 covers roundabouts. CD 123 covers at-grade priority & signal junctions. CD 122 (v1.1.1) covers grade-separated junctions including merges/diverges (accel/decel lanes), weaving and junction spacing, and connector roads. Edition note: CD 109 (2020) and CD 127 are the latest PUBLISHED editions; CD 116/122/123 have had minor revision uplifts since the holdings were catalogued (CD 116 v2.1.0 2023, CD 122 v1.1.1 2022, CD 123 v2.1.0 2021) — content is materially equivalent. National Highways has ongoing 5-year reviews (tenders T0493 for CD 109/CD 127, T0475 for CD 122/CD 123) due ~2025-26 but no superseding editions are published yet. Holdings are complete and current; only worth refreshing CD 116/122/123 to the newest minor revisions.",
+  "recommended_actions": [
+    "No essential geometric document is missing — coverage is complete for all core topics.",
+    "Optionally refresh to latest minor revisions: CD 116 v2.1.0 (2023), CD 122 v1.1.1 (2022), CD 123 v2.1.0 (2021); confirm CD 127 latest published version.",
+    "Monitor National Highways 5-year reviews (T0493: CD 109/CD 127; T0475: CD 122/CD 123) for new editions expected 2025-2026 and re-download when published.",
+    "All documents are free PDFs from standardsforhighways.co.uk (DMRB) — no paid sources required."
+  ]
+}

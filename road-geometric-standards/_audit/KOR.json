@@ -1,0 +1,40 @@
+{
+  "iso3": "KOR",
+  "country": "South Korea",
+  "have": [
+    "도로의 구조·시설 기준에 관한 규칙 해설 (Commentary on the Rules on the Structure and Facility Standards of Roads), MOLIT, 2021.12, ~735pp — embeds the legally-binding rule (도로구조규칙) plus all core geometric design values (design speed, radii, transition curves, grades, sight distance, cross-section, superelevation, at-grade junctions, basic grade-separation/interchange geometry)."
+  ],
+  "authoritative_set": [
+    "도로의 구조·시설 기준에 관한 규칙 (도로구조규칙) — the binding ministerial rule, current 국토교통부령 제1360호, in force 2024.07.10 — free — https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EB%8F%84%EB%A1%9C%EC%9D%98%EA%B5%AC%EC%A1%B0%E3%86%8D%EC%8B%9C%EC%84%A4%EA%B8%B0%EC%A4%80%EC%97%90%EA%B4%80%ED%95%9C%EA%B7%9C%EC%B9%99",
+    "도로의 구조·시설 기준에 관한 규칙 해설 (Commentary), MOLIT, 2021.12, ~735pp — free — https://www.molit.go.kr/USR/I0204/m_45/dtl.jsp?psize=10&lcmspage=1&idx=17894 (also on CODIL: https://www.codil.or.kr/policy/read.do?bbsId=BBSMSTR_900000000006&nttId=12758)",
+    "도로설계기준 KDS 44 00 00 (codified National Construction Standards), MOLIT notice 2023-907, in force 2023.01.12 — geometric criteria live in KDS 44 20 10 선형설계 (alignment), KDS 44 20 15 평면교차 (at-grade junctions), KDS 44 20 20 입체교차 (grade separation / interchanges, incl. accel/decel & connector-ramp lengths) — free — https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254280",
+    "도로용량편람 (Korean Highway Capacity Manual, KHCM), MOLIT/KICT, 2013 ed. — authority for weaving-section (엇갈림) capacity & length analysis — free — https://www.codil.or.kr/filebank/moct2014/201302/MOCT1092_1.PDF"
+  ],
+  "current_edition_ok": true,
+  "verdict": "ADEQUATE_CORE",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": true,
+    "superelevation": true,
+    "at_grade_junctions": true,
+    "interchanges_weaving": true
+  },
+  "missing": [
+    {
+      "doc": "도로용량편람 (Korean Highway Capacity Manual, KHCM), 2013 ed., MOLIT/KICT",
+      "why_essential": "The 2021 해설 and the rule define interchange GEOMETRY (ramp radii, accel/decel-lane lengths via Tables 4.2-11~14, gore points) but do NOT contain weaving (엇갈림) CAPACITY / operational analysis — minimum/maximum weaving-section length (≤750 m), LOS, and main-ramp vs ramp-ramp weaving methodology live only in the KHCM. Required to fully resolve interchange/weaving design rather than just geometry.",
+      "free_or_paid": "free",
+      "url": "https://www.codil.or.kr/filebank/moct2014/201302/MOCT1092_1.PDF"
+    }
+  ],
+  "notes": "1) The 2021.12 해설 IS the latest commentary edition — only a 2020 (~701pp) predecessor exists; the 2021.12 reissue reflects the 2021.12.13 rule amendment (notably the 정지시거/stopping-sight-distance revision). No newer commentary edition was found. 2) The legally-binding rule itself has since been amended (current 제1360호, 2024.07.10); the 2021 해설 narrative therefore trails the very latest rule text by minor post-2021 amendments, but the core geometric values are unchanged and the commentary remains the practitioner reference. 3) Since 2023.01.12 the modern codified geometric set is KDS 44 20 series (선형설계 / 평면교차 / 입체교차) under KDS 44 00 00 — these reproduce the rule's geometry in standards format and are the current authoritative design criteria. 4) The standalone 입체교차로 설계 지침 (Interchange Design Guideline) is OLD (2005, MOCT/KICT) and has been integrated into KDS 44 20 20 입체교차; a separate current standalone interchange guideline is therefore NOT required — geometric interchange design is adequately covered by the 해설 + KDS 44 20 20. 5) The only genuine gap for full interchange/weaving work is weaving CAPACITY analysis, which is the KHCM 2013, a separate free publication not embedded in the commentary.",
+  "recommended_actions": [
+    "Hold the 2021.12 해설 as primary geometric reference (already have).",
+    "Acquire the KHCM 도로용량편람 2013 (free, codil.or.kr) for weaving-section capacity/length and interchange operational analysis — the one essential companion not embedded in the commentary.",
+    "Optionally cross-check the codified KDS 44 20 10/15/20 (2023, free on law.go.kr) for the current standards-format geometry and any post-2021 rule amendments (current rule 제1360호, 2024.07.10).",
+    "Treat the 2005 입체교차로 설계 지침 as superseded by KDS 44 20 20 — do not pursue as a separate need."
+  ]
+}

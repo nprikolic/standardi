@@ -1,0 +1,92 @@
+{
+  "iso3": "POL",
+  "country": "Poland",
+  "have": [
+    "WR-D-22-2 'Wytyczne projektowania odcinków dróg zamiejskich. Część 2: Kształtowanie geometryczne' (v01, eff. 2023-01-23, 59pp)",
+    "Dz.U. 2022 poz. 1518 — rozporządzenie Ministra Infrastruktury w sprawie przepisów techniczno-budowlanych dotyczących dróg publicznych (44pp)"
+  ],
+  "authoritative_set": [
+    "WR-D-21 'Wytyczne wyznaczania skrajni dróg zamiejskich i ulic' (v01, eff. 2022-09-19) — free — https://www.gov.pl/web/infrastruktura/wr-d",
+    "WR-D-22-1 'Wytyczne projektowania odcinków dróg zamiejskich. Część 1: Wymagania podstawowe' (v01, eff. 2022-12-19) — free — https://www.gov.pl/web/infrastruktura/wr-d",
+    "WR-D-22-2 'Wytyczne projektowania odcinków dróg zamiejskich. Część 2: Kształtowanie geometryczne' (v01, eff. 2023-01-23) — free — https://www.gov.pl/web/infrastruktura/wr-d",
+    "WR-D-22-3 'Wytyczne projektowania odcinków dróg zamiejskich. Część 3: Wyposażenie techniczne' (v01, eff. 2023-02-22) — free — https://www.gov.pl/web/infrastruktura/wr-d",
+    "WR-D-22-4 'Wytyczne projektowania odcinków dróg zamiejskich. Część 4: Katalog typowych przekrojów poprzecznych' (v01, eff. 2023-01-16) — free — https://www.gov.pl/web/infrastruktura/wr-d",
+    "WR-D-31-1 'Wytyczne projektowania skrzyżowań drogowych. Część 1: Wymagania podstawowe' (v01, eff. 2022-11-30) — free — https://www.gov.pl/web/infrastruktura/wrd-30-skrzyzowania-i-wezly",
+    "WR-D-31-2 'Wytyczne projektowania skrzyżowań drogowych. Część 2: Skrzyżowania zwykłe i skanalizowane' (v01, eff. 2022-11-30) — free — https://www.gov.pl/web/infrastruktura/wrd-30-skrzyzowania-i-wezly",
+    "WR-D-31-3 'Wytyczne projektowania skrzyżowań drogowych. Część 3: Ronda' (v01, eff. 2022-11-30) — free — https://www.gov.pl/web/infrastruktura/wrd-30-skrzyzowania-i-wezly",
+    "WR-D-32-1 'Wytyczne projektowania węzłów drogowych. Część 1: Wymagania podstawowe' (v01, eff. 2022-07-13) — free — https://www.gov.pl/web/infrastruktura/wrd-30-skrzyzowania-i-wezly",
+    "WR-D-32-2 'Wytyczne projektowania węzłów drogowych. Część 2: Elementy węzłów i wyposażenie techniczne' (v01, eff. 2022-07-13) — free — https://www.gov.pl/web/infrastruktura/wrd-30-skrzyzowania-i-wezly",
+    "WR-D-33 'Wytyczne projektowania zjazdów, wyjazdów oraz wjazdów na drogach zamiejskich i ulicach' (eff. 2022-12-15) — free — https://www.gov.pl/web/infrastruktura/wrd-30-skrzyzowania-i-wezly",
+    "Dz.U. 2022 poz. 1518 — rozporządzenie ws. przepisów techniczno-budowlanych dotyczących dróg publicznych — free — https://isap.sejm.gov.pl"
+  ],
+  "current_edition_ok": true,
+  "verdict": "PARTIAL",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": true,
+    "superelevation": true,
+    "at_grade_junctions": false,
+    "interchanges_weaving": false
+  },
+  "missing": [
+    {
+      "doc": "WR-D-31-1 'Wytyczne projektowania skrzyżowań drogowych. Część 1: Wymagania podstawowe' (eff. 2022-11-30)",
+      "why_essential": "Defines selection criteria and basic design requirements for at-grade junctions (skrzyżowania) — junction type choice, capacity/safety basis, geometric framework. Foundational for all at-grade junction design; we have zero junction coverage.",
+      "free_or_paid": "free",
+      "url": "https://www.gov.pl/web/infrastruktura/wrd-30-skrzyzowania-i-wezly"
+    },
+    {
+      "doc": "WR-D-31-2 'Wytyczne projektowania skrzyżowań drogowych. Część 2: Skrzyżowania zwykłe i skanalizowane' (eff. 2022-11-30)",
+      "why_essential": "The core at-grade junction geometry standard: simple and channelized junctions, turning lanes, islands, left/right-turn lane lengths, channelization geometry. Indispensable core geometric topic entirely absent from our set.",
+      "free_or_paid": "free",
+      "url": "https://www.gov.pl/web/infrastruktura/wrd-30-skrzyzowania-i-wezly"
+    },
+    {
+      "doc": "WR-D-31-3 'Wytyczne projektowania skrzyżowań drogowych. Część 3: Ronda' (eff. 2022-11-30)",
+      "why_essential": "Roundabout geometric design (single/multi-lane, turbo) — a primary at-grade junction form in current Polish practice; not covered anywhere in our holdings.",
+      "free_or_paid": "free",
+      "url": "https://www.gov.pl/web/infrastruktura/wrd-30-skrzyzowania-i-wezly"
+    },
+    {
+      "doc": "WR-D-32-1 'Wytyczne projektowania węzłów drogowych. Część 1: Wymagania podstawowe' (eff. 2022-07-13)",
+      "why_essential": "Basic requirements for grade-separated interchanges (węzły) — interchange type selection, layout principles, design framework. Required entry point for interchange design; missing.",
+      "free_or_paid": "free",
+      "url": "https://www.gov.pl/web/infrastruktura/wrd-30-skrzyzowania-i-wezly"
+    },
+    {
+      "doc": "WR-D-32-2 'Wytyczne projektowania węzłów drogowych. Część 2: Elementy węzłów i wyposażenie techniczne' (eff. 2022-07-13)",
+      "why_essential": "Interchange geometric elements — ramps, merge/diverge (wyłączanie/włączanie), weaving sections (przeplatanie), acceleration/deceleration lanes, ramp alignment. This is THE document for weaving/merge/diverge geometry, completely absent from our set.",
+      "free_or_paid": "free",
+      "url": "https://www.gov.pl/web/infrastruktura/wrd-30-skrzyzowania-i-wezly"
+    },
+    {
+      "doc": "WR-D-22-4 'Wytyczne projektowania odcinków dróg zamiejskich. Część 4: Katalog typowych przekrojów poprzecznych' (eff. 2023-01-16)",
+      "why_essential": "The catalog of typical cross-sections (lane/shoulder/median widths per road class). WR-D-22-2 covers cross-section shaping principles but the actual dimensioned cross-section catalog is this separate part. Needed for complete cross-section coverage.",
+      "free_or_paid": "free",
+      "url": "https://www.gov.pl/web/infrastruktura/wr-d"
+    },
+    {
+      "doc": "WR-D-22-1 'Wytyczne projektowania odcinków dróg zamiejskich. Część 1: Wymagania podstawowe' (eff. 2022-12-19)",
+      "why_essential": "Companion 'basic requirements' part that sets road classes, design-speed framework and governing assumptions on which the Część 2 geometric values depend; gives the rationale and parameter context for WR-D-22-2.",
+      "free_or_paid": "free",
+      "url": "https://www.gov.pl/web/infrastruktura/wr-d"
+    },
+    {
+      "doc": "WR-D-21 'Wytyczne wyznaczania skrajni dróg zamiejskich i ulic' (eff. 2022-09-19)",
+      "why_essential": "Clearance envelope (skrajnia) determination — horizontal/vertical clearances. Cross-section completeness and sight/clearance design reference this; not held.",
+      "free_or_paid": "free",
+      "url": "https://www.gov.pl/web/infrastruktura/wr-d"
+    }
+  ],
+  "notes": "Authoritative current Polish geometric set = Ministry of Infrastructure 'Wzorce i Standardy / WR-D' series (all free on gov.pl/web/infrastruktura), backed by the binding regulation Dz.U. 2022 poz. 1518 (przepisy techniczno-budowlane dróg publicznych, in force since 21-09-2022; WR-D are recommended/non-binding but are the de-facto detailed design standard). For rural road geometry the relevant family is WR-D-22 (parts 1-5) + WR-D-21 (skrajnia). CROSS-SECTION: WR-D-22-2 'Kształtowanie geometryczne' contains cross-section SHAPING principles plus full horizontal/vertical alignment, sight distance, superelevation and lane widening — so core line geometry is well covered by what we have. The dimensioned cross-section CATALOG is a SEPARATE part, WR-D-22-4. JUNCTIONS/NODES are an entirely separate group (WR-D-30): WR-D-31 = skrzyżowania (at-grade: requirements / simple+channelized / roundabouts), WR-D-32 = węzły (interchanges: requirements / elements incl. ramps, merge-diverge, weaving). We hold NONE of the WR-D-30 group, so at-grade junctions AND interchange/weaving geometry are uncovered. topic_coverage cross_section marked true because WR-D-22-2 covers cross-section shaping, but the catalog (22-4) is still listed as missing for completeness. Verdict PARTIAL: we have only 1 of ~11 WR-D geometric parts plus the regulation — strong on plain-line geometry, zero on junctions/nodes which the task flags as the priority gap.",
+  "recommended_actions": [
+    "Acquire the full WR-D-30 junction/node group (WR-D-31-1/2/3 + WR-D-32-1/2) — these are the priority gap covering at-grade junctions, roundabouts, ramps, merge/diverge and weaving; all free PDFs at gov.pl/web/infrastruktura/wrd-30-skrzyzowania-i-wezly.",
+    "Add WR-D-22-4 (Katalog typowych przekrojów poprzecznych) to complete cross-section coverage with dimensioned standard sections.",
+    "Add WR-D-22-1 (Wymagania podstawowe) for the road-class / design-speed framework that underpins the values in WR-D-22-2, and WR-D-21 (skrajnia) for clearance envelopes.",
+    "Optionally add WR-D-33 (zjazdy/wjazdy — accesses) and WR-D-22-3 (wyposażenie) for a fully self-contained rural-road geometric package.",
+    "All WR-D are free on gov.pl; verify each part is still the current 'wersja 01' (check for newer consultations, e.g. WR-D-22-1-02 draft seen on PIIB) before treating as authoritative."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "iso3": "USA",
+  "country": "United States",
+  "have": [
+    "AASHTO A Policy on Geometric Design of Highways and Streets (Green Book), 7th edition, 2018 (1048 pp)"
+  ],
+  "authoritative_set": [
+    "AASHTO GDHS-7 — A Policy on Geometric Design of Highways and Streets, 7th ed., 2018 (Green Book) — paid — https://store.transportation.org/Item/PublicationDetail?ID=4127"
+  ],
+  "current_edition_ok": true,
+  "verdict": "COMPLETE",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": true,
+    "superelevation": true,
+    "at_grade_junctions": true,
+    "interchanges_weaving": true
+  },
+  "missing": [],
+  "notes": "The AASHTO Green Book (GDHS-7, 7th ed., 2018) is the single comprehensive US national geometric-design policy and self-contained covers every core topic: design speed and functional/context classification (Ch.1-2), design controls & criteria incl. driver/vehicle performance and sight distance (Ch.3, stopping/passing/decision sight distance), elements of design incl. horizontal alignment (R, transition/spiral curves), vertical alignment (grades, K-values, crest/sag curves) and full superelevation theory incl. superelevation runoff/tangent runout (Ch.3), cross-section elements (lane/shoulder/median widths, side slopes, curbs, clear zone, Ch.4), then functional-class chapters (local roads/streets Ch.5, collectors Ch.6, arterials Ch.7, freeways Ch.8), at-grade intersections (Ch.9, incl. channelization, turning roadways, roundabouts, sight triangles), and grade separations & interchanges (Ch.10). WEAVING and RAMP DESIGN: covered INTERNALLY in Ch.10 (interchange types, ramp geometry, ramp terminals, speed-change/accel-decel lanes, ramp spacing, weaving sections, collector-distributor roads) — no separate geometric companion is required for these elements. EDITION STATUS: 7th (2018) is the current published edition. The 8th edition is under development via NCHRP Project 07-29 (Texas A&M Transportation Institute, PI Ingrid Potts; began 2021-05-10, $1M); as of 2026 its status is 'Research completed, publication decision pending' — GB8 exists only as 1st/2nd drafts and is NOT yet published, so GDHS-7 remains authoritative and current. CAVEAT: HCM (Highway Capacity Manual) is the analytical tool for weaving/ramp CAPACITY but is not a geometric-design standard, so it is correctly NOT flagged as missing per the geometry-only scope. No essential geometry-specific companion is lacking; the Green Book alone constitutes the complete US geometric-design standard. The Green Book is a PAID publication (AASHTO Store, member/non-member pricing; print or single/multi-user PDF).",
+  "recommended_actions": [
+    "No essential geometric document is missing — GDHS-7 covers all core topics incl. weaving and ramp design (Ch.10) without a companion.",
+    "Hold at 7th ed. (2018) — it is the current published edition; the 8th edition (NCHRP 07-29) is still in draft with publication pending as of 2026.",
+    "Monitor store.transportation.org and AASHTO Journal for the GB8 release (expected once the NCHRP 07-29 publication decision is made) and replace GDHS-7 when published.",
+    "Optional (capacity, not geometry): HCM 7th ed. supplements weaving/ramp capacity analysis but is out of geometric-design scope; acquire only if capacity work is needed.",
+    "Source is paid: purchase from the official AASHTO Store (https://store.transportation.org/item/collectiondetail/180) — avoid mirrors/Internet Archive copies for the authoritative current text."
+  ]
+}

@@ -53,6 +53,14 @@
 
 ---
 
+### 0d. Popunjavanje praznina iz audita (vidi `road-geometric-standards/AUDIT.md`)
+> Audit 19 zemalja (2026-06-14): **3 COMPLETE, 10 ADEQUATE_CORE, 6 PARTIAL** · 34 besplatne praznine, 6 plaćenih, 4 zastarela izdanja.
+- [ ] 🤖 Skinuti **34 besplatne praznine** (prioritet: raskrsnice/čvorovi koji fale kod POL, ITA, ESP, BRA, IRL, SVN, SRB, KOR). URL-ovi u AUDIT.md.
+- [ ] 👤/🤖 Zameniti **zastarela izdanja**: SWE → TRVINFRA-00396; HRV → pročišćeni NN (izmene 90/2022 + 154/2024 — naš render je original); NZL → Austroads AGRD; ZAF (po potrebi).
+- [ ] 🤖 Plaćene/restriktivne praznine (CHN JTG B01/D21, JPN JRA komentar, ZAF SANRAL, MWI SATCC, DEU FGSV 242) — na BUY_LIST/odluku.
+
+---
+
 ## FAZA 1 — Pretprocesiranje korpusa (🤖)
 - [ ] Ekstrakcija teksta **po stranama** (čuvati broj strane) za svaki PDF → `corpus/text/<id>/pNNN.txt`
 - [ ] OCR za skenirane (zavisi od 0c); jezik-svestan (`-l por/chi_sim/...`)

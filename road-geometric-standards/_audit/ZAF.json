@@ -1,0 +1,54 @@
+{
+  "iso3": "ZAF",
+  "country": "South Africa",
+  "have": [
+    "TRH17 (1988) Geometric Design of Rural Roads (120pp)"
+  ],
+  "authoritative_set": [
+    "TRH17 (1988) — Geometric Design of Rural Roads (CSRA, the only COTO/DoT-published national geometric-design standard; still listed as current but 1988-vintage 'pilot document') — free — https://www.transport.gov.za/wp-content/uploads/2023/02/TRH17-1988-Geometric-Design-of-Rural-Roads.pdf",
+    "SANRAL Geometric Design Manual / Geometric Design Guide (c.2002, used as de-facto modern standard on national roads; covers design controls, alignment, intersections, interchanges, weaving, grade separations, toll plazas) — paid/restricted (SANRAL internal/project document, not freely published on official sites) — https://www.nra.co.za",
+    "TRH26 (2012) — South African Road Classification and Access Management Manual (RCAM; functional classification + access/junction management) — free — https://www.transport.gov.za/wp-content/uploads/2023/02/TRH26-RCAM.pdf",
+    "UTG1 (1986) — Guidelines for the Geometric Design of Urban Arterial Roads — free — https://www.transport.gov.za/wp-content/uploads/2023/02/UTG1-1986-Guidelines-for-the-Geometric-Design-of-Urban-Art.pdf",
+    "UTG7 — Geometric Design of Urban Collector Roads (library scan 2017 of 1980s draft) — free — https://www.transport.gov.za/wp-content/uploads/2023/02/UTG7-Library-copy-scanned-2017.pdf"
+  ],
+  "current_edition_ok": false,
+  "verdict": "ADEQUATE_CORE",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": true,
+    "superelevation": true,
+    "at_grade_junctions": true,
+    "interchanges_weaving": true
+  },
+  "missing": [
+    {
+      "doc": "SANRAL Geometric Design Manual / Geometric Design Guide (current de-facto national standard, c.2002, full chapters incl. interchanges & weaving)",
+      "why_essential": "This is the actually-applied modern geometric-design reference on the South African national road network and the only document with up-to-date, detailed treatment of freeway/interchange geometry, weaving, grade separations and toll plazas. TRH17 (1988) does not reflect current practice. We hold only TRH17, so we lack the document practitioners actually design to.",
+      "free_or_paid": "paid/restricted (SANRAL document; not posted on transport.gov.za or nra.co.za public download index; only unofficial mirrors exist, which must not be trusted)",
+      "url": "https://www.nra.co.za"
+    },
+    {
+      "doc": "TRH26 (2012) South African Road Classification and Access Management Manual (RCAM)",
+      "why_essential": "Defines the functional road-classification framework that drives geometric standard selection and governs access spacing / at-grade junction management — the modern policy layer absent from 1988 TRH17.",
+      "free_or_paid": "free",
+      "url": "https://www.transport.gov.za/wp-content/uploads/2023/02/TRH26-RCAM.pdf"
+    },
+    {
+      "doc": "UTG urban geometric guidelines (UTG1 Urban Arterials 1986; UTG7 Urban Collectors)",
+      "why_essential": "TRH17 covers rural roads only. Urban geometric design (arterials, collectors, urban intersections) is covered by the UTG series; without them urban geometric design is uncovered. (Note: these are 1980s-vintage and also out of date.)",
+      "free_or_paid": "free",
+      "url": "https://www.transport.gov.za/wp-content/uploads/2023/02/UTG1-1986-Guidelines-for-the-Geometric-Design-of-Urban-Art.pdf"
+    }
+  ],
+  "notes": "EDITION CURRENCY: TRH17 dates from 1988 and is explicitly a 'pilot document' based on then-current consensus; it is badly out of date, but as of June 2026 it is NOT formally superseded — the Committee of Transport Officials (COTO)/Department of Transport repository (transport.gov.za, page_id=1042) still lists TRH17 (1988) as the geometric-design standard for rural roads, with NO COTO-approved replacement TRH/TMH geometric manual published. The 2020 COTO 'Standard Specifications for Road and Bridge Works' (20 chapters, mandatory from 1 Mar 2021) are CONSTRUCTION specifications, NOT geometric design, and do not replace TRH17. No public draft of a new/updated national geometric-design manual (e.g. a 2019+ COTO 'South African Road Geometric Design Manual') was found on official sources. In practice the SANRAL Geometric Design Manual/Guide (c.2002) is the de-facto modern standard on national roads — it has full, modern chapters including intersections, interchanges and weaving — but it is a SANRAL document and is NOT freely published on official sites (only unofficial mirrors on Scribd/pdfcoffee, which were not used/trusted). TRH17 itself is also sold as a paid printed copy via Van Schaik. Topic coverage above is marked true on the basis of the combined TRH17 + SANRAL GDM + UTG set; from TRH17 alone, interchanges/weaving and urban junctions are only thinly covered. VERDICT = ADEQUATE_CORE: the free official TRH17 gives a usable core rural-geometry standard (speed, horizontal/vertical alignment, sight distance, cross-section, superelevation, at-grade junctions, basic interchanges), but the current modern reference (SANRAL GDM) is missing/restricted and the held edition is 38 years old.",
+  "recommended_actions": [
+    "Obtain the SANRAL Geometric Design Manual/Geometric Design Guide directly from SANRAL (nra.co.za / itis.nra.co.za ITIS portal, or e-mail itisissues@nra.co.za) — this is the modern de-facto standard and the single most important gap; do NOT rely on Scribd/pdfcoffee mirrors.",
+    "Download TRH26 (2012) RCAM (free, official) to obtain the current road-classification and access-management/junction framework.",
+    "Download the UTG geometric series (UTG1 urban arterials, UTG7 urban collectors; free, official) to cover urban geometric design that TRH17 omits — but treat them as legacy (1980s).",
+    "Monitor transport.gov.za (COTO) and SANRAL for any new/draft COTO geometric-design TRH/TMH that would supersede TRH17; none was published as of June 2026.",
+    "Flag TRH17 (1988) internally as legacy: usable as the official baseline but to be cross-checked against the SANRAL GDM (and, for many parameters, against AASHTO/SADC practice) for modern design."
+  ]
+}

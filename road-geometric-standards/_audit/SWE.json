@@ -1,0 +1,48 @@
+{
+  "iso3": "SWE",
+  "country": "Sweden",
+  "have": [
+    "VGU 2022:001 Krav (Trafikverket, 365 pp) — requirements",
+    "VGU 2022:002 Begrepp och grundvärden (139 pp) — concepts and basic values",
+    "VGU 2022:003 Råd (500 pp) — advice/guidance",
+    "Grundvärden VGU TRV 2024:148 (companion values doc, 58 pp)"
+  ],
+  "authoritative_set": [
+    "TRVINFRA-00396 'Vägars och gators utformning (VGU)' Krav (med rådstext), Version 1.0, in force 2025-01-01 — free — https://puben.trafikverket.se/dpub/visa-dokument/6f24d1e8-81bf-4e7a-948a-200e71c92f66",
+    "Grundvärden VGU TRV 2024:148 (companion values: formler, värden och underlag till krav), 2024, 58 pp — free — https://trafikverket.diva-portal.org/smash/record.jsf?pid=diva2:1909331"
+  ],
+  "current_edition_ok": false,
+  "verdict": "ADEQUATE_CORE",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": true,
+    "superelevation": true,
+    "at_grade_junctions": true,
+    "interchanges_weaving": true
+  },
+  "missing": [
+    {
+      "doc": "TRVINFRA-00396 'Vägars och gators utformning (VGU)' Krav (med rådstext), Version 1.0",
+      "why_essential": "This is the CURRENT in-force Swedish geometric-design authority since 2025-01-01. It replaces VGU 2022:001/002/003. Our 2022 PDFs are now legacy: usable only for projects whose detailed-design/construction procurement or road-plan submission predates 2025-01-01, or where older VGU is named in an existing contract. The new edition was rewritten and merged into Trafikverket's TRVINFRA regelverk; Krav and Råd are now a single document (the standalone 2022 'Begrepp och grundvärden' and separate 'Råd' structure no longer exists). Covers full geometric scope: dimensionerande hastighet, sektion (cross-section), linjeföring (horizontal+vertical alignment, sight, skevning/superelevation), korsningar (at-grade junctions), trafikplats (interchanges) and vävning (weaving).",
+      "free_or_paid": "free",
+      "url": "https://puben.trafikverket.se/dpub/visa-dokument/6f24d1e8-81bf-4e7a-948a-200e71c92f66"
+    },
+    {
+      "doc": "Grundvärden VGU TRV 2024:148 (companion values document)",
+      "why_essential": "The 2025 values/parameters doc that pairs with TRVINFRA-00396, replacing the 2022 grundvärden. Contains the formulas, design values and supporting basis for the requirements. We hold the 2024:148 file already (listed under 'have'), but it must be paired with TRVINFRA-00396 v1.0, not the 2022 Krav, to be the current set.",
+      "free_or_paid": "free",
+      "url": "https://trafikverket.diva-portal.org/smash/record.jsf?pid=diva2:1909331"
+    }
+  ],
+  "notes": "CURRENT AUTHORITY: TRVINFRA-00396 (VGU) Krav v1.0 + Grundvärden VGU TRV 2024:148, both in force from 2025-01-01. CONFIRMED via official trafikverket.se (bransch.trafikverket.se VGU page, puben.trafikverket.se, trafikverket.diva-portal.org). OUR 2022 SET IS SUPERSEDED: TRVINFRA-00396 and TRV 2024:148 replace the older VGU. Trafikverket explicitly states the 2022 publications (2022:001-003 + supplement 2022:167) may still be applied IN FULL only for projects where procurement of detailed design/construction occurred before 2025-01-01, where a road plan was submitted for approval before 2025-01-01, or where an earlier VGU is named in an existing contract — i.e. valid for pre-2025 legacy projects but not for new work. FORMAT: the new regelverk lives in PUBEN, which is a JavaScript web app (puben.trafikverket.se loads 'Laddar applikation...'); however the Krav document IS available as a downloadable PDF via the PUBEN DownloadDokument API endpoint (confirmed: a real multi-MB PDF, >10 MB), and TRV 2024:148 is a free full-text PDF on DiVA. So it is NOT web-app-only — a downloadable form exists. STRUCTURAL CHANGE: in the 2025 rewrite Krav and Råd (rådstext) are merged into one document and the content was restructured to match the TRVINFRA family (Ch.5 Gemensamma krav, then Ch.6-15: Sektion, Linjeföring, Korsningar, Hållplatser, Rast/Parkering, Ledning/Styrning, Belysning, Miljöåtgärder, Kontroll/Skötsel). The separate 2022 'Begrepp och grundvärden' book is gone (folded into TRV 2024:148 + the merged Krav). GEOMETRIC COVERAGE: all core topics covered, including junctions/interchanges/weaving — korsningar (at-grade), trafikplats (interchanges) and vävning/vävningssträcka (weaving sections, ramps) are addressed in the Korsningar/Linjeföring chapters and the grundvärden. NOTE the remiss (consultation) version 0.9 dated 2024-07-01 (remiss_vgu_2024.pdf) is superseded by the final v1.0 — do not cite the remiss as authority.",
+  "recommended_actions": [
+    "Treat TRVINFRA-00396 (VGU) Krav v1.0 + Grundvärden VGU TRV 2024:148 (both in force 2025-01-01) as the current in-force Swedish geometric-design authority; demote the 2022:001/002/003 set to 'legacy / pre-2025 projects only'.",
+    "Acquire the current TRVINFRA-00396 Krav v1.0 from PUBEN (free PDF via the puben.trafikverket.se DownloadDokument link) and confirm it is paired with the 2024:148 values doc you already hold — verify both are v1.0 / 2025-in-force editions.",
+    "Keep the 2022 set on file: it remains valid for projects procured or road-plan-submitted before 2025-01-01, so it is still needed for legacy-project reference.",
+    "Do not rely on the remiss 0.9 (2024-07-01) consultation PDF; ensure any copy obtained is the final Version 1.0.",
+    "Re-check the bransch.trafikverket.se VGU page periodically for point-revisions of TRVINFRA-00396 and TRV 2024:148, since the digital PUBEN regelverk is updated more frequently than the old print publications."
+  ]
+}

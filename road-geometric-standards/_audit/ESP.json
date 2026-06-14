@@ -1,0 +1,37 @@
+{
+  "iso3": "ESP",
+  "country": "Spain",
+  "have": [
+    "Norma 3.1-IC \"Trazado\" (Orden FOM/273/2016, BOE-A-2016-2217, full BOE text ~237 pp incl. annex tables) — design speed, horizontal radii/clothoids, vertical, sight distance, cross-section, superelevation (peralte); Cap. 10 \"Nudos\" covers node/interchange alignment (ramales, carriles de cambio de velocidad, vías colectoras-distribuidoras, trenzados)"
+  ],
+  "authoritative_set": [
+    "Norma 3.1-IC \"Trazado\" — Orden FOM/273/2016, de 19 de febrero — free — https://www.boe.es/diario_boe/txt.php?id=BOE-A-2016-2217",
+    "OC 32/2012 \"Guía de Nudos Viarios\" (Orden Circular 32/12, de 14 de diciembre, ~547 pp) — free — https://www.transportes.gob.es/recursos_mfom/comodin/recursos/oc_32-2012.pdf"
+  ],
+  "current_edition_ok": true,
+  "verdict": "ADEQUATE_CORE",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": true,
+    "superelevation": true,
+    "at_grade_junctions": false,
+    "interchanges_weaving": true
+  },
+  "missing": [
+    {
+      "doc": "OC 32/2012 \"Guía de Nudos Viarios\" (Orden Circular 32/12, de 14 de diciembre)",
+      "why_essential": "Current official Ministry (DGC) document for full junction and interchange DESIGN — node morphology, junction-type selection criteria, at-grade intersection (intersección) geometry, turning lanes, speed-change lanes, weaving/trenzados, collector-distributor roads, signalized intersections, roundabouts. Norma 3.1-IC Cap. 10 only fixes the trazado (alignment) of nodes and does NOT give at-grade-intersection layout geometry; OC 32/2012 supplies it and supersedes in practice the historic 1967 Recomendaciones para el proyecto de Intersecciones / de Enlaces. Without it, at-grade-junction coverage is incomplete.",
+      "free_or_paid": "free",
+      "url": "https://www.transportes.gob.es/recursos_mfom/comodin/recursos/oc_32-2012.pdf"
+    }
+  ],
+  "notes": "Norma 3.1-IC (Orden FOM/273/2016) is the CURRENT and unamended trazado norm — it repealed the 1999 version (BOE-A-2000-2107) and is in force since 5-Mar-2016; confirmed via BOE consolidated/act page, free in PDF/EPUB/XML. It includes Cap. 1 intro, Cap. 2 generalidades, Cap. 3 datos básicos (velocidad de proyecto/design speed), Cap. 4 trazado en planta, Cap. 5 trazado en alzado, Cap. 6 coordinación planta-alzado, Cap. 7 sección transversal (incl. peralte), Cap. 8 carriles adicionales, Cap. 10 Nudos (+ visibilidad throughout, Anejo de longitud de carriles de cambio de velocidad). So horizontal, vertical, sight, cross-section, superelevation and interchange/weaving ALIGNMENT are all covered by the doc we have. There is NO current standalone \"Norma 3.2-IC Intersecciones\" in force — at-grade junctions were historically covered by \"Recomendaciones para el proyecto de Intersecciones\" (1967) and interchanges by \"Recomendaciones para el proyecto de Enlaces\" (1967/68), both now effectively replaced by the consolidated OC 32/2012 \"Guía de Nudos Viarios\", which is the modern Ministry design reference and is listed in the official MITMA Trazado normativa-técnica section. OC 32/2012 is an Orden Circular (binding internal instruction / guidance) rather than an Instrucción approved by BOE Orden, but it is the current authoritative junction-design document and free from the Ministry. Note: transportes.gob.es blocks automated fetch (HTTP 403) but the official PDF URL and the normativa-técnica listing are publicly resolvable and corroborated across multiple sources; carreteros.org mirror not used as authority.",
+  "recommended_actions": [
+    "Acquire OC 32/2012 \"Guía de Nudos Viarios\" (free, official transportes.gob.es PDF) to complete at-grade-intersection and detailed interchange design coverage.",
+    "Treat Norma 3.1-IC (FOM/273/2016) as the authoritative trazado norm — no amendment to chase; pair it with OC 32/2012 for nodes/junctions.",
+    "Do NOT seek a \"Norma 3.2-IC Intersecciones\" — none is currently in force; the 1967 Recomendaciones para Intersecciones/Enlaces are historic and superseded by OC 32/2012 (download only for reference, not as current standard)."
+  ]
+}

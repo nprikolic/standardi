@@ -1,0 +1,17 @@
+{
+  "date": "2026-06-14",
+  "audited": 19,
+  "by_verdict": {
+    "COMPLETE": 3,
+    "ADEQUATE_CORE": 10,
+    "PARTIAL": 6
+  },
+  "free_gaps": 34,
+  "paid_gaps": 6,
+  "superseded_edition": [
+    "HRV",
+    "SWE",
+    "ZAF",
+    "NZL"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "iso3": "HRV",
+  "country": "Croatia",
+  "have": [
+    "Pravilnik o osnovnim uvjetima kojima javne ceste izvan naselja i njihovi elementi moraju udovoljavati sa stajališta sigurnosti prometa (NN 110/2001), full text — original 2001 base text"
+  ],
+  "authoritative_set": [
+    "Pravilnik o osnovnim uvjetima kojima javne ceste izvan naselja i njihovi elementi moraju udovoljavati sa stajališta sigurnosti prometa — pročišćeni tekst (NN 110/2001, 90/2022, 154/2024) — free — https://www.zakon.hr/c/podzakonski-propis/53182/pravilnik-o-osnovnim-uvjetima-kojima-javne-ceste-izvan-naselja-i-njihovi-elementi-moraju-udovoljavati-sa-stajalista-sigurnosti",
+    "Pravilnik o izmjenama i dopunama (NN 90/2022) — free — https://narodne-novine.nn.hr/clanci/sluzbeni/2022_08_90_1395.html",
+    "Pravilnik o izmjenama i dopunama (NN 154/2024) — free — https://narodne-novine.nn.hr/clanci/sluzbeni/full/2024_12_154_2553.html",
+    "Smjernice za projektiranje kružnih raskrižja na državnim cestama (Hrvatske ceste, 2014) — free — https://hrvatske-ceste.hr/uploads/documents/attachment_file/file/106/SMJERNICE_KRUZNA_RASKRIZJA-HRVATSKE_CESTE.pdf",
+    "Smjernice za projektiranje kružnih raskrižja sa spiralnim tokom kružnog kolnika na državnim cestama (turbo) (Hrvatske ceste, 2014) — free — https://hrvatske-ceste.hr/uploads/documents/attachment_file/file/107/SMJERNICE_TURBO_KRUZNA_RASKRIZJA-HRVATSKE_CESTE.pdf",
+    "Pravilnik o uvjetima za projektiranje i izgradnju priključaka i prilaza na javnu cestu (NN 95/2014) — free — https://narodne-novine.nn.hr/clanci/sluzbeni/2014_08_95_1921.html"
+  ],
+  "current_edition_ok": false,
+  "verdict": "ADEQUATE_CORE",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": true,
+    "superelevation": true,
+    "at_grade_junctions": false,
+    "interchanges_weaving": false
+  },
+  "missing": [
+    {
+      "doc": "Consolidated / amended text of NN 110/2001 (incorporating NN 90/2022 and NN 154/2024)",
+      "why_essential": "The held copy is the ORIGINAL 2001 text only. The Pravilnik was amended twice — NN 90/2022 (in force 11 Aug 2022) and NN 154/2024 (in force 7 Jan 2025) — changing cross-section provisions (zaustavni trak, razdjelni pojas widths) and other elements. Designing to the 2001 text alone is out of date.",
+      "free_or_paid": "free",
+      "url": "https://www.zakon.hr/c/podzakonski-propis/53182/pravilnik-o-osnovnim-uvjetima-kojima-javne-ceste-izvan-naselja-i-njihovi-elementi-moraju-udovoljavati-sa-stajalista-sigurnosti"
+    },
+    {
+      "doc": "Smjernice za projektiranje kružnih raskrižja na državnim cestama + spiralni/turbo (Hrvatske ceste, 2014)",
+      "why_essential": "The Pravilnik treats at-grade junctions (raskrižja) only in general terms. These official Hrvatske ceste guidelines carry the detailed geometric values for at-grade roundabout design (geometry, capacity, sight, fastest-path / driving-speed checks, signing) — the primary national source for junction geometry. Official and free.",
+      "free_or_paid": "free",
+      "url": "https://hrvatske-ceste.hr/hr/stranice/tehnicka-dokumentacija/dokumenti/45-smjernice-za-projektiranje-kruznih-raskrizja"
+    },
+    {
+      "doc": "Detailed standard for at-grade junctions (conventional T/X raskrižja, turning lanes) and grade-separated interchanges / weaving (čvorišta)",
+      "why_essential": "No Croatian official document fully details conventional at-grade junction geometry (channelization, turn/accel-decel lanes) or interchange/weaving design; the Pravilnik defers these and the only published junction guideline covers roundabouts. This is a genuine gap — in practice German RAA/RAL/RAS or comparable foreign standards are used by reference. No free official national substitute exists.",
+      "free_or_paid": "n/a (no official national doc)",
+      "url": ""
+    }
+  ],
+  "notes": "IN-FORCE STATUS (precise): The Pravilnik (NN 110/2001) is STILL IN FORCE but has been AMENDED twice — Pravilnik o izmjenama i dopunama NN 90/2022 (in force 11 Aug 2022) and NN 154/2024 (in force 7 Jan 2025). Zakon.hr consolidated text is current (base updated 08 Jun 2026). The held copy is the original 2001 text, so current_edition_ok=false until the consolidated/amended text is obtained. SCOPE: covers core rural ('izvan naselja') geometric topics well — projektna/računska brzina Vp/Vr, min radii (R 25–850 m), clothoids, max gradients by category (4–12%), crest/sag vertical curves, stopping & passing sight distance, standard cross-sections / lane widths, normal crown qmin 2.5% and qmax 7% superelevation. WEAK on junction/interchange geometry: raskrižja and čvorišta are referenced only generally. URBAN COUNTERPART: there is NO separate Croatian geometric-design pravilnik for roads/streets in settlements ('u naselju'); urban access is partly covered by NN 95/2014 (priključci i prilaza) only. HRVATSKE CESTE GUIDELINES: the 'Smjernice za projektiranje kružnih raskrižja' (standard + spiral/turbo, Faculty of Civil Eng. Rijeka, 2014) ARE official and FREELY downloadable as PDFs hosted on hrvatske-ceste.hr — they carry the detailed roundabout geometric values. OTU 2024 (Opći tehnički uvjeti za radove na cestama, in force 1 Jan 2025) is also official/free but governs works/materials, not road geometry. No paid national geometric standard identified.",
+  "recommended_actions": [
+    "Obtain the consolidated/amended text (NN 110/2001 + NN 90/2022 + NN 154/2024) from zakon.hr or narodne-novine.nn.hr to replace the outdated 2001-only copy and set current_edition_ok=true.",
+    "Add the two official Hrvatske ceste roundabout guidelines (standard and spiral/turbo, 2014, with their dodaci/annexes) — free PDFs on hrvatske-ceste.hr — to cover at-grade junction geometry.",
+    "Add NN 95/2014 (priključci i prilazi na javnu cestu) for access/connection geometry, the closest thing to an in-settlement provision.",
+    "Note the genuine gap for conventional at-grade junction channelization and grade-separated interchange/weaving design; record that Croatian practice references foreign standards (e.g. German RAL/RAA) since no free official national document covers these."
+  ]
+}

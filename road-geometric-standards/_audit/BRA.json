@@ -1,0 +1,41 @@
+{
+  "iso3": "BRA",
+  "country": "Brazil",
+  "have": [
+    "IPR-706 Manual de Projeto Geométrico de Rodovias Rurais (1ª ed., 1999, 228pp) — SCANNED image-only, no text layer",
+    "IPR-740 Manual de Projeto Geométrico de Travessias Urbanas (2010, 392pp, text-based)"
+  ],
+  "authoritative_set": [
+    "IPR-706 Manual de Projeto Geométrico de Rodovias Rurais (1ª ed., 1999) — free — https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-manuais/vigentes/706_manual_de_projeto_geometrico.pdf",
+    "IPR-718 Manual de Projeto de Interseções (2ª ed., 2005) — free — https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-manuais/vigentes/718_manual_de_projeto_de_intersecoes.pdf",
+    "IPR-740 Manual de Projeto Geométrico de Travessias Urbanas (2010) — free — https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-manuais/vigentes/ipr_740_manual_projetos_geometricos_travessias_urbanas.pdf",
+    "IPR-726 Diretrizes Básicas para Elaboração de Estudos e Projetos Rodoviários — Escopos Básicos e Instruções de Serviço (suporte de escopo/processo) — free — https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-manuais"
+  ],
+  "current_edition_ok": true,
+  "verdict": "ADEQUATE_CORE",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": true,
+    "superelevation": true,
+    "at_grade_junctions": false,
+    "interchanges_weaving": false
+  },
+  "missing": [
+    {
+      "doc": "IPR-718 Manual de Projeto de Interseções (2ª ed., 2005)",
+      "why_essential": "The sole DNIT geometric manual dedicated to junctions: at-grade intersections, channelization, turning roadways, acceleration/deceleration lanes, rotatórias/roundabouts, grade-separated interchanges and weaving. IPR-706 (rural) and IPR-740 (urban) only touch intersections summarily, so without IPR-718 the Brazilian set has no authoritative coverage of at-grade junctions or interchanges/weaving.",
+      "free_or_paid": "free",
+      "url": "https://www.gov.br/dnit/pt-br/assuntos/planejamento-e-pesquisa/ipr/coletanea-de-manuais/vigentes/718_manual_de_projeto_de_intersecoes.pdf"
+    }
+  ],
+  "notes": "Authoritative current Brazilian geometric set = DNIT/IPR manuals listed as 'vigentes' on gov.br/dnit (Coletânea de Manuais, page last updated 24/04/2025): IPR-706 (rural geometric, 1999), IPR-718 (intersections, 2005), IPR-740 (urban crossings, 2010), plus IPR-726 (project-scope guidelines). All are FREE on gov.br/dnit. EDITION CURRENCY: IPR-706 is still the 1st edition (1999) and remains officially VIGENTE — NOT superseded — but it is a 27-year-old document; no newer/revised text-based edition of the rural geometric manual exists. The DNIT-published copy of IPR-706 is the same SCANNED image-only 1999 PDF we hold (no native text/searchable edition is published anywhere official), so OCR is the only path to a text layer. IPR-740 (2010) is the more modern, fully text-based companion for urban contexts but does not replace the rural manual. We hold IPR-706 + IPR-740, giving solid coverage of the mainline geometric elements (design speed, horizontal/vertical alignment, sight distance, cross-section, superelevation), but we entirely lack the dedicated junctions manual IPR-718, leaving at-grade intersections and interchanges/weaving uncovered — hence ADEQUATE_CORE rather than COMPLETE. Sources: gov.br/dnit IPR Coletânea de Manuais (vigentes); ipr.dnit.gov.br normas-e-manuais.",
+  "recommended_actions": [
+    "Acquire IPR-718 Manual de Projeto de Interseções (2ª ed., 2005) from gov.br/dnit (free, official 'vigentes' folder) — closes the at-grade junctions and interchanges/weaving gap.",
+    "OCR the existing IPR-706 (1999) scan to produce a searchable text layer; the official DNIT copy is the same image-only scan, so no native text edition can be substituted.",
+    "Treat IPR-706 as current-but-dated (1999, still vigente); monitor gov.br/dnit Coletânea de Manuais for any future revised edition of the rural geometric manual.",
+    "Optionally add IPR-726 (Diretrizes Básicas / Escopos Básicos, project-scope and service instructions) for completeness of the design-process framework, though it is not a core geometric-element manual."
+  ]
+}

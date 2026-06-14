@@ -1,0 +1,61 @@
+{
+  "iso3": "SRB",
+  "country": "Serbia",
+  "have": [
+    "Pravilnik o uslovima koje sa aspekta bezbednosti saobraćaja moraju da ispunjavaju putni objekti i drugi elementi javnog puta (Sl. glasnik RS 50/11), full text, 143pp, Cyrillic"
+  ],
+  "authoritative_set": [
+    "Pravilnik o uslovima koje sa aspekta bezbednosti saobraćaja moraju da ispunjavaju putni objekti i drugi elementi javnog puta (Sl. glasnik RS 50/11) — binding sub-law — free — https://www.putevi-srbije.rs/index.php/sr/regulativa",
+    "Zakon o putevima (Sl. glasnik RS 41/18, 95/18, 92/23) — enabling law — free — https://www.pravno-informacioni-sistem.rs",
+    "SRDM 4-0 'Projektni elementi puta' (Priručnik za projektovanje puteva u Republici Srbiji, 2012) — companion design manual — free — https://www.putevi-srbije.rs/images/pdf/harmonizacija/prirucnik_za_projektovanje_puteva/SRDM4-0-projektni-elementi-puta(120506-srb-konacni).pdf",
+    "SRDM 5-1 'Raskrsnice i priključci u nivou' (2012) — companion design manual — free — https://www.putevi-srbije.rs/images/pdf/harmonizacija/prirucnik_za_projektovanje_puteva/SRDM5-1-raskrsnice-i-prikljuci-u-nivou(120427-srb-konacni).pdf",
+    "SRDM 5-2 'Denivelisane raskrsnice' (2012) — companion design manual — free — https://www.putevi-srbije.rs/index.php/srdm-prirucnik-za-projektovanje-puteva",
+    "SRDM 5-3 'Kružne raskrsnice' (2012) — companion design manual — free — https://www.putevi-srbije.rs/index.php/srdm-prirucnik-za-projektovanje-puteva"
+  ],
+  "current_edition_ok": true,
+  "verdict": "ADEQUATE_CORE",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": true,
+    "superelevation": true,
+    "at_grade_junctions": true,
+    "interchanges_weaving": true
+  },
+  "missing": [
+    {
+      "doc": "SRDM 4-0 'Projektni elementi puta' (Priručnik za projektovanje puteva u Republici Srbiji / Serbian Road Design Manual, JP Putevi Srbije, 2012)",
+      "why_essential": "The authoritative DETAILED geometric-design companion to Pravilnik 50/11. Where 50/11 prescribes limiting values, SRDM4 gives the full design methodology: functional classification, design-speed framework, dimensioning of horizontal/vertical alignment elements, cross-section types and assembly, sight distance, and superelevation (vitoperenje) development. It is the de-facto detailed how-to standard used in Serbian practice and the document a designer actually applies alongside the regulation. We hold the regulation but not this manual.",
+      "free_or_paid": "free",
+      "url": "https://www.putevi-srbije.rs/images/pdf/harmonizacija/prirucnik_za_projektovanje_puteva/SRDM4-0-projektni-elementi-puta(120506-srb-konacni).pdf"
+    },
+    {
+      "doc": "SRDM 5-1 'Raskrsnice i priključci u nivou' (2012)",
+      "why_essential": "Detailed geometric design of at-grade junctions/accesses — channelization, turning/auxiliary lanes, intersection radii, sight triangles. Pravilnik 50/11 (Prilog 3) sets the regulatory at-grade-junction requirements but not the full design detail; SRDM5-1 is the working geometric guideline.",
+      "free_or_paid": "free",
+      "url": "https://www.putevi-srbije.rs/images/pdf/harmonizacija/prirucnik_za_projektovanje_puteva/SRDM5-1-raskrsnice-i-prikljuci-u-nivou(120427-srb-konacni).pdf"
+    },
+    {
+      "doc": "SRDM 5-2 'Denivelisane raskrsnice' (2012)",
+      "why_essential": "Detailed geometric design of grade-separated interchanges (petlje) — ramp geometry, merge/diverge and weaving (ulivne/izlivne trake, preplitanje), speed-change lanes. Pravilnik 50/11 (Prilog 4) sets interchange regulatory requirements; SRDM5-2 supplies the detailed weaving/merge-diverge design methodology.",
+      "free_or_paid": "free",
+      "url": "https://www.putevi-srbije.rs/index.php/srdm-prirucnik-za-projektovanje-puteva"
+    },
+    {
+      "doc": "SRDM 5-3 'Kružne raskrsnice' (roundabouts, 2012)",
+      "why_essential": "Roundabout geometric design — a primary at-grade junction form not specifically detailed in 50/11. Needed for complete junction-geometry coverage in line with current Serbian practice.",
+      "free_or_paid": "free",
+      "url": "https://www.putevi-srbije.rs/index.php/srdm-prirucnik-za-projektovanje-puteva"
+    }
+  ],
+  "notes": "AUTHORITATIVE FRAMEWORK: Serbian geometric design rests on a two-tier structure. (1) BINDING: Zakon o putevima (Sl. glasnik RS 41/18, 95/18, 92/23) is the enabling law; under it, Pravilnik 50/11 is the binding sub-law (podzakonski akt) prescribing the geometric/safety conditions for extra-urban public roads. It is organized in 4 annexes: Prilog 1 funkcionalno razvrstavanje vannaseljskih puteva; Prilog 2 trase (alignment — granični elementi, klotoide, preglednost, vitoperenje, poprečni profil); Prilog 3 raskrsnice u nivou (at-grade); Prilog 4 denivelisane raskrsnice (interchanges). (2) GUIDANCE: JP Putevi Srbije's 'Priručnik za projektovanje puteva u Republici Srbiji' (SRDM, 2012, produced under the Belgrade Transport Rehabilitation Project / harmonizacija) is the detailed (non-binding but de-facto) design manual; the geometric core is SRDM4-0 plus the junction set SRDM5-1/5-2/5-3. CURRENT-EDITION CHECK: Pravilnik 50/11 is IN FORCE and UNAMENDED — both the official JP Putevi Srbije 'Regulativa' page and MGSI list it solely as 50/11 with no izmene/dopune and no 'prestao da važi' note (in force since 2011; entered into force 8 days after publication per standard practice). No replacement regulation has been issued. TOPIC COVERAGE: Because 50/11 explicitly contains granični elementi (design speed Vr/Vp, min radii, clothoid parameter A, tangent/arc lengths), preglednost (sight), vitoperenje (superelevation development), poprečni profil (cross-section), AND dedicated annexes for at-grade junctions (Prilog 3) and interchanges (Prilog 4), all eight core topics are covered at the BINDING/limiting-value level by the document we already hold. VERDICT RATIONALE: ADEQUATE_CORE — we possess the complete, current, binding geometric regulation that covers every core topic, so this is a sound and authoritative reference for gap-analysis. It is NOT marked COMPLETE because the authoritative detailed-design companion (the SRDM4/SRDM5 manual chapters) — the documents engineers apply for full geometric methodology, especially detailed channelization, ramp/weaving and roundabout geometry — are not in our holdings. topic_coverage is all-true on the strength of Pravilnik 50/11 alone; the SRDM items are listed under 'missing' as essential depth/companion material, not as gaps in regulatory coverage. NOTE on SRPS: relevant SRPS standards exist mainly for road materials/testing and signage rather than route geometry; the geometric design rules are carried by the Pravilnik + SRDM, so no specific SRPS geometric standard is flagged as essential.",
+  "recommended_actions": [
+    "Acquire SRDM 4-0 'Projektni elementi puta' — the priority companion; it is the detailed geometric-design manual underpinning Pravilnik 50/11 and the document used in practice (free PDF at putevi-srbije.rs/images/pdf/harmonizacija/prirucnik_za_projektovanje_puteva/).",
+    "Acquire the junction set SRDM 5-1 (raskrsnice i priključci u nivou), SRDM 5-2 (denivelisane raskrsnice — ramps/weaving), and SRDM 5-3 (kružne raskrsnice/roundabouts) for full detailed junction and interchange geometry; all free on the SRDM index page.",
+    "Treat Pravilnik 50/11 as the authoritative BINDING reference for the gap-analysis (it is current and unamended), and treat the SRDM manual as the detailed-methodology layer when comparing depth against other countries' standards.",
+    "Confirm currency at audit time: re-check the JP Putevi Srbije 'Regulativa' page and pravno-informacioni-sistem.rs for any new pravilnik that could supersede 50/11, since a long-running modernization of Serbian road regulation has been discussed.",
+    "Optionally hold Zakon o putevima (41/18, 95/18, 92/23) for the enabling-law context that authorizes 50/11."
+  ]
+}

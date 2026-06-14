@@ -1,0 +1,61 @@
+{
+  "iso3": "NZL",
+  "country": "New Zealand",
+  "have": [
+    "NZTA State Highway Geometric Design Manual (SHGDM), Dec 2000 (draft), parts 1-7 — superseded as primary standard, retained as reference document for legacy/in-progress projects"
+  ],
+  "authoritative_set": [
+    "Austroads Guide to Road Design (AGRD), esp. Part 3 Geometric Design, Ed 3.4 (2021) — paid|login (free to NZ local authorities via NZTA Austroads membership; contact austroadsguides@nzta.govt.nz) — https://austroads.gov.au/publications/road-design",
+    "NZTA Technical Memorandum TM2501 Superelevation calculations (Aug 2021) — replaces AGRD Part 3 §7.7.1 — free — https://nzta.govt.nz/roads-and-rail/road-engineering/geometric-design/supplementary-guidance",
+    "NZTA Technical Memorandum TM2502 Calculating road surface water run-off (preferred NZ method) — free — https://nzta.govt.nz/roads-and-rail/road-engineering/geometric-design/supplementary-guidance",
+    "NZTA Technical Memorandum TM2503 Edge protection and medians on dual carriageway roads (Safe System) (Mar 2013) — free — https://nzta.govt.nz/roads-and-rail/road-engineering/geometric-design/supplementary-guidance",
+    "NZTA State Highway Geometric Design Manual (Dec 2000) — retained NZ reference document — free — https://www.nzta.govt.nz/resources/state-highway-geometric-design-manual"
+  ],
+  "current_edition_ok": false,
+  "verdict": "PARTIAL",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": true,
+    "superelevation": true,
+    "at_grade_junctions": true,
+    "interchanges_weaving": true
+  },
+  "missing": [
+    {
+      "doc": "Austroads Guide to Road Design Part 3: Geometric Design, Ed 3.4 (2021)",
+      "why_essential": "Current NZ-authoritative core for design speed, horizontal/vertical alignment, sight distance, cross-section, superelevation. SHGDM (2000) is superseded by this; topic coverage in our holdings is currently met only by the obsolete 2000 manual, not the in-force standard.",
+      "free_or_paid": "paid/login (free to NZ local authorities via NZTA Austroads membership)",
+      "url": "https://austroads.gov.au/publications/road-design"
+    },
+    {
+      "doc": "Austroads Guide to Road Design Part 4: Intersections and Crossings - General (+ Part 4A Unsignalised & Signalised Intersections, Part 4B Roundabouts, Part 4C Interchanges)",
+      "why_essential": "At-grade junctions, roundabouts, interchanges and weaving are governed by AGRD Part 4 series under current NZ practice, not by the 2000 SHGDM.",
+      "free_or_paid": "paid/login (free to NZ local authorities via NZTA)",
+      "url": "https://austroads.gov.au/publications/road-design"
+    },
+    {
+      "doc": "Austroads Guide to Road Design Part 2: Design Considerations",
+      "why_essential": "Provides the design framework (road classification, design vehicles, operating-speed concepts) that underpins Part 3 geometric application in NZ.",
+      "free_or_paid": "paid/login (free to NZ local authorities via NZTA)",
+      "url": "https://austroads.gov.au/publications/road-design"
+    },
+    {
+      "doc": "NZTA Technical Memoranda TM2501 / TM2502 / TM2503 (NZ supplements to AGRD)",
+      "why_essential": "Mandatory NZ-specific overrides/interpretations to the Austroads guides (e.g. TM2501 replaces AGRD Part 3 superelevation §7.7.1); required to apply Austroads correctly in NZ.",
+      "free_or_paid": "free",
+      "url": "https://nzta.govt.nz/roads-and-rail/road-engineering/geometric-design/supplementary-guidance"
+    }
+  ],
+  "notes": "Authoritative current NZ geometric-design authority = NZ Transport Agency Waka Kotahi (NZTA), which adopts the Austroads Guide to Road Design (AGRD) as 'the primary reference guideline for our road network', applied together with NZTA-issued NZ-specific Technical Memoranda (TM2501-TM2503). SHGDM (2000) is NOT formally withdrawn: NZTA explicitly states it 'remains the primary reference document for some projects, depending on the stage in their life-cycle' and retains it as a reference document; however it has been superseded as the primary standard by Austroads (NZTA cites Austroads 2009 onward as the primary source). It is also officially only a draft (Dec 2000, sections amended through May 2005). EDITION CURRENCY: our sole holding (SHGDM 2000) is ~26 years old and superseded — the in-force core (AGRD Part 3 Ed 3.4, 2021) is entirely absent. Austroads publications are paid/login on austroads.gov.au (HTTP 403 to anonymous fetch confirms gating); NZ local authorities get free access via NZTA's Austroads membership. NZTA TM supplements are free downloads. A 'draft' updated State Highway Geometric Design Manual page also exists on the NZTA resources site.",
+  "recommended_actions": [
+    "Treat SHGDM (2000) as legacy/reference only; do not rely on it as the current NZ standard.",
+    "Acquire Austroads Guide to Road Design Part 3 (Geometric Design) Ed 3.4 (2021) — the in-force NZ core for alignment, sight distance, cross-section, superelevation.",
+    "Acquire AGRD Part 2 (Design Considerations) and the Part 4 series (4, 4A, 4B, 4C) for intersections, roundabouts and interchanges/weaving.",
+    "Obtain the free NZTA Technical Memoranda TM2501 (superelevation), TM2502 (surface water run-off) and TM2503 (edge protection/medians) — mandatory NZ overrides to Austroads.",
+    "For Austroads docs, use NZTA's free local-authority access (austroadsguides@nzta.govt.nz) rather than paid purchase where eligible.",
+    "Periodically check austroads.gov.au for editions newer than Part 3 Ed 3.4 and confirm NZTA has not issued a finalised replacement geometric design manual."
+  ]
+}

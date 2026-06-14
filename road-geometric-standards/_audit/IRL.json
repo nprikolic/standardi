@@ -1,0 +1,49 @@
+{
+  "iso3": "IRL",
+  "country": "Ireland",
+  "have": [
+    "DN-GEO-03031 Rural Road Link Design (Rev/v12, May 2023, 121pp)",
+    "DN-GEO-03060 The Design of Junctions on National Roads (Rev 03, May 2023, 221pp)",
+    "DN-GEO-03035 Layout of Grade Separated Junctions (withdrawn 2017; retained for weaving tables)"
+  ],
+  "authoritative_set": [
+    "DN-GEO-03031 Rural Road Link Design (May 2023) — free — https://cdn.tii.ie/publications/DN-GEO-03031-12.pdf",
+    "DN-GEO-03036 Cross Sections and Headroom (May 2023) — free — https://cdn.tii.ie/publications/DN-GEO-03036-09.pdf",
+    "DN-GEO-03060 Geometric Design of Junctions / The Design of Junctions on National Roads (May 2023) — free — https://cdn.tii.ie/publications/DN-GEO-03060-03.pdf",
+    "DMURS Design Manual for Urban Roads and Streets (v1.1, 2019) — free — https://www.gov.ie/en/department-of-transport/publications/design-manual-for-urban-roads-and-streets/"
+  ],
+  "current_edition_ok": true,
+  "verdict": "ADEQUATE_CORE",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": false,
+    "superelevation": true,
+    "at_grade_junctions": true,
+    "interchanges_weaving": true
+  },
+  "missing": [
+    {
+      "doc": "DN-GEO-03036 Cross Sections and Headroom (May 2023)",
+      "why_essential": "The dedicated TII cross-section standard. Sets all lane, hard-strip/hard-shoulder, verge and central-reserve widths plus headroom/vertical clearance for rural single & dual carriageways, motorways and urban roads. Cross-section dimensions are NOT contained in DN-GEO-03031 (which is alignment-only: design speed, horizontal/vertical geometry, sight distance, superelevation); without 03036 the cross-section topic is uncovered. It is one of the three core geometric standards updated together in the May 2023 release alongside 03031 and 03060.",
+      "free_or_paid": "free",
+      "url": "https://cdn.tii.ie/publications/DN-GEO-03036-09.pdf"
+    },
+    {
+      "doc": "DMURS Design Manual for Urban Roads and Streets (v1.1, 2019)",
+      "why_essential": "TII/DoT geometric design manual for urban roads and streets. DN-GEO-03031 is explicitly RURAL-only and DN-GEO standards target national roads, so urban/built-up geometric design (street cross-sections, lower urban design speeds, urban junction/active-travel geometry) is governed by DMURS, whose use is mandatory for all road authorities. Needed for any urban geometric coverage.",
+      "free_or_paid": "free",
+      "url": "https://www.gov.ie/en/department-of-transport/publications/design-manual-for-urban-roads-and-streets/"
+    }
+  ],
+  "notes": "Authoritative current TII geometric set = three Standards-stream DN-GEO documents, all re-issued May 2023: DN-GEO-03031 (Rural Road Link Design — design speed/classes, horizontal R & transitions, vertical gradient/K, sight distance, superelevation + transition), DN-GEO-03036 (Cross Sections and Headroom — lane/shoulder/verge widths, clearances), and DN-GEO-03060 (Geometric Design of Junctions — priority junctions, direct accesses, roundabouts, grade-separated AND compact grade-separated junctions, plus active-travel crossings). The May-2023 DN-GEO-03060 CONSOLIDATED several previously separate junction standards: it absorbs the old roundabout standard (DN-GEO-03033 / TD 16) and grade-separated/compact-grade-separated junction layout (old DN-GEO-03035 / TD 22 and DN-GEO-03042 / TD 40), so a standalone roundabout standard is no longer needed. Our holdings 03031 and 03060 ARE the current May-2023 editions (current_edition_ok=true). The retained withdrawn DN-GEO-03035 is still justified: detailed weaving-length tables / weaving-section design were not fully carried into the consolidated 03060, so 03035 remains the practical reference for interchange weaving. Acceleration/deceleration (merge/diverge) and grade-separated layout ARE within current 03060. Net core gap = the cross-section standard (DN-GEO-03036); secondary gap = the urban manual (DMURS). All listed docs are FREE from TII / gov.ie. (DN-GEO-03044 Geometric Layout of Signal Controlled Junctions and Signalised Roundabouts is a further niche junction standard but is non-essential for core rural/interchange geometric coverage.)",
+  "recommended_actions": [
+    "Obtain DN-GEO-03036 Cross Sections and Headroom (May 2023) — closes the only uncovered core topic (cross-section / lane & shoulder widths, headroom). Free PDF: https://cdn.tii.ie/publications/DN-GEO-03036-09.pdf",
+    "Obtain DMURS (v1.1, 2019) to cover urban/built-up geometric design, which is outside the rural-only DN-GEO-03031. Free: gov.ie / dmurs.ie",
+    "Keep retaining withdrawn DN-GEO-03035 for interchange weaving tables until/unless TII re-issues equivalent weaving guidance; cross-check that current DN-GEO-03060 (May 2023) is treated as the authority for grade-separated layout and accel/decel lanes.",
+    "Optionally add DN-GEO-03044 (Geometric Layout of Signal Controlled Junctions and Signalised Roundabouts) if signalised-junction geometry is in scope — free from TII, but not core.",
+    "Verify all three core docs (03031, 03036, 03060) remain at the May-2023 edition on tiipublications.ie before relying on them; TII re-issues frequently."
+  ]
+}

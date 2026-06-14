@@ -1,0 +1,55 @@
+{
+  "iso3": "SVN",
+  "country": "Slovenia",
+  "have": [
+    "Pravilnik o projektiranju cest (unofficial consolidated text / NPB), 42pp. Original Ur. l. RS 91/2005, amended Ur. l. RS 26/2006. Framework regulation issued under Zakon o cestah."
+  ],
+  "authoritative_set": [
+    "Pravilnik o projektiranju cest (Ur. l. RS 91/05, sprem. 26/06) — free — https://pisrs.si/Pis.web/pregledPredpisa?id=PRAV5811",
+    "TSC 03.200 : 2003 — Temeljni pogoji za določanje cestnih elementov (vozno-dinamični pogoji, preglednost / pregledne razdalje, prečni nagibi) — free — https://www.gov.si/zbirke/storitve/tehnicne-specifikacije-za-javne-ceste/ (DRSI catalog)",
+    "TSC 03.300 : 2002 — Geometrijski elementi osi ceste in vozišča (horizontalni/vertikalni elementi, prečni profili) — free — https://www.gov.si/zbirke/storitve/tehnicne-specifikacije-za-javne-ceste/ (DRSI catalog)",
+    "TSC 03.341 : 2011 — Krožna križišča (roundabout geometry) — free — https://www.gov.si/assets/organi-v-sestavi/DRSI/Dokumenti-DRSI/Tehnicne-specifikacije/TSC_03_341_2011_Krozna_krizisca.pdf",
+    "TSPI-PCPV-PGV.03.245 : 2023 — Krožna križišča s spiralnim potekom (newer DRSI guideline series superseding/extending TSC) — free — https://www.gov.si/assets/organi-v-sestavi/DRSI/Dokumenti-DRSI/Tehnicne-specifikacije/TSPI-PCPV-PGV.03.245-Krozna-krizisca-s-spiralnim.pdf"
+  ],
+  "current_edition_ok": true,
+  "verdict": "PARTIAL",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": true,
+    "superelevation": true,
+    "at_grade_junctions": true,
+    "interchanges_weaving": false
+  },
+  "missing": [
+    {
+      "doc": "TSC 03.300 : 2002 — Geometrijski elementi osi ceste in vozišča",
+      "why_essential": "Carries the detailed tabulated geometric VALUES: minimum horizontal radii vs design speed, transition-curve (klotoida) parameters A/L, vertical (convex/concave) curve radii, lane and carriageway widths, cross-section composition. The Pravilnik gives the framework + some values but the design-element tables live here.",
+      "free_or_paid": "free",
+      "url": "https://www.gov.si/zbirke/storitve/tehnicne-specifikacije-za-javne-ceste/"
+    },
+    {
+      "doc": "TSC 03.200 : 2003 — Temeljni pogoji za določanje cestnih elementov (preglednost / pregledne razdalje, prečni nagib)",
+      "why_essential": "Defines stopping/overtaking sight distance, sight-distance types and obstruction limits, and cross-slope (superelevation) basis used to size horizontal curves. Note: issued as 'Predlog' (proposal) and not formally confirmed via Odredba — used as de-facto reference; this affects its binding status.",
+      "free_or_paid": "free",
+      "url": "https://www.gov.si/zbirke/storitve/tehnicne-specifikacije-za-javne-ceste/"
+    },
+    {
+      "doc": "TSC 03.341 : 2011 — Krožna križišča (and TSPI-PCPV-PGV.03.245:2023 — krožna križišča s spiralnim potekom)",
+      "why_essential": "Geometric design of at-grade roundabouts (radii, lane widths, deflection, sight) — not covered numerically in the Pravilnik.",
+      "free_or_paid": "free",
+      "url": "https://www.gov.si/assets/organi-v-sestavi/DRSI/Dokumenti-DRSI/Tehnicne-specifikacije/TSC_03_341_2011_Krozna_krizisca.pdf"
+    }
+  ],
+  "notes": "The Pravilnik o projektiranju cest (Ur. l. RS 91/05, amended only by Ur. l. RS 26/06 which extended a transitional deadline) is CURRENT and substantive: it does contain numeric geometric content (design-speed tables, min horizontal radii, transition-curve params, sight-distance and vertical-curve tables, lane/shoulder widths, cross-slopes in arts. ~16-45). However it is structured as the binding FRAMEWORK and explicitly delegates detail to the TSC series; the authoritative detailed geometric VALUES live in the TSC 03.x (trasa/geometric elements/cross sections/sight) plus TSC/TSPI 03.34x (roundabouts). Hence PARTIAL: the Pravilnik alone gives usable headline values but the full design-element tables and at-grade-junction/roundabout geometry require the TSCs. Slovenia is migrating TSC -> new 'TSPI' (Projektiranje cest in prometna varnost) guideline series (DRSI/Ministrstvo za infrastrukturo, 2023-2026); most geometry TSCs (03.200/03.300) remain the operative reference pending TSPI equivalents. Interchanges/weaving (motorway free-flow junctions) are NOT covered by Pravilnik+TSC 03.x at value level — DARS (motorway operator) internal/Pravilnik motorway provisions govern; flagged as a gap. All TSC/TSPI and the Pravilnik are FREELY downloadable from official sources (gov.si DRSI portal, pisrs.si); no paid standards body. WARNING: TSC 03.200/03.300 full-text PDFs surfaced mainly on non-official mirrors (gradbenik.wordpress.com, fpp.uni-lj.si, scribd); the authoritative copies are in the DRSI 'Tehnične specifikacije za javne ceste' catalog on gov.si — fetch only from there.",
+  "recommended_actions": [
+    "Acquire TSC 03.300:2002 (geometrijski elementi osi ceste in vozišča) and TSC 03.200:2003 (temeljni pogoji / pregledne razdalje, prečni nagibi) from the official DRSI catalog on gov.si — these carry the geometric value tables the Pravilnik delegates.",
+    "Acquire TSC 03.341:2011 (krožna križišča) and the newer TSPI-PCPV-PGV.03.245:2023 (spiralna krožna križišča) for at-grade roundabout geometry.",
+    "Confirm formal status of TSC 03.200 (marked 'Predlog'/proposal in EU TRIS notification) and check the Odredba o seznamu potrjenih tehničnih specifikacij za javne ceste (pisrs.si ODRE2143) for the official list of confirmed/binding TSCs.",
+    "Monitor the DRSI 'TSPI' rollout (gov.si) for a geometry/trasa TSPI that may supersede TSC 03.200/03.300.",
+    "For motorway interchange/weaving geometry, check DARS technical requirements and Pravilnik provisions for avtoceste/hitre ceste — not covered numerically by the TSC 03.x set.",
+    "Treat gov.si (DRSI) and pisrs.si / uradni-list.si as the ONLY authoritative sources; do not rely on the wordpress/scribd mirrors for final values."
+  ]
+}

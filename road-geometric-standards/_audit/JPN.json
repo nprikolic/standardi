@@ -1,0 +1,39 @@
+{
+  "iso3": "JPN",
+  "country": "Japan",
+  "have": [
+    "道路構造令 (Road Structure Ordinance / Cabinet Order No. 320 of 1970, latest amended) — LAW TEXT ONLY, 34pp, rendered from official e-Gov XML (e-Gov law id 345CO0000000320)"
+  ],
+  "authoritative_set": [
+    "道路構造令 (Road Structure Ordinance, Cabinet Order No. 320 of 1970, as amended) — free — https://laws.e-gov.go.jp/law/345CO0000000320",
+    "道路構造令の解説と運用 (Explanation and Application of the Road Structure Ordinance), Japan Road Association (JRA), 令和3年3月版 / Reiwa 3 (March 2021) revised ed., ISBN 978-4-88950-138-4, 720pp — paid — https://www.maruzen-publishing.co.jp/item/b304179.html",
+    "道路構造令の各規定の解説 (MLIT per-article commentary of the Road Structure Ordinance, 平成15年7月改正版) — free — https://www.mlit.go.jp/road/sign/kouzourei_kaisetsu.html"
+  ],
+  "current_edition_ok": true,
+  "verdict": "PARTIAL",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": true,
+    "superelevation": true,
+    "at_grade_junctions": true,
+    "interchanges_weaving": true
+  },
+  "missing": [
+    {
+      "doc": "道路構造令の解説と運用 (JRA 'Explanation and Application of the Road Structure Ordinance'), 令和3年3月版 (Reiwa 3 / March 2021 revised edition), ISBN 978-4-88950-138-4, 720pp",
+      "why_essential": "The bare Cabinet Order states limiting numeric thresholds prescriptively but contains NO worked design methodology, derivation, or the full design tables that engineers actually use. The JRA commentary is the de-facto national geometric design manual: full design-speed/road-class matrices, minimum-radius and superelevation tables, transition-curve/clothoid guidance, sight-distance computation, cross-section build-up, and design methodology for at-grade junctions (平面交差) and interchanges/grade-separation (立体交差). It is the authoritative companion required to apply the ordinance in practice.",
+      "free_or_paid": "paid",
+      "url": "https://www.maruzen-publishing.co.jp/item/b304179.html"
+    }
+  ],
+  "notes": "Authoritative geometric-design reference = the Cabinet Order (道路構造令) PLUS the JRA commentary 道路構造令の解説と運用. Our holding is the ordinance LAW TEXT ONLY — usable as the legal source of limiting values stated article-by-article (design speeds, max gradients, min radii, superelevation caps, sight-distance minimums, lane/shoulder widths), but it is NOT a design manual: it lacks the consolidated tables, derivations, transition-curve guidance and worked junction/interchange methodology. Therefore the holding is a usable legal core but a design-methodology FRAGMENT; rated PARTIAL because the limiting values themselves are present in law text while the design know-how is absent. GAP-FILLER (FREE): MLIT publishes a per-article commentary 道路構造令の各規定の解説 at https://www.mlit.go.jp/road/sign/kouzourei_kaisetsu.html (7 sections: classification/design vehicle/design speed; cross-section; clearance; horizontal+vertical alignment; sight distance; structures incl. intersections & grade separation; dedicated roads) and a consolidated PDF https://www.mlit.go.jp/road/sign/pdf/kouzourei_full.pdf. These are the 平成15年(2003) MLIT commentary — image/scan PDFs explaining the meaning and role of each provision; they substantially fill the explanatory gap for free but are older than, and less complete than, the current JRA Reiwa-3 commentary (e.g. they predate recent amendments such as bollards/特定車両停留施設). PRICE: original 2021 printing listed ¥9,350 tax-incl on Maruzen; the current 第5刷 (5th printing, 2026) is ¥10,340 tax-incl. Sold via Maruzen Publishing, JRA, official government-publication stores (gov-book.or.jp), Kinokuniya, and as a JRA e-book (e-book.road.or.jp). Reiwa-3 (March 2021) is confirmed the latest edition.",
+  "recommended_actions": [
+    "Acquire the JRA 道路構造令の解説と運用 令和3年3月版 (ISBN 978-4-88950-138-4, ~¥10,340 tax-incl current printing) via Maruzen or the JRA store/e-book service — this is the essential design-methodology companion.",
+    "As an immediate FREE stopgap, download the MLIT per-article commentary set (kouzourei_kaisetsu.html sections 1-7) and/or kouzourei_full.pdf to obtain explanatory coverage of all 8 geometric topics at no cost (note: 平成15/2003 vintage, predates recent ordinance amendments).",
+    "Keep the e-Gov ordinance (law id 345CO0000000320) as the authoritative current legal text and re-check it for amendments before relying on any limiting value.",
+    "Treat verdict as PARTIAL until the JRA commentary is held; the ordinance alone is sufficient only as a legal-threshold reference, not as a design manual."
+  ]
+}

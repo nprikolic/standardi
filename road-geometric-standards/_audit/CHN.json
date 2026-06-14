@@ -1,0 +1,46 @@
+{
+  "iso3": "CHN",
+  "country": "China",
+  "have": [
+    "JTG D20-2017 'Design Specification for Highway Alignment' (公路路线设计规范) — official EN translation, 271pp + Chinese full-text scan (NEEDS_OCR). Covers route alignment: design speed, horizontal (R, transition/clothoid), vertical (gradient, K), sight distance, superelevation/widening, plus interchange/weaving CAPACITY analysis."
+  ],
+  "authoritative_set": [
+    "JTG B01-2014 'Technical Standard of Highway Engineering' (公路工程技术标准) — paid — https://xxgk.mot.gov.cn/2020/jigou/glj/202006/t20200623_3312197.html (MoT release announcement, free notice; full standard sold by China Communications Press / 人民交通出版社, ISBN 9787114118975; EN at codeofchina.com/standard/JTGB01-2014.html)",
+    "JTG D20-2017 'Design Specification for Highway Alignment' (公路路线设计规范) — paid — https://www.nssi.org.cn/nssi/front/107332343.html (current edition, effective 2018-01-01, supersedes JTG D20-2006; sold by China Communications Press; HELD)",
+    "JTG/T D21-2014 'Guidelines for Design of Highway Grade-separated Intersections' (公路立体交叉设计细则) — paid — https://codeofchina.com/standard/JTGTD21-2014.html (effective 2014-11-01; sold by China Communications Press; EN ~USD 1,875)"
+  ],
+  "current_edition_ok": true,
+  "verdict": "PARTIAL",
+  "topic_coverage": {
+    "design_speed": true,
+    "horizontal": true,
+    "vertical": true,
+    "sight": true,
+    "cross_section": false,
+    "superelevation": true,
+    "at_grade_junctions": false,
+    "interchanges_weaving": true
+  },
+  "missing": [
+    {
+      "doc": "JTG B01-2014 'Technical Standard of Highway Engineering' (公路工程技术标准)",
+      "why_essential": "Top-level mandatory national standard defining highway CLASSES (freeway / Class I-IV), corresponding DESIGN SPEEDS, and CROSS-SECTION geometry — lane widths, carriageway/median/shoulder/marginal-strip widths, clearance/headroom, and general controls. JTG D20 is alignment-only and explicitly defers class/cross-section definitions to JTG B01. Without it the geometric set has no road-classification or cross-section basis.",
+      "free_or_paid": "paid (full standard via China Communications Press; MoT release announcement + supplementary clause notices are free on mot.gov.cn)",
+      "url": "https://xxgk.mot.gov.cn/2020/jigou/glj/202006/t20200623_3312197.html"
+    },
+    {
+      "doc": "JTG/T D21-2014 'Guidelines for Design of Highway Grade-separated Intersections' (公路立体交叉设计细则)",
+      "why_essential": "Detailed interchange geometric design: ramp alignment/cross-section/superelevation, acceleration-deceleration (speed-change) lanes, weaving-area geometry, ramp terminals and interchange spacing. JTG D20 covers interchange/weaving CAPACITY but not the full geometric DETAILING of ramps and speed-change lanes; this '/T' guideline supplies that detail and is the standard companion for interchange design.",
+      "free_or_paid": "paid (China Communications Press; EN ~USD 1,875 via codeofchina)",
+      "url": "https://codeofchina.com/standard/JTGTD21-2014.html"
+    }
+  ],
+  "notes": "Authoritative CURRENT Chinese geometric-design set = JTG B01-2014 (technical standard: road classes, design speeds, cross-section) + JTG D20-2017 (route alignment — HELD, confirmed latest edition, supersedes D20-2006 since 2018-01-01) + JTG/T D21-2014 (grade-separated intersection / interchange detailing). JTG D20 ALONE is NOT complete: it is alignment-only and assumes class/design-speed/cross-section from JTG B01. We LACK two essential companions. (1) JTG B01-2014 is the critical gap — it carries road classes, design speeds and ALL cross-section / lane-width geometry; still the current edition (issued 2014-09-30, effective 2015-01-01, replaced JTG B01-2003; no newer edition as of 2026). (2) JTG/T D21-2014 supplies interchange ramp/speed-change/weaving geometric detail (note: '/T' = recommended technical guideline, complements the mandatory standards). AT-GRADE JUNCTIONS: China does not publish a single dedicated at-grade-intersection geometric spec; basic at-grade-junction requirements live within JTG B01-2014 and JTG D20-2017 (intersection clauses), so acquiring JTG B01 also lifts at-grade-junction coverage. All standards are sold via China Communications Press (人民交通出版社), the authoritative publisher; MoT (mot.gov.cn / xxgk.mot.gov.cn) posts release announcements and amendment/clarification notices FREE but not the full normative text. AVOID mirrors (docin, max.book118, scribd, waizi, baidu netdisk) — non-official, unreliable, no provenance.",
+  "recommended_actions": [
+    "ACQUIRE JTG B01-2014 'Technical Standard of Highway Engineering' — highest priority; supplies road classes, design speeds, and cross-section/lane-width geometry absent from JTG D20. Buy authoritative copy from China Communications Press (人民交通出版社, ISBN 9787114118975) or licensed EN (codeofchina/chinesestandard).",
+    "ACQUIRE JTG/T D21-2014 'Guidelines for Design of Highway Grade-separated Intersections' — for full interchange ramp/speed-change-lane/weaving geometric detail (complements the capacity content already in JTG D20).",
+    "OCR the held Chinese full-text scan of JTG D20-2017 to make it searchable; cross-check against the official EN translation already held.",
+    "Confirm editions remain current before purchase: JTG B01-2014 and JTG D20-2017 are the latest as of 2026; monitor mot.gov.cn for any superseding edition or supplementary-clause notices (e.g. the JTG B01-2014 clause-6.0.10 clarification notice).",
+    "Do NOT source from mirror/file-sharing sites (docin, max.book118, scribd, baidu netdisk) — use only China Communications Press or MoT official notices."
+  ]
+}
