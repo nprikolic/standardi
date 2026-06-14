@@ -23,11 +23,20 @@ komparativne matrice (Faza 3).
 - **INTERCHANGE** — denivelisana raskrsnica / petlja / čvor; tipovi, razmak. *(de: planfreier Knotenpunkt)*
 - **MERGE_DIVERGE** — ulivna/izlivna traka, traka za ubrzanje/usporenje, rampa, priključna traka,
   nos/klin (gore/taper). *(en: merge/diverge, accel/decel lane, ramp, taper, gore)*
-- **WEAVING** — preplitanje: dužina prepleta, deonica preplitanja, min. dužina preplitanja.
+- **WEAVING** — preplitanje: dužina prepleta, deonica preplitanja, min. dužina preplitanja. *(sekundarno)*
   *(en: weaving length; de: Verflechtungsstrecke; es: trenzado; ko: 엇갈림)*
 
+## D. Odvodnjavanje — **PRIMARNI istraživački fokus**
+- **DRAINAGE_MIN_GRADE** — **minimalni podužni nagib** + **minimalna rampa vitoperenja** iz uslova
+  **odvodnjavanja**. Suština: na deonici vitoperenja poprečni nagib prolazi kroz nulu (blizu tačke infleksije),
+  pa rezultujući nagib ivice kolovoza mora ostati dovoljan da voda otiče (problem „nultog poprečnog nagiba",
+  zone zadržavanja vode). *(en: minimum longitudinal gradient, drainage, (max) relative gradient;
+  de: Mindestlängsneigung, Entwässerung, Anrampungsneigung)*
+
 > Pitanja često spajaju pojmove. Primeri:
-> - „min. dužina **prepleta** na **denivelisanim raskrsnicama**" → `WEAVING` (+ `INTERCHANGE`)
+> - **PRIMARNO:** „min. podužni nagib / min. rampa vitoperenja radi **odvodnjavanja** na deonici vitoperenja"
+>   → `DRAINAGE_MIN_GRADE` (+ `VERTICAL`, `SUPERELEVATION`)
+> - „min. dužina **prepleta** na **denivelisanim raskrsnicama**" → `WEAVING` (+ `INTERCHANGE`) *(sekundarno)*
 > - „max nagib **krovastog vitoperenja** pri odvajanju **ulivne/izlivne** trake" → `SUPERELEVATION` (+ `MERGE_DIVERGE`)
 
 ## Srpsko/hrvatsko/slovenački termini (najvažniji)

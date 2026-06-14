@@ -130,6 +130,21 @@
       "sv": ["trafikplats", "planskild korsning"],
       "pl": ["węzeł", "węzeł drogowy", "skrzyżowanie bezkolizyjne"],
       "ko": ["입체교차로", "인터체인지"], "ja": ["インターチェンジ", "立体交差"], "zh": ["立交", "互通式立交"]
+    },
+    "DRAINAGE_MIN_GRADE": {
+      "_note": "PRIMARNI FOKUS: minimalni podužni nagib + min. rampa vitoperenja iz uslova odvodnjavanja (mali/nulti poprečni nagib)",
+      "en": ["minimum longitudinal gradient", "minimum grade", "minimum gradient", "drainage", "longitudinal drainage", "flat gradient", "minimum relative gradient", "maximum relative gradient", "ponding"],
+      "sr": ["minimalni podužni nagib", "minimalni uzdužni nagib", "minimalni nagib", "odvodnjavanje", "odvođenje vode", "rezultujući nagib", "минимални подужни нагиб", "минимални нагиб", "одводњавање", "резултујући нагиб"],
+      "hr": ["najmanji uzdužni nagib", "minimalni uzdužni nagib", "odvodnja", "odvodnjavanje", "rezultantni nagib"],
+      "sl": ["minimalni vzdolžni nagib", "najmanjši vzdolžni nagib", "odvodnjavanje", "odvodnja"],
+      "de": ["mindestlängsneigung", "mindestneigung", "entwässerung", "anrampungsneigung", "mindestquerneigung"],
+      "es": ["pendiente mínima", "pendiente longitudinal mínima", "drenaje", "desagüe", "evacuación del agua"],
+      "pt": ["rampa mínima", "greide mínimo", "drenagem", "declividade mínima"],
+      "it": ["pendenza minima", "pendenza longitudinale minima", "smaltimento delle acque", "drenaggio", "deflusso"],
+      "fr": ["pente minimale", "déclivité minimale", "assainissement", "drainage", "évacuation des eaux"],
+      "sv": ["minimilutning", "minsta lutning", "avvattning", "dränering"],
+      "pl": ["minimalne pochylenie podłużne", "pochylenie minimalne", "odwodnienie", "spadek minimalny"],
+      "ko": ["최소종단경사", "배수"], "ja": ["最小縦断勾配", "排水"], "zh": ["最小纵坡", "排水"]
     }
   }
 }

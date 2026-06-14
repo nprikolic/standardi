@@ -103,7 +103,7 @@ def main():
         c = a.concept.upper()
         if c not in gloss:
             print(f"Unknown concept '{c}'. Available: {', '.join(gloss)}"); sys.exit(2)
-        terms = sorted({t for lang in gloss[c].values() for t in lang}, key=len, reverse=True)
+        terms = sorted({t for lang in gloss[c].values() if isinstance(lang, list) for t in lang}, key=len, reverse=True)
         label = f"concept {c}"
     elif a.grep:
         terms = [a.grep]; label = f"grep '{a.grep}'"

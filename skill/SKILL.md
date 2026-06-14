@@ -5,7 +5,9 @@ description: >-
   standard · član/tačka · strana · jedinice u SI). Trigeruj na pitanja koja porede ili traže kako
   više nacionalnih standarda rešava neki geometrijski element — u srpskom ili engleskom:
   „kako svetski standardi hendluju…", „uporedi sa drugim standardima", „šta kažu strani standardi o…",
-  „koji je max/min … u svetu". Teme: preplitanje / weaving / dužina prepleta, denivelisane raskrsnice /
+  „koji je max/min … u svetu". PRIMARNI FOKUS: minimalni podužni nagib (minimum longitudinal gradient) +
+  minimalna rampa vitoperenja iz uslova ODVODNJAVANJA (drainage; mali/nulti poprečni nagib na vitoperenju).
+  Ostale teme: preplitanje / weaving / dužina prepleta, denivelisane raskrsnice /
   petlje / interchange, ulivna/izlivna traka (merge/diverge, traka za ubrzanje/usporenje, rampe, nos),
   vitoperenje / razvoj poprečnog nagiba / superelevation runoff, max superelevacija e_max, projektna/
   računska brzina (design speed), preglednost (zaustavna/preticajna, sight distance), R_min / poluprečnik /

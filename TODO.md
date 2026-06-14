@@ -3,11 +3,13 @@
 > **Cilj:** *skill* koji poznaje svetske standarde za geometrijsko projektovanje puteva i odgovara na
 > duboka, uporedna pitanja sa tačnim citatima (standard · član/tačka · strana · jedinice u SI).
 >
-> **Kanonska pitanja (test skilla):**
-> 1. „Kako svetski standardi hendluju **minimalnu dužinu prepleta** na denivelisanim raskrsnicama?"
-> 2. „Koji je **maksimalni nagib krovastog vitoperenja** pri odvajanju ulivne/izlivne trake na profilu autoputa?"
+> **PRIMARNO istraživačko pitanje:** kako standardi regulišu **minimalni podužni nagib** i **minimalnu rampu
+> vitoperenja** za autoputne profile — **iz uslova ODVODNJAVANJA** (mali/nulti poprečni nagib blizu tačaka
+> infleksije / na deonici vitoperenja; rezultujući nagib ivice mora ostati dovoljan da voda otiče).
+> **Sekundarno:** preplitanje (weaving), denivelisane raskrsnice, ostali geometrijski elementi.
 >
-> **Krajnji cilj projekta:** gap-analiza srpskog standarda (Pravilnik 50/11) prema svetskoj praksi (Faza 6).
+> **Krajnji cilj:** gap-analiza srpskog standarda (Pravilnik 50/11) prema svetskoj praksi (Faza 6),
+> fokus na min. podužne nagibe + rampu vitoperenja iz odvodnjavanja.
 
 ---
 
@@ -68,7 +70,7 @@
 - [ ] Za svaku: predlog unapređenja sa **bezbednosnim/operating-speed rationale** + citat kako rade drugi
 - [ ] Uokviriti kao **generalizabilan, reproducibilan okvir** (Srbija kao primer), razgraničen od DRI/SRDM harmonizacije
 - [ ] Izlaz: `ANALIZA_SRB.md` (tema · SRB · drugi · problem · predlog · izvor)
-- [ ] **Preporuka:** prvo *suženo* na **preplitanje + vitoperenje na raskrsnicama** (najjači korpus: RAA, AASHTO, CD122, IRL, ESP, POL WR-D-32, KOR KHCM, SRB SRDM) → nacrt rada za Građevinar
+- [ ] **Preporuka:** prvo *suženo* na **minimalni podužni nagib + min. rampa vitoperenja iz odvodnjavanja** (najjači korpus: DE RAA/RAL, US AASHTO pogl.3–4, UK CD109, ES 3.1-IC, IT DM6792, SE VGU, PL WR-D-22-2, SRB Pravilnik 50/11 + SRDM) → nacrt rada za Građevinar
 
 ---
 
