@@ -1,0 +1,99 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "asphalt",
+  "surface",
+  "course",
+  "thickness",
+  "does",
+  "dmrb",
+  "109",
+  "highway",
+  "link",
+  "design"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "SADC_LVSR::gtkp_part2",
+   "iso3": "MODEL",
+   "lang": "en",
+   "page": 88,
+   "score": -19.814
+  },
+  {
+   "rank": 2,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 72,
+   "score": -19.222
+  },
+  {
+   "rank": 3,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 5,
+   "score": -19.139
+  },
+  {
+   "rank": 4,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 79,
+   "score": -18.828
+  },
+  {
+   "rank": 5,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 32,
+   "score": -18.735
+  },
+  {
+   "rank": 6,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 93,
+   "score": -18.632
+  },
+  {
+   "rank": 7,
+   "doc_id": "SADC_LVSR::gtkp_part2",
+   "iso3": "MODEL",
+   "lang": "en",
+   "page": 87,
+   "score": -17.731
+  },
+  {
+   "rank": 8,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 110,
+   "score": -17.523
+  },
+  {
+   "rank": 9,
+   "doc_id": "GBR_DMRB-CD109::CD116_Geometric_design_of_roundabouts",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 175,
+   "score": -17.291
+  },
+  {
+   "rank": 10,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 90,
+   "score": -16.36
+  }
+ ],
+ "qid": "SIL03"
+}

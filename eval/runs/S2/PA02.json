@@ -1,0 +1,110 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "području",
+  "vitoperenja",
+  "qmin",
+  "najmanji",
+  "uzdužni",
+  "nagib",
+  "nivelete",
+  "propisan",
+  "croatian",
+  "110",
+  "2001",
+  "within",
+  "superelevation",
+  "runoff",
+  "vitoperenje",
+  "zone",
+  "where",
+  "longitudinal",
+  "gradient",
+  "grade",
+  "line"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 18,
+   "score": -63.979
+  },
+  {
+   "rank": 2,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 28,
+   "score": -48.073
+  },
+  {
+   "rank": 3,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 9,
+   "score": -46.458
+  },
+  {
+   "rank": 4,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 85,
+   "score": -40.734
+  },
+  {
+   "rank": 5,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 29,
+   "score": -36.483
+  },
+  {
+   "rank": 6,
+   "doc_id": "HRV_Smjernice-kruzna::HRV_Smjernice-kruzna-raskrizja_hrvatske-ceste",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 47,
+   "score": -35.265
+  },
+  {
+   "rank": 7,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 96,
+   "score": -34.562
+  },
+  {
+   "rank": 8,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 95,
+   "score": -33.679
+  },
+  {
+   "rank": 9,
+   "doc_id": "HRV_Smjernice-kruzna::HRV_Smjernice-kruzna-raskrizja_hrvatske-ceste",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 45,
+   "score": -31.25
+  },
+  {
+   "rank": 10,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 17,
+   "score": -30.684
+  }
+ ],
+ "qid": "PA02"
+}

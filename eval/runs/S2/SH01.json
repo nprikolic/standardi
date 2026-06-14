@@ -1,0 +1,108 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "norma",
+  "qué",
+  "peralte",
+  "máximo",
+  "establece",
+  "relación",
+  "velocidad",
+  "proyecto",
+  "radio",
+  "mínimo",
+  "spanish",
+  "roads",
+  "superelevation",
+  "does",
+  "set",
+  "design",
+  "speed",
+  "radius",
+  "relationship"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 38,
+   "score": -54.628
+  },
+  {
+   "rank": 2,
+   "doc_id": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 37,
+   "score": -45.391
+  },
+  {
+   "rank": 3,
+   "doc_id": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 49,
+   "score": -39.201
+  },
+  {
+   "rank": 4,
+   "doc_id": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 36,
+   "score": -33.901
+  },
+  {
+   "rank": 5,
+   "doc_id": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 190,
+   "score": -29.589
+  },
+  {
+   "rank": 6,
+   "doc_id": "ESP_OC-32-2012-nudos::OC-32-2012-nudos",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 241,
+   "score": -29.516
+  },
+  {
+   "rank": 7,
+   "doc_id": "ESP_OC-32-2012-nudos::OC-32-2012-nudos",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 161,
+   "score": -29.016
+  },
+  {
+   "rank": 8,
+   "doc_id": "ESP_OC-32-2012-nudos::OC-32-2012-nudos",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 91,
+   "score": -28.588
+  },
+  {
+   "rank": 9,
+   "doc_id": "ESP_OC-32-2012-nudos::OC-32-2012-nudos",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 237,
+   "score": -28.369
+  },
+  {
+   "rank": 10,
+   "doc_id": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 42,
+   "score": -27.644
+  }
+ ],
+ "qid": "SH01"
+}

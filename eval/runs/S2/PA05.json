@@ -1,0 +1,115 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "kako",
+  "določen",
+  "najmanjši",
+  "vzdolžni",
+  "nagib",
+  "nivelete",
+  "smin",
+  "primeru",
+  "uporabe",
+  "dvignjenega",
+  "robnika",
+  "ali",
+  "koritnice",
+  "slovenian",
+  "tsc",
+  "300",
+  "road",
+  "section",
+  "raised",
+  "kerb",
+  "gutter",
+  "longitudinal",
+  "gradient",
+  "grade",
+  "line",
+  "determined"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 47,
+   "score": -80.995
+  },
+  {
+   "rank": 2,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 55,
+   "score": -65.58
+  },
+  {
+   "rank": 3,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 46,
+   "score": -52.091
+  },
+  {
+   "rank": 4,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 53,
+   "score": -41.535
+  },
+  {
+   "rank": 5,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 5,
+   "score": -40.781
+  },
+  {
+   "rank": 6,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 50,
+   "score": -40.726
+  },
+  {
+   "rank": 7,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 10,
+   "score": -39.263
+  },
+  {
+   "rank": 8,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 49,
+   "score": -39.222
+  },
+  {
+   "rank": 9,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 56,
+   "score": -38.522
+  },
+  {
+   "rank": 10,
+   "doc_id": "SVN_TSC::TSC_03_341_2011_Krozna_krizisca",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 28,
+   "score": -34.945
+  }
+ ],
+ "qid": "PA05"
+}

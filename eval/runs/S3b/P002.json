@@ -1,0 +1,116 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "serbian",
+  "srdm",
+  "design",
+  "manual",
+  "equation",
+  "governs",
+  "longitudinal",
+  "grade",
+  "superelevation",
+  "runoff",
+  "vitoperenje",
+  "zone",
+  "water",
+  "still",
+  "drains",
+  "jednačina",
+  "priručniku",
+  "određuje",
+  "veličinu",
+  "minimalnog",
+  "podužnog",
+  "nagiba",
+  "zoni",
+  "rampe",
+  "vitoperenja",
+  "radi",
+  "odvodnjavanja"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "SRB_SRDM::SRDM5-2-denivelisane-raskrsnice",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 23,
+   "score": -49.656
+  },
+  {
+   "rank": 2,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 97,
+   "score": -42.673
+  },
+  {
+   "rank": 3,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 85,
+   "score": -39.338
+  },
+  {
+   "rank": 4,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 78,
+   "score": -39.057
+  },
+  {
+   "rank": 5,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 95,
+   "score": -37.759
+  },
+  {
+   "rank": 6,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 111,
+   "score": -36.415
+  },
+  {
+   "rank": 7,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 28,
+   "score": -34.894
+  },
+  {
+   "rank": 8,
+   "doc_id": "SRB_SRDM::SRDM5-1-raskrsnice-i-prikljuci-u-nivou",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 25,
+   "score": -34.121
+  },
+  {
+   "rank": 9,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 102,
+   "score": -32.882
+  },
+  {
+   "rank": 10,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 105,
+   "score": -32.702
+  }
+ ],
+ "qid": "P002"
+}

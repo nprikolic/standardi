@@ -1,0 +1,105 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "croatian",
+  "guidelines",
+  "roundabouts",
+  "state",
+  "roads",
+  "most",
+  "common",
+  "way",
+  "vertically",
+  "guiding",
+  "roundabout",
+  "best",
+  "achieves",
+  "adequate",
+  "surface",
+  "drainage"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 426,
+   "score": -24.167
+  },
+  {
+   "rank": 2,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 474,
+   "score": -24.027
+  },
+  {
+   "rank": 3,
+   "doc_id": "SADC_LVSR::gtkp_part2",
+   "iso3": "MODEL",
+   "lang": "en",
+   "page": 70,
+   "score": -23.644
+  },
+  {
+   "rank": 4,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 59,
+   "score": -22.569
+  },
+  {
+   "rank": 5,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 67,
+   "score": -22.345
+  },
+  {
+   "rank": 6,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 834,
+   "score": -21.81
+  },
+  {
+   "rank": 7,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 83,
+   "score": -21.788
+  },
+  {
+   "rank": 8,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-5-vertical-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 4,
+   "score": -21.653
+  },
+  {
+   "rank": 9,
+   "doc_id": "GBR_DMRB-CD109::CD116_Geometric_design_of_roundabouts",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 74,
+   "score": -21.289
+  },
+  {
+   "rank": 10,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 22,
+   "score": -21.245
+  }
+ ],
+ "qid": "PA03"
+}

@@ -1,0 +1,122 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "korean",
+  "road",
+  "structure",
+  "rules",
+  "when",
+  "superelevation",
+  "runoff",
+  "length",
+  "extended",
+  "more",
+  "than",
+  "two",
+  "superelevated",
+  "lanes",
+  "must",
+  "sufficiently",
+  "considered",
+  "regarding",
+  "surface",
+  "편경사가",
+  "설치되는",
+  "차로수가",
+  "개를",
+  "초과하여",
+  "접속설치길이를",
+  "보정할",
+  "때",
+  "노면과",
+  "관련하여",
+  "무엇이",
+  "충분히",
+  "고려되어야",
+  "하는가"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021",
+   "iso3": "KOR",
+   "lang": "ko,en",
+   "page": 266,
+   "score": -35.522
+  },
+  {
+   "rank": 2,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 34,
+   "score": -35.135
+  },
+  {
+   "rank": 3,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-4-horizontal-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 16,
+   "score": -33.619
+  },
+  {
+   "rank": 4,
+   "doc_id": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021",
+   "iso3": "KOR",
+   "lang": "ko,en",
+   "page": 45,
+   "score": -32.944
+  },
+  {
+   "rank": 5,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 204,
+   "score": -32.926
+  },
+  {
+   "rank": 6,
+   "doc_id": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021",
+   "iso3": "KOR",
+   "lang": "ko,en",
+   "page": 715,
+   "score": -31.932
+  },
+  {
+   "rank": 7,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 136,
+   "score": -31.177
+  },
+  {
+   "rank": 8,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 182,
+   "score": -30.841
+  },
+  {
+   "rank": 9,
+   "doc_id": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021",
+   "iso3": "KOR",
+   "lang": "ko,en",
+   "page": 691,
+   "score": -30.456
+  },
+  {
+   "rank": 10,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 202,
+   "score": -30.436
+  }
+ ],
+ "qid": "PD07"
+}

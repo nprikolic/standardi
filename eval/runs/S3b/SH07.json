@@ -1,0 +1,107 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "under",
+  "swedish",
+  "vgu",
+  "lane",
+  "width",
+  "range",
+  "applies",
+  "lanes",
+  "new",
+  "build",
+  "reconstructed",
+  "roads",
+  "körfältsbredd",
+  "gäller",
+  "enligt",
+  "vid",
+  "ombyggnad",
+  "väg"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "SWE_VGU::VGU_Krav_Publikation2022-001",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 72,
+   "score": -27.488
+  },
+  {
+   "rank": 2,
+   "doc_id": "SWE_VGU::VGU_Rad_Publikation2022-003",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 44,
+   "score": -25.753
+  },
+  {
+   "rank": 3,
+   "doc_id": "SWE_VGU::VGU_Rad_Publikation2022-003",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 48,
+   "score": -24.457
+  },
+  {
+   "rank": 4,
+   "doc_id": "SWE_VGU::VGU_Krav_Publikation2022-001",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 147,
+   "score": -23.296
+  },
+  {
+   "rank": 5,
+   "doc_id": "SWE_VGU::VGU_Krav_med_radstext_TRVINFRA-00396_v1_0",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 109,
+   "score": -23.078
+  },
+  {
+   "rank": 6,
+   "doc_id": "SWE_VGU::VGU_Krav_Grundvarden_TRV2024-148",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 8,
+   "score": -23.037
+  },
+  {
+   "rank": 7,
+   "doc_id": "SWE_VGU::VGU_Begrepp_och_grundvarden_Publikation2022-002",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 91,
+   "score": -22.854
+  },
+  {
+   "rank": 8,
+   "doc_id": "SWE_VGU::VGU_Krav_Publikation2022-001",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 61,
+   "score": -22.656
+  },
+  {
+   "rank": 9,
+   "doc_id": "SWE_VGU::VGU_Krav_med_radstext_TRVINFRA-00396_v1_0",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 108,
+   "score": -21.944
+  },
+  {
+   "rank": 10,
+   "doc_id": "SWE_VGU::VGU_Krav_Publikation2022-001",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 20,
+   "score": -21.502
+  }
+ ],
+ "qid": "SH07"
+}

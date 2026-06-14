@@ -1,0 +1,102 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "lane",
+  "widths",
+  "does",
+  "polish",
+  "give",
+  "road",
+  "classes",
+  "standardowe",
+  "szerokości",
+  "pasa",
+  "ruchu",
+  "podaje",
+  "klas"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "POL_WR-D::WR-D-31-3_skrzyzowania-ronda",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 26,
+   "score": -27.352
+  },
+  {
+   "rank": 2,
+   "doc_id": "POL_WR-D::WR-D-22-2_ksztaltowanie-geometryczne",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 12,
+   "score": -26.336
+  },
+  {
+   "rank": 3,
+   "doc_id": "POL_WR-D::WR-D-22-2_ksztaltowanie-geometryczne",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 13,
+   "score": -23.113
+  },
+  {
+   "rank": 4,
+   "doc_id": "POL_WR-D::WR-D-22-2_ksztaltowanie-geometryczne",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 29,
+   "score": -21.992
+  },
+  {
+   "rank": 5,
+   "doc_id": "POL_WR-D::WR-D-31-2_skrzyzowania-zwykle-i-skanalizowane",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 27,
+   "score": -21.861
+  },
+  {
+   "rank": 6,
+   "doc_id": "POL_WR-D::WR-D-22-2_ksztaltowanie-geometryczne",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 36,
+   "score": -20.513
+  },
+  {
+   "rank": 7,
+   "doc_id": "POL_WR-D::Dz.U.2022.poz.1518",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 6,
+   "score": -20.412
+  },
+  {
+   "rank": 8,
+   "doc_id": "POL_WR-D::WR-D-32-2_wezly-elementy-i-wyposazenie",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 41,
+   "score": -20.098
+  },
+  {
+   "rank": 9,
+   "doc_id": "POL_WR-D::WR-D-31-3_skrzyzowania-ronda",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 35,
+   "score": -20.076
+  },
+  {
+   "rank": 10,
+   "doc_id": "POL_WR-D::WR-D-31-2_skrzyzowania-zwykle-i-skanalizowane",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 25,
+   "score": -20.038
+  }
+ ],
+ "qid": "SH06"
+}

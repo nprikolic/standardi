@@ -1,0 +1,141 @@
+{
+ "system": "S1G",
+ "query_terms": [
+  "french",
+  "motorway",
+  "sighting",
+  "distance",
+  "rest",
+  "area",
+  "entrance",
+  "signing",
+  "must",
+  "driver",
+  "coming",
+  "off",
+  "interchange",
+  "arriving",
+  "have",
+  "sight distance",
+  "stopping sight",
+  "overtaking sight",
+  "passing sight",
+  "preglednost",
+  "zaustavna preglednost",
+  "preticajna preglednost",
+  "dužina preglednosti",
+  "прегледност",
+  "зауставна прегледност",
+  "претицајна прегледност",
+  "дужина прегледности",
+  "pretjecajna preglednost",
+  "duljina preglednosti",
+  "pregledna razdalja",
+  "zaustavna pregledna razdalja",
+  "pregled",
+  "sichtweite",
+  "haltesichtweite",
+  "überholsichtweite",
+  "distancia de visibilidad",
+  "distancia de parada",
+  "distância de visibilidade",
+  "distância de parada",
+  "distanza di visibilità",
+  "distanza di arresto",
+  "distance de visibilité",
+  "distance d'arrêt",
+  "stoppsikt",
+  "siktsträcka",
+  "odległość widoczności",
+  "odległości widoczności",
+  "widocznoś",
+  "시거",
+  "정지시거",
+  "視距",
+  "视距"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 30,
+   "score": -38.452
+  },
+  {
+   "rank": 2,
+   "doc_id": "ZAF_COTO-Geometric-Design::TRH17-1988-Geometric-Design-of-Rural-Roads",
+   "iso3": "ZAF",
+   "lang": "en",
+   "page": 103,
+   "score": -35.242
+  },
+  {
+   "rank": 3,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-5-vertical-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 7,
+   "score": -34.052
+  },
+  {
+   "rank": 4,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 156,
+   "score": -31.488
+  },
+  {
+   "rank": 5,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 19,
+   "score": -30.733
+  },
+  {
+   "rank": 6,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-appendix-a-b",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 12,
+   "score": -30.176
+  },
+  {
+   "rank": 7,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 7,
+   "score": -30.075
+  },
+  {
+   "rank": 8,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-2-basic-design-criteria",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 29,
+   "score": -29.706
+  },
+  {
+   "rank": 9,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 157,
+   "score": -28.773
+  },
+  {
+   "rank": 10,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 231,
+   "score": -28.743
+  }
+ ],
+ "qid": "SE01"
+}

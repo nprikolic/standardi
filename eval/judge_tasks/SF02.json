@@ -1,0 +1,40 @@
+{
+ "qid": "SF02",
+ "question": "In the Serbian Road Design Manual (SRDM), what are the limiting (minimum) radii Rmin of circular curves for design speeds from 40 to 130 km/h?",
+ "is_silent": false,
+ "ground_truth": [
+  {
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "page": 76,
+   "value": "Rmin = 45,75,120,175,250,350,450,550,675,800 m for Vr 40…130 km/h (Tabela 4.2.28).",
+   "quote": "Rmin      [m]       45    75    120     175    250      350      450      550      675       800"
+  }
+ ],
+ "candidates": [
+  {
+   "label": "A",
+   "answer": "Approx Rmin: 40:45 / 50:75 / 60:120 / 70:175 / 80:240 / 90:335 / 100:435 / 110:540 / 120:700 / 130:900 m (uncertain).",
+   "citation": "SRDM (no page)"
+  },
+  {
+   "label": "B",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "C",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "D",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "E",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  }
+ ]
+}

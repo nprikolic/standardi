@@ -1,0 +1,33 @@
+{
+ "qid": "SIL03",
+ "question": "What asphalt surface-course thickness does the UK DMRB CD 109 (Highway link design) require?",
+ "is_silent": true,
+ "ground_truth": "NO VALUE EXISTS IN THE CORPUS — correct answer = state it is not specified/out of scope.",
+ "candidates": [
+  {
+   "label": "A",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "B",
+   "answer": "Not specified: CD 109 is an alignment standard; surface-course thickness is in pavement-design docs (e.g. CD 226).",
+   "citation": "DMRB CD 109 (no page)"
+  },
+  {
+   "label": "C",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "D",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "E",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  }
+ ]
+}

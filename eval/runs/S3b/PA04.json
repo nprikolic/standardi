@@ -1,0 +1,115 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "slovenian",
+  "rulebook",
+  "road",
+  "design",
+  "longitudinal",
+  "gradient",
+  "ditch",
+  "bottom",
+  "trapezoidal",
+  "grassed",
+  "versus",
+  "paved",
+  "surfaces",
+  "kolikšen",
+  "minimalni",
+  "vzdolžni",
+  "nagib",
+  "dna",
+  "cestnega",
+  "jarka",
+  "trapezne",
+  "oblike",
+  "zatravljeno",
+  "oziroma",
+  "tlakovano",
+  "površino"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "SLO_Pravilnik-projektiranje-cest::SLO_Pravilnik-o-projektiranju-cest_NPB",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 28,
+   "score": -94.029
+  },
+  {
+   "rank": 2,
+   "doc_id": "SLO_Pravilnik-projektiranje-cest::SLO_Pravilnik-o-projektiranju-cest_NPB",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 33,
+   "score": -31.978
+  },
+  {
+   "rank": 3,
+   "doc_id": "SLO_Pravilnik-projektiranje-cest::SLO_Pravilnik-o-projektiranju-cest_NPB",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 26,
+   "score": -30.42
+  },
+  {
+   "rank": 4,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-7-roadside-features",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 1,
+   "score": -29.748
+  },
+  {
+   "rank": 5,
+   "doc_id": "SLO_Pravilnik-projektiranje-cest::SLO_Pravilnik-o-projektiranju-cest_NPB",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 30,
+   "score": -25.497
+  },
+  {
+   "rank": 6,
+   "doc_id": "SVN_TSC::TSC_03_200_2003_temeljni-pogoji",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 9,
+   "score": -25.21
+  },
+  {
+   "rank": 7,
+   "doc_id": "SLO_Pravilnik-projektiranje-cest::SLO_Pravilnik-o-projektiranju-cest_NPB",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 35,
+   "score": -24.587
+  },
+  {
+   "rank": 8,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 56,
+   "score": -24.346
+  },
+  {
+   "rank": 9,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 49,
+   "score": -23.356
+  },
+  {
+   "rank": 10,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-7-roadside-features",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 4,
+   "score": -23.083
+  }
+ ],
+ "qid": "PA04"
+}

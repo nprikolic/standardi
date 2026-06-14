@@ -1,0 +1,117 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "nel",
+  "dimensionamento",
+  "cinematico",
+  "dei",
+  "tratti",
+  "variazione",
+  "velocità",
+  "quale",
+  "assume",
+  "strade",
+  "tipo",
+  "rispetto",
+  "alle",
+  "altre",
+  "when",
+  "sizing",
+  "speed",
+  "change",
+  "deceleration",
+  "acceleration",
+  "lanes",
+  "kinematically",
+  "assumed",
+  "type",
+  "roads",
+  "versus",
+  "all",
+  "other"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "ITA_DM-intersezioni-2006::ITA_DM-intersezioni-2006",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 14,
+   "score": -68.811
+  },
+  {
+   "rank": 2,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 9,
+   "score": -49.172
+  },
+  {
+   "rank": 3,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 91,
+   "score": -49.028
+  },
+  {
+   "rank": 4,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 69,
+   "score": -45.778
+  },
+  {
+   "rank": 5,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 3,
+   "score": -43.376
+  },
+  {
+   "rank": 6,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 65,
+   "score": -43.328
+  },
+  {
+   "rank": 7,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 94,
+   "score": -41.447
+  },
+  {
+   "rank": 8,
+   "doc_id": "ITA_DM-intersezioni-2006::ITA_DM-intersezioni-2006",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 22,
+   "score": -41.042
+  },
+  {
+   "rank": 9,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 62,
+   "score": -39.354
+  },
+  {
+   "rank": 10,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 56,
+   "score": -38.316
+  }
+ ],
+ "qid": "SI04"
+}

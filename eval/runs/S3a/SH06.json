@@ -1,0 +1,94 @@
+{
+ "system": "S3A",
+ "query_terms": [
+  "cross section",
+  "lane width",
+  "carriageway",
+  "shoulder",
+  "median"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 576,
+   "score": -21.114
+  },
+  {
+   "rank": 2,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-appendix-a-b",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 6,
+   "score": -19.366
+  },
+  {
+   "rank": 3,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-6-cross-section",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 11,
+   "score": -16.205
+  },
+  {
+   "rank": 4,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 188,
+   "score": -16.055
+  },
+  {
+   "rank": 5,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-6-cross-section",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 10,
+   "score": -15.916
+  },
+  {
+   "rank": 6,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 279,
+   "score": -15.823
+  },
+  {
+   "rank": 7,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-6-cross-section",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 12,
+   "score": -15.814
+  },
+  {
+   "rank": 8,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 657,
+   "score": -14.947
+  },
+  {
+   "rank": 9,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 60,
+   "score": -14.875
+  },
+  {
+   "rank": 10,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-6-cross-section",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 20,
+   "score": -14.872
+  }
+ ],
+ "qid": "SH06"
+}

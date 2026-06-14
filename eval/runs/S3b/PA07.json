@@ -1,0 +1,114 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "polish",
+  "guideline",
+  "longitudinal",
+  "gradient",
+  "carriageway",
+  "grade",
+  "line",
+  "under",
+  "condition",
+  "may",
+  "smaller",
+  "used",
+  "minimalne",
+  "pochylenie",
+  "podłużne",
+  "niwelety",
+  "jezdni",
+  "według",
+  "pod",
+  "jakim",
+  "warunkiem",
+  "można",
+  "zastosować",
+  "mniejszą",
+  "wartość"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "POL_WR-D::WR-D-22-1_wymagania-podstawowe",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 29,
+   "score": -43.053
+  },
+  {
+   "rank": 2,
+   "doc_id": "POL_WR-D::WR-D-32-2_wezly-elementy-i-wyposazenie",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 28,
+   "score": -36.29
+  },
+  {
+   "rank": 3,
+   "doc_id": "POL_WR-D::Dz.U.2022.poz.1518",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 9,
+   "score": -34.142
+  },
+  {
+   "rank": 4,
+   "doc_id": "POL_WR-D::WR-D-32-2_wezly-elementy-i-wyposazenie",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 24,
+   "score": -32.95
+  },
+  {
+   "rank": 5,
+   "doc_id": "POL_WR-D::WR-D-31-2_skrzyzowania-zwykle-i-skanalizowane",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 52,
+   "score": -32.944
+  },
+  {
+   "rank": 6,
+   "doc_id": "POL_WR-D::WR-D-31-2_skrzyzowania-zwykle-i-skanalizowane",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 51,
+   "score": -32.185
+  },
+  {
+   "rank": 7,
+   "doc_id": "POL_WR-D::WR-D-31-3_skrzyzowania-ronda",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 42,
+   "score": -31.63
+  },
+  {
+   "rank": 8,
+   "doc_id": "POL_WR-D::WR-D-22-2_ksztaltowanie-geometryczne",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 43,
+   "score": -30.504
+  },
+  {
+   "rank": 9,
+   "doc_id": "POL_WR-D::WR-D-32-2_wezly-elementy-i-wyposazenie",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 60,
+   "score": -30.33
+  },
+  {
+   "rank": 10,
+   "doc_id": "POL_WR-D::WR-D-32-2_wezly-elementy-i-wyposazenie",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 38,
+   "score": -30.069
+  }
+ ],
+ "qid": "PA07"
+}

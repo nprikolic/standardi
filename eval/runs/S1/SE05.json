@@ -1,0 +1,101 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "dmrb",
+  "109",
+  "table",
+  "desirable",
+  "stopping",
+  "sight",
+  "distance",
+  "design",
+  "speeds",
+  "120",
+  "100",
+  "kph"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 16,
+   "score": -36.903
+  },
+  {
+   "rank": 2,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 25,
+   "score": -31.618
+  },
+  {
+   "rank": 3,
+   "doc_id": "GBR_DMRB-CD109::CD116_Geometric_design_of_roundabouts",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 138,
+   "score": -27.992
+  },
+  {
+   "rank": 4,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 13,
+   "score": -27.737
+  },
+  {
+   "rank": 5,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 20,
+   "score": -27.667
+  },
+  {
+   "rank": 6,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 72,
+   "score": -27.665
+  },
+  {
+   "rank": 7,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 20,
+   "score": -27.595
+  },
+  {
+   "rank": 8,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 17,
+   "score": -27.418
+  },
+  {
+   "rank": 9,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 24,
+   "score": -27.409
+  },
+  {
+   "rank": 10,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 28,
+   "score": -27.209
+  }
+ ],
+ "qid": "SE05"
+}

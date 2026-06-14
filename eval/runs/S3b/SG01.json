@@ -1,0 +1,104 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "under",
+  "japan",
+  "road",
+  "structure",
+  "ordinance",
+  "longitudinal",
+  "gradient",
+  "ordinary",
+  "class",
+  "design",
+  "speed",
+  "where",
+  "unavoidable",
+  "普通道路",
+  "道路構造令で、第一種〜第三種の普通道路で設計速度八〇キロメートルのとき、車道の縦断勾配の標準値とやむを得ない場合の値は何パーセントか。"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 61,
+   "score": -24.843
+  },
+  {
+   "rank": 2,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 271,
+   "score": -21.464
+  },
+  {
+   "rank": 3,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 75,
+   "score": -20.603
+  },
+  {
+   "rank": 4,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 37,
+   "score": -20.593
+  },
+  {
+   "rank": 5,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 889,
+   "score": -20.513
+  },
+  {
+   "rank": 6,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 65,
+   "score": -20.416
+  },
+  {
+   "rank": 7,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 32,
+   "score": -19.888
+  },
+  {
+   "rank": 8,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD123_Geometric-design-of-at-grade-junctions_v2.1.0",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 35,
+   "score": -19.518
+  },
+  {
+   "rank": 9,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 72,
+   "score": -19.382
+  },
+  {
+   "rank": 10,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 73,
+   "score": -19.33
+  }
+ ],
+ "qid": "SG01"
+}

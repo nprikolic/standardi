@@ -1,0 +1,126 @@
+{
+ "system": "S1G",
+ "query_terms": [
+  "german",
+  "ral",
+  "rural",
+  "roads",
+  "planning",
+  "design",
+  "speed",
+  "same",
+  "permissible",
+  "limit",
+  "design speed",
+  "računska brzina",
+  "projektna brzina",
+  "merodavna brzina",
+  "racunska brzina",
+  "рачунска брзина",
+  "пројектна брзина",
+  "меродавна брзина",
+  "брзина",
+  "računska hitrost",
+  "projektna hitrost",
+  "racunska hitrost",
+  "entwurfsgeschwindigkeit",
+  "geschwindigkeit",
+  "velocidad de proyecto",
+  "velocidad de diseño",
+  "velocidade de projeto",
+  "velocidade diretriz",
+  "velocità di progetto",
+  "vitesse de référence",
+  "dimensionerande hastighet",
+  "prędkość projektowa",
+  "prędkość miarodajna",
+  "prędkoś",
+  "설계속도",
+  "設計速度",
+  "设计速度"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 6,
+   "score": -33.573
+  },
+  {
+   "rank": 2,
+   "doc_id": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 32,
+   "score": -32.432
+  },
+  {
+   "rank": 3,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 7,
+   "score": -27.184
+  },
+  {
+   "rank": 4,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 13,
+   "score": -26.214
+  },
+  {
+   "rank": 5,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 8,
+   "score": -25.274
+  },
+  {
+   "rank": 6,
+   "doc_id": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 80,
+   "score": -24.731
+  },
+  {
+   "rank": 7,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 20,
+   "score": -24.475
+  },
+  {
+   "rank": 8,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 17,
+   "score": -24.055
+  },
+  {
+   "rank": 9,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 9,
+   "score": -23.891
+  },
+  {
+   "rank": 10,
+   "doc_id": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 33,
+   "score": -23.583
+  }
+ ],
+ "qid": "SE06"
+}

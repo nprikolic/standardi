@@ -1,0 +1,111 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "glorietas",
+  "norma",
+  "cómo",
+  "limita",
+  "reduce",
+  "peralte",
+  "entrada",
+  "garantizando",
+  "drenaje",
+  "superficial",
+  "spanish",
+  "roundabout",
+  "design",
+  "entry",
+  "superelevation",
+  "limited",
+  "reduced",
+  "while",
+  "still",
+  "guaranteeing",
+  "surface",
+  "drainage"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 198,
+   "score": -33.064
+  },
+  {
+   "rank": 2,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 105,
+   "score": -29.849
+  },
+  {
+   "rank": 3,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 107,
+   "score": -27.86
+  },
+  {
+   "rank": 4,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 102,
+   "score": -26.566
+  },
+  {
+   "rank": 5,
+   "doc_id": "GBR_DMRB-CD109::CD116_Geometric_design_of_roundabouts",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 74,
+   "score": -26.237
+  },
+  {
+   "rank": 6,
+   "doc_id": "ESP_OC-32-2012-nudos::OC-32-2012-nudos",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 180,
+   "score": -25.726
+  },
+  {
+   "rank": 7,
+   "doc_id": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 54,
+   "score": -22.486
+  },
+  {
+   "rank": 8,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 117,
+   "score": -21.495
+  },
+  {
+   "rank": 9,
+   "doc_id": "ESP_OC-32-2012-nudos::OC-32-2012-nudos",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 378,
+   "score": -21.269
+  },
+  {
+   "rank": 10,
+   "doc_id": "ESP_OC-32-2012-nudos::OC-32-2012-nudos",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 186,
+   "score": -21.24
+  }
+ ],
+ "qid": "PB07"
+}

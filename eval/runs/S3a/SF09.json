@@ -1,0 +1,95 @@
+{
+ "system": "S3A",
+ "query_terms": [
+  "horizontal alignment",
+  "curve radius",
+  "transition curve",
+  "clothoid",
+  "spiral",
+  "minimum radius"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 272,
+   "score": -27.768
+  },
+  {
+   "rank": 2,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 187,
+   "score": -23.567
+  },
+  {
+   "rank": 3,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 359,
+   "score": -22.727
+  },
+  {
+   "rank": 4,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-2-basic-design-criteria",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 23,
+   "score": -22.228
+  },
+  {
+   "rank": 5,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 360,
+   "score": -21.113
+  },
+  {
+   "rank": 6,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-4-horizontal-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 6,
+   "score": -20.337
+  },
+  {
+   "rank": 7,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 198,
+   "score": -19.651
+  },
+  {
+   "rank": 8,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 271,
+   "score": -19.448
+  },
+  {
+   "rank": 9,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-4-horizontal-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 8,
+   "score": -18.933
+  },
+  {
+   "rank": 10,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 111,
+   "score": -18.88
+  }
+ ],
+ "qid": "SF09"
+}

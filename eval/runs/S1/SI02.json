@@ -1,0 +1,103 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "rural",
+  "motorways",
+  "type",
+  "dual",
+  "carriageway",
+  "national",
+  "roads",
+  "desirable",
+  "weaving",
+  "length",
+  "between",
+  "grade",
+  "separated",
+  "junctions"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 145,
+   "score": -58.97
+  },
+  {
+   "rank": 2,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 141,
+   "score": -51.561
+  },
+  {
+   "rank": 3,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 27,
+   "score": -43.895
+  },
+  {
+   "rank": 4,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 38,
+   "score": -41.678
+  },
+  {
+   "rank": 5,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 19,
+   "score": -39.593
+  },
+  {
+   "rank": 6,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 120,
+   "score": -38.685
+  },
+  {
+   "rank": 7,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 6,
+   "score": -38.445
+  },
+  {
+   "rank": 8,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 4,
+   "score": -38.298
+  },
+  {
+   "rank": 9,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 43,
+   "score": -37.746
+  },
+  {
+   "rank": 10,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 5,
+   "score": -37.695
+  }
+ ],
+ "qid": "SI02"
+}

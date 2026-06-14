@@ -1,0 +1,101 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "collector",
+  "streets",
+  "aashto",
+  "green",
+  "book",
+  "grade",
+  "acceptable",
+  "facilitate",
+  "drainage",
+  "recommended",
+  "where",
+  "practical"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 549,
+   "score": -33.197
+  },
+  {
+   "rank": 2,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 550,
+   "score": -25.521
+  },
+  {
+   "rank": 3,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 559,
+   "score": -24.745
+  },
+  {
+   "rank": 4,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 1,
+   "score": -23.841
+  },
+  {
+   "rank": 5,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 520,
+   "score": -22.928
+  },
+  {
+   "rank": 6,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 509,
+   "score": -22.338
+  },
+  {
+   "rank": 7,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 552,
+   "score": -21.248
+  },
+  {
+   "rank": 8,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 546,
+   "score": -20.082
+  },
+  {
+   "rank": 9,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 554,
+   "score": -19.319
+  },
+  {
+   "rank": 10,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 197,
+   "score": -19.203
+  }
+ ],
+ "qid": "PC03"
+}

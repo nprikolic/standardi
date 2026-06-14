@@ -1,0 +1,116 @@
+{
+ "system": "S3C",
+ "query_terms": [
+  "design speed",
+  "računska brzina",
+  "projektna brzina",
+  "merodavna brzina",
+  "racunska brzina",
+  "рачунска брзина",
+  "пројектна брзина",
+  "меродавна брзина",
+  "брзина",
+  "računska hitrost",
+  "projektna hitrost",
+  "racunska hitrost",
+  "entwurfsgeschwindigkeit",
+  "geschwindigkeit",
+  "velocidad de proyecto",
+  "velocidad de diseño",
+  "velocidade de projeto",
+  "velocidade diretriz",
+  "velocità di progetto",
+  "vitesse de référence",
+  "dimensionerande hastighet",
+  "prędkość projektowa",
+  "prędkość miarodajna",
+  "prędkoś",
+  "설계속도",
+  "設計速度",
+  "设计速度"
+ ],
+ "mode": "like",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 13,
+   "score": 0.0
+  },
+  {
+   "rank": 2,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 29,
+   "score": 0.0
+  },
+  {
+   "rank": 3,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 33,
+   "score": 0.0
+  },
+  {
+   "rank": 4,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 53,
+   "score": 0.0
+  },
+  {
+   "rank": 5,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 56,
+   "score": 0.0
+  },
+  {
+   "rank": 6,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 59,
+   "score": 0.0
+  },
+  {
+   "rank": 7,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 63,
+   "score": 0.0
+  },
+  {
+   "rank": 8,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 85,
+   "score": 0.0
+  },
+  {
+   "rank": 9,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 87,
+   "score": 0.0
+  },
+  {
+   "rank": 10,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 88,
+   "score": 0.0
+  }
+ ],
+ "qid": "SE07"
+}

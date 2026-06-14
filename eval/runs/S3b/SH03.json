@@ -1,0 +1,112 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "normal",
+  "crossfall",
+  "circulatory",
+  "carriageway",
+  "roundabout",
+  "under",
+  "serbian",
+  "pravilnik",
+  "direction",
+  "oriented",
+  "колики",
+  "нормалан",
+  "попречни",
+  "нагиб",
+  "кружног",
+  "коловоза",
+  "кружне",
+  "раскрснице",
+  "према",
+  "правилнику",
+  "којој",
+  "ивици",
+  "усмерен"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 109,
+   "score": -82.314
+  },
+  {
+   "rank": 2,
+   "doc_id": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 108,
+   "score": -67.243
+  },
+  {
+   "rank": 3,
+   "doc_id": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 111,
+   "score": -49.19
+  },
+  {
+   "rank": 4,
+   "doc_id": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 114,
+   "score": -47.901
+  },
+  {
+   "rank": 5,
+   "doc_id": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 106,
+   "score": -47.863
+  },
+  {
+   "rank": 6,
+   "doc_id": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 116,
+   "score": -47.162
+  },
+  {
+   "rank": 7,
+   "doc_id": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 110,
+   "score": -42.293
+  },
+  {
+   "rank": 8,
+   "doc_id": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 65,
+   "score": -40.833
+  },
+  {
+   "rank": 9,
+   "doc_id": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 138,
+   "score": -40.517
+  },
+  {
+   "rank": 10,
+   "doc_id": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 103,
+   "score": -39.81
+  }
+ ],
+ "qid": "SH03"
+}

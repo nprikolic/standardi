@@ -1,0 +1,40 @@
+{
+ "qid": "PB03",
+ "question": "In the RAL rural-roads standard, what is required between the longitudinal gradient and relative grade to ensure adequate carriageway drainage?",
+ "is_silent": false,
+ "ground_truth": [
+  {
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "page": 46,
+   "value": "A minimum difference between longitudinal gradient and relative grade is required for adequate drainage; resultant slope p >= 0.5 % per REwS.",
+   "quote": "To ensure adequate carriageway drainage, the differ-"
+  }
+ ],
+ "candidates": [
+  {
+   "label": "A",
+   "answer": "RAL p.46: 'To ensure adequate carriageway drainage, the differ-' — value truncated in passage.",
+   "citation": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024 p.46"
+  },
+  {
+   "label": "B",
+   "answer": "RAL p.46 difference rule present but specific value truncated.",
+   "citation": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024 p.46"
+  },
+  {
+   "label": "C",
+   "answer": "Vector sum of longitudinal + relative grade kept above a min resultant (~0.5%); min long. grade at runoff ~0.7% (uncertain).",
+   "citation": "RAL Germany (no page)"
+  },
+  {
+   "label": "D",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "E",
+   "answer": "RAL p.46 difference rule present but specific value truncated.",
+   "citation": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024 p.46"
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "system": "S3",
+ "query_terms": [
+  "design speed",
+  "računska brzina",
+  "projektna brzina",
+  "merodavna brzina",
+  "racunska brzina",
+  "рачунска брзина",
+  "пројектна брзина",
+  "меродавна брзина",
+  "брзина",
+  "računska hitrost",
+  "projektna hitrost",
+  "racunska hitrost",
+  "entwurfsgeschwindigkeit",
+  "geschwindigkeit",
+  "velocidad de proyecto",
+  "velocidad de diseño",
+  "velocidade de projeto",
+  "velocidade diretriz",
+  "velocità di progetto",
+  "vitesse de référence",
+  "dimensionerande hastighet",
+  "prędkość projektowa",
+  "prędkość miarodajna",
+  "prędkoś",
+  "설계속도",
+  "設計速度",
+  "设计速度"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 6,
+   "score": -33.573
+  },
+  {
+   "rank": 2,
+   "doc_id": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 32,
+   "score": -32.432
+  },
+  {
+   "rank": 3,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 7,
+   "score": -27.184
+  },
+  {
+   "rank": 4,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 8,
+   "score": -25.274
+  },
+  {
+   "rank": 5,
+   "doc_id": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 80,
+   "score": -24.731
+  },
+  {
+   "rank": 6,
+   "doc_id": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 33,
+   "score": -23.583
+  },
+  {
+   "rank": 7,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 15,
+   "score": -22.34
+  },
+  {
+   "rank": 8,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 27,
+   "score": -21.532
+  },
+  {
+   "rank": 9,
+   "doc_id": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 31,
+   "score": -21.13
+  },
+  {
+   "rank": 10,
+   "doc_id": "SVN_TSC::TSC_03_200_2003_temeljni-pogoji",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 14,
+   "score": -21.097
+  }
+ ],
+ "qid": "SE06"
+}

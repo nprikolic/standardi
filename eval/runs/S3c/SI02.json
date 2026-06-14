@@ -1,0 +1,129 @@
+{
+ "system": "S3C",
+ "query_terms": [
+  "weaving",
+  "weaving length",
+  "weaving section",
+  "minimum weaving",
+  "weaving manoeuvre",
+  "preplitanje",
+  "preplet",
+  "deonica preplitanja",
+  "dužina preplitanja",
+  "преплитање",
+  "преплет",
+  "деоница преплитања",
+  "дужина преплитања",
+  "isprepletanje",
+  "dionica preplitanja",
+  "prepletanje",
+  "odsek prepletanja",
+  "verflechtung",
+  "verflechtungsstrecke",
+  "verflechtungslänge",
+  "verflechtungsbereich",
+  "trenzado",
+  "entrecruzamiento",
+  "longitud de trenzado",
+  "entrelaçamento",
+  "trançado",
+  "intreccio",
+  "corsia di intreccio",
+  "entrecroisement",
+  "section d'entrecroisement",
+  "vävning",
+  "flätning",
+  "przeplatanie",
+  "odcinek przeplatania",
+  "엇갈림",
+  "위빙",
+  "織込み",
+  "ウィービング",
+  "交织",
+  "交织段"
+ ],
+ "mode": "like",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 245,
+   "score": 0.0
+  },
+  {
+   "rank": 2,
+   "doc_id": "BRA_IPR-718-intersecoes::IPR-718_Manual_de_Projeto_de_Intersecoes_2005",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 31,
+   "score": 0.0
+  },
+  {
+   "rank": 3,
+   "doc_id": "BRA_IPR-718-intersecoes::IPR-718_Manual_de_Projeto_de_Intersecoes_2005",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 32,
+   "score": 0.0
+  },
+  {
+   "rank": 4,
+   "doc_id": "BRA_IPR-718-intersecoes::IPR-718_Manual_de_Projeto_de_Intersecoes_2005",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 165,
+   "score": 0.0
+  },
+  {
+   "rank": 5,
+   "doc_id": "BRA_IPR-718-intersecoes::IPR-718_Manual_de_Projeto_de_Intersecoes_2005",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 529,
+   "score": 0.0
+  },
+  {
+   "rank": 6,
+   "doc_id": "BRA_Manual-Projeto-Geometrico::IPR-740_Manual_Projeto_Geometrico_Travessias_Urbanas",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 34,
+   "score": 0.0
+  },
+  {
+   "rank": 7,
+   "doc_id": "BRA_Manual-Projeto-Geometrico::IPR-740_Manual_Projeto_Geometrico_Travessias_Urbanas",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 279,
+   "score": 0.0
+  },
+  {
+   "rank": 8,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 21,
+   "score": 0.0
+  },
+  {
+   "rank": 9,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 27,
+   "score": 0.0
+  },
+  {
+   "rank": 10,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 28,
+   "score": 0.0
+  }
+ ],
+ "qid": "SI02"
+}

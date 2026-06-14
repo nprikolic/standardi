@@ -1,0 +1,135 @@
+{
+ "system": "S1G",
+ "query_terms": [
+  "spanish",
+  "norma",
+  "perception",
+  "reaction",
+  "time",
+  "used",
+  "compute",
+  "stopping",
+  "distance",
+  "sight distance",
+  "stopping sight",
+  "overtaking sight",
+  "passing sight",
+  "preglednost",
+  "zaustavna preglednost",
+  "preticajna preglednost",
+  "dužina preglednosti",
+  "прегледност",
+  "зауставна прегледност",
+  "претицајна прегледност",
+  "дужина прегледности",
+  "pretjecajna preglednost",
+  "duljina preglednosti",
+  "pregledna razdalja",
+  "zaustavna pregledna razdalja",
+  "pregled",
+  "sichtweite",
+  "haltesichtweite",
+  "überholsichtweite",
+  "distancia de visibilidad",
+  "distancia de parada",
+  "distância de visibilidade",
+  "distância de parada",
+  "distanza di visibilità",
+  "distanza di arresto",
+  "distance de visibilité",
+  "distance d'arrêt",
+  "stoppsikt",
+  "siktsträcka",
+  "odległość widoczności",
+  "odległości widoczności",
+  "widocznoś",
+  "시거",
+  "정지시거",
+  "視距",
+  "视距"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 145,
+   "score": -43.255
+  },
+  {
+   "rank": 2,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 94,
+   "score": -38.939
+  },
+  {
+   "rank": 3,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 103,
+   "score": -38.921
+  },
+  {
+   "rank": 4,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 30,
+   "score": -38.452
+  },
+  {
+   "rank": 5,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 7,
+   "score": -34.995
+  },
+  {
+   "rank": 6,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 851,
+   "score": -34.588
+  },
+  {
+   "rank": 7,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 148,
+   "score": -33.913
+  },
+  {
+   "rank": 8,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 157,
+   "score": -33.86
+  },
+  {
+   "rank": 9,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-2-basic-design-criteria",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 26,
+   "score": -33.826
+  },
+  {
+   "rank": 10,
+   "doc_id": "IRL_DMURS::DMURS-version-11",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 119,
+   "score": -32.481
+  }
+ ],
+ "qid": "SE02"
+}

@@ -1,0 +1,104 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "french",
+  "motorway",
+  "sighting",
+  "distance",
+  "rest",
+  "area",
+  "entrance",
+  "signing",
+  "must",
+  "driver",
+  "coming",
+  "off",
+  "interchange",
+  "arriving",
+  "have"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "ZAF_COTO-Geometric-Design::TRH17-1988-Geometric-Design-of-Rural-Roads",
+   "iso3": "ZAF",
+   "lang": "en",
+   "page": 103,
+   "score": -35.242
+  },
+  {
+   "rank": 2,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 105,
+   "score": -26.439
+  },
+  {
+   "rank": 3,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 99,
+   "score": -25.117
+  },
+  {
+   "rank": 4,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-appendix-a-b",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 12,
+   "score": -24.34
+  },
+  {
+   "rank": 5,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 908,
+   "score": -24.102
+  },
+  {
+   "rank": 6,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 156,
+   "score": -22.873
+  },
+  {
+   "rank": 7,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 262,
+   "score": -22.419
+  },
+  {
+   "rank": 8,
+   "doc_id": "DEU_FGSV::RASt_FGSV200_Urban-Roads_EN_2006-tr2012",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 38,
+   "score": -22.362
+  },
+  {
+   "rank": 9,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 122,
+   "score": -21.864
+  },
+  {
+   "rank": 10,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 893,
+   "score": -21.74
+  }
+ ],
+ "qid": "SE01"
+}

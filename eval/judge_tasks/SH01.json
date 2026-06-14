@@ -1,0 +1,40 @@
+{
+ "qid": "SH01",
+ "question": "On Spanish roads, what maximum superelevation does Norma 3.1-IC set in the design-speed / minimum-radius relationship?",
+ "is_silent": false,
+ "ground_truth": [
+  {
+   "doc_id": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado",
+   "page": 38,
+   "value": "Maximum superelevation 8,00% (Grupos 1 & 2) and 7,00% (Grupo 3).",
+   "quote": "RADIO        PERALTE        RADIO        PERALTE      RADIO        PERALTE"
+  }
+ ],
+ "candidates": [
+  {
+   "label": "A",
+   "answer": "Tabla 4.4: peralte maximo 8.00% (Groups 1&2) and 7.00% (Group 3).",
+   "citation": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado p.38"
+  },
+  {
+   "label": "B",
+   "answer": "Tabla 4.4: peralte maximo 8.00% (Groups 1&2) and 7.00% (Group 3).",
+   "citation": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado p.38"
+  },
+  {
+   "label": "C",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "D",
+   "answer": "Maximum superelevation 8% (7% for some road groups).",
+   "citation": "Norma 3.1-IC (no page)"
+  },
+  {
+   "label": "E",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  }
+ ]
+}

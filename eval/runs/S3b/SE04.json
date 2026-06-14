@@ -1,0 +1,102 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "italian",
+  "6792",
+  "2001",
+  "stopping",
+  "sight",
+  "distance",
+  "distanza",
+  "visibilità",
+  "arresto",
+  "defined",
+  "nel",
+  "come",
+  "definita"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 88,
+   "score": -38.771
+  },
+  {
+   "rank": 2,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 55,
+   "score": -37.894
+  },
+  {
+   "rank": 3,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 61,
+   "score": -37.567
+  },
+  {
+   "rank": 4,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 58,
+   "score": -31.57
+  },
+  {
+   "rank": 5,
+   "doc_id": "ITA_DM-intersezioni-2006::ITA_DM-intersezioni-2006",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 22,
+   "score": -29.657
+  },
+  {
+   "rank": 6,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 60,
+   "score": -29.477
+  },
+  {
+   "rank": 7,
+   "doc_id": "ITA_DM-intersezioni-2006::ITA_DM-intersezioni-2006",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 20,
+   "score": -29.222
+  },
+  {
+   "rank": 8,
+   "doc_id": "ITA_DM-intersezioni-2006::ITA_DM-intersezioni-2006",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 23,
+   "score": -27.62
+  },
+  {
+   "rank": 9,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-67S-2004-amendment",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 1,
+   "score": -24.761
+  },
+  {
+   "rank": 10,
+   "doc_id": "ITA_DM-6792-2001::ITA_GU-147-2004_full-issue_source",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 33,
+   "score": -24.761
+  }
+ ],
+ "qid": "SE04"
+}

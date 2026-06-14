@@ -1,0 +1,102 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "according",
+  "croatian",
+  "regulation",
+  "110",
+  "2001",
+  "permitted",
+  "radii",
+  "rmin",
+  "circular",
+  "curve",
+  "design",
+  "speeds",
+  "130"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 312,
+   "score": -23.092
+  },
+  {
+   "rank": 2,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 108,
+   "score": -22.585
+  },
+  {
+   "rank": 3,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 201,
+   "score": -22.065
+  },
+  {
+   "rank": 4,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 44,
+   "score": -21.243
+  },
+  {
+   "rank": 5,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 33,
+   "score": -21.037
+  },
+  {
+   "rank": 6,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 30,
+   "score": -20.12
+  },
+  {
+   "rank": 7,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 52,
+   "score": -20.056
+  },
+  {
+   "rank": 8,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 61,
+   "score": -19.597
+  },
+  {
+   "rank": 9,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 241,
+   "score": -19.548
+  },
+  {
+   "rank": 10,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 202,
+   "score": -19.435
+  }
+ ],
+ "qid": "SF04"
+}

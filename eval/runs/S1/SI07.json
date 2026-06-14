@@ -1,0 +1,104 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "serbian",
+  "srdm",
+  "grade",
+  "separated",
+  "junctions",
+  "manual",
+  "weaving",
+  "lane",
+  "length",
+  "must",
+  "possible",
+  "provide",
+  "cloverleaf",
+  "option",
+  "acceptable"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 141,
+   "score": -35.663
+  },
+  {
+   "rank": 2,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 147,
+   "score": -31.677
+  },
+  {
+   "rank": 3,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 145,
+   "score": -29.926
+  },
+  {
+   "rank": 4,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 90,
+   "score": -29.447
+  },
+  {
+   "rank": 5,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 123,
+   "score": -29.227
+  },
+  {
+   "rank": 6,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 142,
+   "score": -28.769
+  },
+  {
+   "rank": 7,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 146,
+   "score": -28.443
+  },
+  {
+   "rank": 8,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 29,
+   "score": -27.545
+  },
+  {
+   "rank": 9,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 64,
+   "score": -27.025
+  },
+  {
+   "rank": 10,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 20,
+   "score": -26.495
+  }
+ ],
+ "qid": "SI07"
+}

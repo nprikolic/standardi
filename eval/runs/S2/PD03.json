@@ -1,0 +1,99 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "manual",
+  "ipr",
+  "740",
+  "rampa",
+  "mínima",
+  "necessária",
+  "brazilian",
+  "why",
+  "grade",
+  "needed"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "BRA_Manual-Projeto-Geometrico::IPR-740_Manual_Projeto_Geometrico_Travessias_Urbanas",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 381,
+   "score": -20.447
+  },
+  {
+   "rank": 2,
+   "doc_id": "BRA_Manual-Projeto-Geometrico::IPR-740_Manual_Projeto_Geometrico_Travessias_Urbanas",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 380,
+   "score": -20.246
+  },
+  {
+   "rank": 3,
+   "doc_id": "BRA_Manual-Projeto-Geometrico::IPR-740_Manual_Projeto_Geometrico_Travessias_Urbanas",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 378,
+   "score": -20.218
+  },
+  {
+   "rank": 4,
+   "doc_id": "BRA_Manual-Projeto-Geometrico::IPR-740_Manual_Projeto_Geometrico_Travessias_Urbanas",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 379,
+   "score": -19.959
+  },
+  {
+   "rank": 5,
+   "doc_id": "BRA_Manual-Projeto-Geometrico::IPR-740_Manual_Projeto_Geometrico_Travessias_Urbanas",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 377,
+   "score": -19.938
+  },
+  {
+   "rank": 6,
+   "doc_id": "BRA_Manual-Projeto-Geometrico::IPR-740_Manual_Projeto_Geometrico_Travessias_Urbanas",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 375,
+   "score": -19.814
+  },
+  {
+   "rank": 7,
+   "doc_id": "BRA_Manual-Projeto-Geometrico::IPR-740_Manual_Projeto_Geometrico_Travessias_Urbanas",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 376,
+   "score": -19.814
+  },
+  {
+   "rank": 8,
+   "doc_id": "BRA_Manual-Projeto-Geometrico::IPR-740_Manual_Projeto_Geometrico_Travessias_Urbanas",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 1,
+   "score": -18.809
+  },
+  {
+   "rank": 9,
+   "doc_id": "BRA_Manual-Projeto-Geometrico::IPR-740_Manual_Projeto_Geometrico_Travessias_Urbanas",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 5,
+   "score": -17.976
+  },
+  {
+   "rank": 10,
+   "doc_id": "BRA_Manual-Projeto-Geometrico::IPR-740_Manual_Projeto_Geometrico_Travessias_Urbanas",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 294,
+   "score": -17.878
+  }
+ ],
+ "qid": "PD03"
+}

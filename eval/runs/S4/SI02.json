@@ -1,0 +1,142 @@
+{
+ "system": "S4",
+ "query_terms": [
+  "rural",
+  "motorways",
+  "type",
+  "dual",
+  "carriageway",
+  "national",
+  "roads",
+  "desirable",
+  "weaving",
+  "length",
+  "between",
+  "grade",
+  "separated",
+  "junctions",
+  "weaving length",
+  "weaving section",
+  "minimum weaving",
+  "weaving manoeuvre",
+  "preplitanje",
+  "preplet",
+  "deonica preplitanja",
+  "dužina preplitanja",
+  "преплитање",
+  "преплет",
+  "деоница преплитања",
+  "дужина преплитања",
+  "isprepletanje",
+  "dionica preplitanja",
+  "prepletanje",
+  "odsek prepletanja",
+  "verflechtung",
+  "verflechtungsstrecke",
+  "verflechtungslänge",
+  "verflechtungsbereich",
+  "trenzado",
+  "entrecruzamiento",
+  "longitud de trenzado",
+  "entrelaçamento",
+  "trançado",
+  "intreccio",
+  "corsia di intreccio",
+  "entrecroisement",
+  "section d'entrecroisement",
+  "vävning",
+  "flätning",
+  "przeplatanie",
+  "odcinek przeplatania",
+  "엇갈림",
+  "위빙",
+  "織込み",
+  "ウィービング",
+  "交织",
+  "交织段"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 145,
+   "score": -86.631
+  },
+  {
+   "rank": 2,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 141,
+   "score": -76.126
+  },
+  {
+   "rank": 3,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 43,
+   "score": -68.649
+  },
+  {
+   "rank": 4,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 90,
+   "score": -65.12
+  },
+  {
+   "rank": 5,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 27,
+   "score": -60.782
+  },
+  {
+   "rank": 6,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 38,
+   "score": -57.763
+  },
+  {
+   "rank": 7,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 45,
+   "score": -55.748
+  },
+  {
+   "rank": 8,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 147,
+   "score": -54.708
+  },
+  {
+   "rank": 9,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 146,
+   "score": -47.195
+  },
+  {
+   "rank": 10,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 67,
+   "score": -44.443
+  }
+ ],
+ "qid": "SI02"
+}

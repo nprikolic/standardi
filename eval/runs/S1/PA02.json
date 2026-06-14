@@ -1,0 +1,103 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "croatian",
+  "110",
+  "2001",
+  "within",
+  "superelevation",
+  "runoff",
+  "vitoperenje",
+  "zone",
+  "where",
+  "qmin",
+  "longitudinal",
+  "gradient",
+  "grade",
+  "line"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 45,
+   "score": -30.158
+  },
+  {
+   "rank": 2,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 97,
+   "score": -27.621
+  },
+  {
+   "rank": 3,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 107,
+   "score": -26.824
+  },
+  {
+   "rank": 4,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 285,
+   "score": -26.036
+  },
+  {
+   "rank": 5,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 34,
+   "score": -25.721
+  },
+  {
+   "rank": 6,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 43,
+   "score": -25.193
+  },
+  {
+   "rank": 7,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 73,
+   "score": -24.365
+  },
+  {
+   "rank": 8,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 105,
+   "score": -23.968
+  },
+  {
+   "rank": 9,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 113,
+   "score": -23.796
+  },
+  {
+   "rank": 10,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-5-vertical-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 2,
+   "score": -23.769
+  }
+ ],
+ "qid": "PA02"
+}

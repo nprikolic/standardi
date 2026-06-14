@@ -1,0 +1,109 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "polish",
+  "recommended",
+  "circular",
+  "curve",
+  "radii",
+  "plan",
+  "ensuring",
+  "headlight",
+  "visibility",
+  "design",
+  "speeds",
+  "vdp",
+  "100",
+  "minimalne",
+  "zalecane",
+  "promienie",
+  "łuków",
+  "kołowych",
+  "planie",
+  "prędkości"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "POL_WR-D::WR-D-22-2_ksztaltowanie-geometryczne",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 42,
+   "score": -49.358
+  },
+  {
+   "rank": 2,
+   "doc_id": "POL_WR-D::WR-D-32-2_wezly-elementy-i-wyposazenie",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 24,
+   "score": -44.962
+  },
+  {
+   "rank": 3,
+   "doc_id": "POL_WR-D::WR-D-22-2_ksztaltowanie-geometryczne",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 47,
+   "score": -32.807
+  },
+  {
+   "rank": 4,
+   "doc_id": "POL_WR-D::WR-D-32-2_wezly-elementy-i-wyposazenie",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 23,
+   "score": -32.296
+  },
+  {
+   "rank": 5,
+   "doc_id": "POL_WR-D::WR-D-22-2_ksztaltowanie-geometryczne",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 39,
+   "score": -32.069
+  },
+  {
+   "rank": 6,
+   "doc_id": "POL_WR-D::WR-D-22-2_ksztaltowanie-geometryczne",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 9,
+   "score": -30.614
+  },
+  {
+   "rank": 7,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 33,
+   "score": -29.818
+  },
+  {
+   "rank": 8,
+   "doc_id": "POL_WR-D::WR-D-31-3_skrzyzowania-ronda",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 37,
+   "score": -29.021
+  },
+  {
+   "rank": 9,
+   "doc_id": "POL_WR-D::WR-D-31-2_skrzyzowania-zwykle-i-skanalizowane",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 49,
+   "score": -29.018
+  },
+  {
+   "rank": 10,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 108,
+   "score": -26.445
+  }
+ ],
+ "qid": "SF06"
+}

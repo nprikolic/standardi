@@ -1,0 +1,101 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "lane",
+  "width",
+  "does",
+  "irish",
+  "tii",
+  "geo",
+  "03036",
+  "specify",
+  "type",
+  "versus",
+  "single",
+  "carriageway"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 36,
+   "score": -31.596
+  },
+  {
+   "rank": 2,
+   "doc_id": "IRL_TII-DN-GEO-03036::DN-GEO-03036-09",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 38,
+   "score": -31.562
+  },
+  {
+   "rank": 3,
+   "doc_id": "IRL_TII-DN-GEO-03036::DN-GEO-03036-09",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 12,
+   "score": -31.44
+  },
+  {
+   "rank": 4,
+   "doc_id": "IRL_TII-DN-GEO-03036::DN-GEO-03036-09",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 40,
+   "score": -31.303
+  },
+  {
+   "rank": 5,
+   "doc_id": "IRL_TII-DN-GEO-03036::DN-GEO-03036-09",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 11,
+   "score": -30.938
+  },
+  {
+   "rank": 6,
+   "doc_id": "IRL_TII-DN-GEO-03036::DN-GEO-03036-09",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 32,
+   "score": -29.121
+  },
+  {
+   "rank": 7,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 81,
+   "score": -28.168
+  },
+  {
+   "rank": 8,
+   "doc_id": "IRL_TII-DN-GEO-03036::DN-GEO-03036-09",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 50,
+   "score": -27.915
+  },
+  {
+   "rank": 9,
+   "doc_id": "IRL_TII-DN-GEO-03036::DN-GEO-03036-09",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 16,
+   "score": -27.737
+  },
+  {
+   "rank": 10,
+   "doc_id": "IRL_TII-DN-GEO-03036::DN-GEO-03036-09",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 37,
+   "score": -27.055
+  }
+ ],
+ "qid": "SH04"
+}

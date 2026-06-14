@@ -1,0 +1,108 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "state",
+  "highway",
+  "geometric",
+  "design",
+  "manual",
+  "longitudinal",
+  "grade",
+  "superelevation",
+  "development",
+  "sections",
+  "generally",
+  "need",
+  "below",
+  "must",
+  "surface",
+  "water",
+  "flow",
+  "depth",
+  "checked"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 174,
+   "score": -47.427
+  },
+  {
+   "rank": 2,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-5-vertical-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 2,
+   "score": -46.717
+  },
+  {
+   "rank": 3,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-4-horizontal-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 21,
+   "score": -45.704
+  },
+  {
+   "rank": 4,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 230,
+   "score": -45.349
+  },
+  {
+   "rank": 5,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 102,
+   "score": -42.939
+  },
+  {
+   "rank": 6,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-6-cross-section",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 11,
+   "score": -42.422
+  },
+  {
+   "rank": 7,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 98,
+   "score": -41.274
+  },
+  {
+   "rank": 8,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 103,
+   "score": -35.378
+  },
+  {
+   "rank": 9,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 34,
+   "score": -34.778
+  },
+  {
+   "rank": 10,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 97,
+   "score": -34.348
+  }
+ ],
+ "qid": "PC08"
+}

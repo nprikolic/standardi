@@ -1,0 +1,106 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "slovenian",
+  "tsc",
+  "300",
+  "dynamic",
+  "driving",
+  "condition",
+  "transition",
+  "curve",
+  "parameter",
+  "amin",
+  "determined",
+  "katerega",
+  "voznodinamičnega",
+  "pogoja",
+  "določi",
+  "minimalni",
+  "prehodnice"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 9,
+   "score": -45.244
+  },
+  {
+   "rank": 2,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 33,
+   "score": -44.169
+  },
+  {
+   "rank": 3,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 34,
+   "score": -40.688
+  },
+  {
+   "rank": 4,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 35,
+   "score": -31.442
+  },
+  {
+   "rank": 5,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 36,
+   "score": -31.323
+  },
+  {
+   "rank": 6,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 32,
+   "score": -26.519
+  },
+  {
+   "rank": 7,
+   "doc_id": "SLO_Pravilnik-projektiranje-cest::SLO_Pravilnik-o-projektiranju-cest_NPB",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 17,
+   "score": -25.285
+  },
+  {
+   "rank": 8,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 4,
+   "score": -24.69
+  },
+  {
+   "rank": 9,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 79,
+   "score": -22.226
+  },
+  {
+   "rank": 10,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 31,
+   "score": -21.09
+  }
+ ],
+ "qid": "SF05"
+}

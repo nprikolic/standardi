@@ -1,0 +1,109 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "under",
+  "korea",
+  "road",
+  "structure",
+  "rules",
+  "art",
+  "vertical",
+  "curves",
+  "use",
+  "rate",
+  "change",
+  "design",
+  "speed",
+  "120",
+  "crest",
+  "versus",
+  "sag",
+  "curve",
+  "볼록곡선",
+  "오목곡선"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 374,
+   "score": -39.732
+  },
+  {
+   "rank": 2,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 373,
+   "score": -38.859
+  },
+  {
+   "rank": 3,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 370,
+   "score": -37.1
+  },
+  {
+   "rank": 4,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 25,
+   "score": -36.766
+  },
+  {
+   "rank": 5,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 499,
+   "score": -36.599
+  },
+  {
+   "rank": 6,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 540,
+   "score": -36.488
+  },
+  {
+   "rank": 7,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 216,
+   "score": -35.751
+  },
+  {
+   "rank": 8,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 165,
+   "score": -35.047
+  },
+  {
+   "rank": 9,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-3-design-form",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 1,
+   "score": -34.924
+  },
+  {
+   "rank": 10,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 20,
+   "score": -34.867
+  }
+ ],
+ "qid": "SG04"
+}

@@ -1,0 +1,102 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "aashto",
+  "green",
+  "book",
+  "table",
+  "metric",
+  "design",
+  "rate",
+  "vertical",
+  "curvature",
+  "crest",
+  "curves",
+  "speed",
+  "100"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 540,
+   "score": -42.473
+  },
+  {
+   "rank": 2,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 499,
+   "score": -41.653
+  },
+  {
+   "rank": 3,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 370,
+   "score": -37.523
+  },
+  {
+   "rank": 4,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 525,
+   "score": -35.815
+  },
+  {
+   "rank": 5,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 374,
+   "score": -35.105
+  },
+  {
+   "rank": 6,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 527,
+   "score": -33.173
+  },
+  {
+   "rank": 7,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 368,
+   "score": -32.568
+  },
+  {
+   "rank": 8,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 54,
+   "score": -28.608
+  },
+  {
+   "rank": 9,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 90,
+   "score": -27.92
+  },
+  {
+   "rank": 10,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 53,
+   "score": -27.888
+  }
+ ],
+ "qid": "SG07"
+}

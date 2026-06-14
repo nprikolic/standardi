@@ -1,0 +1,105 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "china",
+  "jtg",
+  "d20",
+  "2017",
+  "longitudinal",
+  "grade",
+  "highways",
+  "where",
+  "flat",
+  "cross",
+  "slope",
+  "must",
+  "used",
+  "segments",
+  "insufficient",
+  "drainage"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 1,
+   "score": -41.814
+  },
+  {
+   "rank": 2,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 6,
+   "score": -41.028
+  },
+  {
+   "rank": 3,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 2,
+   "score": -38.487
+  },
+  {
+   "rank": 4,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 197,
+   "score": -37.887
+  },
+  {
+   "rank": 5,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 70,
+   "score": -37.287
+  },
+  {
+   "rank": 6,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 4,
+   "score": -35.572
+  },
+  {
+   "rank": 7,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 195,
+   "score": -32.722
+  },
+  {
+   "rank": 8,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 211,
+   "score": -31.018
+  },
+  {
+   "rank": 9,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 50,
+   "score": -30.62
+  },
+  {
+   "rank": 10,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 100,
+   "score": -30.063
+  }
+ ],
+ "qid": "PD04"
+}

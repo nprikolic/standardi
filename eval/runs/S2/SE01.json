@@ -1,0 +1,115 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "sur",
+  "autoroute",
+  "quelle",
+  "distance",
+  "visibilité",
+  "signalisation",
+  "entrée",
+  "aire",
+  "doit",
+  "disposer",
+  "conducteur",
+  "arrivant",
+  "french",
+  "motorway",
+  "sighting",
+  "rest",
+  "area",
+  "entrance",
+  "signing",
+  "must",
+  "driver",
+  "coming",
+  "off",
+  "interchange",
+  "arriving",
+  "have"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "FRA_ICTAAL-ARP::ICTAAL_2021-update_correctif_DT9033",
+   "iso3": "FRA",
+   "lang": "fr,en",
+   "page": 2,
+   "score": -99.016
+  },
+  {
+   "rank": 2,
+   "doc_id": "FRA_ICTAAL-ARP::ICTAAL_2021-update_correctif_DT9033",
+   "iso3": "FRA",
+   "lang": "fr,en",
+   "page": 4,
+   "score": -41.536
+  },
+  {
+   "rank": 3,
+   "doc_id": "FRA_ICTAAL-ARP::ICTAAL_2021-update_correctif_DT9033",
+   "iso3": "FRA",
+   "lang": "fr,en",
+   "page": 1,
+   "score": -40.196
+  },
+  {
+   "rank": 4,
+   "doc_id": "ZAF_COTO-Geometric-Design::TRH17-1988-Geometric-Design-of-Rural-Roads",
+   "iso3": "ZAF",
+   "lang": "en",
+   "page": 103,
+   "score": -35.242
+  },
+  {
+   "rank": 5,
+   "doc_id": "FRA_ICTAAL-ARP::ICTAAL_2021-update_correctif_DT9033",
+   "iso3": "FRA",
+   "lang": "fr,en",
+   "page": 3,
+   "score": -32.071
+  },
+  {
+   "rank": 6,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 105,
+   "score": -26.439
+  },
+  {
+   "rank": 7,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 99,
+   "score": -25.117
+  },
+  {
+   "rank": 8,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-appendix-a-b",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 12,
+   "score": -24.34
+  },
+  {
+   "rank": 9,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 101,
+   "score": -24.164
+  },
+  {
+   "rank": 10,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 908,
+   "score": -24.102
+  }
+ ],
+ "qid": "SE01"
+}

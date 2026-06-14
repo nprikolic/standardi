@@ -1,0 +1,113 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "przypadku",
+  "pochylenia",
+  "podłużnego",
+  "mniejszego",
+  "niż",
+  "minimalne",
+  "pochylenie",
+  "poprzeczne",
+  "zaleca",
+  "się",
+  "prawidłowego",
+  "odwodnienia",
+  "polish",
+  "when",
+  "longitudinal",
+  "gradient",
+  "less",
+  "than",
+  "cross",
+  "slope",
+  "recommended",
+  "ensure",
+  "proper",
+  "drainage"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "POL_WR-D::WR-D-31-3_skrzyzowania-ronda",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 42,
+   "score": -57.248
+  },
+  {
+   "rank": 2,
+   "doc_id": "POL_WR-D::WR-D-31-2_skrzyzowania-zwykle-i-skanalizowane",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 52,
+   "score": -56.282
+  },
+  {
+   "rank": 3,
+   "doc_id": "POL_WR-D::WR-D-31-2_skrzyzowania-zwykle-i-skanalizowane",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 51,
+   "score": -53.914
+  },
+  {
+   "rank": 4,
+   "doc_id": "POL_WR-D::WR-D-32-2_wezly-elementy-i-wyposazenie",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 24,
+   "score": -52.645
+  },
+  {
+   "rank": 5,
+   "doc_id": "POL_WR-D::WR-D-22-2_ksztaltowanie-geometryczne",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 15,
+   "score": -47.893
+  },
+  {
+   "rank": 6,
+   "doc_id": "POL_WR-D::WR-D-22-2_ksztaltowanie-geometryczne",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 45,
+   "score": -46.856
+  },
+  {
+   "rank": 7,
+   "doc_id": "POL_WR-D::WR-D-22-2_ksztaltowanie-geometryczne",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 47,
+   "score": -45.995
+  },
+  {
+   "rank": 8,
+   "doc_id": "POL_WR-D::WR-D-32-2_wezly-elementy-i-wyposazenie",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 23,
+   "score": -45.483
+  },
+  {
+   "rank": 9,
+   "doc_id": "POL_WR-D::WR-D-22-2_ksztaltowanie-geometryczne",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 42,
+   "score": -44.511
+  },
+  {
+   "rank": 10,
+   "doc_id": "POL_WR-D::WR-D-31-1_skrzyzowania-wymagania-podstawowe",
+   "iso3": "POL",
+   "lang": "pl,en",
+   "page": 36,
+   "score": -44.21
+  }
+ ],
+ "qid": "PA08"
+}

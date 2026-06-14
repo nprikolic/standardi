@@ -1,0 +1,112 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "transverse",
+  "gradient",
+  "max",
+  "does",
+  "italian",
+  "6792",
+  "2001",
+  "use",
+  "compute",
+  "radius",
+  "extra",
+  "urban",
+  "motorway",
+  "type",
+  "quale",
+  "pendenza",
+  "trasversale",
+  "massima",
+  "utilizza",
+  "raggio",
+  "minimo",
+  "autostrada",
+  "tipo"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 66,
+   "score": -49.703
+  },
+  {
+   "rank": 2,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 65,
+   "score": -43.107
+  },
+  {
+   "rank": 3,
+   "doc_id": "ITA_DM-intersezioni-2006::ITA_DM-intersezioni-2006",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 23,
+   "score": -42.972
+  },
+  {
+   "rank": 4,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 67,
+   "score": -41.873
+  },
+  {
+   "rank": 5,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 71,
+   "score": -39.891
+  },
+  {
+   "rank": 6,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 69,
+   "score": -38.615
+  },
+  {
+   "rank": 7,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 72,
+   "score": -38.178
+  },
+  {
+   "rank": 8,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 77,
+   "score": -33.466
+  },
+  {
+   "rank": 9,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 88,
+   "score": -31.842
+  },
+  {
+   "rank": 10,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 75,
+   "score": -31.747
+  }
+ ],
+ "qid": "SH02"
+}

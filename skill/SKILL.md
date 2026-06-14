@@ -22,9 +22,15 @@ description: >-
 # World Road Geometric Design Standards
 
 > **STATUS: NACRT (v0.3).** Korpus ~19–21 zemlja (86 PDF, uklj. raskrsnice/čvorove + vitoperenje), audit i
-> popunjavanje praznina gotovi. Normalizovana baza vrednosti (Faza 3), benchmark (Faza 5) i analiza SRB
-> (Faza 6) tek predstoje (vidi [NACRT.md](NACRT.md)). Do tada radi preko `scripts/search.py`
-> (pretraga uživo nad PDF korpusom) + reference fajlova.
+> popunjavanje praznina gotovi. **Faza 5 (benchmark) je GOTOVA** (`../eval/BENCHMARK_REPORT.md`). Normalizovana
+> baza vrednosti (Faza 3) i analiza SRB (Faza 6) tek predstoje (vidi [NACRT.md](NACRT.md)). Do tada radi preko
+> `scripts/search.py` (pretraga uživo nad PDF korpusom) + reference fajlova.
+>
+> ⚠️ **Nalaz Faze 5 (bitno za retrieval):** `--concept` je *pregledač pojma*, ne per-pitanje retriever — vraća
+> iste strane bez obzira na konkretno pitanje (recall@10 0.13 vs 0.86 za keyword na jeziku dokumenta). Zato:
+> **ne oslanjaj se na `--concept` samo** — kombinuj termine pojma sa rečima iz konkretnog pitanja i na jeziku
+> ciljanog dokumenta, a za tačan/CJK termin koristi `--grep`. Detalji: `../eval/BENCHMARK_REPORT.md` §3–4,
+> popravke `../eval/glossary_improvements.md`.
 
 ## Čemu služi
 Odgovara na **uporedna** pitanja o geometrijskom projektovanju puteva: „kako više svetskih standarda
@@ -47,9 +53,12 @@ Sirovi PDF-ovi i manifesti su u `../road-geometric-standards/` (`MANIFEST.md`, `
    [reference/concept-taxonomy.md](reference/concept-taxonomy.md)
    (npr. „dužina prepleta" → `WEAVING`; „nagib krovastog vitoperenja na ulivnoj traci" → `SUPERELEVATION` + `MERGE_DIVERGE`).
 2. **Nađi izvore** → iz `standards-index.md` izaberi standarde koji pokrivaju pojam; pokreni
-   `python scripts/search.py --concept <POJAM> [--iso3 XXX]` da dobiješ tačne strane i isečke
+   `python scripts/search.py --concept <POJAM> [--iso3 XXX]` da dobiješ kandidat-strane i isečke
    (skripta koristi višejezične termine iz [reference/glossary.json](reference/glossary.json),
-   pa hvata i ne-engleske dokumente).
+   pa hvata i ne-engleske dokumente). **Ali (nalaz Faze 5):** `--concept` sam vraća iste „concept" strane za
+   svako pitanje — za KONKRETNU vrednost suzi pretragu rečima iz pitanja (`--iso3` na zemlju, `--lang` na jezik,
+   i/ili `--grep "<tačan termin>"` — obavezno za CJK). Tj. koristi `--concept` da nađeš koji standardi pokrivaju
+   pojam, pa `--grep`/ciljani upit da nađeš tačnu stranu.
 3. **Izvuci vrednost/pravilo** sa tačnom stranom; **normalizuj jedinice u SI** (m, %, km/h), uz original.
 4. **Sastavi uporedni odgovor** po formatu iz [reference/answer-format.md](reference/answer-format.md):
    kratka uporedna tabela + narativ + citati. **Eksplicitno reci gde standard ćuti** o pojmu.

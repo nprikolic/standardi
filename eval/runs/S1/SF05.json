@@ -1,0 +1,100 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "slovenian",
+  "tsc",
+  "300",
+  "dynamic",
+  "driving",
+  "condition",
+  "transition",
+  "curve",
+  "parameter",
+  "amin",
+  "determined"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 35,
+   "score": -23.269
+  },
+  {
+   "rank": 2,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 36,
+   "score": -23.125
+  },
+  {
+   "rank": 3,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 34,
+   "score": -22.904
+  },
+  {
+   "rank": 4,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 33,
+   "score": -22.886
+  },
+  {
+   "rank": 5,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 9,
+   "score": -22.025
+  },
+  {
+   "rank": 6,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 31,
+   "score": -21.09
+  },
+  {
+   "rank": 7,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 249,
+   "score": -19.976
+  },
+  {
+   "rank": 8,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 198,
+   "score": -18.919
+  },
+  {
+   "rank": 9,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 201,
+   "score": -18.083
+  },
+  {
+   "rank": 10,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 35,
+   "score": -17.845
+  }
+ ],
+ "qid": "SF05"
+}

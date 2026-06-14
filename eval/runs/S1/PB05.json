@@ -1,0 +1,100 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "spanish",
+  "norma",
+  "transverse",
+  "slope",
+  "bombeo",
+  "used",
+  "straight",
+  "sections",
+  "evacuate",
+  "surface",
+  "water"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-6-cross-section",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 11,
+   "score": -23.334
+  },
+  {
+   "rank": 2,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 75,
+   "score": -20.913
+  },
+  {
+   "rank": 3,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-glossary",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 21,
+   "score": -20.395
+  },
+  {
+   "rank": 4,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 408,
+   "score": -20.21
+  },
+  {
+   "rank": 5,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 427,
+   "score": -19.07
+  },
+  {
+   "rank": 6,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 45,
+   "score": -18.997
+  },
+  {
+   "rank": 7,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-6-cross-section",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 12,
+   "score": -18.672
+  },
+  {
+   "rank": 8,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-7-roadside-features",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 30,
+   "score": -18.444
+  },
+  {
+   "rank": 9,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 100,
+   "score": -18.439
+  },
+  {
+   "rank": 10,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 174,
+   "score": -18.33
+  }
+ ],
+ "qid": "PB05"
+}

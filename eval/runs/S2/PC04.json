@@ -1,0 +1,99 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "dmrb",
+  "109",
+  "longitudinal",
+  "gradient",
+  "should",
+  "maintained",
+  "wherever",
+  "superelevation",
+  "applied",
+  "reversed"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 22,
+   "score": -33.203
+  },
+  {
+   "rank": 2,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 43,
+   "score": -27.603
+  },
+  {
+   "rank": 3,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 98,
+   "score": -26.988
+  },
+  {
+   "rank": 4,
+   "doc_id": "GBR_DMRB-CD109::CD116_Geometric_design_of_roundabouts",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 74,
+   "score": -25.232
+  },
+  {
+   "rank": 5,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 113,
+   "score": -23.751
+  },
+  {
+   "rank": 6,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 24,
+   "score": -22.898
+  },
+  {
+   "rank": 7,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 45,
+   "score": -20.53
+  },
+  {
+   "rank": 8,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 37,
+   "score": -20.073
+  },
+  {
+   "rank": 9,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 42,
+   "score": -19.871
+  },
+  {
+   "rank": 10,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 73,
+   "score": -19.731
+  }
+ ],
+ "qid": "PC04"
+}

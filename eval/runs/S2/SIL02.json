@@ -1,0 +1,102 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "weaving",
+  "section",
+  "length",
+  "does",
+  "afghanistan",
+  "lvrr",
+  "vol",
+  "geometric",
+  "design",
+  "manual",
+  "specify",
+  "motorway",
+  "interchanges"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 78,
+   "score": -24.09
+  },
+  {
+   "rank": 2,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 39,
+   "score": -22.921
+  },
+  {
+   "rank": 3,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 957,
+   "score": -22.817
+  },
+  {
+   "rank": 4,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-appendix-a-b",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 2,
+   "score": -22.765
+  },
+  {
+   "rank": 5,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 28,
+   "score": -22.474
+  },
+  {
+   "rank": 6,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 145,
+   "score": -21.797
+  },
+  {
+   "rank": 7,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 244,
+   "score": -21.59
+  },
+  {
+   "rank": 8,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 10,
+   "score": -21.065
+  },
+  {
+   "rank": 9,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 90,
+   "score": -20.884
+  },
+  {
+   "rank": 10,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-appendix-a-b",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 15,
+   "score": -20.777
+  }
+ ],
+ "qid": "SIL02"
+}

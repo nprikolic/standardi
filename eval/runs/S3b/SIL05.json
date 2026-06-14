@@ -1,0 +1,99 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "tunnel",
+  "ventilation",
+  "requirements",
+  "does",
+  "dmrb",
+  "109",
+  "highway",
+  "link",
+  "design",
+  "specify"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 460,
+   "score": -22.031
+  },
+  {
+   "rank": 2,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 72,
+   "score": -21.208
+  },
+  {
+   "rank": 3,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 69,
+   "score": -21.13
+  },
+  {
+   "rank": 4,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 90,
+   "score": -19.762
+  },
+  {
+   "rank": 5,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 76,
+   "score": -19.739
+  },
+  {
+   "rank": 6,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 9,
+   "score": -19.729
+  },
+  {
+   "rank": 7,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 1,
+   "score": -19.37
+  },
+  {
+   "rank": 8,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 86,
+   "score": -19.252
+  },
+  {
+   "rank": 9,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 463,
+   "score": -19.169
+  },
+  {
+   "rank": 10,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 5,
+   "score": -19.139
+  }
+ ],
+ "qid": "SIL05"
+}

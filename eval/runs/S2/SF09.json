@@ -1,0 +1,104 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "secondo",
+  "6792",
+  "2001",
+  "valore",
+  "minimo",
+  "parametro",
+  "clotoide",
+  "amin",
+  "funzione",
+  "italian",
+  "clothoid",
+  "parameter",
+  "function",
+  "design",
+  "speed"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 71,
+   "score": -46.464
+  },
+  {
+   "rank": 2,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 72,
+   "score": -31.553
+  },
+  {
+   "rank": 3,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 73,
+   "score": -27.588
+  },
+  {
+   "rank": 4,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 58,
+   "score": -24.93
+  },
+  {
+   "rank": 5,
+   "doc_id": "ITA_DM-intersezioni-2006::ITA_DM-intersezioni-2006",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 1,
+   "score": -24.091
+  },
+  {
+   "rank": 6,
+   "doc_id": "ESP_OC-32-2012-nudos::OC-32-2012-nudos",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 167,
+   "score": -23.354
+  },
+  {
+   "rank": 7,
+   "doc_id": "ITA_DM-intersezioni-2006::ITA_DM-intersezioni-2006",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 14,
+   "score": -22.644
+  },
+  {
+   "rank": 8,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 70,
+   "score": -21.996
+  },
+  {
+   "rank": 9,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 69,
+   "score": -20.425
+  },
+  {
+   "rank": 10,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 35,
+   "score": -18.701
+  }
+ ],
+ "qid": "SF09"
+}

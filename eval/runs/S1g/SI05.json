@@ -1,0 +1,139 @@
+{
+ "system": "S1G",
+ "query_terms": [
+  "polish",
+  "junction",
+  "guidelines",
+  "define",
+  "ramp",
+  "connector",
+  "łącznica",
+  "within",
+  "interchange",
+  "grade separated junction",
+  "grade-separated",
+  "free-flow junction",
+  "denivelisana raskrsnica",
+  "petlja",
+  "denivelisani čvor",
+  "денивелисана раскрсница",
+  "петља",
+  "денивелисани чвор",
+  "denivelirani čvor",
+  "denivelirano križanje",
+  "čvorište",
+  "izvennivojsko križišče",
+  "razcep",
+  "priključek",
+  "planfreier knotenpunkt",
+  "autobahnkreuz",
+  "autobahndreieck",
+  "anschlussstelle",
+  "enlace",
+  "nudo",
+  "intercambiador",
+  "interconexão",
+  "entroncamento",
+  "trevo",
+  "svincolo",
+  "interconnessione",
+  "échangeur",
+  "carrefour dénivelé",
+  "bifurcation",
+  "trafikplats",
+  "planskild korsning",
+  "węzeł",
+  "węzeł drogowy",
+  "skrzyżowanie bezkolizyjne",
+  "입체교차로",
+  "인터체인지",
+  "インターチェンジ",
+  "立体交差",
+  "立交",
+  "互通式立交"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 8,
+   "score": -34.6
+  },
+  {
+   "rank": 2,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 12,
+   "score": -30.238
+  },
+  {
+   "rank": 3,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 9,
+   "score": -28.447
+  },
+  {
+   "rank": 4,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 16,
+   "score": -26.789
+  },
+  {
+   "rank": 5,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 141,
+   "score": -26.776
+  },
+  {
+   "rank": 6,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 120,
+   "score": -26.772
+  },
+  {
+   "rank": 7,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 137,
+   "score": -26.185
+  },
+  {
+   "rank": 8,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 28,
+   "score": -25.898
+  },
+  {
+   "rank": 9,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 45,
+   "score": -25.77
+  },
+  {
+   "rank": 10,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 123,
+   "score": -25.139
+  }
+ ],
+ "qid": "SI05"
+}

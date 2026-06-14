@@ -1,0 +1,107 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "under",
+  "korea",
+  "rules",
+  "structure",
+  "facilities",
+  "standards",
+  "roads",
+  "art",
+  "longitudinal",
+  "gradient",
+  "expressway",
+  "flat",
+  "versus",
+  "mountainous",
+  "terrain",
+  "고속국도",
+  "평지",
+  "산지등"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021",
+   "iso3": "KOR",
+   "lang": "ko,en",
+   "page": 323,
+   "score": -33.626
+  },
+  {
+   "rank": 2,
+   "doc_id": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021",
+   "iso3": "KOR",
+   "lang": "ko,en",
+   "page": 47,
+   "score": -30.366
+  },
+  {
+   "rank": 3,
+   "doc_id": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021",
+   "iso3": "KOR",
+   "lang": "ko,en",
+   "page": 48,
+   "score": -29.801
+  },
+  {
+   "rank": 4,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 50,
+   "score": -24.663
+  },
+  {
+   "rank": 5,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 43,
+   "score": -24.419
+  },
+  {
+   "rank": 6,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 54,
+   "score": -23.986
+  },
+  {
+   "rank": 7,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 124,
+   "score": -23.367
+  },
+  {
+   "rank": 8,
+   "doc_id": "WB_TP496::WB_TP496_Design_Appraisal_Rural_Transport_Infrastructure",
+   "iso3": "MODEL",
+   "lang": "en",
+   "page": 51,
+   "score": -23.216
+  },
+  {
+   "rank": 9,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 48,
+   "score": -23.092
+  },
+  {
+   "rank": 10,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 91,
+   "score": -22.718
+  }
+ ],
+ "qid": "SG03"
+}

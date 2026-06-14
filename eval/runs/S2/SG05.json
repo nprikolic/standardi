@@ -1,0 +1,100 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "china",
+  "jtg",
+  "d20",
+  "2017",
+  "table",
+  "longitudinal",
+  "grade",
+  "classified",
+  "highway",
+  "design",
+  "speed"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 6,
+   "score": -45.46
+  },
+  {
+   "rank": 2,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 1,
+   "score": -45.365
+  },
+  {
+   "rank": 3,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 2,
+   "score": -42.441
+  },
+  {
+   "rank": 4,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 4,
+   "score": -33.907
+  },
+  {
+   "rank": 5,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 211,
+   "score": -30.08
+  },
+  {
+   "rank": 6,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 8,
+   "score": -29.548
+  },
+  {
+   "rank": 7,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 243,
+   "score": -21.319
+  },
+  {
+   "rank": 8,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 70,
+   "score": -20.881
+  },
+  {
+   "rank": 9,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 163,
+   "score": -20.442
+  },
+  {
+   "rank": 10,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 151,
+   "score": -19.499
+  }
+ ],
+ "qid": "SG05"
+}

@@ -1,0 +1,103 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "slovenian",
+  "tsc",
+  "300",
+  "road",
+  "section",
+  "raised",
+  "kerb",
+  "gutter",
+  "longitudinal",
+  "gradient",
+  "smin",
+  "grade",
+  "line",
+  "determined"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 43,
+   "score": -24.768
+  },
+  {
+   "rank": 2,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-5-vertical-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 2,
+   "score": -24.586
+  },
+  {
+   "rank": 3,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 45,
+   "score": -23.031
+  },
+  {
+   "rank": 4,
+   "doc_id": "DEU_FGSV::RASt_FGSV200_Urban-Roads_EN_2006-tr2012",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 77,
+   "score": -22.618
+  },
+  {
+   "rank": 5,
+   "doc_id": "WB_TP496::WB_TP496_Design_Appraisal_Rural_Transport_Infrastructure",
+   "iso3": "MODEL",
+   "lang": "en",
+   "page": 49,
+   "score": -22.45
+  },
+  {
+   "rank": 6,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 44,
+   "score": -21.47
+  },
+  {
+   "rank": 7,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 189,
+   "score": -21.456
+  },
+  {
+   "rank": 8,
+   "doc_id": "IRL_TII-DN-GEO-03036::DN-GEO-03036-09",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 48,
+   "score": -20.669
+  },
+  {
+   "rank": 9,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 24,
+   "score": -20.655
+  },
+  {
+   "rank": 10,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 73,
+   "score": -20.592
+  }
+ ],
+ "qid": "PA05"
+}

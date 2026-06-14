@@ -1,0 +1,99 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "spanish",
+  "roads",
+  "superelevation",
+  "does",
+  "norma",
+  "set",
+  "design",
+  "speed",
+  "radius",
+  "relationship"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 379,
+   "score": -25.948
+  },
+  {
+   "rank": 2,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-2-basic-design-criteria",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 22,
+   "score": -25.749
+  },
+  {
+   "rank": 3,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 193,
+   "score": -25.565
+  },
+  {
+   "rank": 4,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-2-basic-design-criteria",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 21,
+   "score": -23.949
+  },
+  {
+   "rank": 5,
+   "doc_id": "ZAF_TRH26-UTG::UTG1-1986-Urban-Arterials",
+   "iso3": "ZAF",
+   "lang": "en",
+   "page": 61,
+   "score": -22.456
+  },
+  {
+   "rank": 6,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 13,
+   "score": -21.206
+  },
+  {
+   "rank": 7,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-4-horizontal-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 25,
+   "score": -20.781
+  },
+  {
+   "rank": 8,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-4-horizontal-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 29,
+   "score": -20.46
+  },
+  {
+   "rank": 9,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 194,
+   "score": -20.414
+  },
+  {
+   "rank": 10,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-4-horizontal-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 26,
+   "score": -20.324
+  }
+ ],
+ "qid": "SH01"
+}

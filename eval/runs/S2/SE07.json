@@ -1,0 +1,119 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "enligt",
+  "vgu",
+  "för",
+  "horisontalkurva",
+  "lokalnätsgata",
+  "spårväg",
+  "blandtrafik",
+  "lågt",
+  "får",
+  "vdim",
+  "sättas",
+  "förhållande",
+  "till",
+  "referenshastigheten",
+  "swedish",
+  "horizontal",
+  "curve",
+  "local",
+  "network",
+  "street",
+  "tramway",
+  "mixed",
+  "traffic",
+  "low",
+  "may",
+  "design",
+  "speed",
+  "set",
+  "relative",
+  "reference"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "SWE_VGU::VGU_Krav_Publikation2022-001",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 154,
+   "score": -64.498
+  },
+  {
+   "rank": 2,
+   "doc_id": "SWE_VGU::VGU_Krav_med_radstext_TRVINFRA-00396_v1_0",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 336,
+   "score": -60.759
+  },
+  {
+   "rank": 3,
+   "doc_id": "SWE_VGU::VGU_Krav_med_radstext_TRVINFRA-00396_v1_0",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 349,
+   "score": -33.26
+  },
+  {
+   "rank": 4,
+   "doc_id": "SWE_VGU::VGU_Krav_med_radstext_TRVINFRA-00396_v1_0",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 335,
+   "score": -32.44
+  },
+  {
+   "rank": 5,
+   "doc_id": "SWE_VGU::VGU_Krav_Publikation2022-001",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 44,
+   "score": -30.952
+  },
+  {
+   "rank": 6,
+   "doc_id": "SWE_VGU::VGU_Krav_Publikation2022-001",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 14,
+   "score": -30.724
+  },
+  {
+   "rank": 7,
+   "doc_id": "SWE_VGU::VGU_Rad_Publikation2022-003",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 14,
+   "score": -30.7
+  },
+  {
+   "rank": 8,
+   "doc_id": "SWE_VGU::VGU_Krav_Publikation2022-001",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 46,
+   "score": -30.643
+  },
+  {
+   "rank": 9,
+   "doc_id": "SWE_VGU::VGU_Krav_Publikation2022-001",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 153,
+   "score": -30.591
+  },
+  {
+   "rank": 10,
+   "doc_id": "SWE_VGU::VGU_Krav_Publikation2022-001",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 162,
+   "score": -30.043
+  }
+ ],
+ "qid": "SE07"
+}

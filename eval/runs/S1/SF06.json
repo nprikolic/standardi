@@ -1,0 +1,102 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "polish",
+  "recommended",
+  "circular",
+  "curve",
+  "radii",
+  "plan",
+  "ensuring",
+  "headlight",
+  "visibility",
+  "design",
+  "speeds",
+  "vdp",
+  "100"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 33,
+   "score": -29.818
+  },
+  {
+   "rank": 2,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 108,
+   "score": -26.445
+  },
+  {
+   "rank": 3,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 99,
+   "score": -25.844
+  },
+  {
+   "rank": 4,
+   "doc_id": "SADC_LVSR::gtkp_part1",
+   "iso3": "MODEL",
+   "lang": "en",
+   "page": 110,
+   "score": -25.459
+  },
+  {
+   "rank": 5,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-4-horizontal-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 4,
+   "score": -23.829
+  },
+  {
+   "rank": 6,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-4-horizontal-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 5,
+   "score": -22.265
+  },
+  {
+   "rank": 7,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 42,
+   "score": -21.936
+  },
+  {
+   "rank": 8,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-4-horizontal-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 8,
+   "score": -21.661
+  },
+  {
+   "rank": 9,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 201,
+   "score": -21.531
+  },
+  {
+   "rank": 10,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 181,
+   "score": -20.813
+  }
+ ],
+ "qid": "SF06"
+}

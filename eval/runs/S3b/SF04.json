@@ -1,0 +1,110 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "according",
+  "croatian",
+  "regulation",
+  "110",
+  "2001",
+  "permitted",
+  "radii",
+  "rmin",
+  "circular",
+  "curve",
+  "design",
+  "speeds",
+  "130",
+  "prema",
+  "hrvatskom",
+  "propisu",
+  "najmanji",
+  "dopušteni",
+  "polumjeri",
+  "projektne",
+  "brzine"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 19,
+   "score": -48.919
+  },
+  {
+   "rank": 2,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 7,
+   "score": -48.269
+  },
+  {
+   "rank": 3,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 13,
+   "score": -45.177
+  },
+  {
+   "rank": 4,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 31,
+   "score": -32.318
+  },
+  {
+   "rank": 5,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 15,
+   "score": -29.637
+  },
+  {
+   "rank": 6,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 16,
+   "score": -28.052
+  },
+  {
+   "rank": 7,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 12,
+   "score": -27.939
+  },
+  {
+   "rank": 8,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 34,
+   "score": -26.032
+  },
+  {
+   "rank": 9,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 94,
+   "score": -24.581
+  },
+  {
+   "rank": 10,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 108,
+   "score": -24.435
+  }
+ ],
+ "qid": "SF04"
+}

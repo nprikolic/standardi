@@ -1,0 +1,40 @@
+{
+ "qid": "PD01",
+ "question": "In the Swedish VGU requirements, where should a superelevation runoff (skevningsövergång) be located, and what minimum longitudinal grade of the profile plane applies there to ensure drainage?",
+ "is_silent": false,
+ "ground_truth": [
+  {
+   "doc_id": "SWE_VGU::VGU_Krav_med_radstext_TRVINFRA-00396_v1_0",
+   "page": 309,
+   "value": "Runoff placed where the profile plane longitudinal grade >= 1,0 % to ensure effective drainage of the whole carriageway.",
+   "quote": "profilplanets längslutning är större eller lika med 1,0 % för att säkerställa effektiv"
+  }
+ ],
+ "candidates": [
+  {
+   "label": "A",
+   "answer": "Min longitudinal grade of the profile at a runoff ~0.5% (uncertain).",
+   "citation": "VGU Sweden (no page)"
+  },
+  {
+   "label": "B",
+   "answer": "Skevningsövergang placed where profile-plane longitudinal grade >= 1.0% to ensure drainage.",
+   "citation": "SWE_VGU::VGU_Krav_med_radstext_TRVINFRA-00396_v1_0 p.309"
+  },
+  {
+   "label": "C",
+   "answer": "Skevningsövergang placed where profile-plane longitudinal grade >= 1.0%; not where < 0.5%.",
+   "citation": "SWE_VGU::VGU_Krav_med_radstext_TRVINFRA-00396_v1_0 p.309"
+  },
+  {
+   "label": "D",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "E",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  }
+ ]
+}

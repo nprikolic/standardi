@@ -1,0 +1,96 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "brazilian",
+  "deceleration",
+  "lane",
+  "length",
+  "table",
+  "tabela",
+  "rule"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 788,
+   "score": -18.623
+  },
+  {
+   "rank": 2,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 147,
+   "score": -17.948
+  },
+  {
+   "rank": 3,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 117,
+   "score": -17.848
+  },
+  {
+   "rank": 4,
+   "doc_id": "DEU_FGSV::RASt_FGSV200_Urban-Roads_EN_2006-tr2012",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 107,
+   "score": -17.834
+  },
+  {
+   "rank": 5,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 1001,
+   "score": -17.309
+  },
+  {
+   "rank": 6,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 783,
+   "score": -17.068
+  },
+  {
+   "rank": 7,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 784,
+   "score": -16.919
+  },
+  {
+   "rank": 8,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 997,
+   "score": -16.733
+  },
+  {
+   "rank": 9,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 69,
+   "score": -16.501
+  },
+  {
+   "rank": 10,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 782,
+   "score": -16.077
+  }
+ ],
+ "qid": "SI06"
+}

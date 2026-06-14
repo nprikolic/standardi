@@ -1,0 +1,105 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "curbed",
+  "highways",
+  "streets",
+  "longitudinal",
+  "grade",
+  "does",
+  "aashto",
+  "green",
+  "book",
+  "recommend",
+  "low",
+  "may",
+  "properly",
+  "sloped",
+  "paved",
+  "surface"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 328,
+   "score": -31.585
+  },
+  {
+   "rank": 2,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 1,
+   "score": -27.462
+  },
+  {
+   "rank": 3,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 763,
+   "score": -26.608
+  },
+  {
+   "rank": 4,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 285,
+   "score": -26.078
+  },
+  {
+   "rank": 5,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 408,
+   "score": -25.84
+  },
+  {
+   "rank": 6,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 415,
+   "score": -24.096
+  },
+  {
+   "rank": 7,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 414,
+   "score": -23.943
+  },
+  {
+   "rank": 8,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 600,
+   "score": -23.484
+  },
+  {
+   "rank": 9,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 558,
+   "score": -22.526
+  },
+  {
+   "rank": 10,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 356,
+   "score": -21.752
+  }
+ ],
+ "qid": "PC01"
+}

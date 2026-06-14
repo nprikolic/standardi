@@ -1,0 +1,102 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "slovenian",
+  "rulebook",
+  "road",
+  "design",
+  "longitudinal",
+  "gradient",
+  "ditch",
+  "bottom",
+  "trapezoidal",
+  "grassed",
+  "versus",
+  "paved",
+  "surfaces"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-7-roadside-features",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 1,
+   "score": -29.748
+  },
+  {
+   "rank": 2,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-7-roadside-features",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 4,
+   "score": -23.083
+  },
+  {
+   "rank": 3,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 106,
+   "score": -21.287
+  },
+  {
+   "rank": 4,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 80,
+   "score": -20.183
+  },
+  {
+   "rank": 5,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-7-roadside-features",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 3,
+   "score": -20.074
+  },
+  {
+   "rank": 6,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-7-roadside-features",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 2,
+   "score": -19.965
+  },
+  {
+   "rank": 7,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 42,
+   "score": -19.879
+  },
+  {
+   "rank": 8,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 52,
+   "score": -19.257
+  },
+  {
+   "rank": 9,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 79,
+   "score": -19.093
+  },
+  {
+   "rank": 10,
+   "doc_id": "NZL_Austroads-NZTA::NZTA_TM-2503_edge-protection-medians",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 7,
+   "score": -18.79
+  }
+ ],
+ "qid": "PA04"
+}

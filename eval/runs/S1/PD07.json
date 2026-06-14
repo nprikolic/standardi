@@ -1,0 +1,108 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "korean",
+  "road",
+  "structure",
+  "rules",
+  "when",
+  "superelevation",
+  "runoff",
+  "length",
+  "extended",
+  "more",
+  "than",
+  "two",
+  "superelevated",
+  "lanes",
+  "must",
+  "sufficiently",
+  "considered",
+  "regarding",
+  "surface"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 34,
+   "score": -35.135
+  },
+  {
+   "rank": 2,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-4-horizontal-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 16,
+   "score": -33.619
+  },
+  {
+   "rank": 3,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 204,
+   "score": -32.926
+  },
+  {
+   "rank": 4,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 136,
+   "score": -31.177
+  },
+  {
+   "rank": 5,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 182,
+   "score": -30.841
+  },
+  {
+   "rank": 6,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 202,
+   "score": -30.436
+  },
+  {
+   "rank": 7,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 97,
+   "score": -30.22
+  },
+  {
+   "rank": 8,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 81,
+   "score": -29.902
+  },
+  {
+   "rank": 9,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 102,
+   "score": -29.859
+  },
+  {
+   "rank": 10,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-4-horizontal-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 15,
+   "score": -29.802
+  }
+ ],
+ "qid": "PD07"
+}

@@ -1,0 +1,33 @@
+{
+ "qid": "SIL04",
+ "question": "What minimum horizontal radius does the Serbian Pravilnik (50/11) specify for tram/railway tracks?",
+ "is_silent": true,
+ "ground_truth": "NO VALUE EXISTS IN THE CORPUS — correct answer = state it is not specified/out of scope.",
+ "candidates": [
+  {
+   "label": "A",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "B",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "C",
+   "answer": "Not specified: 50/11 governs roads, not tram/railway track radii.",
+   "citation": "Pravilnik 50/11 (no page)"
+  },
+  {
+   "label": "D",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "E",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  }
+ ]
+}

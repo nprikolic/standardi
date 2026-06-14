@@ -1,0 +1,152 @@
+{
+  "subset_n_nonsilent": 9,
+  "subset_n_silent": 3,
+  "per_system": {
+    "S0": {
+      "nonsilent": {
+        "partially": 3,
+        "correct": 4,
+        "wrong": 2
+      },
+      "ans_acc_nonsilent": 0.611,
+      "silent": {
+        "correct": 3
+      },
+      "silent_correct": 3
+    },
+    "S1": {
+      "nonsilent": {
+        "missing": 7,
+        "partially": 1,
+        "correct": 1
+      },
+      "ans_acc_nonsilent": 0.167,
+      "silent": {
+        "correct": 3
+      },
+      "silent_correct": 3
+    },
+    "S2": {
+      "nonsilent": {
+        "missing": 4,
+        "partially": 1,
+        "correct": 4
+      },
+      "ans_acc_nonsilent": 0.5,
+      "silent": {
+        "correct": 3
+      },
+      "silent_correct": 3
+    },
+    "S3": {
+      "nonsilent": {
+        "partially": 1,
+        "missing": 7,
+        "correct": 1
+      },
+      "ans_acc_nonsilent": 0.167,
+      "silent": {
+        "correct": 3
+      },
+      "silent_correct": 3
+    },
+    "S4": {
+      "nonsilent": {
+        "missing": 3,
+        "partially": 2,
+        "correct": 4
+      },
+      "ans_acc_nonsilent": 0.556,
+      "silent": {
+        "correct": 3
+      },
+      "silent_correct": 3
+    }
+  },
+  "per_question": {
+    "P001": {
+      "S4": "missing",
+      "S2": "missing",
+      "S0": "partially",
+      "S3": "partially",
+      "S1": "missing"
+    },
+    "PB03": {
+      "S1": "partially",
+      "S4": "partially",
+      "S0": "partially",
+      "S3": "missing",
+      "S2": "partially"
+    },
+    "PC01": {
+      "S1": "missing",
+      "S2": "missing",
+      "S4": "partially",
+      "S3": "missing",
+      "S0": "correct"
+    },
+    "PD06": {
+      "S4": "correct",
+      "S0": "correct",
+      "S1": "missing",
+      "S3": "missing",
+      "S2": "correct"
+    },
+    "PD01": {
+      "S0": "wrong",
+      "S4": "correct",
+      "S2": "correct",
+      "S3": "missing",
+      "S1": "missing"
+    },
+    "PA07": {
+      "S4": "missing",
+      "S0": "partially",
+      "S3": "missing",
+      "S2": "missing",
+      "S1": "missing"
+    },
+    "SF02": {
+      "S0": "wrong",
+      "S4": "missing",
+      "S2": "missing",
+      "S3": "missing",
+      "S1": "missing"
+    },
+    "SH01": {
+      "S2": "correct",
+      "S4": "correct",
+      "S3": "missing",
+      "S0": "correct",
+      "S1": "missing"
+    },
+    "SI02": {
+      "S2": "correct",
+      "S3": "correct",
+      "S0": "correct",
+      "S1": "correct",
+      "S4": "correct"
+    },
+    "SIL01": {
+      "S1": "correct",
+      "S4": "correct",
+      "S3": "correct",
+      "S2": "correct",
+      "S0": "correct"
+    },
+    "SIL03": {
+      "S2": "correct",
+      "S0": "correct",
+      "S4": "correct",
+      "S3": "correct",
+      "S1": "correct"
+    },
+    "SIL04": {
+      "S1": "correct",
+      "S4": "correct",
+      "S0": "correct",
+      "S3": "correct",
+      "S2": "correct"
+    }
+  }
+}

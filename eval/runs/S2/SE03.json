@@ -1,0 +1,101 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "under",
+  "japanese",
+  "road",
+  "structure",
+  "ordinance",
+  "art",
+  "sight",
+  "distance",
+  "design",
+  "speed",
+  "100",
+  "道路構造令第十九条により、設計速度が一〇〇キロメートルのとき、視距は何メートル以上必要か。"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 987,
+   "score": -19.761
+  },
+  {
+   "rank": 2,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-glossary",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 26,
+   "score": -19.032
+  },
+  {
+   "rank": 3,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 733,
+   "score": -18.726
+  },
+  {
+   "rank": 4,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 65,
+   "score": -18.4
+  },
+  {
+   "rank": 5,
+   "doc_id": "ZAF_TRH26-UTG::UTG1-1986-Urban-Arterials",
+   "iso3": "ZAF",
+   "lang": "en",
+   "page": 28,
+   "score": -18.127
+  },
+  {
+   "rank": 6,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 66,
+   "score": -18.118
+  },
+  {
+   "rank": 7,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 943,
+   "score": -17.82
+  },
+  {
+   "rank": 8,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 375,
+   "score": -17.619
+  },
+  {
+   "rank": 9,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 526,
+   "score": -17.587
+  },
+  {
+   "rank": 10,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 107,
+   "score": -17.478
+  }
+ ],
+ "qid": "SE03"
+}

@@ -1,0 +1,40 @@
+{
+ "qid": "PC01",
+ "question": "On curbed highways or streets, what minimum longitudinal grade does the AASHTO Green Book recommend, and how low may it go on a properly sloped paved surface?",
+ "is_silent": false,
+ "ground_truth": [
+  {
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "page": 328,
+   "value": "Minimum grade typically 0.5 percent; 0.30 percent may be used where there is a paved surface accurately sloped.",
+   "quote": "is typically 0.5 percent, but grades of 0.30 percent may be used where there is a paved surface"
+  }
+ ],
+ "candidates": [
+  {
+   "label": "A",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "B",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "C",
+   "answer": "Green Book: desirable min grade 0.3% minimum (0.5% for curbed) — curbed clause partly truncated.",
+   "citation": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018 p.600"
+  },
+  {
+   "label": "D",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "E",
+   "answer": "Min 0.5% on curbed pavements; may reduce to 0.3% on a properly sloped paved surface.",
+   "citation": "AASHTO Green Book (no page)"
+  }
+ ]
+}

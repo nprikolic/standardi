@@ -1,0 +1,113 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "serbian",
+  "srdm",
+  "grade",
+  "separated",
+  "junctions",
+  "manual",
+  "weaving",
+  "lane",
+  "length",
+  "must",
+  "possible",
+  "provide",
+  "cloverleaf",
+  "option",
+  "acceptable",
+  "minimalna",
+  "dužina",
+  "trake",
+  "preplitanje",
+  "koju",
+  "mora",
+  "biti",
+  "moguće",
+  "obezbediti"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "SRB_SRDM::SRDM5-2-denivelisane-raskrsnice",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 40,
+   "score": -40.171
+  },
+  {
+   "rank": 2,
+   "doc_id": "SRB_SRDM::SRDM5-2-denivelisane-raskrsnice",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 41,
+   "score": -39.471
+  },
+  {
+   "rank": 3,
+   "doc_id": "SRB_SRDM::SRDM5-1-raskrsnice-i-prikljuci-u-nivou",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 35,
+   "score": -37.411
+  },
+  {
+   "rank": 4,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 141,
+   "score": -35.663
+  },
+  {
+   "rank": 5,
+   "doc_id": "SRB_SRDM::SRDM5-2-denivelisane-raskrsnice",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 10,
+   "score": -32.97
+  },
+  {
+   "rank": 6,
+   "doc_id": "SRB_SRDM::SRDM5-2-denivelisane-raskrsnice",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 36,
+   "score": -31.74
+  },
+  {
+   "rank": 7,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 147,
+   "score": -31.677
+  },
+  {
+   "rank": 8,
+   "doc_id": "SRB_SRDM::SRDM5-2-denivelisane-raskrsnice",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 15,
+   "score": -31.093
+  },
+  {
+   "rank": 9,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 145,
+   "score": -29.926
+  },
+  {
+   "rank": 10,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 90,
+   "score": -29.447
+  }
+ ],
+ "qid": "SI07"
+}

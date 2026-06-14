@@ -1,0 +1,40 @@
+{
+ "qid": "SI02",
+ "question": "On Rural Motorways and Type 1 Dual Carriageway National Roads, what is the Desirable Minimum weaving length between grade-separated junctions?",
+ "is_silent": false,
+ "ground_truth": [
+  {
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "page": 145,
+   "value": "Desirable Minimum weaving length between grade-separated junctions = 2 km.",
+   "quote": "length between grade separated junctions shall be 2km."
+  }
+ ],
+ "candidates": [
+  {
+   "label": "A",
+   "answer": "Desirable Minimum weaving length = 2km.",
+   "citation": "IRL_TII-junctions::DN-GEO-03060-03 p.145"
+  },
+  {
+   "label": "B",
+   "answer": "Desirable Minimum weaving length = 2km.",
+   "citation": "IRL_TII-junctions::DN-GEO-03060-03 p.145"
+  },
+  {
+   "label": "C",
+   "answer": "Desirable minimum weaving length 2 km (absolute min ~1 km) (uncertain).",
+   "citation": "TII / DMRB (no page)"
+  },
+  {
+   "label": "D",
+   "answer": "Desirable Minimum weaving length between grade separated junctions = 2km.",
+   "citation": "IRL_TII-junctions::DN-GEO-03060-03 p.145"
+  },
+  {
+   "label": "E",
+   "answer": "Desirable Minimum weaving length = 2km.",
+   "citation": "IRL_TII-junctions::DN-GEO-03060-03 p.145"
+  }
+ ]
+}

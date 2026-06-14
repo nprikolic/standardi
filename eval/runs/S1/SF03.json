@@ -1,0 +1,109 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "under",
+  "radius",
+  "condition",
+  "does",
+  "serbian",
+  "pravilnik",
+  "permit",
+  "use",
+  "vertex",
+  "apex",
+  "clothoid",
+  "where",
+  "whole",
+  "curve",
+  "two",
+  "transition",
+  "curves",
+  "zero",
+  "circular",
+  "arc"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 272,
+   "score": -44.358
+  },
+  {
+   "rank": 2,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 31,
+   "score": -44.28
+  },
+  {
+   "rank": 3,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-4-horizontal-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 8,
+   "score": -39.848
+  },
+  {
+   "rank": 4,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 35,
+   "score": -39.144
+  },
+  {
+   "rank": 5,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-2-basic-design-criteria",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 23,
+   "score": -38.663
+  },
+  {
+   "rank": 6,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 259,
+   "score": -37.603
+  },
+  {
+   "rank": 7,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 34,
+   "score": -36.651
+  },
+  {
+   "rank": 8,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 359,
+   "score": -36.507
+  },
+  {
+   "rank": 9,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 318,
+   "score": -35.903
+  },
+  {
+   "rank": 10,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-4-horizontal-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 9,
+   "score": -35.348
+  }
+ ],
+ "qid": "SF03"
+}

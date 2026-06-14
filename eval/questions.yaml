@@ -1,0 +1,1131 @@
+# Phase-5 benchmark question bank — FROZEN ground-truth (built from corpus, pre-systems).
+# Every `quote` is verified literally present on the cited page by verify_groundtruth.py.
+# Built by independent fan-out agents (query.py + page.py grounding) + author seed/spot-check.
+# Schema: qid, topic(primary|secondary|silent), concept, question_en, question_local?,
+#         lang, iso3, expected:[{doc_id,page,value,quote<=200ch}], difficulty, is_silent
+
+# ============================ PRIMARY — author seed ==============================
+- qid: P001
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "Under the Serbian Pravilnik (50/11), how is the minimum longitudinal grade of the vertical alignment (min iN) determined, and what value applies when the road is in cut with longitudinal ditch drainage?"
+  question_local: "Kako se prema Pravilniku (50/11) određuje minimalni nagib nivelete (min iN) i koja vrednost važi u useku sa podužnim vođenjem vode rigolama?"
+  lang: sr
+  iso3: SRB
+  expected:
+    - doc_id: "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full"
+      page: 63
+      value: "min iN determined from the drainage condition; min iN = 0% allowed if crossfall drains the surface; in cut with longitudinal drainage min iN >= 0.8 (1.0) %; condition iN - irv >= min ihid"
+      quote: "Минимални нагиб нивелете одређује се из услова одводњавања, при чему се пут може пројектовати и са хоризонталном нивелетом (min iN = 0 %)"
+  difficulty: medium
+  is_silent: false
+
+- qid: P002
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In the Serbian SRDM design manual, what equation governs the minimum longitudinal grade in the superelevation-runoff (vitoperenje) zone so that water still drains?"
+  question_local: "Koja jednačina u SRDM priručniku određuje veličinu minimalnog podužnog nagiba u zoni rampe vitoperenja radi odvodnjavanja?"
+  lang: sr
+  iso3: SRB
+  expected:
+    - doc_id: "SRB_SRDM::SRDM4-0-projektni-elementi-puta"
+      page: 85
+      value: "min longitudinal grade in runoff zone from iN - irv = min ihid (grade minus superelevation-runoff grade equals min hydraulic gradient)"
+      quote: "minimalni podužni nagib treba … oticanja vode preko uređaja za podužno"
+  difficulty: medium
+  is_silent: false
+
+# ===================== PRIMARY — Slavic / CEE (agent PA) ========================
+- qid: PA01
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In Croatian road design (NN 110/2001), what is required for the minimum longitudinal gradient of the grade line for a road with a gutter or raised kerb if smaller gradients must be used?"
+  question_local: "Što se mora primijeniti za najmanji uzdužni nagib nivelete kod ceste s rigolom ili uzdignutim rubnjakom ako se moraju predvidjeti manji nagibi?"
+  lang: hr
+  iso3: HRV
+  expected:
+    - doc_id: "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr"
+      page: 18
+      value: "If smaller gradients are unavoidable, special drainage devices must be applied (road with gutter/raised kerb)."
+      quote: "cesta s rigolom ili uzdignutim rubnjakom … moraju se primijeniti posebni uređaji za odvodnju."
+  difficulty: medium
+  is_silent: false
+
+- qid: PA02
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In Croatian NN 110/2001, within the superelevation-runoff (vitoperenje) zone where q < qmin, what minimum longitudinal gradient of the grade line is required?"
+  question_local: "U području vitoperenja, za q < qmin, koliki najmanji uzdužni nagib nivelete je propisan?"
+  lang: hr
+  iso3: HRV
+  expected:
+    - doc_id: "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr"
+      page: 18
+      value: "In the vitoperenje zone with q < qmin, s >= 3·Ds + 0,3 % (recommended 0,5 %)."
+      quote: "u području q < qmin"
+  difficulty: hard
+  is_silent: false
+
+- qid: PA03
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In the Croatian guidelines for roundabouts on state roads, what is the most common way of vertically guiding a roundabout that best achieves adequate surface drainage?"
+  question_local: "Koji je najčešći način visinskog vođenja kružnog raskrižja kojim se najlakše postiže odgovarajuće odvodnjavanje?"
+  lang: hr
+  iso3: HRV
+  expected:
+    - doc_id: "HRV_Smjernice-kruzna::HRV_Smjernice-kruzna-raskrizja_hrvatske-ceste"
+      page: 21
+      value: "An outward cross-slope of the circulatory carriageway is the most common method, by which adequate drainage is most easily achieved."
+      quote: "najlakše se postiže odgovarajuće odvodnjavanje"
+  difficulty: easy
+  is_silent: false
+
+- qid: PA04
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In the Slovenian Rulebook on road design, what minimum longitudinal gradient of the ditch bottom is required for a trapezoidal road ditch, for grassed versus paved surfaces?"
+  question_local: "Kolikšen je minimalni vzdolžni nagib dna cestnega jarka trapezne oblike za zatravljeno oziroma tlakovano površino?"
+  lang: sl
+  iso3: SVN
+  expected:
+    - doc_id: "SLO_Pravilnik-projektiranje-cest::SLO_Pravilnik-o-projektiranju-cest_NPB"
+      page: 28
+      value: "Trapezoidal road ditch: minimum bottom longitudinal gradient 0,5 % (grassed) or 0,3 % (paved)."
+      quote: "minimalni vzdolžni nagib dna 0,5% (zatravljena površina) oziroma 0,3% (tlakovana površina)"
+  difficulty: medium
+  is_silent: false
+
+- qid: PA05
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In Slovenian TSC 03.300, for a road section with a raised kerb or gutter, how is the minimum longitudinal gradient smin of the grade line determined?"
+  question_local: "Kako je določen najmanjši vzdolžni nagib nivelete smin v primeru uporabe dvignjenega robnika ali koritnice?"
+  lang: sl
+  iso3: SVN
+  expected:
+    - doc_id: "SVN_TSC::TSC_03_300_2003_geometrijski-elementi"
+      page: 47
+      value: "With a raised kerb or gutter, smin = Δsmin + min sodvod; with free outflow smin = Δsmin."
+      quote: "smin = ∆smin + min sodvod"
+  difficulty: hard
+  is_silent: false
+
+- qid: PA06
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In Slovenian TSC 03.300, where is the minimum longitudinal gradient of the road grade line defined?"
+  question_local: "Kje v TSC 03.300 je določen najmanjši vzdolžni nagib nivelete ceste?"
+  lang: sl
+  iso3: SVN
+  expected:
+    - doc_id: "SVN_TSC::TSC_03_300_2003_geometrijski-elementi"
+      page: 55
+      value: "The minimum longitudinal gradient of the road grade line is defined in the changing-cross-slope chapter, governed by drainage."
+      quote: "Najmanjši vzdolžni nagib nivelete ceste je"
+  difficulty: easy
+  is_silent: false
+
+- qid: PA07
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In the Polish WR-D-22-2 guideline, what is the minimum longitudinal gradient of the carriageway grade line, and under what condition may a smaller value be used?"
+  question_local: "Jakie jest minimalne pochylenie podłużne niwelety jezdni według WR-D-22-2 i pod jakim warunkiem można zastosować mniejszą wartość?"
+  lang: pl
+  iso3: POL
+  expected:
+    - doc_id: "POL_WR-D::WR-D-22-2_ksztaltowanie-geometryczne"
+      page: 45
+      value: "Grade line gradient not less than 0,3 %, unless solutions ensuring effective drainage are applied."
+      quote: "Pochylenie niwelety jezdni powinno być nie mniejsze niż 0,3%, chyba że zostaną zastosowane rozwiązania zapewniające skuteczne odwodnienie jezdni"
+  difficulty: medium
+  is_silent: false
+
+- qid: PA08
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In Polish WR-D-22-2, when the longitudinal gradient is less than 0,3 %, what minimum cross-slope is recommended to ensure proper drainage?"
+  question_local: "W przypadku pochylenia podłużnego mniejszego niż 0,3%, jakie minimalne pochylenie poprzeczne zaleca się dla prawidłowego odwodnienia?"
+  lang: pl
+  iso3: POL
+  expected:
+    - doc_id: "POL_WR-D::WR-D-22-2_ksztaltowanie-geometryczne"
+      page: 47
+      value: "When longitudinal gradient < 0,3 %, ensure drainage via cross-slope not less than 2,5 % (and/or other measures)."
+      quote: "W przypadku pochylenia podłużnego wynoszącego mniej niż 0,3%, prawidłowe odwodnienie zaleca się zapewnić przez zastosowanie pochylenia poprzecznego wynoszącego nie mniej niż"
+  difficulty: medium
+  is_silent: false
+
+# ===================== PRIMARY — DACH / South EU (agent PB) ======================
+- qid: PB01
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "On German motorway bridges (RAA), what minimum longitudinal gradient must be maintained to ensure highway drainage?"
+  question_local: "Welche Mindestlängsneigung ist auf Autobahnbrücken zur Sicherstellung der Entwässerung einzuhalten?"
+  lang: de
+  iso3: DEU
+  expected:
+    - doc_id: "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011"
+      page: 97
+      value: "Minimum longitudinal gradient s = 0.7 % maintained on the bridge to ensure drainage."
+      quote: "gitudinal gradient, s, of 0.7 % shall be maintained on the"
+  difficulty: easy
+  is_silent: false
+
+- qid: PB02
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In the RAA superelevation development, how should the longitudinal gradient and the minimum relative grade be treated to guarantee adequate drainage?"
+  question_local: "Wie sind Längsneigung und minimale Anrampungsneigung aufeinander abzustimmen, um eine ausreichende Entwässerung zu gewährleisten?"
+  lang: de
+  iso3: DEU
+  expected:
+    - doc_id: "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011"
+      page: 42
+      value: "Longitudinal gradient and minimum relative grade co-ordinated to guarantee adequate drainage."
+      quote: "antee adequate drainage."
+  difficulty: medium
+  is_silent: false
+
+- qid: PB03
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In the RAL rural-roads standard, what is required between the longitudinal gradient and relative grade to ensure adequate carriageway drainage?"
+  question_local: "Welche Bedingung zwischen Längsneigung und Anrampungsneigung ist nach RAL einzuhalten, um eine ausreichende Fahrbahnentwässerung sicherzustellen?"
+  lang: de
+  iso3: DEU
+  expected:
+    - doc_id: "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024"
+      page: 46
+      value: "A minimum difference between longitudinal gradient and relative grade is required for adequate drainage; resultant slope p >= 0.5 % per REwS."
+      quote: "To ensure adequate carriageway drainage, the differ-"
+  difficulty: medium
+  is_silent: false
+
+- qid: PB04
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "According to the RAL, what resultant slope p is required (per REwS) and may result in higher superelevation-transition values?"
+  question_local: "Welche resultierende Neigung p wird nach REwS gefordert und kann zu höheren Anrampungswerten führen?"
+  lang: de
+  iso3: DEU
+  expected:
+    - doc_id: "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024"
+      page: 46
+      value: "Resultant slope p >= 0.5 % required per REwS, which may yield higher values."
+      quote: "The requirement for a resultant slope of p ≥ 0.5 % as"
+  difficulty: medium
+  is_silent: false
+
+- qid: PB05
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In the Spanish Norma 3.1-IC, what minimum transverse slope (bombeo) is used on straight sections to evacuate surface water?"
+  question_local: "Según la Norma 3.1-IC, ¿qué inclinación transversal mínima (bombeo) se dispone en recta para evacuar el agua?"
+  lang: es
+  iso3: ESP
+  expected:
+    - doc_id: "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado"
+      page: 53
+      value: "Bombeo: minimum transverse slope of 2 % on straight sections to drain water outward."
+      quote: "una inclinación transversal mínima del dos por ciento"
+  difficulty: easy
+  is_silent: false
+
+- qid: PB06
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In the Spanish Norma 3.1-IC, above which vertical-curve parameter Kv must correct road drainage be specifically confirmed for the section?"
+  question_local: "Según la Norma 3.1-IC, ¿a partir de qué parámetro Kv es necesario confirmar el correcto drenaje de la carretera en el tramo?"
+  lang: es
+  iso3: ESP
+  expected:
+    - doc_id: "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado"
+      page: 64
+      value: "For Kv > 5 000 m the correct drainage of the road must be confirmed for the section."
+      quote: "será necesario confirmar el correcto drenaje de la carretera en el tramo"
+  difficulty: medium
+  is_silent: false
+
+- qid: PB07
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In Spanish roundabout design (Norma 3.1-IC), how is the entry superelevation limited and reduced while still guaranteeing surface drainage?"
+  question_local: "En glorietas de la Norma 3.1-IC, ¿cómo se limita y reduce el peralte de entrada garantizando el drenaje superficial?"
+  lang: es
+  iso3: ESP
+  expected:
+    - doc_id: "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado"
+      page: 198
+      value: "Entry superelevation shall not exceed 5 %, reducible at the stop line to the minimum needed to guarantee surface drainage."
+      quote: "al mínimo necesario para garantizar el drenaje"
+  difficulty: medium
+  is_silent: false
+
+- qid: PB08
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In the Italian DM 6792/2001, what is the minimum cross-slope of the carriageway (regardless of road type) needed for water runoff?"
+  question_local: "Secondo il DM 6792/2001, qual è la pendenza minima delle falde della carreggiata, indipendentemente dal tipo di strada?"
+  lang: it
+  iso3: ITA
+  expected:
+    - doc_id: "ITA_DM-6792-2001::ITA_DM-6792-2001"
+      page: 65
+      value: "Minimum carriageway cross-slope ic = 2.5 % (q = 0.025), independent of road type."
+      quote: "del 2,5 % (q = 0,025)"
+  difficulty: easy
+  is_silent: false
+
+# ===================== PRIMARY — Anglosphere (agent PC) ==========================
+- qid: PC01
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "On curbed highways or streets, what minimum longitudinal grade does the AASHTO Green Book recommend, and how low may it go on a properly sloped paved surface?"
+  lang: en
+  iso3: USA
+  expected:
+    - doc_id: "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018"
+      page: 328
+      value: "Minimum grade typically 0.5 percent; 0.30 percent may be used where there is a paved surface accurately sloped."
+      quote: "is typically 0.5 percent, but grades of 0.30 percent may be used where there is a paved surface"
+  difficulty: medium
+  is_silent: false
+
+- qid: PC02
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In the AASHTO Green Book superelevation transition, what minimum profile grade and minimum edge-of-pavement grade avoid drainage problems through the transition section?"
+  lang: en
+  iso3: USA
+  expected:
+    - doc_id: "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018"
+      page: 285
+      value: "Min profile grade 0.5% through the transition; min edge-of-pavement grade 0.2% (0.5% for curbed streets)."
+      quote: "Maintain minimum edge-of-pavement grade of 0.2 percent"
+  difficulty: hard
+  is_silent: false
+
+- qid: PC03
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "For collector streets in the AASHTO Green Book, what minimum grade is acceptable to facilitate drainage, and what grade is recommended where practical?"
+  lang: en
+  iso3: USA
+  expected:
+    - doc_id: "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018"
+      page: 549
+      value: "0.3 percent acceptable for drainage; 0.5 percent or more recommended where practical."
+      quote: "A minimum grade of 0.3 percent is acceptable to facilitate drainage."
+  difficulty: easy
+  is_silent: false
+
+- qid: PC04
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In DMRB CD 109, what minimum longitudinal gradient should be maintained wherever superelevation is applied or reversed?"
+  lang: en
+  iso3: GBR
+  expected:
+    - doc_id: "GBR_DMRB-CD109::CD109_Highway_link_design"
+      page: 22
+      value: "Minimum longitudinal gradient of at least 0.5% wherever superelevation is applied or reversed."
+      quote: "A minimum longitudinal gradient of at least 0.5% should be maintained wherever superelevation is to"
+  difficulty: medium
+  is_silent: false
+
+- qid: PC05
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "According to DMRB CD 109, on kerbed roads with a minimum gradient of 0.5%, how is the drainage path to be provided?"
+  lang: en
+  iso3: GBR
+  expected:
+    - doc_id: "GBR_DMRB-CD109::CD109_Highway_link_design"
+      page: 24
+      value: "On kerbed roads at minimum gradient 0.5%, drainage path provided by false channel paths."
+      quote: "the drainage path shall be provided by false channel paths"
+  difficulty: medium
+  is_silent: false
+
+- qid: PC06
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In the Irish TII rural road link design standard, what minimum longitudinal gradient is normally maintained, and how high may it need to be in superelevation areas?"
+  lang: en
+  iso3: IRL
+  expected:
+    - doc_id: "IRL_TII-DN-GEO-03031::DN-GEO-03031-12"
+      page: 98
+      value: "Minimum longitudinal gradient 0.5% normally; may need to be as high as 2% in superelevation areas."
+      quote: "the minimum longitudinal gradients may need to be as high as 2% to provide adequate"
+  difficulty: hard
+  is_silent: false
+
+- qid: PC07
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In Austroads AGRD Part 3, what desirable minimum grade and minimum constructable grade are adopted for roads with kerb and channel?"
+  lang: en
+  iso3: AUS
+  expected:
+    - doc_id: "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4"
+      page: 230
+      value: "Desirable minimum grade 1.0%; minimum (constructable) grade 0.5% for kerb and channel."
+      quote: "a desirable minimum grade of 1.0% and a minimum grade of 0.5% (minimum constructable grade) should be adopted."
+  difficulty: medium
+  is_silent: false
+
+- qid: PC08
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In the NZ State Highway Geometric Design Manual, what longitudinal grade do superelevation development sections generally need, and below what grade must surface-water flow depth be checked?"
+  lang: en
+  iso3: NZL
+  expected:
+    - doc_id: "NZL_Austroads-NZTA::shgdm-part-5-vertical-alignment"
+      page: 2
+      value: "Superelevation development grades at least 1%; check flow depth whenever grades less than 1.5%."
+      quote: "at least 1% and whenever grades are less than"
+  difficulty: hard
+  is_silent: false
+
+# ============== PRIMARY — Nordic / Asia / Africa (agent PD) ======================
+- qid: PD01
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In the Swedish VGU requirements, where should a superelevation runoff (skevningsövergång) be located, and what minimum longitudinal grade of the profile plane applies there to ensure drainage?"
+  question_local: "Var bör en skevningsövergång placeras enligt VGU och vilken minsta längslutning på profilplanet gäller för att säkerställa vattenavrinning?"
+  lang: sv
+  iso3: SWE
+  expected:
+    - doc_id: "SWE_VGU::VGU_Krav_med_radstext_TRVINFRA-00396_v1_0"
+      page: 309
+      value: "Runoff placed where the profile plane longitudinal grade >= 1,0 % to ensure effective drainage of the whole carriageway."
+      quote: "profilplanets längslutning är större eller lika med 1,0 % för att säkerställa effektiv"
+  difficulty: medium
+  is_silent: false
+
+- qid: PD02
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "According to the Brazilian IPR-740 manual, what minimum longitudinal grade (rampa mínima) is required for drainage, and what is the desirable value?"
+  question_local: "Segundo o manual IPR-740, qual é a rampa mínima necessária para drenagem e qual é o valor desejável?"
+  lang: pt
+  iso3: BRA
+  expected:
+    - doc_id: "BRA_Manual-Projeto-Geometrico::IPR-740_Manual_Projeto_Geometrico_Travessias_Urbanas"
+      page: 294
+      value: "Minimum grade for drainage must be 0.35% and desirably 0.5%, especially on kerbed roadways."
+      quote: "necessária para fins de drenagem deve ser de 0,35% e, desejavelmente, de 0,5%"
+  difficulty: easy
+  is_silent: false
+
+- qid: PD03
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In the Brazilian IPR-740 manual, why is the minimum grade (rampa mínima) needed?"
+  question_local: "No manual IPR-740, por que a rampa mínima é necessária?"
+  lang: pt
+  iso3: BRA
+  expected:
+    - doc_id: "BRA_Manual-Projeto-Geometrico::IPR-740_Manual_Projeto_Geometrico_Travessias_Urbanas"
+      page: 292
+      value: "The minimum grade is essentially a matter of carriageway drainage, mainly where bounded by kerbs."
+      quote: "rampa mínima prende-se essencialmente ao aspecto de drenagem da pista"
+  difficulty: medium
+  is_silent: false
+
+- qid: PD04
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In China's JTG D20-2017, what is the minimum longitudinal grade for highways, and what is required where a flat cross slope (0%–0.3%) must be used on segments with insufficient drainage?"
+  lang: zh
+  iso3: CHN
+  expected:
+    - doc_id: "CHN_JTG-D20::JTG_D20-2017_EN"
+      page: 70
+      value: "Grades should not be less than 0.3%; for flat cross slope segments with insufficient drainage, specific table-drain design for longitudinal drainage is required."
+      quote: "Highway grades should not be less than 0.3%."
+  difficulty: easy
+  is_silent: false
+
+- qid: PD05
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In JTG D20-2017's superelevation-transition guidance, what minimum slope is taken for drainage on a curved segment, and what minimum transition rate for superelevation results?"
+  lang: zh
+  iso3: CHN
+  expected:
+    - doc_id: "CHN_JTG-D20::JTG_D20-2017_EN"
+      page: 204
+      value: "Taking 0.3% as the minimum slope for drainage, the superelevation transition rate must not be less than 0.3% (1/330)."
+      quote: "the transition rate for superelevation must not be less than 0.3%, that is, 1/330."
+  difficulty: medium
+  is_silent: false
+
+- qid: PD06
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "Under Article 28 of the Korean Rules on the Structure and Facility Standards of Roads, the lane cross slope is set for drainage by pavement type — what cross-slope applies to asphalt-concrete and cement-concrete pavements?"
+  question_local: "도로의 구조·시설 기준에 관한 규칙 제28조에 따라 차로의 횡단경사는 배수를 위하여 포장 종류별로 정해지는데, 아스팔트콘크리트 및 시멘트콘크리트 포장의 횡단경사는 얼마인가?"
+  lang: ko
+  iso3: KOR
+  expected:
+    - doc_id: "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021"
+      page: 49
+      value: "Lane cross slope provided for drainage by pavement type; asphalt-concrete and cement-concrete pavements 1.5%–2.0%."
+      quote: "차로의 횡단경사는 배수를 위하여 포장의 종류에 따라"
+  difficulty: medium
+  is_silent: false
+
+- qid: PD07
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In the Korean road-structure rules, when the superelevation runoff length is extended for more than two superelevated lanes, what must be sufficiently considered regarding the road surface?"
+  question_local: "편경사가 설치되는 차로수가 2개를 초과하여 접속설치길이를 보정할 때, 노면과 관련하여 무엇이 충분히 고려되어야 하는가?"
+  lang: ko
+  iso3: KOR
+  expected:
+    - doc_id: "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021"
+      page: 45
+      value: "Road-surface drainage must be sufficiently considered when the runoff length is lengthened for more than two superelevated lanes."
+      quote: "노면의 배수가 충분히 고려되어야 한다"
+  difficulty: medium
+  is_silent: false
+
+- qid: PD08
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In the Afghanistan LVRR Vol 2 geometric-design standards (paved roads, Table 7-1), what minimum gradient is specified across the design speeds?"
+  lang: en
+  iso3: AFG
+  expected:
+    - doc_id: "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign"
+      page: 121
+      value: "Minimum gradient 0.5% for all tabulated design speeds (Table 7-1)."
+      quote: "Minimum Gradient1 % 0.5 0.5 0.5 0.5 0.5 0.5 0.5"
+  difficulty: easy
+  is_silent: false
+
+- qid: PD09
+  topic: primary
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "In the Malawi LVR Manual Vol 2, what is the preferred minimum gradient on streets stated in the gradients section?"
+  lang: en
+  iso3: MWI
+  expected:
+    - doc_id: "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design"
+      page: 217
+      value: "Preferred minimum gradient on streets is 0.67%."
+      quote: "The preferred minimum gradient on streets is 0.67 %."
+  difficulty: easy
+  is_silent: false
+
+# ============== SECONDARY — design speed / sight distance (agent SE) =============
+- qid: SE01
+  topic: secondary
+  concept: SIGHT_DISTANCE
+  question_en: "On a French motorway, what minimum sighting distance to the rest-area entrance signing must a driver coming off an interchange and arriving at a rest area have?"
+  question_local: "Sur autoroute, de quelle distance de visibilité sur la signalisation d'entrée d'aire doit disposer le conducteur arrivant sur une aire ?"
+  lang: fr
+  iso3: FRA
+  expected:
+    - doc_id: "FRA_ICTAAL-ARP::ICTAAL_2021-update_correctif_DT9033"
+      page: 2
+      value: "Minimum sighting distance to the rest-area entrance signing = 150 m."
+      quote: "signalisation d'entrée d'aire de 150 m."
+  difficulty: medium
+  is_silent: false
+
+- qid: SE02
+  topic: secondary
+  concept: SIGHT_DISTANCE
+  question_en: "In the Spanish Norma 3.1-IC, what perception-and-reaction time is used to compute the stopping distance?"
+  question_local: "En la Norma 3.1-IC, ¿qué tiempo de percepción y reacción se adopta para calcular la distancia de parada?"
+  lang: es
+  iso3: ESP
+  expected:
+    - doc_id: "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado"
+      page: 22
+      value: "Perception-reaction time = 2 s; design stopping distance obtained from the design speed."
+      quote: "El valor del tiempo de percepción y reacción será de dos segundos (2 s)."
+  difficulty: medium
+  is_silent: false
+
+- qid: SE03
+  topic: secondary
+  concept: SIGHT_DISTANCE
+  question_en: "Under the Japanese Road Structure Ordinance (Art. 19), what minimum sight distance is required at a design speed of 100 km/h?"
+  question_local: "道路構造令第十九条により、設計速度が一〇〇キロメートルのとき、視距は何メートル以上必要か。"
+  lang: ja
+  iso3: JPN
+  expected:
+    - doc_id: "JPN_Road-Structure-Ordinance::JPN_Road-Structure-Ordinance_egov"
+      page: 20
+      value: "Minimum sight distance 160 m at design speed 100 km/h."
+      quote: "一〇〇 ｜ 一六〇"
+  difficulty: medium
+  is_silent: false
+
+- qid: SE04
+  topic: secondary
+  concept: SIGHT_DISTANCE
+  question_en: "In the Italian DM 6792/2001, how is the stopping sight distance (distanza di visibilità per l'arresto) defined?"
+  question_local: "Nel DM 6792/2001, come è definita la distanza di visibilità per l'arresto?"
+  lang: it
+  iso3: ITA
+  expected:
+    - doc_id: "ITA_DM-6792-2001::ITA_DM-6792-2001"
+      page: 55
+      value: "Stopping sight distance = minimum space for a driver to safely stop before an unexpected obstacle."
+      quote: "possa arrestare il veicolo in condizione di sicurezza davanti ad un ostacolo imprevisto."
+  difficulty: easy
+  is_silent: false
+
+- qid: SE05
+  topic: secondary
+  concept: SIGHT_DISTANCE
+  question_en: "In DMRB CD 109 (Table 2.10), what is the Desirable Minimum stopping sight distance at design speeds of 120, 100 and 85 kph?"
+  lang: en
+  iso3: GBR
+  expected:
+    - doc_id: "GBR_DMRB-CD109::CD109_Highway_link_design"
+      page: 16
+      value: "Desirable minimum SSD: 295 m at 120 kph, 215 m at 100 kph, 160 m at 85 kph."
+      quote: "295       215       160       120       90        70"
+  difficulty: medium
+  is_silent: false
+
+- qid: SE06
+  topic: secondary
+  concept: DESIGN_SPEED
+  question_en: "In the German RAL (Rural Roads), is the planning/design speed the same as the permissible maximum speed (speed limit)?"
+  lang: en
+  iso3: DEU
+  expected:
+    - doc_id: "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024"
+      page: 20
+      value: "A design speed based on network function is assigned; the planning speed is NOT identical to the permissible maximum speed."
+      quote: "The planning speed is not"
+  difficulty: medium
+  is_silent: false
+
+- qid: SE07
+  topic: secondary
+  concept: DESIGN_SPEED
+  question_en: "In the Swedish VGU, for a horizontal curve on a local-network street with tramway in mixed traffic, how low may the design speed (vdim) be set relative to the reference speed?"
+  question_local: "Enligt VGU, för horisontalkurva på lokalnätsgata med spårväg i blandtrafik, hur lågt får vdim sättas i förhållande till referenshastigheten?"
+  lang: sv
+  iso3: SWE
+  expected:
+    - doc_id: "SWE_VGU::VGU_Krav_med_radstext_TRVINFRA-00396_v1_0"
+      page: 336
+      value: "Design speed vdim may be set as low as VR-20 km/h (reference speed minus 20)."
+      quote: "vdim=VR-20 km/h."
+  difficulty: medium
+  is_silent: false
+
+# ============== SECONDARY — horizontal alignment (agent SF) ======================
+- qid: SF01
+  topic: secondary
+  concept: HORIZONTAL
+  question_en: "What is the minimum radius of a circular curve at a design speed of 60 km/h according to the Serbian Pravilnik, and what range of radii may be applied?"
+  question_local: "Koliki je minimalni radijus kružne krivine pri računskoj brzini od 60 km/h prema srpskom Pravilniku?"
+  lang: sr
+  iso3: SRB
+  expected:
+    - doc_id: "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full"
+      page: 56
+      value: "Applicable radii minR <= R <= maxR; min R = 120 m at 60 km/h (table 45/75/120 m for 40/50/60)."
+      quote: "min R (m)            45     75     120"
+  difficulty: medium
+  is_silent: false
+
+- qid: SF02
+  topic: secondary
+  concept: HORIZONTAL
+  question_en: "In the Serbian Road Design Manual (SRDM), what are the limiting (minimum) radii Rmin of circular curves for design speeds from 40 to 130 km/h?"
+  question_local: "U srpskom SRDM-u, koje su granične (minimalne) vrednosti poluprečnika Rmin za računske brzine od 40 do 130 km/h?"
+  lang: sr
+  iso3: SRB
+  expected:
+    - doc_id: "SRB_SRDM::SRDM4-0-projektni-elementi-puta"
+      page: 76
+      value: "Rmin = 45,75,120,175,250,350,450,550,675,800 m for Vr 40…130 km/h (Tabela 4.2.28)."
+      quote: "Rmin      [m]       45    75    120     175    250      350      450      550      675       800"
+  difficulty: medium
+  is_silent: false
+
+- qid: SF03
+  topic: secondary
+  concept: HORIZONTAL
+  question_en: "Under what radius condition does the Serbian Pravilnik permit use of a vertex (apex) clothoid where the whole curve is two transition curves with zero circular arc?"
+  question_local: "Pod kojim uslovom radijusa srpski Pravilnik dozvoljava primenu temene klotoide?"
+  lang: sr
+  iso3: SRB
+  expected:
+    - doc_id: "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full"
+      page: 59
+      value: "Vertex (temena) clothoid allowed subject to R >= 450 m."
+      quote: "R ≥ 450 m"
+  difficulty: hard
+  is_silent: false
+
+- qid: SF04
+  topic: secondary
+  concept: HORIZONTAL
+  question_en: "According to the Croatian regulation NN 110/2001, what are the minimum permitted radii Rmin of a circular curve for design speeds Vp from 30 to 130 km/h?"
+  question_local: "Prema hrvatskom propisu NN 110/2001, koji su najmanji dopušteni polumjeri Rmin za projektne brzine Vp od 30 do 130 km/h?"
+  lang: hr
+  iso3: HRV
+  expected:
+    - doc_id: "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr"
+      page: 14
+      value: "Rmin = 25,45,75,120,175,250,350,450,600,750,850 m for Vp 30…130 km/h (Tabl. 3.1)."
+      quote: "Rmin (m)      25      45      75       120   175     250     350      450       600       750       850"
+  difficulty: medium
+  is_silent: false
+
+- qid: SF05
+  topic: secondary
+  concept: HORIZONTAL
+  question_en: "In the Slovenian TSC 03.300, from which dynamic-driving condition is the minimum transition-curve parameter Amin determined?"
+  question_local: "Iz katerega voznodinamičnega pogoja se v TSC 03.300 določi minimalni parameter prehodnice Amin?"
+  lang: sl
+  iso3: SVN
+  expected:
+    - doc_id: "SVN_TSC::TSC_03_300_2003_geometrijski-elementi"
+      page: 33
+      value: "Amin under the driving-dynamics (VD) condition from driving speed Vi and lateral jerk Xi."
+      quote: "Parametra pri VD-pogoju za določitev Ai sta"
+  difficulty: hard
+  is_silent: false
+
+- qid: SF06
+  topic: secondary
+  concept: HORIZONTAL
+  question_en: "In the Polish WR-D-22-2, what are the minimum recommended circular-curve radii in plan ensuring headlight visibility for design speeds Vdp from 30 to >=100 km/h?"
+  question_local: "Jakie są w WR-D-22-2 minimalne zalecane promienie łuków kołowych w planie dla prędkości Vdp od 30 do >=100 km/h?"
+  lang: pl
+  iso3: POL
+  expected:
+    - doc_id: "POL_WR-D::WR-D-22-2_ksztaltowanie-geometryczne"
+      page: 42
+      value: "Min recommended radii = 1600,1400,1100,650,400,230,130,60 m for Vdp >=100…30 km/h (Tab. 7.1.4)."
+      quote: "w planie zapewniający widoczność pasa          1 600         1 400   1 100         650   400         230   130    60"
+  difficulty: medium
+  is_silent: false
+
+- qid: SF07
+  topic: secondary
+  concept: HORIZONTAL
+  question_en: "Per the Spanish Norma 3.1-IC, what plan-curve shape is always used for the transition curve?"
+  question_local: "Según la Norma 3.1-IC, ¿qué forma de curva de transición se emplea siempre?"
+  lang: es
+  iso3: ESP
+  expected:
+    - doc_id: "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado"
+      page: 40
+      value: "The transition curve is always a clothoid; its characteristic value is the parameter A (A^2 = R·L)."
+      quote: "Se adoptará en todos los casos como forma de la curva de acuerdo una clotoide"
+  difficulty: medium
+  is_silent: false
+
+- qid: SF08
+  topic: secondary
+  concept: HORIZONTAL
+  question_en: "In the German RAL (FGSV 201), what lower bound on the clothoid parameter A should be avoided if possible?"
+  lang: de
+  iso3: DEU
+  expected:
+    - doc_id: "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024"
+      page: 35
+      value: "Transition curves are clothoids; clothoid parameter A < 100 m should be avoided if possible."
+      quote: "A < 100 m should be avoided, if possible."
+  difficulty: medium
+  is_silent: false
+
+- qid: SF09
+  topic: secondary
+  concept: HORIZONTAL
+  question_en: "Per the Italian DM 6792/2001, what is the minimum value of the clothoid parameter A (Amin) as a function of design speed Vp?"
+  question_local: "Secondo il DM 6792/2001, qual è il valore minimo del parametro A della clotoide (Amin) in funzione di Vp?"
+  lang: it
+  iso3: ITA
+  expected:
+    - doc_id: "ITA_DM-6792-2001::ITA_DM-6792-2001"
+      page: 73
+      value: "Clothoid parameter range R/3 < A < R; Amin = 0,021·Vp^2."
+      quote: "Amin = 0,021 x Vp2"
+  difficulty: hard
+  is_silent: false
+
+# ============== SECONDARY — vertical / K-values (agent SG) =======================
+- qid: SG01
+  topic: secondary
+  concept: VERTICAL
+  question_en: "Under Japan's Road Structure Ordinance, what is the maximum longitudinal gradient for an ordinary road (普通道路) of Class 1-3 at a design speed of 80 km/h, and the value where unavoidable?"
+  question_local: "道路構造令で、第一種〜第三種の普通道路で設計速度八〇キロメートルのとき、車道の縦断勾配の標準値とやむを得ない場合の値は何パーセントか。"
+  lang: ja
+  iso3: JPN
+  expected:
+    - doc_id: "JPN_Road-Structure-Ordinance::JPN_Road-Structure-Ordinance_egov"
+      page: 21
+      value: "Class 1-3 ordinary road, 80 km/h: standard max grade 4%, up to 7% where unavoidable."
+      quote: "八〇 ｜ 四 ｜ 七"
+  difficulty: medium
+  is_silent: false
+
+- qid: SG02
+  topic: secondary
+  concept: VERTICAL
+  question_en: "In Japan's Road Structure Ordinance (Art. 22), what minimum vertical-curve radius is required at a design speed of 80 km/h for a crest curve (凸形曲線)?"
+  question_local: "道路構造令第二十二条で、設計速度八〇キロメートルのとき、凸形曲線の縦断曲線半径は何メートル以上か。"
+  lang: ja
+  iso3: JPN
+  expected:
+    - doc_id: "JPN_Road-Structure-Ordinance::JPN_Road-Structure-Ordinance_egov"
+      page: 22
+      value: "Design speed 80 km/h: crest (凸形) vertical-curve radius >= 3000 m."
+      quote: "八〇 ｜ 凸形曲線 ｜ 三、〇〇〇"
+  difficulty: medium
+  is_silent: false
+
+- qid: SG03
+  topic: secondary
+  concept: VERTICAL
+  question_en: "Under Korea's Rules on the Structure and Facilities Standards of Roads (Art. 25), what is the maximum longitudinal gradient for an expressway (고속국도) at 80 km/h on flat (평지) versus mountainous (산지등) terrain?"
+  question_local: "도로의 구조·시설 기준에 관한 규칙 제25조에서, 설계속도 80km/h인 고속국도의 최대 종단경사는 평지와 산지등에서 각각 몇 퍼센트인가?"
+  lang: ko
+  iso3: KOR
+  expected:
+    - doc_id: "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021"
+      page: 323
+      value: "Expressway at 80 km/h: max grade 4% on flat, 6% in mountainous terrain."
+      quote: "80      4          6     4    7"
+  difficulty: medium
+  is_silent: false
+
+- qid: SG04
+  topic: secondary
+  concept: VERTICAL
+  question_en: "Under Korea's road-structure rules (Art. 27), vertical curves use a minimum rate of change (K-value, m/%). What is the minimum K at a design speed of 120 km/h for a crest (볼록곡선) versus a sag (오목곡선) curve?"
+  question_local: "도로의 구조·시설 기준에 관한 규칙 제27조에서, 종단곡선 최소 변화 비율(미터/퍼센트)은 설계속도 120km/h일 때 볼록곡선과 오목곡선에서 각각 얼마인가?"
+  lang: ko
+  iso3: KOR
+  expected:
+    - doc_id: "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021"
+      page: 340
+      value: "Design speed 120 km/h: min K crest (볼록곡선) 130 m/%, sag (오목곡선) 60 m/%."
+      quote: "볼록곡선         130"
+  difficulty: medium
+  is_silent: false
+
+- qid: SG05
+  topic: secondary
+  concept: VERTICAL
+  question_en: "In China's JTG D20-2017 (Table 8.2.1), what is the maximum longitudinal grade of a classified highway at a design speed of 80 km/h?"
+  lang: en
+  iso3: CHN
+  expected:
+    - doc_id: "CHN_JTG-D20::JTG_D20-2017_EN"
+      page: 70
+      value: "Design speed 80 km/h: maximum grade 5% (Table 8.2.1)."
+      quote: "Maximum grade (%)           3      4         5       6        7      8          9"
+  difficulty: easy
+  is_silent: false
+
+- qid: SG06
+  topic: secondary
+  concept: VERTICAL
+  question_en: "In DMRB CD 109 (Table 2.10), what are the Desirable Minimum crest K value and Desirable Minimum sag K value at a design speed of 100 km/h?"
+  lang: en
+  iso3: GBR
+  expected:
+    - doc_id: "GBR_DMRB-CD109::CD109_Highway_link_design"
+      page: 16
+      value: "Design speed 100 km/h: Desirable Minimum crest K = 100, sag K = 26 (Table 2.10)."
+      quote: "182       100       55        30        17        10"
+  difficulty: medium
+  is_silent: false
+
+- qid: SG07
+  topic: secondary
+  concept: VERTICAL
+  question_en: "In the AASHTO Green Book (Table 3-35, metric), what is the design rate of vertical curvature K for crest vertical curves at a design speed of 100 km/h?"
+  lang: en
+  iso3: USA
+  expected:
+    - doc_id: "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018"
+      page: 368
+      value: "Metric, 100 km/h: design rate of vertical curvature K = 52 for crest curves (Table 3-35)."
+      quote: "100                185                  52.0                52"
+  difficulty: medium
+  is_silent: false
+
+# ============== SECONDARY — superelevation / cross-section (agent SH) ============
+- qid: SH01
+  topic: secondary
+  concept: SUPERELEVATION
+  question_en: "On Spanish roads, what maximum superelevation does Norma 3.1-IC set in the design-speed / minimum-radius relationship?"
+  question_local: "En la Norma 3.1-IC, ¿qué peralte máximo establece en la relación velocidad de proyecto - radio mínimo?"
+  lang: es
+  iso3: ESP
+  expected:
+    - doc_id: "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado"
+      page: 38
+      value: "Maximum superelevation 8,00% (Grupos 1 & 2) and 7,00% (Grupo 3)."
+      quote: "RADIO        PERALTE        RADIO        PERALTE      RADIO        PERALTE"
+  difficulty: medium
+  is_silent: false
+
+- qid: SH02
+  topic: secondary
+  concept: SUPERELEVATION
+  question_en: "What maximum transverse gradient (q max) does the Italian DM 6792/2001 use to compute the minimum radius for an extra-urban motorway (type A)?"
+  question_local: "Quale pendenza trasversale massima (q max) utilizza il DM 6792/2001 per il raggio minimo di un'autostrada (tipo A)?"
+  lang: it
+  iso3: ITA
+  expected:
+    - doc_id: "ITA_DM-6792-2001::ITA_DM-6792-2001"
+      page: 66
+      value: "Maximum transverse gradient q max = 0,07 (7%) for type A motorway."
+      quote: "AUTOSTRADA        A      EXTRAURBANO      STRADA PRINCIPALE        90"
+  difficulty: hard
+  is_silent: false
+
+- qid: SH03
+  topic: secondary
+  concept: SUPERELEVATION
+  question_en: "What is the normal crossfall of the circulatory carriageway of a roundabout under the Serbian Pravilnik, and in which direction is it oriented?"
+  question_local: "Колики је нормалан попречни нагиб кружног коловоза кружне раскрснице према Правилнику и ка којој ивици је усмерен?"
+  lang: sr
+  iso3: SRB
+  expected:
+    - doc_id: "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full"
+      page: 109
+      value: "Normal crossfall of the circulatory carriageway is 2,50%, oriented towards the outer edge."
+      quote: "Нормалан попречни нагиб кружног коловоза је 2,50 %"
+  difficulty: medium
+  is_silent: false
+
+- qid: SH04
+  topic: secondary
+  concept: CROSS_SECTION
+  question_en: "What lane width does the Irish TII standard DN-GEO-03036 specify for a Type 1 versus a Type 2 Single Carriageway?"
+  lang: en
+  iso3: IRL
+  expected:
+    - doc_id: "IRL_TII-DN-GEO-03036::DN-GEO-03036-09"
+      page: 17
+      value: "Type 1 = 3.65 m lane, Type 2 = 3.50 m lane (each direction)."
+      quote: "Type 2 Single Carriageway: An all-purpose road with a 3.50m lane in each"
+  difficulty: easy
+  is_silent: false
+
+- qid: SH05
+  topic: secondary
+  concept: CROSS_SECTION
+  question_en: "What lane width must lanes have on German EKA 2 motorways (and the right-hand lanes of EKA 3 motorways) under the RAA?"
+  lang: en
+  iso3: DEU
+  expected:
+    - doc_id: "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011"
+      page: 22
+      value: "Lanes must be 3.50 m wide on EKA 2 motorways and right-hand lanes of EKA 3 motorways."
+      quote: "hand lanes on EKA 3 motorways must be 3.50 m wide"
+  difficulty: medium
+  is_silent: false
+
+- qid: SH06
+  topic: secondary
+  concept: CROSS_SECTION
+  question_en: "What standard lane widths does the Polish WR-D-22-2 give for road classes A, S/GP/G, Z, L and D?"
+  question_local: "Jakie standardowe szerokości pasa ruchu podaje WR-D-22-2 dla klas A, S/GP/G, Z, L i D?"
+  lang: pl
+  iso3: POL
+  expected:
+    - doc_id: "POL_WR-D::WR-D-22-2_ksztaltowanie-geometryczne"
+      page: 13
+      value: "Standard lane width A 3,75; S/GP/G 3,50; Z 3,00; L 2,75; D 2,50 m."
+      quote: "3,75       3,50       3,50         3,50           3,00        2,75        2,50"
+  difficulty: medium
+  is_silent: false
+
+- qid: SH07
+  topic: secondary
+  concept: CROSS_SECTION
+  question_en: "Under the Swedish VGU, what lane-width range applies to lanes on new-build or reconstructed roads?"
+  question_local: "Vilken körfältsbredd gäller enligt VGU vid ny- och ombyggnad av väg?"
+  lang: sv
+  iso3: SWE
+  expected:
+    - doc_id: "SWE_VGU::VGU_Krav_med_radstext_TRVINFRA-00396_v1_0"
+      page: 109
+      value: "On new-build/reconstruction lanes must be >= 3,0 m and no wider than 4,0 m."
+      quote: "men inte bredare än 4,0 m"
+  difficulty: medium
+  is_silent: false
+
+# ============== SECONDARY — weaving / merge-diverge / interchange (agent SI) =====
+- qid: SI01
+  topic: secondary
+  concept: MERGE_DIVERGE
+  question_en: "On a grade-separated layout, what minimum spacing is required between the nose tips of successive merges or diverges, and what determines the spacing between a merge and a diverge?"
+  lang: en
+  iso3: GBR
+  expected:
+    - doc_id: "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1"
+      page: 35
+      value: "Minimum spacing between successive nose tips = 3.75V metres (V = design speed); merge-to-diverge spacing is set by weaving lengths."
+      quote: "Spacing between a merge and a diverge is determined by weaving lengths."
+  difficulty: medium
+  is_silent: false
+
+- qid: SI02
+  topic: secondary
+  concept: WEAVING
+  question_en: "On Rural Motorways and Type 1 Dual Carriageway National Roads, what is the Desirable Minimum weaving length between grade-separated junctions?"
+  lang: en
+  iso3: IRL
+  expected:
+    - doc_id: "IRL_TII-junctions::DN-GEO-03060-03"
+      page: 145
+      value: "Desirable Minimum weaving length between grade-separated junctions = 2 km."
+      quote: "length between grade separated junctions shall be 2km."
+  difficulty: easy
+  is_silent: false
+
+- qid: SI03
+  topic: secondary
+  concept: WEAVING
+  question_en: "How does the Spanish junction guidance (OC 32/2012) define a weaving lane (carril de trenzado)?"
+  question_local: "¿Cómo define la OC 32/2012 el carril de trenzado?"
+  lang: es
+  iso3: ESP
+  expected:
+    - doc_id: "ESP_OC-32-2012-nudos::OC-32-2012-nudos"
+      page: 499
+      value: "Carril de trenzado = additional lane joining a consecutive acceleration lane and deceleration lane."
+      quote: "Carril adicional que une un carril de aceleración y otro de deceleración"
+  difficulty: easy
+  is_silent: false
+
+- qid: SI04
+  topic: secondary
+  concept: MERGE_DIVERGE
+  question_en: "When sizing speed-change (deceleration/acceleration) lanes kinematically, what deceleration value 'a' is assumed for Type A and B roads versus all other roads?"
+  question_local: "Nel dimensionamento cinematico dei tratti di variazione di velocità, quale 'a' si assume per strade di Tipo A e B rispetto alle altre?"
+  lang: it
+  iso3: ITA
+  expected:
+    - doc_id: "ITA_DM-intersezioni-2006::ITA_DM-intersezioni-2006"
+      page: 14
+      value: "a = 3,0 m/s^2 for Type A and B roads; a = 2,0 m/s^2 for all other roads."
+      quote: "per tutte Ie altre strade: 2,0 m/s2 ."
+  difficulty: medium
+  is_silent: false
+
+- qid: SI05
+  topic: secondary
+  concept: INTERCHANGE
+  question_en: "How do the Polish junction guidelines (WR-D) define a ramp/connector (łącznica) within an interchange?"
+  question_local: "Jak wytyczne WR-D definiują łącznicę jako element węzła?"
+  lang: pl
+  iso3: POL
+  expected:
+    - doc_id: "POL_WR-D::WR-D-32-2_wezly-elementy-i-wyposazenie"
+      page: 9
+      value: "Łącznica = element of an interchange, a carriageway joining an exit to an entry; may be direct, semi-direct or indirect."
+      quote: "Łącznica – element węzła będący jezdnią łączącą wyjazd z wjazdem"
+  difficulty: easy
+  is_silent: false
+
+- qid: SI06
+  topic: secondary
+  concept: MERGE_DIVERGE
+  question_en: "In the Brazilian deceleration-lane length table (Tabela 48), what is the rule for the minimum length of a deceleration lane?"
+  question_local: "Na Tabela 48, qual é a regra para o comprimento mínimo da faixa de desaceleração?"
+  lang: pt
+  iso3: BRA
+  expected:
+    - doc_id: "BRA_IPR-718-intersecoes::IPR-718_Manual_de_Projeto_de_Intersecoes_2005"
+      page: 264
+      value: "The minimum deceleration-lane length is always equal to the taper length."
+      quote: "O comprimento mínimo da faixa de desaceleração será sempre o do taper"
+  difficulty: medium
+  is_silent: false
+
+- qid: SI07
+  topic: secondary
+  concept: WEAVING
+  question_en: "In the Serbian SRDM grade-separated junctions manual, what minimum weaving-lane length must it be possible to provide for a cloverleaf option to be acceptable?"
+  question_local: "Koja je minimalna dužina trake za preplitanje koju mora biti moguće obezbediti?"
+  lang: sr
+  iso3: SRB
+  expected:
+    - doc_id: "SRB_SRDM::SRDM5-2-denivelisane-raskrsnice"
+      page: 15
+      value: "Minimum weaving-lane length L >= 300 m."
+      quote: "dužinu trake za preplitanje L≥300m."
+  difficulty: medium
+  is_silent: false
+
+# ================= SILENT / NEGATIVE controls (answer must be "not specified") ====
+# Absence verified by LIKE-count over corpus/index.sqlite (basis recorded per item).
+- qid: SIL01
+  topic: silent
+  concept: DRAINAGE_MIN_GRADE
+  question_en: "According to the Afghanistan LVRR Vol 2 geometric-design manual, what minimum longitudinal gradient is specified for a design speed of 120 km/h?"
+  lang: en
+  iso3: AFG
+  expected: []
+  difficulty: medium
+  is_silent: true
+  negative_basis: "AFG Table 7-1 (p.121) tabulates design speeds 40-100 km/h only; 120 km/h is out of range -> no value exists."
+
+- qid: SIL02
+  topic: silent
+  concept: WEAVING
+  question_en: "What minimum weaving-section length does the Afghanistan LVRR Vol 2 geometric-design manual specify for motorway interchanges?"
+  lang: en
+  iso3: AFG
+  expected: []
+  difficulty: medium
+  is_silent: true
+  negative_basis: "LIKE 'weaving' over AFG = 0 pages; a low-volume rural-roads manual does not cover motorway weaving."
+
+- qid: SIL03
+  topic: silent
+  concept: CROSS_SECTION
+  question_en: "What asphalt surface-course thickness does the UK DMRB CD 109 (Highway link design) require?"
+  lang: en
+  iso3: GBR
+  expected: []
+  difficulty: medium
+  is_silent: true
+  negative_basis: "LIKE 'asphalt'=0 and 'thickness'=0 over all GBR geometric docs; CD 109 is a geometric standard, not a pavement-structures standard."
+
+- qid: SIL04
+  topic: silent
+  concept: HORIZONTAL
+  question_en: "What minimum horizontal radius does the Serbian Pravilnik (50/11) specify for tram/railway tracks?"
+  question_local: "Koji minimalni horizontalni radijus propisuje srpski Pravilnik (50/11) za tramvajske/železničke koloseke?"
+  lang: sr
+  iso3: SRB
+  expected: []
+  difficulty: medium
+  is_silent: true
+  negative_basis: "LIKE 'трамвај'=0 and 'пруга'=0 over SRB; the Pravilnik governs road (put) elements, not rail."
+
+- qid: SIL05
+  topic: silent
+  concept: CROSS_SECTION
+  question_en: "What tunnel ventilation requirements does the UK DMRB CD 109 (Highway link design) specify?"
+  lang: en
+  iso3: GBR
+  expected: []
+  difficulty: easy
+  is_silent: true
+  negative_basis: "LIKE 'tunnel ventilation'=0 over all GBR docs; CD 109 covers link geometry, not tunnel systems."

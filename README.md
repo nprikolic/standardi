@@ -15,7 +15,15 @@ Serbian standard** (Pravilnik 50/11) against international practice.
 - **Per-country completeness audit:** 3 COMPLETE, 10 ADEQUATE_CORE, 6 PARTIAL (19 countries).
 - **Skill:** draft v0.3 — concept taxonomy + multilingual glossary (9 concepts × ~14 languages, incl.
   Cyrillic/CJK) + a working live-search tool.
-- **Next:** Phase 5 (retrieval benchmark) and Phase 6 (Serbian-standard gap-analysis).
+- **Phase 5 (benchmark): DONE** — 77 grounded, quote-verified questions; 8 retrieval systems scored by code
+  + a blind 3-judge answer sub-study. See [eval/BENCHMARK_REPORT.md](eval/BENCHMARK_REPORT.md).
+  **⚠️ Key (negative) finding:** *concept-only* retrieval (`search.py --concept`, the skill's intended design)
+  **fails** — recall@10 = 0.13 vs **0.86** for a plain native-language keyword search — because `--concept`
+  ignores the question and returns the same pages for every question of a concept. The multilingual glossary
+  as flat query-expansion adds no net value, and Japanese (CJK) FTS retrieval is 0%. The retriever must be
+  re-architected (question terms + targeted glossary expansion; CJK via `--grep`) before publication
+  (fixes in [eval/glossary_improvements.md](eval/glossary_improvements.md)).
+- **Next:** retriever redesign + a leakage-free cross-language re-test, then Phase 6 (Serbian-standard gap-analysis).
 
 Countries with standards: GBR, IRL, ESP, ITA, SWE, POL, KOR, BRA, ZAF, NZL, MWI, AFG, SRB, HRV, SVN, DEU,
 USA, AUS, CHN, JPN (+ FRA partial). Flagged-only (no file): CAN, IND, NLD, MEX. Plus model standards
@@ -31,6 +39,9 @@ road-geometric-standards/
   summary.json  content_summary.json  CONTENT_VERIFICATION.md  download.log
 skill/
   SKILL.md  NACRT.md  reference/ (taxonomy, glossary.json, standards-index, answer-format)  scripts/search.py
+eval/                                  # Phase 5 benchmark
+  questions.yaml  benchmark.csv  metrics.json  BENCHMARK_REPORT.md  glossary_improvements.md
+  _tools/ (lib.py, run_retrieval.py, score.py, verify_groundtruth.py, page.py, ...)  runs/<system>/<qid>.json
 TODO.md  PUBLICATION_ASSESSMENT.md
 ```
 
@@ -44,11 +55,16 @@ sources. The raw download/HTML staging folder (`manual-download/`) is also gitig
 ```
 cd skill/scripts
 python search.py --list-concepts
-python search.py --concept WEAVING            # e.g. minimum weaving length across standards
+python search.py --concept WEAVING            # browse: all pages about a concept across standards
 python search.py --concept SUPERELEVATION --iso3 ESP
-python search.py --grep "vitoperenje"
+python search.py --grep "vitoperenje"         # literal/CJK substring — most reliable for a specific term
 ```
 Requires Python 3 + `pypdf` and Poppler (`pdftotext`). See `skill/SKILL.md` for the answer workflow.
+
+> **Note (Phase 5):** `--concept` is a concept *browser*, not a per-question retriever — it returns the same
+> pages regardless of the specific question. For a specific value, combine the concept with the question's own
+> terms (and the document's language), and prefer `--grep` for an exact term, especially CJK. See
+> [eval/BENCHMARK_REPORT.md](eval/BENCHMARK_REPORT.md) §3.
 
 ## Tooling
 `validate_pdf.py` (magic-byte/size/page validation), `aggregate_phase1.py` / `aggregate_phase2.py`

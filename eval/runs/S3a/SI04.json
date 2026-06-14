@@ -1,0 +1,99 @@
+{
+ "system": "S3A",
+ "query_terms": [
+  "merge",
+  "diverge",
+  "on-ramp",
+  "off-ramp",
+  "acceleration lane",
+  "deceleration lane",
+  "auxiliary lane",
+  "taper",
+  "gore",
+  "nose"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 81,
+   "score": -30.304
+  },
+  {
+   "rank": 2,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 267,
+   "score": -29.946
+  },
+  {
+   "rank": 3,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 23,
+   "score": -29.17
+  },
+  {
+   "rank": 4,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 141,
+   "score": -28.724
+  },
+  {
+   "rank": 5,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 136,
+   "score": -28.502
+  },
+  {
+   "rank": 6,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 79,
+   "score": -28.434
+  },
+  {
+   "rank": 7,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 9,
+   "score": -28.431
+  },
+  {
+   "rank": 8,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 18,
+   "score": -28.141
+  },
+  {
+   "rank": 9,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 268,
+   "score": -27.935
+  },
+  {
+   "rank": 10,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD123_Geometric-design-of-at-grade-junctions_v2.1.0",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 31,
+   "score": -27.805
+  }
+ ],
+ "qid": "SI04"
+}

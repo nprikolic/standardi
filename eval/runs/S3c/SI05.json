@@ -1,0 +1,131 @@
+{
+ "system": "S3C",
+ "query_terms": [
+  "interchange",
+  "grade separated junction",
+  "grade-separated",
+  "free-flow junction",
+  "denivelisana raskrsnica",
+  "petlja",
+  "denivelisani čvor",
+  "денивелисана раскрсница",
+  "петља",
+  "денивелисани чвор",
+  "denivelirani čvor",
+  "denivelirano križanje",
+  "čvorište",
+  "izvennivojsko križišče",
+  "razcep",
+  "priključek",
+  "planfreier knotenpunkt",
+  "autobahnkreuz",
+  "autobahndreieck",
+  "anschlussstelle",
+  "enlace",
+  "nudo",
+  "intercambiador",
+  "interconexão",
+  "entroncamento",
+  "trevo",
+  "svincolo",
+  "interconnessione",
+  "échangeur",
+  "carrefour dénivelé",
+  "bifurcation",
+  "trafikplats",
+  "planskild korsning",
+  "węzeł",
+  "węzeł drogowy",
+  "skrzyżowanie bezkolizyjne",
+  "입체교차로",
+  "인터체인지",
+  "インターチェンジ",
+  "立体交差",
+  "立交",
+  "互通式立交"
+ ],
+ "mode": "like",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 106,
+   "score": 0.0
+  },
+  {
+   "rank": 2,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 107,
+   "score": 0.0
+  },
+  {
+   "rank": 3,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 16,
+   "score": 0.0
+  },
+  {
+   "rank": 4,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 21,
+   "score": 0.0
+  },
+  {
+   "rank": 5,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 33,
+   "score": 0.0
+  },
+  {
+   "rank": 6,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 47,
+   "score": 0.0
+  },
+  {
+   "rank": 7,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 55,
+   "score": 0.0
+  },
+  {
+   "rank": 8,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 60,
+   "score": 0.0
+  },
+  {
+   "rank": 9,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 67,
+   "score": 0.0
+  },
+  {
+   "rank": 10,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 92,
+   "score": 0.0
+  }
+ ],
+ "qid": "SI05"
+}

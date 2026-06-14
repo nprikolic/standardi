@@ -1,0 +1,266 @@
+{
+ "P001": {
+  "S0": {
+   "answer": "Min longitudinal grade set by drainage; ~0.5% for road in cut with ditch (uncertain).",
+   "citation": "Pravilnik 50/11 (no page)"
+  },
+  "S1": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S2": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S3": {
+   "answer": "Per Pravilnik 50/11, min iN determined from drainage condition; min iN=0% allowed if crossfall drains; cut/ditch branch truncated in passage.",
+   "citation": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full p.63"
+  },
+  "S4": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  }
+ },
+ "PB03": {
+  "S0": {
+   "answer": "Vector sum of longitudinal + relative grade kept above a min resultant (~0.5%); min long. grade at runoff ~0.7% (uncertain).",
+   "citation": "RAL Germany (no page)"
+  },
+  "S1": {
+   "answer": "RAL p.46: 'To ensure adequate carriageway drainage, the differ-' — value truncated in passage.",
+   "citation": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024 p.46"
+  },
+  "S2": {
+   "answer": "RAL p.46 difference rule present but specific value truncated.",
+   "citation": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024 p.46"
+  },
+  "S3": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S4": {
+   "answer": "RAL p.46 difference rule present but specific value truncated.",
+   "citation": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024 p.46"
+  }
+ },
+ "PC01": {
+  "S0": {
+   "answer": "Min 0.5% on curbed pavements; may reduce to 0.3% on a properly sloped paved surface.",
+   "citation": "AASHTO Green Book (no page)"
+  },
+  "S1": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S2": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S3": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S4": {
+   "answer": "Green Book: desirable min grade 0.3% minimum (0.5% for curbed) — curbed clause partly truncated.",
+   "citation": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018 p.600"
+  }
+ },
+ "PD06": {
+  "S0": {
+   "answer": "Asphalt-/cement-concrete pavements: cross slope ~1.5-2.0% (uncertain).",
+   "citation": "KOR Rules Art. 28 (no page)"
+  },
+  "S1": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S2": {
+   "answer": "Art. 28: lane cross slope for asphalt-/cement-concrete pavements is 1.5% to 2.0%.",
+   "citation": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021 p.221"
+  },
+  "S3": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S4": {
+   "answer": "Art. 28: lane cross slope for asphalt-/cement-concrete pavements is 1.5% to 2.0%.",
+   "citation": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021 p.49"
+  }
+ },
+ "PD01": {
+  "S0": {
+   "answer": "Min longitudinal grade of the profile at a runoff ~0.5% (uncertain).",
+   "citation": "VGU Sweden (no page)"
+  },
+  "S1": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S2": {
+   "answer": "Skevningsövergang placed where profile-plane longitudinal grade >= 1.0%; not where < 0.5%.",
+   "citation": "SWE_VGU::VGU_Krav_med_radstext_TRVINFRA-00396_v1_0 p.309"
+  },
+  "S3": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S4": {
+   "answer": "Skevningsövergang placed where profile-plane longitudinal grade >= 1.0% to ensure drainage.",
+   "citation": "SWE_VGU::VGU_Krav_med_radstext_TRVINFRA-00396_v1_0 p.309"
+  }
+ },
+ "PA07": {
+  "S0": {
+   "answer": "Min longitudinal gradient ~0.5%, reducible to ~0.3% (or 0% with special drainage) (uncertain).",
+   "citation": "WR-D-22-2 Poland (no page)"
+  },
+  "S1": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S2": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S3": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S4": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  }
+ },
+ "SF02": {
+  "S0": {
+   "answer": "Approx Rmin: 40:45 / 50:75 / 60:120 / 70:175 / 80:240 / 90:335 / 100:435 / 110:540 / 120:700 / 130:900 m (uncertain).",
+   "citation": "SRDM (no page)"
+  },
+  "S1": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S2": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S3": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S4": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  }
+ },
+ "SH01": {
+  "S0": {
+   "answer": "Maximum superelevation 8% (7% for some road groups).",
+   "citation": "Norma 3.1-IC (no page)"
+  },
+  "S1": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S2": {
+   "answer": "Tabla 4.4: peralte maximo 8.00% (Groups 1&2) and 7.00% (Group 3).",
+   "citation": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado p.38"
+  },
+  "S3": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S4": {
+   "answer": "Tabla 4.4: peralte maximo 8.00% (Groups 1&2) and 7.00% (Group 3).",
+   "citation": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado p.38"
+  }
+ },
+ "SI02": {
+  "S0": {
+   "answer": "Desirable minimum weaving length 2 km (absolute min ~1 km) (uncertain).",
+   "citation": "TII / DMRB (no page)"
+  },
+  "S1": {
+   "answer": "Desirable Minimum weaving length between grade separated junctions = 2km.",
+   "citation": "IRL_TII-junctions::DN-GEO-03060-03 p.145"
+  },
+  "S2": {
+   "answer": "Desirable Minimum weaving length = 2km.",
+   "citation": "IRL_TII-junctions::DN-GEO-03060-03 p.145"
+  },
+  "S3": {
+   "answer": "Desirable Minimum weaving length = 2km.",
+   "citation": "IRL_TII-junctions::DN-GEO-03060-03 p.145"
+  },
+  "S4": {
+   "answer": "Desirable Minimum weaving length = 2km.",
+   "citation": "IRL_TII-junctions::DN-GEO-03060-03 p.145"
+  }
+ },
+ "SIL01": {
+  "S0": {
+   "answer": "Not specified: 120 km/h is outside the LVRR low-volume scope; no value exists.",
+   "citation": "AFG LVRR Vol 2 (no page)"
+  },
+  "S1": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S2": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S3": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S4": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  }
+ },
+ "SIL03": {
+  "S0": {
+   "answer": "Not specified: CD 109 is an alignment standard; surface-course thickness is in pavement-design docs (e.g. CD 226).",
+   "citation": "DMRB CD 109 (no page)"
+  },
+  "S1": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S2": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S3": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S4": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  }
+ },
+ "SIL04": {
+  "S0": {
+   "answer": "Not specified: 50/11 governs roads, not tram/railway track radii.",
+   "citation": "Pravilnik 50/11 (no page)"
+  },
+  "S1": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S2": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S3": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  "S4": {
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  }
+ }
+}

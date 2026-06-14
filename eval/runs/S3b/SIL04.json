@@ -1,0 +1,106 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "horizontal",
+  "radius",
+  "does",
+  "serbian",
+  "pravilnik",
+  "specify",
+  "tram",
+  "railway",
+  "tracks",
+  "minimalni",
+  "horizontalni",
+  "radijus",
+  "propisuje",
+  "srpski",
+  "tramvajske",
+  "železničke",
+  "koloseke"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 9,
+   "score": -22.447
+  },
+  {
+   "rank": 2,
+   "doc_id": "DEU_FGSV::RASt_FGSV200_Urban-Roads_EN_2006-tr2012",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 94,
+   "score": -19.278
+  },
+  {
+   "rank": 3,
+   "doc_id": "SRB_SRDM::SRDM5-2-denivelisane-raskrsnice",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 20,
+   "score": -16.938
+  },
+  {
+   "rank": 4,
+   "doc_id": "DEU_FGSV::RASt_FGSV200_Urban-Roads_EN_2006-tr2012",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 97,
+   "score": -16.856
+  },
+  {
+   "rank": 5,
+   "doc_id": "DEU_FGSV::RASt_FGSV200_Urban-Roads_EN_2006-tr2012",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 93,
+   "score": -16.19
+  },
+  {
+   "rank": 6,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 127,
+   "score": -15.93
+  },
+  {
+   "rank": 7,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 33,
+   "score": -15.423
+  },
+  {
+   "rank": 8,
+   "doc_id": "SLO_Pravilnik-projektiranje-cest::SLO_Pravilnik-o-projektiranju-cest_NPB",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 16,
+   "score": -15.349
+  },
+  {
+   "rank": 9,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 126,
+   "score": -14.852
+  },
+  {
+   "rank": 10,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 131,
+   "score": -14.029
+  }
+ ],
+ "qid": "SIL04"
+}

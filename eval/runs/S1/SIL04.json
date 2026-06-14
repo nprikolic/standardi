@@ -1,0 +1,98 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "horizontal",
+  "radius",
+  "does",
+  "serbian",
+  "pravilnik",
+  "specify",
+  "tram",
+  "railway",
+  "tracks"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "DEU_FGSV::RASt_FGSV200_Urban-Roads_EN_2006-tr2012",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 94,
+   "score": -19.278
+  },
+  {
+   "rank": 2,
+   "doc_id": "DEU_FGSV::RASt_FGSV200_Urban-Roads_EN_2006-tr2012",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 97,
+   "score": -16.856
+  },
+  {
+   "rank": 3,
+   "doc_id": "DEU_FGSV::RASt_FGSV200_Urban-Roads_EN_2006-tr2012",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 93,
+   "score": -16.19
+  },
+  {
+   "rank": 4,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 127,
+   "score": -15.93
+  },
+  {
+   "rank": 5,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 33,
+   "score": -15.423
+  },
+  {
+   "rank": 6,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 126,
+   "score": -14.852
+  },
+  {
+   "rank": 7,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 131,
+   "score": -14.029
+  },
+  {
+   "rank": 8,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-appendix-a-b",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 2,
+   "score": -13.523
+  },
+  {
+   "rank": 9,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 210,
+   "score": -12.818
+  },
+  {
+   "rank": 10,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 132,
+   "score": -12.664
+  }
+ ],
+ "qid": "SIL04"
+}

@@ -1,0 +1,111 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "radius",
+  "circular",
+  "curve",
+  "design",
+  "speed",
+  "according",
+  "serbian",
+  "pravilnik",
+  "range",
+  "radii",
+  "may",
+  "applied",
+  "minimalni",
+  "radijus",
+  "kružne",
+  "krivine",
+  "pri",
+  "računskoj",
+  "brzini",
+  "prema",
+  "srpskom",
+  "pravilniku"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 75,
+   "score": -44.451
+  },
+  {
+   "rank": 2,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 9,
+   "score": -43.467
+  },
+  {
+   "rank": 3,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 76,
+   "score": -38.276
+  },
+  {
+   "rank": 4,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 83,
+   "score": -31.404
+  },
+  {
+   "rank": 5,
+   "doc_id": "SRB_SRDM::SRDM5-2-denivelisane-raskrsnice",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 20,
+   "score": -31.206
+  },
+  {
+   "rank": 6,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 86,
+   "score": -30.046
+  },
+  {
+   "rank": 7,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 33,
+   "score": -30.039
+  },
+  {
+   "rank": 8,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 89,
+   "score": -29.669
+  },
+  {
+   "rank": 9,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 79,
+   "score": -29.403
+  },
+  {
+   "rank": 10,
+   "doc_id": "SRB_SRDM::SRDM5-3-kruzne-raskrsnice",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 30,
+   "score": -29.373
+  }
+ ],
+ "qid": "SF01"
+}

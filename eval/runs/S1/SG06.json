@@ -1,0 +1,98 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "dmrb",
+  "109",
+  "table",
+  "desirable",
+  "crest",
+  "sag",
+  "design",
+  "speed",
+  "100"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 16,
+   "score": -30.766
+  },
+  {
+   "rank": 2,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 25,
+   "score": -30.037
+  },
+  {
+   "rank": 3,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 45,
+   "score": -26.836
+  },
+  {
+   "rank": 4,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 20,
+   "score": -26.676
+  },
+  {
+   "rank": 5,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 83,
+   "score": -25.325
+  },
+  {
+   "rank": 6,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 86,
+   "score": -23.845
+  },
+  {
+   "rank": 7,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 14,
+   "score": -23.397
+  },
+  {
+   "rank": 8,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 93,
+   "score": -23.106
+  },
+  {
+   "rank": 9,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 370,
+   "score": -22.126
+  },
+  {
+   "rank": 10,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 23,
+   "score": -21.945
+  }
+ ],
+ "qid": "SG06"
+}

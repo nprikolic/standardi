@@ -1,0 +1,99 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "does",
+  "spanish",
+  "junction",
+  "guidance",
+  "2012",
+  "define",
+  "weaving",
+  "lane",
+  "carril",
+  "trenzado"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 39,
+   "score": -18.598
+  },
+  {
+   "rank": 2,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-appendix-a-b",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 15,
+   "score": -18.43
+  },
+  {
+   "rank": 3,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 9,
+   "score": -18.344
+  },
+  {
+   "rank": 4,
+   "doc_id": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 120,
+   "score": -17.913
+  },
+  {
+   "rank": 5,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 10,
+   "score": -16.949
+  },
+  {
+   "rank": 6,
+   "doc_id": "ESP_OC-32-2012-nudos::OC-32-2012-nudos",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 86,
+   "score": -16.18
+  },
+  {
+   "rank": 7,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 8,
+   "score": -15.945
+  },
+  {
+   "rank": 8,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 141,
+   "score": -15.903
+  },
+  {
+   "rank": 9,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 10,
+   "score": -15.79
+  },
+  {
+   "rank": 10,
+   "doc_id": "ESP_OC-32-2012-nudos::OC-32-2012-nudos",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 87,
+   "score": -15.764
+  }
+ ],
+ "qid": "SI03"
+}

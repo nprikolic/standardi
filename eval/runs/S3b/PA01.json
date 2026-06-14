@@ -1,0 +1,121 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "croatian",
+  "road",
+  "design",
+  "110",
+  "2001",
+  "longitudinal",
+  "gradient",
+  "grade",
+  "line",
+  "gutter",
+  "raised",
+  "kerb",
+  "smaller",
+  "gradients",
+  "must",
+  "used",
+  "mora",
+  "primijeniti",
+  "najmanji",
+  "uzdužni",
+  "nagib",
+  "nivelete",
+  "kod",
+  "ceste",
+  "rigolom",
+  "uzdignutim",
+  "rubnjakom",
+  "ako",
+  "moraju",
+  "predvidjeti",
+  "manji",
+  "nagibi"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 18,
+   "score": -103.504
+  },
+  {
+   "rank": 2,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 95,
+   "score": -43.112
+  },
+  {
+   "rank": 3,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 83,
+   "score": -43.087
+  },
+  {
+   "rank": 4,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 84,
+   "score": -40.81
+  },
+  {
+   "rank": 5,
+   "doc_id": "HRV_Smjernice-kruzna::HRV_Smjernice-kruzna-raskrizja_hrvatske-ceste",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 45,
+   "score": -40.12
+  },
+  {
+   "rank": 6,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 34,
+   "score": -40.085
+  },
+  {
+   "rank": 7,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 33,
+   "score": -38.942
+  },
+  {
+   "rank": 8,
+   "doc_id": "HRV_Smjernice-kruzna::HRV_Smjernice-kruzna-raskrizja_hrvatske-ceste",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 60,
+   "score": -38.928
+  },
+  {
+   "rank": 9,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-154-2024_izmjene-dopune",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 2,
+   "score": -37.54
+  },
+  {
+   "rank": 10,
+   "doc_id": "HRV_Smjernice-kruzna::HRV_Smjernice-kruzna-raskrizja_hrvatske-ceste",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 46,
+   "score": -37.356
+  }
+ ],
+ "qid": "PA01"
+}

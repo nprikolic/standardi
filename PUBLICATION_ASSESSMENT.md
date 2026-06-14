@@ -6,6 +6,22 @@
 
 ## VERDICT (top line — read this first)
 
+> ### 🔄 UPDATE — 2026-06-14, post-Phase-5 benchmark (read before §C and §F)
+> The Phase-5 retrieval benchmark (the "[high leverage]" item in §F) **has now been executed** — and it returned a
+> **negative result.** The skill's intended retrieval design (concept-mapping + multilingual glossary, run as
+> `--concept`) **does not beat the baselines**; it is the *worst* real system (recall@10 = 0.13 vs 0.86 for a plain
+> native-language keyword search), because `--concept` ignores the question. The multilingual glossary used as flat
+> query-expansion adds no net value, and Japanese/CJK FTS retrieval is 0%. (Full result: `eval/BENCHMARK_REPORT.md`.)
+>
+> **Consequence for this assessment:** the §C claim "*the cross-lingual taxonomy/glossary is the genuine
+> differentiator*" is **not yet evidenced — it is currently disconfirmed in this implementation.** The AI/method
+> path to an international venue is therefore **conditional on one of two things:** (a) re-architecting the retriever
+> (question terms + targeted, weighted glossary expansion; CJK via LIKE) and demonstrating a *real* win on a
+> **leakage-free, cross-language** question set; or (b) publishing the **rigorous negative/cautionary finding itself**
+> (concept-browser retrieval fails; flat multilingual expansion hurts precision; the cross-lingual standards-QA
+> challenge) — a legitimate IR/NLP contribution, especially paired with the frozen-ground-truth + blind-judge
+> methodology, which is sound and reusable. What the benchmark proved is the *evaluation rigor*, not the *method's superiority*.
+
 **As it stands today, none of the three built components is, by itself, an international-journal paper.** The work is an impressive *engineering/infrastructure deliverable* and a strong *dissertation enabler*, but its current form is descriptive (a curated corpus + a retrieval skill + a completeness audit), and the one genuinely publishable analysis — the Serbia gap-analysis — is **planned, not done**, and sits in a space where substantial gray-literature prior art already exists (the official DRI/PE "Roads of Serbia" harmonisation project produced 3,200+ bilingual pages comparing Serbian rules to EU/foreign regulations — see §B/§D).
 
 Component-by-component calibration:
@@ -14,7 +30,7 @@ Component-by-component calibration:
 |---|---|---|
 | 1. Multilingual corpus / database of ~20 countries' standards | **Not independently publishable** as a research paper. Marginal as a "data paper" (licensing kills it). | Republishing copyrighted national standards is not a novel dataset; the curation is valuable infrastructure, not a finding. |
 | 2. Comparative multi-country parameter analysis | **Conference / regional journal** as pure tabulation; **international** only if fused with a safety/operating-speed lens or a defensible framework. | Cross-country comparisons exist but are fragmented; "yet another table" is incremental. |
-| 3. AI / multilingual-RAG-over-standards method | **International (computing-in-civil-eng) IF** evaluated rigorously with a benchmark + baselines. Currently a v0 skill with no eval → not yet. | The field is hot and crowded (2024–2026 ASCE JCCE, Automation in Construction, arXiv). Bar is now "beat a baseline on a benchmark," not "we built a RAG." |
+| 3. AI / multilingual-RAG-over-standards method | **Benchmark now done (Phase 5) — and the method did NOT beat baselines** (concept+glossary retrieval *lost*, recall@10 0.13 vs 0.86). International path is now conditional on a *redesigned* retriever proving a win on a leakage-free cross-language set, OR on publishing the negative finding. | The field is hot and crowded (2024–2026 ASCE JCCE, Automation in Construction, arXiv). Bar is "beat a baseline on a benchmark" — and on this benchmark, our method does not (yet). |
 | 4. Serbia gap-analysis + improvement proposals (planned) | **National/regional** as descriptive comparison; **international** only with quantitative safety linkage + generalizable method. | Strong, defensible national contribution and a clear dissertation chapter — but overlaps existing official harmonisation work. |
 
 **Bottom line:** This is a **solid PhD-dissertation backbone and 1–2 national/regional papers right now.** Reaching an indexed international journal requires adding *a method or a measured outcome* (a validated retrieval benchmark, OR a safety/operating-speed-grounded comparative framework), not more standards.
@@ -57,7 +73,7 @@ The field is active and 2024–2026 hot:
 **Implications:**
 - A bare "we built a RAG over standards" is no longer novel. The bar is now: a **benchmark question bank with ground-truth citations**, **measured retrieval/answer accuracy**, **comparison to baselines** (keyword search, generic RAG, an off-the-shelf LLM), and an **ablation** isolating what actually helps.
 - **Your genuine differentiator** = *cross-lingual* retrieval over engineering standards in 11+ languages including non-Latin scripts (Cyrillic/CJK), with a domain concept-taxonomy + multilingual term glossary mediating "concept → correct clause in any language." Almost all existing work is monolingual English on building codes. *Multilingual, cross-standard road-geometry QA with citation-grounded answers and a measured benchmark* is a defensible, fresh contribution.
-- **Gap to close:** Phase 5 (eval) is not done. Right now there is no benchmark, no accuracy number, no baseline. Until those exist, this is a tool, not a result. The eval is the paper.
+- **Gap to close (UPDATED 2026-06-14):** Phase 5 (eval) is now **done** — benchmark, accuracy numbers, baselines and ablations all exist (`eval/`). But the result is **negative**: the concept+glossary design loses to a plain native-language keyword search, and the glossary-as-flat-expansion adds no value (recall@10 0.13 vs 0.86; see `eval/BENCHMARK_REPORT.md` §3–4). So the differentiator above is currently **disconfirmed in this implementation**, not demonstrated. To make this "the paper", either (i) re-architect the retriever and re-test on a *leakage-free, cross-language* set where the multilingual layer can actually pay off, or (ii) write up the negative/cautionary finding (concept-browser retrieval fails; flat multilingual OR-expansion hurts precision; CJK FTS limits) as the contribution. The evaluation *method* (frozen quote-verified ground-truth, code-scored retrieval, blind 3-judge panel) is rigorous and is itself reusable.
 
 **Best venues for C:** ASCE *J. Computing in Civil Engineering*; Elsevier *Automation in Construction* (high impact, very competitive); *Advanced Engineering Informatics*; for an NLP-leaning framing, an *NLLP* (Natural Legal Language Processing) workshop or a domain track.
 
@@ -118,7 +134,7 @@ The field is active and 2024–2026 hot:
 
 A prioritized, specific checklist. Items marked **[high leverage]** move the needle most.
 
-- [ ] **[high leverage] Build the retrieval benchmark + measure it (Phase 5).** A ≥50-question bank across concepts/standards/languages, each with ground-truth answer + citation. Report retrieval precision/recall and answer accuracy. **Add baselines**: keyword search, generic (non-taxonomy) RAG, and an off-the-shelf LLM with no retrieval. **Ablate** the multilingual glossary and concept-taxonomy to show they cause the gain. *This single item converts the skill from "tool" to "publishable method" and is your clearest international path (ASCE JCCE / Automation in Construction).*
+- [x] **[high leverage] Build the retrieval benchmark + measure it (Phase 5). ✅ DONE 2026-06-14 — but it disconfirmed the method.** 77-question bank with quote-verified, frozen ground-truth; retrieval scored by code; baselines (keyword, generic RAG, raw-LLM) + ablations (multilingual, concept-mapping, FTS↔LIKE); blind 3-judge answer sub-study. **Result: the concept-taxonomy + multilingual glossary did NOT cause a gain — they *lost*** (recall@10 0.13 vs 0.86; `eval/BENCHMARK_REPORT.md`). The follow-on high-leverage item is now: **re-architect the retriever (question terms + targeted glossary expansion; CJK via LIKE) and re-test on a leakage-free cross-language set** (`eval/glossary_improvements.md` §A,D) — that is the path that could still convert the skill into a publishable *positive* method; otherwise publish the negative finding.
 - [ ] **[high leverage] Tie at least one parameter comparison to a SAFETY / operating-speed outcome.** Don't stop at "country X allows e_max=8%, country Y=7%." Show, via an operating-speed or design-consistency model (the established surrogate-safety method — [Camacho-Torregrosa et al., AAP 2013](https://www.sciencedirect.com/science/article/abs/pii/S0001457512003570)), what a given Serbian threshold implies for consistency/crash risk versus alternatives. This is the dividing line between a national table and a TRR/AAP paper.
 - [ ] **[high leverage] Make the method generalizable beyond Serbia.** Frame the gap-analysis as a *reusable framework* ("a citation-grounded, multilingual benchmarking method for auditing any national geometric-design regulation against international practice"), with Serbia as the worked case study. A framework + case study travels internationally; "Serbia vs the world" does not.
 - [ ] **Normalize and release the values layer (Phases 1–3) as an open, citable artifact** — the parts you authored (concept taxonomy, multilingual glossary, normalized SI fact-sheets *with citations*, extraction/retrieval code), DOI'd on Zenodo. This gives reproducibility credit without infringing source copyright.

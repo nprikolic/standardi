@@ -1,0 +1,130 @@
+{
+ "system": "S3C",
+ "query_terms": [
+  "superelevation",
+  "cant",
+  "superelevation runoff",
+  "superelevation development",
+  "crossfall rotation",
+  "vitoperenje",
+  "poprečni nagib",
+  "poprecni nagib",
+  "krovasti nagib",
+  "rampa vitoperenja",
+  "витоперење",
+  "попречни нагиб",
+  "кровасти нагиб",
+  "рампа витоперења",
+  "popre čni nagib",
+  "vitopernost",
+  "nagib vozišča",
+  "prečni nagib",
+  "preč ni nagib",
+  "razširitev",
+  "querneigung",
+  "verwindung",
+  "anrampung",
+  "verziehung",
+  "peralte",
+  "transición del peralte",
+  "bombeo",
+  "superelevação",
+  "superlargura",
+  "sopraelevazione",
+  "pendenza trasversale",
+  "dévers",
+  "variation de dévers",
+  "skevning",
+  "skevningsutjämning",
+  "przechyłka",
+  "pochylenie poprzeczne",
+  "rampa drogowa",
+  "편경사",
+  "片勾配",
+  "超高"
+ ],
+ "mode": "like",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 8,
+   "score": 0.0
+  },
+  {
+   "rank": 2,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 20,
+   "score": 0.0
+  },
+  {
+   "rank": 3,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 28,
+   "score": 0.0
+  },
+  {
+   "rank": 4,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 29,
+   "score": 0.0
+  },
+  {
+   "rank": 5,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 32,
+   "score": 0.0
+  },
+  {
+   "rank": 6,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 36,
+   "score": 0.0
+  },
+  {
+   "rank": 7,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 43,
+   "score": 0.0
+  },
+  {
+   "rank": 8,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 50,
+   "score": 0.0
+  },
+  {
+   "rank": 9,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 55,
+   "score": 0.0
+  },
+  {
+   "rank": 10,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 63,
+   "score": 0.0
+  }
+ ],
+ "qid": "SH03"
+}

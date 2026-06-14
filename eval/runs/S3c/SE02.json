@@ -1,0 +1,126 @@
+{
+ "system": "S3C",
+ "query_terms": [
+  "sight distance",
+  "stopping sight",
+  "overtaking sight",
+  "passing sight",
+  "preglednost",
+  "zaustavna preglednost",
+  "preticajna preglednost",
+  "dužina preglednosti",
+  "прегледност",
+  "зауставна прегледност",
+  "претицајна прегледност",
+  "дужина прегледности",
+  "pretjecajna preglednost",
+  "duljina preglednosti",
+  "pregledna razdalja",
+  "zaustavna pregledna razdalja",
+  "pregled",
+  "sichtweite",
+  "haltesichtweite",
+  "überholsichtweite",
+  "distancia de visibilidad",
+  "distancia de parada",
+  "distância de visibilidade",
+  "distância de parada",
+  "distanza di visibilità",
+  "distanza di arresto",
+  "distance de visibilité",
+  "distance d'arrêt",
+  "stoppsikt",
+  "siktsträcka",
+  "odległość widoczności",
+  "odległości widoczności",
+  "widocznoś",
+  "시거",
+  "정지시거",
+  "視距",
+  "视距"
+ ],
+ "mode": "like",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 7,
+   "score": 0.0
+  },
+  {
+   "rank": 2,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 8,
+   "score": 0.0
+  },
+  {
+   "rank": 3,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 29,
+   "score": 0.0
+  },
+  {
+   "rank": 4,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 33,
+   "score": 0.0
+  },
+  {
+   "rank": 5,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 59,
+   "score": 0.0
+  },
+  {
+   "rank": 6,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 81,
+   "score": 0.0
+  },
+  {
+   "rank": 7,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 85,
+   "score": 0.0
+  },
+  {
+   "rank": 8,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 86,
+   "score": 0.0
+  },
+  {
+   "rank": 9,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 87,
+   "score": 0.0
+  },
+  {
+   "rank": 10,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 88,
+   "score": 0.0
+  }
+ ],
+ "qid": "SE02"
+}

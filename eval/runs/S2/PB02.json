@@ -1,0 +1,110 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "wie",
+  "längsneigung",
+  "minimale",
+  "anrampungsneigung",
+  "aufeinander",
+  "abzustimmen",
+  "ausreichende",
+  "entwässerung",
+  "gewährleisten",
+  "raa",
+  "superelevation",
+  "development",
+  "should",
+  "longitudinal",
+  "gradient",
+  "relative",
+  "grade",
+  "treated",
+  "guarantee",
+  "adequate",
+  "drainage"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 42,
+   "score": -46.127
+  },
+  {
+   "rank": 2,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 46,
+   "score": -41.805
+  },
+  {
+   "rank": 3,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 45,
+   "score": -33.286
+  },
+  {
+   "rank": 4,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 285,
+   "score": -31.791
+  },
+  {
+   "rank": 5,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 98,
+   "score": -31.645
+  },
+  {
+   "rank": 6,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-5-vertical-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 2,
+   "score": -31.421
+  },
+  {
+   "rank": 7,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 34,
+   "score": -31.355
+  },
+  {
+   "rank": 8,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 73,
+   "score": -26.944
+  },
+  {
+   "rank": 9,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 107,
+   "score": -26.713
+  },
+  {
+   "rank": 10,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 43,
+   "score": -26.054
+  }
+ ],
+ "qid": "PB02"
+}

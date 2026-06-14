@@ -1,0 +1,102 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "spanish",
+  "roundabout",
+  "design",
+  "norma",
+  "entry",
+  "superelevation",
+  "limited",
+  "reduced",
+  "while",
+  "still",
+  "guaranteeing",
+  "surface",
+  "drainage"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 105,
+   "score": -29.849
+  },
+  {
+   "rank": 2,
+   "doc_id": "GBR_DMRB-CD109::CD116_Geometric_design_of_roundabouts",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 74,
+   "score": -26.237
+  },
+  {
+   "rank": 3,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 107,
+   "score": -25.775
+  },
+  {
+   "rank": 4,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 102,
+   "score": -21.819
+  },
+  {
+   "rank": 5,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 117,
+   "score": -21.495
+  },
+  {
+   "rank": 6,
+   "doc_id": "GBR_DMRB-CD109::CD116_Geometric_design_of_roundabouts",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 97,
+   "score": -20.864
+  },
+  {
+   "rank": 7,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-4-horizontal-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 21,
+   "score": -20.286
+  },
+  {
+   "rank": 8,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 97,
+   "score": -20.267
+  },
+  {
+   "rank": 9,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 34,
+   "score": -19.486
+  },
+  {
+   "rank": 10,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 211,
+   "score": -19.44
+  }
+ ],
+ "qid": "PB07"
+}

@@ -1,0 +1,104 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "según",
+  "norma",
+  "qué",
+  "forma",
+  "curva",
+  "transición",
+  "emplea",
+  "siempre",
+  "spanish",
+  "plan",
+  "curve",
+  "shape",
+  "always",
+  "used",
+  "transition"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 55,
+   "score": -24.855
+  },
+  {
+   "rank": 2,
+   "doc_id": "ESP_OC-32-2012-nudos::OC-32-2012-nudos",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 473,
+   "score": -24.642
+  },
+  {
+   "rank": 3,
+   "doc_id": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 54,
+   "score": -24.257
+  },
+  {
+   "rank": 4,
+   "doc_id": "ESP_OC-32-2012-nudos::OC-32-2012-nudos",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 162,
+   "score": -22.861
+  },
+  {
+   "rank": 5,
+   "doc_id": "ESP_OC-32-2012-nudos::OC-32-2012-nudos",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 465,
+   "score": -22.83
+  },
+  {
+   "rank": 6,
+   "doc_id": "ESP_OC-32-2012-nudos::OC-32-2012-nudos",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 71,
+   "score": -22.528
+  },
+  {
+   "rank": 7,
+   "doc_id": "ESP_OC-32-2012-nudos::OC-32-2012-nudos",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 158,
+   "score": -22.099
+  },
+  {
+   "rank": 8,
+   "doc_id": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 57,
+   "score": -21.822
+  },
+  {
+   "rank": 9,
+   "doc_id": "ESP_OC-32-2012-nudos::OC-32-2012-nudos",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 167,
+   "score": -21.689
+  },
+  {
+   "rank": 10,
+   "doc_id": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 213,
+   "score": -21.138
+  }
+ ],
+ "qid": "SF07"
+}

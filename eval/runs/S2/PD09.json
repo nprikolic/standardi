@@ -1,0 +1,99 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "malawi",
+  "lvr",
+  "manual",
+  "vol",
+  "preferred",
+  "gradient",
+  "streets",
+  "stated",
+  "gradients",
+  "section"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "IRL_DMURS::DMURS-version-11",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 125,
+   "score": -21.025
+  },
+  {
+   "rank": 2,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 217,
+   "score": -18.758
+  },
+  {
+   "rank": 3,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 19,
+   "score": -17.839
+  },
+  {
+   "rank": 4,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 280,
+   "score": -17.337
+  },
+  {
+   "rank": 5,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 16,
+   "score": -16.942
+  },
+  {
+   "rank": 6,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 246,
+   "score": -16.942
+  },
+  {
+   "rank": 7,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03035-05",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 71,
+   "score": -16.767
+  },
+  {
+   "rank": 8,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 124,
+   "score": -16.65
+  },
+  {
+   "rank": 9,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 223,
+   "score": -16.37
+  },
+  {
+   "rank": 10,
+   "doc_id": "TRL_ORN6::ORN6",
+   "iso3": "MODEL",
+   "lang": "en",
+   "page": 24,
+   "score": -15.82
+  }
+ ],
+ "qid": "PD09"
+}

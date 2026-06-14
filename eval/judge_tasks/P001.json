@@ -1,0 +1,40 @@
+{
+ "qid": "P001",
+ "question": "Under the Serbian Pravilnik (50/11), how is the minimum longitudinal grade of the vertical alignment (min iN) determined, and what value applies when the road is in cut with longitudinal ditch drainage?",
+ "is_silent": false,
+ "ground_truth": [
+  {
+   "doc_id": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full",
+   "page": 63,
+   "value": "min iN determined from the drainage condition; min iN = 0% allowed if crossfall drains the surface; in cut with longitudinal drainage min iN >= 0.8 (1.0) %; condition iN - irv >= min ihid",
+   "quote": "Минимални нагиб нивелете одређује се из услова одводњавања, при чему се пут може пројектовати и са хоризонталном нивелетом (min iN = 0 %)"
+  }
+ ],
+ "candidates": [
+  {
+   "label": "A",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "B",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "C",
+   "answer": "Min longitudinal grade set by drainage; ~0.5% for road in cut with ditch (uncertain).",
+   "citation": "Pravilnik 50/11 (no page)"
+  },
+  {
+   "label": "D",
+   "answer": "Per Pravilnik 50/11, min iN determined from drainage condition; min iN=0% allowed if crossfall drains; cut/ditch branch truncated in passage.",
+   "citation": "SRB_Pravilnik-50-11::SRB_Pravilnik-50-11_full p.63"
+  },
+  {
+   "label": "E",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  }
+ ]
+}

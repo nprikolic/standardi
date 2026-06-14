@@ -1,0 +1,106 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "spanish",
+  "norma",
+  "perception",
+  "reaction",
+  "time",
+  "used",
+  "compute",
+  "stopping",
+  "distance",
+  "qué",
+  "tiempo",
+  "percepción",
+  "reacción",
+  "adopta",
+  "calcular",
+  "distancia",
+  "parada"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 22,
+   "score": -41.474
+  },
+  {
+   "rank": 2,
+   "doc_id": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 28,
+   "score": -33.338
+  },
+  {
+   "rank": 3,
+   "doc_id": "ESP_Norma-3.1-IC::BOE-A-2016-2217_Norma-3.1-IC-Trazado",
+   "iso3": "ESP",
+   "lang": "es,en",
+   "page": 21,
+   "score": -32.505
+  },
+  {
+   "rank": 4,
+   "doc_id": "IRL_DMURS::DMURS-version-11",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 119,
+   "score": -28.018
+  },
+  {
+   "rank": 5,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 145,
+   "score": -27.47
+  },
+  {
+   "rank": 6,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 782,
+   "score": -25.832
+  },
+  {
+   "rank": 7,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 148,
+   "score": -25.42
+  },
+  {
+   "rank": 8,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 851,
+   "score": -25.276
+  },
+  {
+   "rank": 9,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 728,
+   "score": -23.627
+  },
+  {
+   "rank": 10,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 103,
+   "score": -23.255
+  }
+ ],
+ "qid": "SE02"
+}

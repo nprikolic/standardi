@@ -1,0 +1,118 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "swedish",
+  "vgu",
+  "requirements",
+  "where",
+  "should",
+  "superelevation",
+  "runoff",
+  "skevningsövergång",
+  "located",
+  "longitudinal",
+  "grade",
+  "profile",
+  "plane",
+  "applies",
+  "there",
+  "ensure",
+  "drainage",
+  "var",
+  "bör",
+  "placeras",
+  "enligt",
+  "minsta",
+  "längslutning",
+  "profilplanet",
+  "gäller",
+  "för",
+  "att",
+  "säkerställa",
+  "vattenavrinning"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "SWE_VGU::VGU_Krav_med_radstext_TRVINFRA-00396_v1_0",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 309,
+   "score": -65.581
+  },
+  {
+   "rank": 2,
+   "doc_id": "SWE_VGU::VGU_Krav_Publikation2022-001",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 142,
+   "score": -38.281
+  },
+  {
+   "rank": 3,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 34,
+   "score": -36.343
+  },
+  {
+   "rank": 4,
+   "doc_id": "SWE_VGU::VGU_Rad_Publikation2022-003",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 132,
+   "score": -35.277
+  },
+  {
+   "rank": 5,
+   "doc_id": "SWE_VGU::VGU_Rad_Publikation2022-003",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 149,
+   "score": -34.519
+  },
+  {
+   "rank": 6,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 285,
+   "score": -31.791
+  },
+  {
+   "rank": 7,
+   "doc_id": "SWE_VGU::VGU_Rad_Publikation2022-003",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 126,
+   "score": -31.789
+  },
+  {
+   "rank": 8,
+   "doc_id": "SWE_VGU::VGU_Krav_med_radstext_TRVINFRA-00396_v1_0",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 355,
+   "score": -31.53
+  },
+  {
+   "rank": 9,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 105,
+   "score": -30.872
+  },
+  {
+   "rank": 10,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 182,
+   "score": -30.728
+  }
+ ],
+ "qid": "PD01"
+}

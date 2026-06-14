@@ -1,0 +1,102 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "spanish",
+  "norma",
+  "above",
+  "vertical",
+  "curve",
+  "parameter",
+  "must",
+  "correct",
+  "road",
+  "drainage",
+  "specifically",
+  "confirmed",
+  "section"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 143,
+   "score": -23.236
+  },
+  {
+   "rank": 2,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-5-vertical-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 7,
+   "score": -21.736
+  },
+  {
+   "rank": 3,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 205,
+   "score": -21.657
+  },
+  {
+   "rank": 4,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-5-vertical-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 1,
+   "score": -20.369
+  },
+  {
+   "rank": 5,
+   "doc_id": "IRL_DMURS::DMURS-version-11",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 124,
+   "score": -19.994
+  },
+  {
+   "rank": 6,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 37,
+   "score": -19.676
+  },
+  {
+   "rank": 7,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-4-horizontal-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 20,
+   "score": -19.415
+  },
+  {
+   "rank": 8,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 73,
+   "score": -19.295
+  },
+  {
+   "rank": 9,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 99,
+   "score": -19.257
+  },
+  {
+   "rank": 10,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 223,
+   "score": -19.079
+  }
+ ],
+ "qid": "PB06"
+}

@@ -1,0 +1,99 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "german",
+  "ral",
+  "rural",
+  "roads",
+  "planning",
+  "design",
+  "speed",
+  "same",
+  "permissible",
+  "limit"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 13,
+   "score": -26.214
+  },
+  {
+   "rank": 2,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 20,
+   "score": -24.475
+  },
+  {
+   "rank": 3,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 17,
+   "score": -24.055
+  },
+  {
+   "rank": 4,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 9,
+   "score": -23.891
+  },
+  {
+   "rank": 5,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 87,
+   "score": -22.52
+  },
+  {
+   "rank": 6,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 95,
+   "score": -21.341
+  },
+  {
+   "rank": 7,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 20,
+   "score": -20.909
+  },
+  {
+   "rank": 8,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 93,
+   "score": -20.754
+  },
+  {
+   "rank": 9,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 19,
+   "score": -18.896
+  },
+  {
+   "rank": 10,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 45,
+   "score": -18.664
+  }
+ ],
+ "qid": "SE06"
+}

@@ -1,0 +1,108 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "serbian",
+  "road",
+  "design",
+  "manual",
+  "srdm",
+  "limiting",
+  "radii",
+  "rmin",
+  "circular",
+  "curves",
+  "speeds",
+  "130",
+  "srpskom",
+  "granične",
+  "minimalne",
+  "vrednosti",
+  "poluprečnika",
+  "računske",
+  "brzine"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 75,
+   "score": -46.387
+  },
+  {
+   "rank": 2,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 94,
+   "score": -41.024
+  },
+  {
+   "rank": 3,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 78,
+   "score": -38.165
+  },
+  {
+   "rank": 4,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 74,
+   "score": -35.159
+  },
+  {
+   "rank": 5,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 76,
+   "score": -30.392
+  },
+  {
+   "rank": 6,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 87,
+   "score": -26.332
+  },
+  {
+   "rank": 7,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 86,
+   "score": -25.73
+  },
+  {
+   "rank": 8,
+   "doc_id": "SRB_SRDM::SRDM4-0-projektni-elementi-puta",
+   "iso3": "SRB",
+   "lang": "sr,en",
+   "page": 68,
+   "score": -24.931
+  },
+  {
+   "rank": 9,
+   "doc_id": "HRV_NN-110-2001::HRV_NN-110-2001_zakon-hr",
+   "iso3": "HRV",
+   "lang": "hr,en",
+   "page": 7,
+   "score": -24.928
+  },
+  {
+   "rank": 10,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 201,
+   "score": -24.491
+  }
+ ],
+ "qid": "SF02"
+}

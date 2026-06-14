@@ -1,0 +1,101 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "tabela",
+  "regra",
+  "comprimento",
+  "mínimo",
+  "faixa",
+  "desaceleração",
+  "brazilian",
+  "deceleration",
+  "lane",
+  "length",
+  "table",
+  "rule"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "BRA_IPR-718-intersecoes::IPR-718_Manual_de_Projeto_de_Intersecoes_2005",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 264,
+   "score": -30.255
+  },
+  {
+   "rank": 2,
+   "doc_id": "BRA_IPR-718-intersecoes::IPR-718_Manual_de_Projeto_de_Intersecoes_2005",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 472,
+   "score": -29.016
+  },
+  {
+   "rank": 3,
+   "doc_id": "BRA_IPR-718-intersecoes::IPR-718_Manual_de_Projeto_de_Intersecoes_2005",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 261,
+   "score": -28.37
+  },
+  {
+   "rank": 4,
+   "doc_id": "BRA_IPR-718-intersecoes::IPR-718_Manual_de_Projeto_de_Intersecoes_2005",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 480,
+   "score": -28.21
+  },
+  {
+   "rank": 5,
+   "doc_id": "BRA_IPR-718-intersecoes::IPR-718_Manual_de_Projeto_de_Intersecoes_2005",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 476,
+   "score": -28.145
+  },
+  {
+   "rank": 6,
+   "doc_id": "BRA_IPR-718-intersecoes::IPR-718_Manual_de_Projeto_de_Intersecoes_2005",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 263,
+   "score": -27.875
+  },
+  {
+   "rank": 7,
+   "doc_id": "BRA_IPR-718-intersecoes::IPR-718_Manual_de_Projeto_de_Intersecoes_2005",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 281,
+   "score": -27.808
+  },
+  {
+   "rank": 8,
+   "doc_id": "BRA_IPR-718-intersecoes::IPR-718_Manual_de_Projeto_de_Intersecoes_2005",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 479,
+   "score": -27.062
+  },
+  {
+   "rank": 9,
+   "doc_id": "BRA_IPR-718-intersecoes::IPR-718_Manual_de_Projeto_de_Intersecoes_2005",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 477,
+   "score": -25.568
+  },
+  {
+   "rank": 10,
+   "doc_id": "BRA_IPR-718-intersecoes::IPR-718_Manual_de_Projeto_de_Intersecoes_2005",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 18,
+   "score": -25.194
+  }
+ ],
+ "qid": "SI06"
+}

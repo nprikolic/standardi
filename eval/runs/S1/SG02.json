@@ -1,0 +1,101 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "japan",
+  "road",
+  "structure",
+  "ordinance",
+  "art",
+  "vertical",
+  "curve",
+  "radius",
+  "design",
+  "speed",
+  "crest",
+  "凸形曲線"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "TRL_ORN6::ORN6",
+   "iso3": "MODEL",
+   "lang": "en",
+   "page": 33,
+   "score": -23.922
+  },
+  {
+   "rank": 2,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 13,
+   "score": -23.835
+  },
+  {
+   "rank": 3,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 85,
+   "score": -23.685
+  },
+  {
+   "rank": 4,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-3-design-form",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 2,
+   "score": -23.643
+  },
+  {
+   "rank": 5,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 94,
+   "score": -22.98
+  },
+  {
+   "rank": 6,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 75,
+   "score": -22.589
+  },
+  {
+   "rank": 7,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 113,
+   "score": -22.178
+  },
+  {
+   "rank": 8,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 165,
+   "score": -22.111
+  },
+  {
+   "rank": 9,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 169,
+   "score": -22.101
+  },
+  {
+   "rank": 10,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 111,
+   "score": -21.528
+  }
+ ],
+ "qid": "SG02"
+}

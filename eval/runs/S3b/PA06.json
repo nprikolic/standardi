@@ -1,0 +1,106 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "slovenian",
+  "tsc",
+  "300",
+  "where",
+  "longitudinal",
+  "gradient",
+  "road",
+  "grade",
+  "line",
+  "defined",
+  "kje",
+  "določen",
+  "najmanjši",
+  "vzdolžni",
+  "nagib",
+  "nivelete",
+  "ceste"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 55,
+   "score": -50.526
+  },
+  {
+   "rank": 2,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 46,
+   "score": -47.625
+  },
+  {
+   "rank": 3,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 5,
+   "score": -47.519
+  },
+  {
+   "rank": 4,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 50,
+   "score": -37.992
+  },
+  {
+   "rank": 5,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 47,
+   "score": -37.437
+  },
+  {
+   "rank": 6,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 4,
+   "score": -37.171
+  },
+  {
+   "rank": 7,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 8,
+   "score": -35.432
+  },
+  {
+   "rank": 8,
+   "doc_id": "SLO_Pravilnik-projektiranje-cest::SLO_Pravilnik-o-projektiranju-cest_NPB",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 19,
+   "score": -35.066
+  },
+  {
+   "rank": 9,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 49,
+   "score": -33.294
+  },
+  {
+   "rank": 10,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 56,
+   "score": -32.442
+  }
+ ],
+ "qid": "PA06"
+}

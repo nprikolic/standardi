@@ -1,0 +1,109 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "welche",
+  "resultierende",
+  "neigung",
+  "wird",
+  "nach",
+  "rews",
+  "gefordert",
+  "kann",
+  "höheren",
+  "anrampungswerten",
+  "führen",
+  "according",
+  "ral",
+  "resultant",
+  "slope",
+  "may",
+  "result",
+  "higher",
+  "superelevation",
+  "transition"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 46,
+   "score": -32.991
+  },
+  {
+   "rank": 2,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 197,
+   "score": -25.38
+  },
+  {
+   "rank": 3,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 25,
+   "score": -24.02
+  },
+  {
+   "rank": 4,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 259,
+   "score": -22.017
+  },
+  {
+   "rank": 5,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 61,
+   "score": -20.671
+  },
+  {
+   "rank": 6,
+   "doc_id": "TRL_ORN6::ORN6",
+   "iso3": "MODEL",
+   "lang": "en",
+   "page": 17,
+   "score": -20.481
+  },
+  {
+   "rank": 7,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 50,
+   "score": -20.263
+  },
+  {
+   "rank": 8,
+   "doc_id": "CHN_JTG-D20::JTG_D20-2017_EN",
+   "iso3": "CHN",
+   "lang": "zh,en",
+   "page": 75,
+   "score": -19.928
+  },
+  {
+   "rank": 9,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 250,
+   "score": -19.478
+  },
+  {
+   "rank": 10,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 35,
+   "score": -19.103
+  }
+ ],
+ "qid": "PB04"
+}

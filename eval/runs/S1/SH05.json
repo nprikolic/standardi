@@ -1,0 +1,101 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "lane",
+  "width",
+  "must",
+  "lanes",
+  "have",
+  "german",
+  "eka",
+  "motorways",
+  "right",
+  "hand",
+  "under",
+  "raa"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 22,
+   "score": -39.184
+  },
+  {
+   "rank": 2,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 9,
+   "score": -28.43
+  },
+  {
+   "rank": 3,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-6-cross-section",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 10,
+   "score": -26.019
+  },
+  {
+   "rank": 4,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 83,
+   "score": -25.792
+  },
+  {
+   "rank": 5,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 118,
+   "score": -25.552
+  },
+  {
+   "rank": 6,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 82,
+   "score": -25.324
+  },
+  {
+   "rank": 7,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 48,
+   "score": -24.93
+  },
+  {
+   "rank": 8,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 80,
+   "score": -23.789
+  },
+  {
+   "rank": 9,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 99,
+   "score": -23.587
+  },
+  {
+   "rank": 10,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 24,
+   "score": -23.506
+  }
+ ],
+ "qid": "SH05"
+}

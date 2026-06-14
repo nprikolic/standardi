@@ -1,0 +1,40 @@
+{
+ "qid": "PD06",
+ "question": "Under Article 28 of the Korean Rules on the Structure and Facility Standards of Roads, the lane cross slope is set for drainage by pavement type — what cross-slope applies to asphalt-concrete and cement-concrete pavements?",
+ "is_silent": false,
+ "ground_truth": [
+  {
+   "doc_id": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021",
+   "page": 49,
+   "value": "Lane cross slope provided for drainage by pavement type; asphalt-concrete and cement-concrete pavements 1.5%–2.0%.",
+   "quote": "차로의 횡단경사는 배수를 위하여 포장의 종류에 따라"
+  }
+ ],
+ "candidates": [
+  {
+   "label": "A",
+   "answer": "Art. 28: lane cross slope for asphalt-/cement-concrete pavements is 1.5% to 2.0%.",
+   "citation": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021 p.49"
+  },
+  {
+   "label": "B",
+   "answer": "Asphalt-/cement-concrete pavements: cross slope ~1.5-2.0% (uncertain).",
+   "citation": "KOR Rules Art. 28 (no page)"
+  },
+  {
+   "label": "C",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "D",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "E",
+   "answer": "Art. 28: lane cross slope for asphalt-/cement-concrete pavements is 1.5% to 2.0%.",
+   "citation": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021 p.221"
+  }
+ ]
+}

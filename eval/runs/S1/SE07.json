@@ -1,0 +1,107 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "swedish",
+  "vgu",
+  "horizontal",
+  "curve",
+  "local",
+  "network",
+  "street",
+  "tramway",
+  "mixed",
+  "traffic",
+  "low",
+  "may",
+  "design",
+  "speed",
+  "vdim",
+  "set",
+  "relative",
+  "reference"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "IRL_DMURS::DMURS-version-11",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 127,
+   "score": -28.403
+  },
+  {
+   "rank": 2,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 143,
+   "score": -27.694
+  },
+  {
+   "rank": 3,
+   "doc_id": "ZAF_TRH26-UTG::TRH26-2012-RCAM",
+   "iso3": "ZAF",
+   "lang": "en",
+   "page": 24,
+   "score": -24.993
+  },
+  {
+   "rank": 4,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 142,
+   "score": -24.728
+  },
+  {
+   "rank": 5,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 22,
+   "score": -24.324
+  },
+  {
+   "rank": 6,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-glossary",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 12,
+   "score": -23.492
+  },
+  {
+   "rank": 7,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 146,
+   "score": -23.278
+  },
+  {
+   "rank": 8,
+   "doc_id": "IRL_DMURS::DMURS-version-11",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 154,
+   "score": -23.248
+  },
+  {
+   "rank": 9,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 79,
+   "score": -22.706
+  },
+  {
+   "rank": 10,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 202,
+   "score": -22.568
+  }
+ ],
+ "qid": "SE07"
+}

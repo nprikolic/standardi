@@ -1,0 +1,98 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "italian",
+  "6792",
+  "2001",
+  "clothoid",
+  "parameter",
+  "amin",
+  "function",
+  "design",
+  "speed"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 35,
+   "score": -18.701
+  },
+  {
+   "rank": 2,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 34,
+   "score": -17.601
+  },
+  {
+   "rank": 3,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 33,
+   "score": -17.1
+  },
+  {
+   "rank": 4,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 9,
+   "score": -16.57
+  },
+  {
+   "rank": 5,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 89,
+   "score": -16.54
+  },
+  {
+   "rank": 6,
+   "doc_id": "SVN_TSC::TSC_03_300_2003_geometrijski-elementi",
+   "iso3": "SVN",
+   "lang": "sl,en",
+   "page": 35,
+   "score": -15.923
+  },
+  {
+   "rank": 7,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-67S-2004-amendment",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 1,
+   "score": -15.089
+  },
+  {
+   "rank": 8,
+   "doc_id": "ITA_DM-6792-2001::ITA_GU-147-2004_full-issue_source",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 33,
+   "score": -15.089
+  },
+  {
+   "rank": 9,
+   "doc_id": "ITA_DM-intersezioni-2006::ITA_DM-intersezioni-2006",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 1,
+   "score": -14.698
+  },
+  {
+   "rank": 10,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 111,
+   "score": -14.51
+  }
+ ],
+ "qid": "SF09"
+}

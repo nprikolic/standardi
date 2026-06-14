@@ -1,0 +1,132 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "120km",
+  "under",
+  "korea",
+  "road",
+  "structure",
+  "rules",
+  "art",
+  "vertical",
+  "curves",
+  "use",
+  "rate",
+  "change",
+  "design",
+  "speed",
+  "120",
+  "crest",
+  "versus",
+  "sag",
+  "curve",
+  "도로의",
+  "구조",
+  "시설",
+  "기준에",
+  "관한",
+  "규칙",
+  "제",
+  "조에서",
+  "종단곡선",
+  "최소",
+  "변화",
+  "비율",
+  "미터",
+  "퍼센트",
+  "은",
+  "설계속도",
+  "일",
+  "때",
+  "볼록곡선과",
+  "오목곡선에서",
+  "각각",
+  "얼마인가",
+  "볼록곡선",
+  "오목곡선"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021",
+   "iso3": "KOR",
+   "lang": "ko,en",
+   "page": 720,
+   "score": -112.255
+  },
+  {
+   "rank": 2,
+   "doc_id": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021",
+   "iso3": "KOR",
+   "lang": "ko,en",
+   "page": 340,
+   "score": -112.231
+  },
+  {
+   "rank": 3,
+   "doc_id": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021",
+   "iso3": "KOR",
+   "lang": "ko,en",
+   "page": 48,
+   "score": -107.002
+  },
+  {
+   "rank": 4,
+   "doc_id": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021",
+   "iso3": "KOR",
+   "lang": "ko,en",
+   "page": 49,
+   "score": -105.089
+  },
+  {
+   "rank": 5,
+   "doc_id": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021",
+   "iso3": "KOR",
+   "lang": "ko,en",
+   "page": 719,
+   "score": -100.652
+  },
+  {
+   "rank": 6,
+   "doc_id": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021",
+   "iso3": "KOR",
+   "lang": "ko,en",
+   "page": 677,
+   "score": -97.277
+  },
+  {
+   "rank": 7,
+   "doc_id": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021",
+   "iso3": "KOR",
+   "lang": "ko,en",
+   "page": 695,
+   "score": -93.219
+  },
+  {
+   "rank": 8,
+   "doc_id": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021",
+   "iso3": "KOR",
+   "lang": "ko,en",
+   "page": 694,
+   "score": -87.943
+  },
+  {
+   "rank": 9,
+   "doc_id": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021",
+   "iso3": "KOR",
+   "lang": "ko,en",
+   "page": 464,
+   "score": -67.633
+  },
+  {
+   "rank": 10,
+   "doc_id": "KOR_Road-Structure-Rules::KOR_Road-Structure-Rules-Commentary_2021",
+   "iso3": "KOR",
+   "lang": "ko,en",
+   "page": 47,
+   "score": -64.357
+  }
+ ],
+ "qid": "SG04"
+}

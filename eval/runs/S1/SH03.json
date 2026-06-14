@@ -1,0 +1,99 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "normal",
+  "crossfall",
+  "circulatory",
+  "carriageway",
+  "roundabout",
+  "under",
+  "serbian",
+  "pravilnik",
+  "direction",
+  "oriented"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "GBR_DMRB-CD109::CD116_Geometric_design_of_roundabouts",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 69,
+   "score": -32.082
+  },
+  {
+   "rank": 2,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 107,
+   "score": -26.545
+  },
+  {
+   "rank": 3,
+   "doc_id": "GBR_DMRB-CD109::CD116_Geometric_design_of_roundabouts",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 17,
+   "score": -26.337
+  },
+  {
+   "rank": 4,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 110,
+   "score": -26.305
+  },
+  {
+   "rank": 5,
+   "doc_id": "GBR_DMRB-CD109::CD116_Geometric_design_of_roundabouts",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 13,
+   "score": -25.3
+  },
+  {
+   "rank": 6,
+   "doc_id": "GBR_DMRB-CD109::CD116_Geometric_design_of_roundabouts",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 31,
+   "score": -24.721
+  },
+  {
+   "rank": 7,
+   "doc_id": "GBR_DMRB-CD109::CD116_Geometric_design_of_roundabouts",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 9,
+   "score": -24.518
+  },
+  {
+   "rank": 8,
+   "doc_id": "GBR_DMRB-CD109::CD116_Geometric_design_of_roundabouts",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 2,
+   "score": -24.098
+  },
+  {
+   "rank": 9,
+   "doc_id": "GBR_DMRB-CD109::CD116_Geometric_design_of_roundabouts",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 32,
+   "score": -23.265
+  },
+  {
+   "rank": 10,
+   "doc_id": "GBR_DMRB-CD109::CD116_Geometric_design_of_roundabouts",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 58,
+   "score": -22.936
+  }
+ ],
+ "qid": "SH03"
+}

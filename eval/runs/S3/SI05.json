@@ -1,0 +1,131 @@
+{
+ "system": "S3",
+ "query_terms": [
+  "interchange",
+  "grade separated junction",
+  "grade-separated",
+  "free-flow junction",
+  "denivelisana raskrsnica",
+  "petlja",
+  "denivelisani čvor",
+  "денивелисана раскрсница",
+  "петља",
+  "денивелисани чвор",
+  "denivelirani čvor",
+  "denivelirano križanje",
+  "čvorište",
+  "izvennivojsko križišče",
+  "razcep",
+  "priključek",
+  "planfreier knotenpunkt",
+  "autobahnkreuz",
+  "autobahndreieck",
+  "anschlussstelle",
+  "enlace",
+  "nudo",
+  "intercambiador",
+  "interconexão",
+  "entroncamento",
+  "trevo",
+  "svincolo",
+  "interconnessione",
+  "échangeur",
+  "carrefour dénivelé",
+  "bifurcation",
+  "trafikplats",
+  "planskild korsning",
+  "węzeł",
+  "węzeł drogowy",
+  "skrzyżowanie bezkolizyjne",
+  "입체교차로",
+  "인터체인지",
+  "インターチェンジ",
+  "立体交差",
+  "立交",
+  "互通式立交"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "BRA_IPR-718-intersecoes::IPR-718_Manual_de_Projeto_de_Intersecoes_2005",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 452,
+   "score": -20.407
+  },
+  {
+   "rank": 2,
+   "doc_id": "BRA_IPR-718-intersecoes::IPR-718_Manual_de_Projeto_de_Intersecoes_2005",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 95,
+   "score": -19.975
+  },
+  {
+   "rank": 3,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 8,
+   "score": -19.376
+  },
+  {
+   "rank": 4,
+   "doc_id": "BRA_IPR-718-intersecoes::IPR-718_Manual_de_Projeto_de_Intersecoes_2005",
+   "iso3": "BRA",
+   "lang": "pt,en",
+   "page": 429,
+   "score": -18.909
+  },
+  {
+   "rank": 5,
+   "doc_id": "SWE_VGU::VGU_Rad_Publikation2022-003",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 216,
+   "score": -18.624
+  },
+  {
+   "rank": 6,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 64,
+   "score": -18.471
+  },
+  {
+   "rank": 7,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 3,
+   "score": -18.332
+  },
+  {
+   "rank": 8,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 68,
+   "score": -18.057
+  },
+  {
+   "rank": 9,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD122_Geometric-design-of-grade-separated-junctions_v1.1.1",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 65,
+   "score": -18.028
+  },
+  {
+   "rank": 10,
+   "doc_id": "SWE_VGU::VGU_Rad_Publikation2022-003",
+   "iso3": "SWE",
+   "lang": "sv,en",
+   "page": 183,
+   "score": -17.938
+  }
+ ],
+ "qid": "SI05"
+}

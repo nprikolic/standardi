@@ -1,0 +1,111 @@
+{
+ "system": "S2",
+ "query_terms": [
+  "secondo",
+  "6792",
+  "2001",
+  "pendenza",
+  "minima",
+  "delle",
+  "falde",
+  "carreggiata",
+  "indipendentemente",
+  "dal",
+  "tipo",
+  "strada",
+  "italian",
+  "cross",
+  "slope",
+  "carriageway",
+  "regardless",
+  "road",
+  "type",
+  "needed",
+  "water",
+  "runoff"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 65,
+   "score": -67.641
+  },
+  {
+   "rank": 2,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 77,
+   "score": -41.557
+  },
+  {
+   "rank": 3,
+   "doc_id": "ITA_DM-intersezioni-2006::ITA_DM-intersezioni-2006",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 7,
+   "score": -38.674
+  },
+  {
+   "rank": 4,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 71,
+   "score": -37.161
+  },
+  {
+   "rank": 5,
+   "doc_id": "ITA_DM-intersezioni-2006::ITA_DM-intersezioni-2006",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 23,
+   "score": -34.93
+  },
+  {
+   "rank": 6,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 75,
+   "score": -34.479
+  },
+  {
+   "rank": 7,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 62,
+   "score": -34.083
+  },
+  {
+   "rank": 8,
+   "doc_id": "ITA_DM-intersezioni-2006::ITA_DM-intersezioni-2006",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 14,
+   "score": -34.029
+  },
+  {
+   "rank": 9,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 60,
+   "score": -33.692
+  },
+  {
+   "rank": 10,
+   "doc_id": "ITA_DM-6792-2001::ITA_DM-6792-2001",
+   "iso3": "ITA",
+   "lang": "it,en",
+   "page": 43,
+   "score": -33.246
+  }
+ ],
+ "qid": "PB08"
+}

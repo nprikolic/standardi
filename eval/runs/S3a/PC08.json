@@ -1,0 +1,98 @@
+{
+ "system": "S3A",
+ "query_terms": [
+  "minimum longitudinal gradient",
+  "minimum grade",
+  "minimum gradient",
+  "drainage",
+  "longitudinal drainage",
+  "flat gradient",
+  "minimum relative gradient",
+  "maximum relative gradient",
+  "ponding"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 230,
+   "score": -16.485
+  },
+  {
+   "rank": 2,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 98,
+   "score": -15.074
+  },
+  {
+   "rank": 3,
+   "doc_id": "WB_TP496::WB_TP496_Design_Appraisal_Rural_Transport_Infrastructure",
+   "iso3": "MODEL",
+   "lang": "en",
+   "page": 50,
+   "score": -14.065
+  },
+  {
+   "rank": 4,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 205,
+   "score": -13.697
+  },
+  {
+   "rank": 5,
+   "doc_id": "GBR_DMRB-CD109::CD109_Highway_link_design",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 24,
+   "score": -13.536
+  },
+  {
+   "rank": 6,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 233,
+   "score": -13.219
+  },
+  {
+   "rank": 7,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 509,
+   "score": -13.161
+  },
+  {
+   "rank": 8,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 96,
+   "score": -13.098
+  },
+  {
+   "rank": 9,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-5-vertical-alignment",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 2,
+   "score": -12.966
+  },
+  {
+   "rank": 10,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 225,
+   "score": -12.688
+  }
+ ],
+ "qid": "PC08"
+}

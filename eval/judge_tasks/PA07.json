@@ -1,0 +1,40 @@
+{
+ "qid": "PA07",
+ "question": "In the Polish WR-D-22-2 guideline, what is the minimum longitudinal gradient of the carriageway grade line, and under what condition may a smaller value be used?",
+ "is_silent": false,
+ "ground_truth": [
+  {
+   "doc_id": "POL_WR-D::WR-D-22-2_ksztaltowanie-geometryczne",
+   "page": 45,
+   "value": "Grade line gradient not less than 0,3 %, unless solutions ensuring effective drainage are applied.",
+   "quote": "Pochylenie niwelety jezdni powinno być nie mniejsze niż 0,3%, chyba że zostaną zastosowane rozwiązania zapewniające skuteczne odwodnienie jezdni"
+  }
+ ],
+ "candidates": [
+  {
+   "label": "A",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "B",
+   "answer": "Min longitudinal gradient ~0.5%, reducible to ~0.3% (or 0% with special drainage) (uncertain).",
+   "citation": "WR-D-22-2 Poland (no page)"
+  },
+  {
+   "label": "C",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "D",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "E",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  }
+ ]
+}

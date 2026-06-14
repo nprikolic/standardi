@@ -1,0 +1,101 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "italian",
+  "6792",
+  "2001",
+  "cross",
+  "slope",
+  "carriageway",
+  "regardless",
+  "road",
+  "type",
+  "needed",
+  "water",
+  "runoff"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 568,
+   "score": -23.112
+  },
+  {
+   "rank": 2,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 408,
+   "score": -22.025
+  },
+  {
+   "rank": 3,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-6-cross-section",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 11,
+   "score": -21.721
+  },
+  {
+   "rank": 4,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-part-7-roadside-features",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 1,
+   "score": -21.026
+  },
+  {
+   "rank": 5,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-glossary",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 25,
+   "score": -20.745
+  },
+  {
+   "rank": 6,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 426,
+   "score": -20.718
+  },
+  {
+   "rank": 7,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 539,
+   "score": -20.348
+  },
+  {
+   "rank": 8,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-glossary",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 19,
+   "score": -20.02
+  },
+  {
+   "rank": 9,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 583,
+   "score": -19.789
+  },
+  {
+   "rank": 10,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 259,
+   "score": -19.636
+  }
+ ],
+ "qid": "PB08"
+}

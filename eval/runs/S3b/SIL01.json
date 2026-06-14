@@ -1,0 +1,101 @@
+{
+ "system": "S3B",
+ "query_terms": [
+  "according",
+  "afghanistan",
+  "lvrr",
+  "vol",
+  "geometric",
+  "design",
+  "manual",
+  "longitudinal",
+  "gradient",
+  "specified",
+  "speed",
+  "120"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 28,
+   "score": -21.646
+  },
+  {
+   "rank": 2,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 123,
+   "score": -21.175
+  },
+  {
+   "rank": 3,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 125,
+   "score": -21.155
+  },
+  {
+   "rank": 4,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-glossary",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 9,
+   "score": -20.847
+  },
+  {
+   "rank": 5,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 122,
+   "score": -20.477
+  },
+  {
+   "rank": 6,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 124,
+   "score": -20.271
+  },
+  {
+   "rank": 7,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 19,
+   "score": -19.813
+  },
+  {
+   "rank": 8,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 128,
+   "score": -19.266
+  },
+  {
+   "rank": 9,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 104,
+   "score": -19.179
+  },
+  {
+   "rank": 10,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 98,
+   "score": -19.172
+  }
+ ],
+ "qid": "SIL01"
+}

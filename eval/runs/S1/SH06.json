@@ -1,0 +1,96 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "lane",
+  "widths",
+  "does",
+  "polish",
+  "give",
+  "road",
+  "classes"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD123_Geometric-design-of-at-grade-junctions_v2.1.0",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 34,
+   "score": -16.635
+  },
+  {
+   "rank": 2,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD123_Geometric-design-of-at-grade-junctions_v2.1.0",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 32,
+   "score": -15.861
+  },
+  {
+   "rank": 3,
+   "doc_id": "GBR_DMRB-CD122-junctions::CD123_Geometric-design-of-at-grade-junctions_v2.1.0",
+   "iso3": "GBR",
+   "lang": "en",
+   "page": 36,
+   "score": -15.274
+  },
+  {
+   "rank": 4,
+   "doc_id": "ZAF_TRH26-UTG::UTG1-1986-Urban-Arterials",
+   "iso3": "ZAF",
+   "lang": "en",
+   "page": 8,
+   "score": -14.77
+  },
+  {
+   "rank": 5,
+   "doc_id": "ZAF_TRH26-UTG::TRH26-2012-RCAM",
+   "iso3": "ZAF",
+   "lang": "en",
+   "page": 33,
+   "score": -14.733
+  },
+  {
+   "rank": 6,
+   "doc_id": "IRL_TII-DN-GEO-03036::DN-GEO-03036-09",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 27,
+   "score": -14.642
+  },
+  {
+   "rank": 7,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 68,
+   "score": -14.528
+  },
+  {
+   "rank": 8,
+   "doc_id": "AFG_LVR-manual::AFG_LVRR_Vol2_GeometricDesign",
+   "iso3": "AFG",
+   "lang": "en",
+   "page": 76,
+   "score": -14.455
+  },
+  {
+   "rank": 9,
+   "doc_id": "NZL_Austroads-NZTA::shgdm-appendix-a-b",
+   "iso3": "NZL",
+   "lang": "en",
+   "page": 2,
+   "score": -13.836
+  },
+  {
+   "rank": 10,
+   "doc_id": "ZAF_TRH26-UTG::TRH26-2012-RCAM",
+   "iso3": "ZAF",
+   "lang": "en",
+   "page": 10,
+   "score": -13.204
+  }
+ ],
+ "qid": "SH06"
+}

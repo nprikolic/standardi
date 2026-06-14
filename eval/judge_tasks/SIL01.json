@@ -1,0 +1,33 @@
+{
+ "qid": "SIL01",
+ "question": "According to the Afghanistan LVRR Vol 2 geometric-design manual, what minimum longitudinal gradient is specified for a design speed of 120 km/h?",
+ "is_silent": true,
+ "ground_truth": "NO VALUE EXISTS IN THE CORPUS — correct answer = state it is not specified/out of scope.",
+ "candidates": [
+  {
+   "label": "A",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "B",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "C",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "D",
+   "answer": "NOT FOUND IN PASSAGES (system reported no answer)",
+   "citation": "(none)"
+  },
+  {
+   "label": "E",
+   "answer": "Not specified: 120 km/h is outside the LVRR low-volume scope; no value exists.",
+   "citation": "AFG LVRR Vol 2 (no page)"
+  }
+ ]
+}

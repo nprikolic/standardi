@@ -1,0 +1,101 @@
+{
+ "system": "S1",
+ "query_terms": [
+  "polish",
+  "when",
+  "longitudinal",
+  "gradient",
+  "less",
+  "than",
+  "cross",
+  "slope",
+  "recommended",
+  "ensure",
+  "proper",
+  "drainage"
+ ],
+ "mode": "fts",
+ "retrieved": [
+  {
+   "rank": 1,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 37,
+   "score": -29.242
+  },
+  {
+   "rank": 2,
+   "doc_id": "WB_TP496::WB_TP496_Design_Appraisal_Rural_Transport_Infrastructure",
+   "iso3": "MODEL",
+   "lang": "en",
+   "page": 49,
+   "score": -27.865
+  },
+  {
+   "rank": 3,
+   "doc_id": "IRL_TII-junctions::DN-GEO-03060-03",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 107,
+   "score": -26.615
+  },
+  {
+   "rank": 4,
+   "doc_id": "USA_AASHTO-Green-Book::AASHTO_Green_Book_7th_2018",
+   "iso3": "USA",
+   "lang": "en",
+   "page": 285,
+   "score": -26.127
+  },
+  {
+   "rank": 5,
+   "doc_id": "AUS_AGRD03::AGRD03-16_Part3_Geometric_Design_Ed3.4",
+   "iso3": "AUS",
+   "lang": "en",
+   "page": 174,
+   "score": -25.941
+  },
+  {
+   "rank": 6,
+   "doc_id": "DEU_FGSV::RAL_FGSV201_Rural-Roads_EN_2012-tr2024",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 46,
+   "score": -25.236
+  },
+  {
+   "rank": 7,
+   "doc_id": "IRL_TII-DN-GEO-03031::DN-GEO-03031-12",
+   "iso3": "IRL",
+   "lang": "en",
+   "page": 97,
+   "score": -25.142
+  },
+  {
+   "rank": 8,
+   "doc_id": "MWI_LVR-manual::MWI_LVR-Manual-Vol2-Geometric-Design",
+   "iso3": "MWI",
+   "lang": "en",
+   "page": 91,
+   "score": -24.987
+  },
+  {
+   "rank": 9,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 97,
+   "score": -24.604
+  },
+  {
+   "rank": 10,
+   "doc_id": "DEU_FGSV::RAA_FGSV202_Motorways_EN_2008-tr2011",
+   "iso3": "DEU",
+   "lang": "de,en",
+   "page": 32,
+   "score": -24.476
+  }
+ ],
+ "qid": "PA08"
+}
